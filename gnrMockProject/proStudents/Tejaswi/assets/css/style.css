@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+.container{
+    width: 1000px;
+    height: auto;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+}
+.logo img{
+    width: 200px;
+    height: auto;
+}
