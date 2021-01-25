@@ -4,13 +4,21 @@
     font-family: arial;
 }
 .container{
-    width: 1000px;
+    width: 1300px;
     height: auto;
-    background-color: #ddd;
     border: 1px solid #ccc;
     margin: 0 auto;
 }
 .logo img{
     width: 200px;
     height: auto;
+}
+.menus a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.icons img{
+    width: 50px;
 }
