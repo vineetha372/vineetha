@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mock Project</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="container">
+ <div class="inner-container">
+  <div class="header">
+       <div class="logo"><img src="assets/images/logo.png" alt=""></div>
+        <div class="menus">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">PAGES</a></li>
+                <li><a href="#">ELEMENTS</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>       
+             </ul>
+          <div class="clear"></div>
+        </div>
+        <div class="row">
+  <div class="column">
+    <img src="assets/images/email.png" alt="Snow" style="width:20px">
+  </div>
+  <div class="column">
+    <img src="assets/images/menu.png" alt="Forest" style="width:20px">
+  </div>
+</div>
+
+     <!-- <div class="icons">
+         <div class="envelope"><img src="assets/images/email.png" alt="msg img"></div>
+         <div class="menubutton"><img src="assets/images/menu.png" alt="menubutton"></div>
+       <div class="clear"></div>
+        </div>-->
+        <div class="clear"></div>
+</div>
+   </div>
+    <div class="banner"></div>    
+    <div class="body"></div>
+    <div class="footer"></div>
+    
+</div>
+</body>
+</html>
