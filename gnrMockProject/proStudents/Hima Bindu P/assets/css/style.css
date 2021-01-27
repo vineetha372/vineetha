@@ -370,6 +370,7 @@ margin-left:10px;
 {
     width:200PX;
     height:150PX;
+    border-radius:30px;
 }
 .column h6
 {
@@ -382,4 +383,24 @@ margin-left:10px;
     font-size:0.9em;
     text-align:center;
     line-height:40px;
+}
+.section7
+{
+    height:200px;
+    background-color:gainsboro;
+}
+.card
+{
+    width:800px;
+    height:180px;
+    float: left;
+    display:inline-block;
+    border: 1px solid blue;
+}
+.card1 img,.card2 img,.card3 img,.card4 img
+{
+    width:150px;
+    height:130px;
+    margin-top:25px;
+    margin-left:75px;
 }
