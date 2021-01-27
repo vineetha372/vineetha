@@ -12,7 +12,7 @@
 }
 .inner-container{
     width: 1000px;
-    height: 1090px;
+    height: 1100px;
     margin: 0 auto;
     border: 1px solid #000;
 }
@@ -115,19 +115,134 @@ h1{
     top: 1020px;
     font-size: 14px;
 }
-.blackbg{
+.blackbanner{
+    width: 1300px;
+    height: 300px;
     background-color: #000;
-    height:300px;
+}
+.blackbg{
+    
+    width: 1000px;
+    height:230px;
+    margin: 0 auto;
+    margin-left: 150px;
+    border: 1px solid #fff;
+    padding: 100px 0 0 0;
 }
 .blackbgtext{
-    color: #000;
-    width: 1000px;
+    width: 200px;
+    height: auto;
+    float: left;
+    padding: 0 50px 0 0;
+    color: #ccc;
+}
+.blackbgtext4{
+     width: 200px;
+    height: auto;
+    float: left;
+    padding: 0 0 0 0;
+    color: #ccc;
+}
+.blackbgtext span{
+    font-size: 30px;
+    color: dimgrey;
 }
 .blackbgtext h1{
-    font-weight: normal;
     font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-.blackbgtext{
-    width: 300px;
+.blackbgtext p{
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+.testimonials{
+    background-color:#ddd;
+    margin: 0 auto;
+    width: 1300px;
+    height: auto;
+}
+.testimonials h1{
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom:45px;
+}
+.testimonialmainimage{
+    width: 550px;
+    height: auto;
+    padding-left: 350px;
+}
+.testimonialsideimage{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    top: 1620px;
+    left: 1075px;
+}
+.testimonial-content{
+    width: 400px;
+    height: auto;
+    margin-left: 460px;
+   /* border:1px solid #000;*/
+    position: absolute;
+    top: 1590px;
+}
+.testimonial-content span{
+    font-size: 50px;
+    font-family: Comic Sans MS;
+    color: #00f;
+    padding-left: 150px;
+}
+.testimonial-content p{
+    width: 350px;
+    height: auto;
+    font-size: 11px;
+    line-height: 10px;
+    letter-spacing: 1px;
+    text-indent: justify;
+}
+.testimonialperson{
+    width: 50px;
+    height: auto;
+    padding-top: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    left: 80px;
+    
+   
+}
+.testimonial-content h4{
+    padding-top: 50px;
+    position: absolute;
+    left: 150px;
+}
+.testimonial-content a{
+     padding-top: 70px;
+     position: absolute;
+    left: 152px;
+    font-size: 15px;
+    color: deepskyblue;
+}
+.faq{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+.faq img{
+    width: 500px;
+    height: auto;
+    float: left;
+    /*padding-top: 50px;*/
+}
+.faqarticle{
+    width: 500px;
+    height: auto;
+    float: left;
+}
+.faqarticle img{
+    width: 30px;
     height: auto;
 }
