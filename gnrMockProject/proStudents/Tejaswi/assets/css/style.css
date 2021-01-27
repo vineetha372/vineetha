@@ -51,6 +51,8 @@ a{
 }
 a:hover{
     color: #ccc;
+    font-size: 15px;
+    text-decoration: underline;
 }
 .menu li{
     padding-left:50px;
@@ -67,6 +69,10 @@ a:hover{
     height: 20px;
     padding-left: 50px;
 }
+.icons img:hover{
+    width: 25px;
+    height: auto;
+}
 .icons{
     width: 150px;
     /*border: 1px solid #ccc;*/
@@ -77,12 +83,23 @@ a:hover{
     height: auto;
     padding-left: 150px;
 }
+.banner{
+    position: relative;
+}
 .banner button{
     width: 150px;
-    height: 100px;
+    height: 30px;
+    border-radius: 20px;
     border: none;
     border-color: none;
-    
+    position: absolute;
+    left: 420px;
+    top: 400px;
+}
+.banner button:hover{
+    cursor: pointer;
+    width: 155px;
+    height: 35px;
 }
 .whatwedo img{
     width: 300px;
@@ -130,7 +147,7 @@ h1{
 }
 .blackbanner{
     width: 1300px;
-    height: 350px;
+    height: 300px;
     background-color: #000;
 }
 .blackbg{
@@ -139,7 +156,7 @@ h1{
     margin: 0 auto;
     margin-left: 150px;
     border: 1px solid #fff;
-    padding: 50px 0 0 0;
+    padding: 80px 0 0 0;
 }
 .blackbgtext{
     width: 200px;
@@ -149,8 +166,11 @@ h1{
     color: #ccc;
 }
 .blackbgtext span{
-    font-size: 30px;
+    font-size: 50px;
     color: dimgrey;
+}
+.blackbgtext i{
+    font-size: 50px;
 }
 .blackbgtext h1{
     font-size: 20px;
@@ -172,72 +192,94 @@ h1{
     opacity: 0.1;
     color: #fff;
 }*/
-/*.testimonials{
+.testimonials{
     background-color:#ddd;
     margin: 0 auto;
     width: 1300px;
     height: auto;
+    border: 1px solid #000;
+    position: relative;
 }
 .testimonials h1{
     text-align: center;
     padding-top: 45px;
-    padding-bottom:45px;
+    padding-bottom:10px;
 }
 .testimonialmainimage{
     width: 550px;
     height: auto;
-    padding-left: 350px;
+    padding-left:380px;
 }
-.testimonialsideimage{
+/*.testimonialsideimage{
     width: 250px;
     height: 150px;
+}*/
+.prev{
     position: absolute;
-    top: 1620px;
-    left: 1075px;
+    top: 200px;
+    left: 250px;
+}
+.next{
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+}
+.prev:hover{
+    font-size: 20px;
+}
+.next:hover{
+    font-size: 20px;
 }
 .testimonial-content{
     width: 400px;
     height: auto;
     margin-left: 460px;
+    /*border: 1px solid #000;*/
     position: absolute;
-    top: 1590px;
+    top: 140px;
 }
-.testimonial-content span{
-    font-size: 50px;
-    font-family: Comic Sans MS;
-    color: #00f;
-    padding-left: 150px;
+.testimonial-content i{
+    font-size: 30px;
+    color: cornflowerblue;
+    padding-left: 170px;
 }
 .testimonial-content p{
     width: 350px;
     height: auto;
     font-size: 11px;
-    line-height: 10px;
     letter-spacing: 1px;
+    line-height: 20px;
     text-indent: justify;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.testimonialpersondiv{
+    position: relative;
 }
 .testimonialperson{
     width: 50px;
     height: auto;
-    padding-top: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     position: absolute;
-    left: 80px;
-    
-   
+    left: 90px;
+    top: 10px;
 }
-.testimonial-content h4{
-    padding-top: 50px;
-    position: absolute;
-    left: 150px;
+.testimonialpersondiv h4{
+   position: absolute;
+    top: 30px;
+    left: 180px;
 }
-.testimonial-content a{
-     padding-top: 70px;
-     position: absolute;
-    left: 152px;
+.testimonialpersondiv a{
     font-size: 15px;
     color: deepskyblue;
+    position: absolute;
+    top: 50px;
+    left: 180px;
+}
+.testimonialpersondiv a:hover{
+    font-size: 18px;
+    text-decoration: underline;
 }
 .faq{
     width: 1000px;
@@ -248,13 +290,79 @@ h1{
     width: 500px;
     height: auto;
     float: left;
+    margin-top: 20px;
 }
 .faqarticle{
     width: 500px;
     height: auto;
     float: left;
+    margin-top: 50px;
+}
+.faqarticle i{
+    font-size: 20px;
+    color: cornflowerblue;
+}
+.faqarticle i:hover{
+     font-size: 23px;
+    color: cornflowerblue;
+}
+.faqarticle h4{
+    margin: 20px 0;
+}
+.faqarticle p{
+    font-size: 13px;
+    letter-spacing: normal;
+    text-align: justify;
+    line-height: 20px;
 }
 .faqarticle img{
     width: 30px;
     height: auto;
-}*/
+    margin: 10px 0;
+}
+.faqarticle img:hover{
+     width: 40px;
+    height: auto;
+    margin: 10px 0;
+}
+.list-2{
+    margin-top: 12px;
+}
+.list-3{
+    margin-top: 12px;
+}
+.creativeteam{
+    background-color: #ccc;
+    float: left;
+    width: 1300px;
+}
+.creativeteam h1{
+    text-align: center;
+    margin: 80px 0;
+}
+.creativeteam img{
+    width: 100px;
+    height: auto;
+    float: left;
+    border-radius: 50px;
+    margin: 50px 110px;
+}
+.creativeteam img:hover{
+    
+}
+.projects{
+    width: 1100px;
+    height: auto;
+    background-color: #ccc;
+    margin: 0 auto;
+    float: left;
+}
+.projects h1{
+    margin: 50px 0;
+    text-align: center;
+}
+.projects img{
+    width: 150px;
+    height: auto;
+    margin: 50px 50px;
+}
