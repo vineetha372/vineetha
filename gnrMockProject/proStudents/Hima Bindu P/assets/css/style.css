@@ -537,4 +537,7 @@ margin-left:10px;
     padding-top:30px;
     margin-bottom:50px;
 }
-
+#social i:hover
+{
+    font-size:40px;
+}
