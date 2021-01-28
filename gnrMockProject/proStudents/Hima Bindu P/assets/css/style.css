@@ -365,7 +365,7 @@ margin-left:10px;
 }
 .section5 .img1:hover,.img2:hover,.img3:hover,.img4:hover
 {
-    border:10px solid white;
+    border:5px solid whitesmoke;
     content:"CEO GOOGLE";
     font-size:30PX;
     color:black;
@@ -403,7 +403,6 @@ margin-left:10px;
 {
     width:200PX;
     height:150PX;
-    border-bottom-left-radius:30px;
     border-top-right-radius:30px;
 }
 .column h6
@@ -417,6 +416,15 @@ margin-left:10px;
     font-size:0.9em;
     text-align:center;
     line-height:40px;
+}
+.column:hover 
+{
+    border-top-left-radius:30px;
+    border-bottom-right-radius:30px;
+}
+.column:hover img
+{
+    border-top-left-radius:30px;
 }
 
 /*section7*/
