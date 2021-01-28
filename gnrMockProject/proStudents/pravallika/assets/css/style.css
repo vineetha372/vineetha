@@ -20,7 +20,7 @@ boby{
 	.logo img{
 		padding-left:30px;
 		float:left;
-		padding-right:100px;
+		padding-right:50px;
 		}
 .main img{
     margin:0 auto;
@@ -29,26 +29,40 @@ boby{
 	nav{
 	
 		float:left;
-		}
-	ul li{
-	  display: inline-block; 
-	  padding:10px;
- 	  font-size:20px;
-	  font-family:raleway; 
-	  
-	  
-		}
-	ul li a{
-		font-size:15px;
-		text-decoration:none;
-		COLOR:black;
-		}
-	.logo1 {
-		float:left;
-		padding-left:40px;
-        padding-top:10px;
-		}
-	.section{
+        
+}
+
+
+ul li {
+  display:inline-block;
+  color: #f2f2f2;
+  font-size:20px;
+  padding:5px;
+padding-top: 15px;
+  text-decoration: none;
+    margin-right:10px;
+  
+    
+}
+a{
+  text-decoration: none;   
+}
+
+nav a:hover {
+  color:blue;
+
+}
+
+nav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.logo2 img{
+    padding-left:10px;
+    padding-top:10px;
+}
+.section{
 		border:1px solid black;
 		height:300px;
 		}
@@ -111,12 +125,19 @@ boby{
 .google1 h3{
     color:white;
     padding-left:20px;
+    padding-top:20px;
+    font-family:sans-serif;
 }
 .google1 p{
     color:white;
     padding-top:20px;
     padding-left:20px;
+    font-family:vardana;
     
+}
+.google1 img{
+    margin-top:20px;
+    margin-left:30px;
 }
 	
 .border1{
@@ -129,7 +150,9 @@ boby{
 
 		}
 .google2 h3{
+    font-family:sans-serif;
     color:white;
+    padding-top:20px;
     padding-left:20px;
 }
 .google2 p{
@@ -137,6 +160,11 @@ boby{
     padding-top:20px;
     padding-left:20px;
 }
+.google2 img{
+    margin-top:30px;
+    margin-left:30px;
+}
+
 	
 .border2{
 		
@@ -148,14 +176,21 @@ boby{
 
 		}
 .google3 h3{
+    font-family:sans-serif;
     color:white;
     padding-left:20px;
+     padding-top:25px;
 }
 .google3 p{
     color:white;
     padding-top:20px;
     padding-left:20px;
 }
+.google3 img{
+     margin-top:14px;
+    margin-left:20px;
+}
+
 	
 .border3{
 		
@@ -167,7 +202,9 @@ boby{
 
 		}
 .google4 h3{
+    font-family:sans-serif;
     color:white;
+     padding-top:30px;
     padding-left:20px;
 }
 .google4 p{
@@ -175,7 +212,10 @@ boby{
     padding-top:20px;
     padding-left:20px;
 }
-
+.google4 img{
+    margin-top:24px;
+    margin-left:30px;
+}
 .section1{
 		border:1px solid black;
 		height:400px;
@@ -221,6 +261,39 @@ hr{
      font-family:bold;
     padding-top:10px;
     width:360px;
+}
+
+.contact{
+    border:1px solid black;
+    width:900px;
+    height:300px;
+    background-color:#eee;
+}
+.contact h1{
+    padding-left:400px;
+    font-family:monospace;
+    padding-top:30px;
+    
+}
+ .image2{
+     padding-top:50px;
+    float:left;
+     padding-left:150px;
+}
+.image4{
+     padding-top:50px;
+    float:left;
+    padding-left:80px;
+}
+.image6{
+     padding-top:50px;
+    padding-left:80px;
+    float:left;
+}
+.image8{
+     padding-top:50px;
+    float:left;
+    padding-left:80px;
 }
 
 
@@ -312,6 +385,37 @@ hr{
 .google-4 small{
     padding-left:60px;
 }
+.font-style {
+    border:1px solid black;
+		background-color:#eee;
+		width:900px;
+		height:250px;
+}
+.style2{
+    padding-left:60px;
+    float:left;
+
+   
+}
+.style4{
+    float:left;
+     
+}
+.style5{
+    float:left;
+     
+}
+.style6{
+    padding-top:30px;
+    float:left;
+     
+}
+.style8{
+    float:left;
+     padding-top:30px;
+    padding-left:40px;
+     
+}
 .color{
     border:1px solid #ddd;
     width:900px;
@@ -349,9 +453,11 @@ hr{
 		height:220px;
     
 		}
+
 .location img{
     float:left;
     margin-right:10px;
+    
 
 }
 .location p{
@@ -376,17 +482,21 @@ margin-top:20px;
     border:1px solid black;
     width:900px;
     height:100px;
-    background-color:#ddd;
+    background-color:#eee;
 }
 .lower1 p{
     float:left;
     padding-top:40px;
     padding-left:100px;
-    margin-right:200px;
+    margin-right:260px;
+    font-size:20px;
     
 }
 .lower2 p{
     padding-top:40px;
+    font-size:20px;
+    
+    
 }
 
 
