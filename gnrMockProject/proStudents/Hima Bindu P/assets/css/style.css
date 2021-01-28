@@ -36,6 +36,8 @@ a{
     text-decoration:none;
     color:black;
 }
+
+/*section1 logo,menu*/
 header
 {
      width:1000px;
@@ -49,6 +51,7 @@ header
 }
 .menu
 {
+    height:100px;
     width:700px;
     margin-left:30px;
 }
@@ -62,11 +65,13 @@ header
     width:150px;
     height:100px;
 }
-.navlinks .img1,.img2
+.navlinks a img
 {
-    margin-right:30px;
-    margin-top:40px;
+    margin-left:20px;
+    margin-top:35px;
 }
+
+/*banner*/
 .banner
 {
     height:400px;
@@ -92,6 +97,8 @@ header
     border-radius:20px;
     line-height:10px;
 }
+
+/*section1 portfplio*/
 .section1
 {
     width:900px;
@@ -104,7 +111,7 @@ article
     margin-top:20px;
     margin-right:10px;
 }
-.img
+.section1 .img img
 {
     margin-top:20px;
     margin-left:130px;
@@ -127,32 +134,33 @@ article .img3 img
 {
     vertical-align:middle;
 }
+
+/*section2*/
 .section2
 {
-    height:250px;
+    height:300px;
     background-color:black;
-    display:grid;
     color:white;
 }
 .creative,.clearcode,.qualified,.quality 
 {
-    width:170px;
-    height:200px;
+    width:160px;
+    height:190px;
     font-size:12px;
-    margin-top:25px;
-    padding-left:5px;
+    padding-left:10px;
 }
 .creative
 {
+    margin-top:60px;
     margin-left:120px;
+}
+.clearcode
+{
+    margin-top:60px;
 }
 .clearcode,.qualified,.quality
 {
     margin-left:20px;
-}
-.creative img,.clearcode img,.qualified img,.quality img
-{
-    vertical-align:middle;
 }
 .creative h3,.clearcode h3,.qualified h3,.quality h3
 {
@@ -175,6 +183,8 @@ article .img3 img
     font-weight:lighter;
     color:white;
 }
+
+/*section3 testmonials*/
 .section3
 {
     height:270px;
@@ -187,12 +197,8 @@ article .img3 img
 {
     margin:30px auto 10px auto;
     border-radius:30px;
-    border:1px solid black;
-    /*border-block-end-width:7px;
-    border-inline-end-width:2px;
-    border-inline-start-width:7px;
-    border-block-start-width:2px;
-    border:2px solid black;*/
+    border:2px solid black;
+    
 }
 .section3 h1
 {
@@ -206,7 +212,7 @@ article .img3 img
     background-color:white;
     border-radius:30px;
     position: absolute;
-    top:90px;
+    top:80px;
     left:300px;
     border:1px solid black;
     border-block-end-width:2px;
@@ -273,6 +279,8 @@ margin-left:10px;
     color:gray;
     top:140px;
 }
+
+/*section4 faq*/
 .section4
 {
     height:350px;
@@ -317,14 +325,11 @@ margin-left:10px;
     padding:5px 10px;
     margin-right:10px;
 }
-/*#p1::before :hover
-{
-    content:"∨";
-    color:white;
-}*/
+
+/*section5 our team*/
 .section5
 {
-    height:300px;
+    height:290px;
     background-color:gainsboro;
     color:gray;
     font-size:100px;
@@ -338,11 +343,23 @@ margin-left:10px;
     color:black;
     padding-top:35px;
 }
-.section5 i
+.section5 .img1,.img2,.img3,.img4
 {
-    margin-top:30px;
-    margin-left:130px;
+    width:150px;
+    height:150px;
+    margin-top:25px;
+    border-radius:50px;
 }
+.section5 .img1
+{
+    margin-left:100px;
+}
+.img2,.img3,.img4
+{
+    margin-left:30px;
+}
+
+/*section6 projects*/
 .section6 
 {
     height:340px;
@@ -384,23 +401,102 @@ margin-left:10px;
     text-align:center;
     line-height:40px;
 }
+
+/*section7*/
 .section7
 {
-    height:200px;
+    height:130px;
     background-color:gainsboro;
 }
 .card
 {
     width:800px;
-    height:180px;
-    float: left;
-    display:inline-block;
-    border: 1px solid blue;
+    height:130px;
+    float:left;
+    margin-left:50px;
 }
 .card1 img,.card2 img,.card3 img,.card4 img
 {
-    width:150px;
-    height:130px;
-    margin-top:25px;
-    margin-left:75px;
+    width:100px;
+    height:100px;
+    margin-top:15px;
+}
+.card1 img
+{
+    margin-left:200px;
+}
+.card2 img,.card3 img,.card4 img
+{
+    margin-left:60px;
+}
+
+/*footer*/
+.footer
+{
+    height:270px;
+    margin-left:110px;
+    margin-top:20px;
+}
+.left
+{
+    width:230px;
+    height:240px;
+    font-size:12px;
+}
+.left p
+{
+    font-size:14px;
+    line-height:20px;
+}
+.left #social
+{
+    margin-top:40px;
+}
+#social i
+{
+    padding-left:15px;
+    font-size:20px;
+}
+.center
+{
+    width:230px;
+    height:240px;
+    font-size:12px;
+    line-height:30px;
+}
+.center i
+{
+    color:cornflowerblue;
+    padding-right:10px;
+    font-size:20px;
+    line-height:45px;
+}
+.center h2,.right h2
+{
+    padding-top:30px;
+    margin-bottom:50px;
+}
+.right
+{
+    width:230px;
+    height:240px;
+    font-size:12px;
+    line-height:20px;
+    position: relative;  
+}
+.right h3
+{
+    padding-top:20px;
+}
+.right i
+{
+    position: absolute;
+    bottom:20px;
+    right:40px;
+    font-size:30px;
+    color:cornflowerblue;
+}
+.right,.center
+{
+    margin-left: 35px;
 }
