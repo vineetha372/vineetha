@@ -9,7 +9,6 @@ main
 {
     width:1000px;
     margin:0 auto;
-    border:1px solid black;
 }
 body
 {
@@ -89,13 +88,17 @@ header
     position:absolute;
     width:160px;
     height:40px;
-    background-color:none;
+    background-color:transparency;
     opacity:0.3;
     border:1px solid black;
     bottom:25px;
     right:395px;
     border-radius:20px;
     line-height:10px;
+}
+.banner button:hover
+{
+    cursor:pointer;
 }
 
 /*section1 portfplio*/
@@ -126,13 +129,14 @@ article p
 {
     line-height:20px;
 }
-article .img3
+article .portfolio
 {
     margin-top:20px;
 }
-article .img3 img
+article .portfolio img
 {
     vertical-align:middle;
+    margin-left:-5px;
 }
 
 /*section2*/
@@ -146,21 +150,21 @@ article .img3 img
 {
     width:160px;
     height:190px;
-    font-size:12px;
+    font-size:13px;
+    margin-top:60px;
     padding-left:10px;
+}
+.creative p,.clearcode p,.qualified p,.quality p
+{
+    color:#999;
 }
 .creative
 {
-    margin-top:60px;
-    margin-left:120px;
-}
-.clearcode
-{
-    margin-top:60px;
+    margin-left:110px;
 }
 .clearcode,.qualified,.quality
 {
-    margin-left:20px;
+    margin-left:30px;
 }
 .creative h3,.clearcode h3,.qualified h3,.quality h3
 {
@@ -348,7 +352,8 @@ margin-left:10px;
     width:150px;
     height:150px;
     margin-top:25px;
-    border-radius:50px;
+    border-radius:90px;
+    border:5px solid silver;
 }
 .section5 .img1
 {
@@ -357,6 +362,13 @@ margin-left:10px;
 .img2,.img3,.img4
 {
     margin-left:30px;
+}
+.section5 .img1:hover,.img2:hover,.img3:hover,.img4:hover
+{
+    border:10px solid white;
+    content:"CEO GOOGLE";
+    font-size:30PX;
+    color:black;
 }
 
 /*section6 projects*/
@@ -382,13 +394,17 @@ margin-left:10px;
 {
     height:230px;
     width:200px;
-    margin-left:40px;
+    margin-left:35px;
+    border:3px solid black;
+    border-bottom-left-radius:30px;
+    border-top-right-radius:30px;
 }
 .column img
 {
     width:200PX;
     height:150PX;
-    border-radius:30px;
+    border-bottom-left-radius:30px;
+    border-top-right-radius:30px;
 }
 .column h6
 {
@@ -408,6 +424,7 @@ margin-left:10px;
 {
     height:130px;
     background-color:gainsboro;
+    margin-top:50px;
 }
 .card
 {
@@ -436,7 +453,7 @@ margin-left:10px;
 {
     height:270px;
     margin-left:110px;
-    margin-top:20px;
+    margin-top:40px;
 }
 .left
 {
@@ -462,7 +479,7 @@ margin-left:10px;
 {
     width:230px;
     height:240px;
-    font-size:12px;
+    font-size:14px;
     line-height:30px;
 }
 .center i
@@ -472,16 +489,16 @@ margin-left:10px;
     font-size:20px;
     line-height:45px;
 }
-.center h2,.right h2
+.center h2
 {
     padding-top:30px;
-    margin-bottom:50px;
+    margin-bottom:30px;
 }
 .right
 {
     width:230px;
     height:240px;
-    font-size:12px;
+    font-size:14px;
     line-height:20px;
     position: relative;  
 }
@@ -499,5 +516,17 @@ margin-left:10px;
 }
 .right,.center
 {
-    margin-left: 35px;
+    margin-left: 40px;
+    font-weight:lighter;
 }
+.center
+{
+    margin-left: 45px;
+    font-weight:lighter;   
+}
+.right h2
+{
+    padding-top:30px;
+    margin-bottom:50px;
+}
+
