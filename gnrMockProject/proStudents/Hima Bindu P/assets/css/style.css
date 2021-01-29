@@ -215,7 +215,6 @@ article .portfolio img
     margin:30px auto 10px auto;
     border-radius:30px;
     border:2px solid black;
-    
 }
 .section3 h1
 {
@@ -339,7 +338,7 @@ margin-left:10px;
 /*section5 our team*/
 .section5
 {
-    height:290px;
+    height:300px;
     background-color:gainsboro;
     color:gray;
     font-size:100px;
