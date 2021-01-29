@@ -331,12 +331,35 @@ header{
     text-align: center;
     margin: 50px 0 60px 0;
 }
-.creativeteam img{
+.sundar_pichai{
     width: 200px;
     height: auto;
     border-radius: 100px;
+    /*border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;*/
+    margin: 50px 0 50px 95px;
+    border: 1px solid #;
+}
+.narayen{
+    width: 200px;
+    height: auto;
     margin: 50px 0 50px 95px;
     border: 1px solid #ccc;
+    border-radius: 100px;
+}
+.ratan_tata{
+    width: 200px;
+    height: auto;
+    margin: 50px 0 50px 95px;
+     border: 1px solid #ccc;
+    border-radius: 100px;
+}
+.satya_nadella{
+     width: 200px;
+    height: auto;
+    margin: 50px 0 50px 95px;
+     border: 1px solid #ccc;
+    border-radius: 100px;
 }
 .creativeteam img:hover{
     width: 200px;
