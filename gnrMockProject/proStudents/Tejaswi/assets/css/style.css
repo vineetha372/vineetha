@@ -63,8 +63,10 @@ header{
     /*border: 1px solid #ccc;*/
 }
 .menu a{
-    color: #f00;
     font-weight: bold;
+}
+.menu a:hover{
+    color: #f00;
 }
 .icons{
     width: 150px;
@@ -84,6 +86,10 @@ header{
     height: auto;
     margin-left: 150px;
 }
+.banner img:hover{
+    width: 710px;
+    height: auto;
+}
 .banner{
     position: relative;
 }
@@ -96,12 +102,12 @@ header{
     position: absolute;
     left: 420px;
     top: 400px;
-    color: #f00;
 }
 .banner button:hover{
     cursor: pointer;
     width: 155px;
     height: 35px;
+    color: #f00;
     text-decoration: underline;
     font-size: 15px;
     border: 2px solid #888;
@@ -197,17 +203,17 @@ header{
 }
 .testimonials{
     background-color:#ddd;
-    margin: 0 auto;
+    margin: 100px auto;
     width: 1300px;
-    height: 400px;
+    height: 500px;
     /*border: 1px solid #000;*/
     position: relative;
 }
 .testimonials h1{
     text-align: center;
-    margin-top: 60px;
+    margin-top: 100px;
     margin-bottom:10px;
-    padding-top: 30px;
+    padding-top: 60px;
 }
 .testimonialmainimage{
     width: 550px;
@@ -217,12 +223,12 @@ header{
 }
 .prev{
     position: absolute;
-    top: 200px;
+    top: 250px;
     left: 250px;
 }
 .next{
     position: absolute;
-    top: 200px;
+    top: 250px;
     left: 1000px;
 }
 .prev:hover{
@@ -237,7 +243,7 @@ header{
     margin-left: 460px;
     /*border: 1px solid #000;*/
     position: absolute;
-    top: 140px;
+    top: 170px;
 }
 .testimonial-content i{
     font-size: 30px;
@@ -281,12 +287,13 @@ header{
 .testimonialpersondiv a:hover{
     font-size: 18px;
     text-decoration: underline;
+    color: #f00;
 }
 .faq{
     width: 1000px;
-    height: auto;
-    margin: 0 auto;
-    margin-bottom: 100px;
+    height: 500px;
+    margin: 50px auto;
+    margin-bottom: 50px;
 }
 .faq_image img{
     width: 500px;
@@ -337,13 +344,13 @@ header{
 .creativeteam{
     background-color: #ccc;
     width: 1300px;
-    height: 500px;;
+    height: 600px;
     /*border: 1px solid #000;*/
 }
 .creativeteam h1{
     text-align: center;
     margin: 50px 0 60px 0;
-    padding-top: 60px;
+    padding-top: 100px;
 }
 .sundar_pichai{
     width: 200px;
@@ -384,12 +391,14 @@ header{
     width: 1100px;
     height: 450px;
     margin: 50px auto;
+    padding-top: 100px;
     /*border: 1px solid #000;*/
     position: relative;
 }
 .projects h1{
     text-align: center;
     margin: 30px 0 20px 0;
+    padding-bottom: 50px;
 }
 .project_img img{
     width: 200px;
@@ -436,7 +445,7 @@ project-content{
 }
 .prev-pro{
     position: absolute;
-    top: 200px;
+    top: 350px;
     left: -50px;
 }
 .prev-pro a:hover{
@@ -452,7 +461,7 @@ project-content{
 }
 .next-pro{
     position: absolute;
-    top: 200px;
+    top: 350px;
     right: -50px;
 }
 .next-pro a{
@@ -480,8 +489,9 @@ project-content{
 }
 .footer_section{
     width: 1000px;
-    height: 200px;
+    height: 300px;
     margin: 50px auto;
+    padding-top: 150px;
     /*border: 1px solid #000;*/
 }
 .footer_section-1, .footer_section-2, .footer_section-3{
