@@ -41,7 +41,9 @@ header
 {
      width:1000px;
     height:100px;
-    /*position:fixed;*/
+   position:fixed;
+   top:0px;
+   background-color:gainsboro;
 }
 .logo
 {
@@ -74,8 +76,9 @@ header
 .banner
 {
     height:400px;
-    margin-top:20px;
+    margin-top:200px;
     position: relative;
+    z-index:-2;
 }
 .banner img
 {
@@ -90,7 +93,7 @@ header
     height:40px;
     background-color:transparency;
     opacity:0.3;
-    border:1px solid black;
+    border:3px solid black;
     bottom:25px;
     right:395px;
     border-radius:20px;
@@ -99,6 +102,7 @@ header
 .banner button:hover
 {
     cursor:pointer;
+    border:5px solid crimson;
 }
 
 /*section1 portfplio*/
@@ -196,6 +200,7 @@ article .portfolio img
     text-align:center;
     padding-top:30px;
     position: relative;
+    z-index:-2;
 }
 .section3 img
 {
@@ -265,10 +270,10 @@ margin-left:10px;
     color:blue;
     font-size:12px;
 }
-.next
+.next,.previous
 {
     position:absolute;
-    right:80px;
+    
     font-size:14px;
     border-bottom: 2px solid gray;
     color:gray;
@@ -276,23 +281,17 @@ margin-left:10px;
 }
 .previous
 {
-    position:absolute;
     left:70px;
-    font-size:14px;
-    border-bottom: 2px solid gray;
-    color:gray;
-    top:140px;
+}
+.next
+{
+    right:80px;
 }
 
 /*section4 faq*/
 .section4
 {
     height:350px;
-}
-.section4 h1
-{
-    font-size:50px;
-    font-weight:lighter;
 }
 .section4 .img
 {
@@ -366,9 +365,7 @@ margin-left:10px;
 .section5 .img1:hover,.img2:hover,.img3:hover,.img4:hover
 {
     border:5px solid whitesmoke;
-    content:"CEO GOOGLE";
-    font-size:30PX;
-    color:black;
+    border-radius:50px;
 }
 
 /*section6 projects*/
@@ -537,7 +534,20 @@ margin-left:10px;
     padding-top:30px;
     margin-bottom:50px;
 }
-#social i:hover
+#social a i:hover,.right i:hover
 {
     font-size:40px;
+    color:red;
+
 }
+.menu li a:hover
+{
+    color:red;
+}
+.next a:hover,.previous a:hover
+{
+    color:red;
+    border-bottom:3px solid red;
+}
+
+
