@@ -41,7 +41,9 @@ header
 {
      width:1000px;
     height:100px;
-    /*position:fixed;*/
+   position:fixed;
+   top:0px;
+   background-color:gainsboro;
 }
 .logo
 {
@@ -74,8 +76,9 @@ header
 .banner
 {
     height:400px;
-    margin-top:20px;
+    margin-top:200px;
     position: relative;
+    z-index:-2;
 }
 .banner img
 {
@@ -197,6 +200,7 @@ article .portfolio img
     text-align:center;
     padding-top:30px;
     position: relative;
+    z-index:-2;
 }
 .section3 img
 {
