@@ -43,7 +43,7 @@ header
     height:100px;
    position:fixed;
    top:0px;
-   background-color:gainsboro;
+   background-color:whitesmoke;
 }
 .logo
 {
@@ -60,6 +60,14 @@ header
 {
     padding-left:40px;
     padding-top:45px;
+}
+.menu li a
+{
+    color:black;
+}
+.menu li a:hover
+{
+    color:red;
 }
 .navlinks
 {
@@ -273,7 +281,6 @@ margin-left:10px;
 .next,.previous
 {
     position:absolute;
-    
     font-size:14px;
     border-bottom: 2px solid gray;
     color:gray;
@@ -540,14 +547,11 @@ margin-left:10px;
     color:red;
 
 }
-.menu li a:hover
-{
-    color:red;
-}
 .next a:hover,.previous a:hover
 {
     color:red;
     border-bottom:3px solid red;
 }
+
 
 
