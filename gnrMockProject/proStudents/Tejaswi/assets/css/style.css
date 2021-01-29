@@ -383,7 +383,7 @@ header{
 .projects{
     width: 1100px;
     height: 450px;
-    margin: 20px auto;
+    margin: 50px auto;
     /*border: 1px solid #000;*/
     position: relative;
 }
@@ -491,13 +491,12 @@ project-content{
     float: left;
 }
 .footer_section-1 img{
-    width: 50px;
+    width: 100px;
     height: auto;
     margin-bottom: 20px;
 }
-.footer_section-2 h5, .footer_section-3 h5{
+.footer_section-2 h2, .footer_section-3 h2{
     text-transform: uppercase;
-    font-size: 15px;
     margin-bottom: 20px;
 }
 .footer_section-1 p, .footer_section-2 p, .footer_section-3 p{
@@ -512,8 +511,8 @@ project-content{
     font-size: 20px;
 }
 .footer_section-1 i:hover{
-    color: cornflowerblue;
-    font-size: 22px;
+    color: #f00;
+    font-size: 25px;
 }
 .footer_section-1 span{
     font-size: 20px;
@@ -532,12 +531,13 @@ project-content{
 }
 .send span{
     font-weight: bold;
+    padding-right: 20px;
 }
 .send i{
     color: deepskyblue;
     font-size: 30px;
 }
 .send i:hover{
-    color: deepskyblue;
+    color: #f00;
     font-size: 33px;
 }
