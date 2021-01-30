@@ -143,13 +143,14 @@ header{
     line-height: 20px;
 }
 .viewportfolio img{
-    width: 100px;
+    width: 45px;
     height: auto;
-    margin-top: 20px;
+    margin-top: 10px;
     float: left;
+   /* border: 1px solid #000;*/
 }
 .viewportfolio img:hover{
-    width: 110px;
+    width: 50px;
 }
 .viewportfolio{
     width: 300px;
@@ -159,8 +160,8 @@ header{
 .view{
     width: 200px;
     position: absolute;
-    top: 35px;
-    left: 90px;
+    top: 24px;
+    left: 58px;
 }
 .blackbanner{
     width: 1300px;
