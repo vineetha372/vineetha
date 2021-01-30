@@ -552,3 +552,28 @@ project-content{
     color: #f00;
     font-size: 33px;
 }
+.copyrights{
+    width: 1300px;
+    height: 30px;
+    background-color: #ddd;
+    margin: 10px auto;
+    font-size: 10px;
+}
+.copyrights_inner{
+    width: 1000px;
+    height: 30px;
+    margin: 0 auto;
+}
+.copy{
+    width: 750px;
+   /* border: 1px solid #000;*/
+    float: left;
+    padding-top: 10px;
+}
+.privacy{
+    width: 70px;
+    /*border: 1px solid #000;*/
+    padding-top: 10px;
+    float: left;
+    margin-left: 175px;
+}
