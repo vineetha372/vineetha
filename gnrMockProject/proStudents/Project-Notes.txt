@@ -1,0 +1,16 @@
+Mock project Notes :-
+---------------------
+
+1. Students Laptops are supporting 1366x768 Resolution. For that reason they created 1200px Fixed Webpage Layout.
+
+2. All Webpage Elements are written in HTML5 Compatable.
+
+3. No Responsive Design & JavaScript in It.
+
+4. Students Designed Required Images in Photoshop.
+
+5. Students also Used Fontawasome Icons in WebPage.
+
+6. Students wrote the Code as per their Knowlwdge.
+
+7. Faculty worked as a Mentor only. His involment in Mockup Code is nothing.
