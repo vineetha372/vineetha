@@ -222,20 +222,21 @@ header{
     margin-left:380px;
     padding-top: 20px;
 }
-.prev{
+.prev-next .prev{
     position: absolute;
     top: 250px;
     left: 250px;
+    font-size: 18px;
 }
-.next{
+.prev-next .next{
     position: absolute;
     top: 250px;
     left: 1000px;
 }
-.prev:hover{
+.prev a u:hover{
     font-size: 20px;
 }
-.next:hover{
+.next a u:hover{
     font-size: 20px;
 }
 .testimonial-content{
@@ -409,13 +410,14 @@ header{
     border-bottom-right-radius: 20px;
 }
 .project_img img:hover{
-    width: 210px;
+    width: 200px;
     height: auto;
 }
 .project_img{
     float: left;
     border-top-right-radius: 20px;
     margin: 0 30px 0 20px;
+    border: 1px solid #fff;
 }
 .project_img:hover{
     border: 1px solid #000;
