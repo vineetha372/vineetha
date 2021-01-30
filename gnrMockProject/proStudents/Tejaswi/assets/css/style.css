@@ -86,10 +86,6 @@ header{
     height: auto;
     margin-left: 150px;
 }
-.banner img:hover{
-    width: 710px;
-    height: auto;
-}
 .banner{
     position: relative;
 }
@@ -560,7 +556,7 @@ project-content{
 }
 .footer_section-2 a:hover{
     font-size: 15px;
-    color: #00aeef;
+    color: #00AEEF;
 }
 .send{
     float: left;
