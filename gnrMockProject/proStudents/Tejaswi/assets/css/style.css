@@ -563,16 +563,15 @@ project-content{
     color: #00aeef;
 }
 .send{
-    float: right;
-    padding-right: 50px;
+    float: left;
+    padding-left: 30px;
 }
 input{
     width: 200px;
     height: 30px;
-}
-input:hover{
-     width: 210px;
-    height: 35px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    padding-right: 50px;
 }
 .send i{
     color: deepskyblue;
