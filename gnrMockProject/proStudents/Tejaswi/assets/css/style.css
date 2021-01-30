@@ -45,9 +45,9 @@ header{
     height: 100px;
    /* border: 1px solid #ccc;*/
 }
-.logo{
+.logo img{
     width: 100px;
-    height: 60px;
+    height: auto;
    /* border: 1px solid #ccc;*/
     margin-top: 22px;
 }
@@ -354,12 +354,12 @@ header{
     margin: 50px 0 60px 0;
     padding-top: 100px;
 }
-.sundar_pichai{
+.creativeteam_images{
     width: 200px;
     height: auto;
     border-radius: 100px;
     margin: 50px 0 50px 95px;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
 }
 .narayen{
     width: 200px;
@@ -519,11 +519,11 @@ project-content{
     text-indent: 20px;
     line-height: 20px;
 }
-.footer_section-1 i{
+.footer_section-1 a i{
     padding-left: 20px;
     font-size: 20px;
 }
-.footer_section-1 i:hover{
+.footer_section-1 a i:hover{
     color: #f00;
     font-size: 25px;
 }
@@ -531,20 +531,48 @@ project-content{
     font-size: 20px;
     font-weight: normal;
 }
-.footer_section-2 span{
+
+.footer_section-2 Address{
     font-size: 13px;
+}
+.footer_section-2{
+    /*border: 1px solid #000;*/
+}
+.address i{
+    float: left;
+    width: 3px;
+    height: auto;
+    /*border: 1px solid #000;*/
+}
+.address Address{
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-left: 10px;
+    /*border: 1px solid #000;*/
 }
 .footer_section-2 i{
     color: cornflowerblue;
     padding-right: 20px;
 }
+.footer_section-2 a{
+    font-size: 13px;
+}
+.footer_section-2 a:hover{
+    font-size: 15px;
+    color: #00aeef;
+}
 .send{
     float: right;
     padding-right: 50px;
 }
-.send span{
-    font-weight: bold;
-    padding-right: 20px;
+input{
+    width: 200px;
+    height: 30px;
+}
+input:hover{
+     width: 210px;
+    height: 35px;
 }
 .send i{
     color: deepskyblue;
