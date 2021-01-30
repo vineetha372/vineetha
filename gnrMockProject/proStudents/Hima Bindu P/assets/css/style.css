@@ -3,7 +3,7 @@
     margin:0;
     padding:0;
     border:0;
-    box-sizing:inline-block;
+    box-sizing:border-box;
 }
 main
 {
@@ -13,7 +13,6 @@ main
 body
 {
     font-family:arial;
-    font-size:normal;
 }
 .fleft
 {
@@ -44,6 +43,7 @@ header
    position:fixed;
    top:0px;
    background-color:whitesmoke;
+   z-index:30;
 }
 .logo
 {
@@ -64,6 +64,7 @@ header
 .menu li a
 {
     color:black;
+    font-weight:bold;
 }
 .menu li a:hover
 {
@@ -86,7 +87,7 @@ header
     height:400px;
     margin-top:200px;
     position: relative;
-    z-index:-2;
+    z-index:2;
 }
 .banner img
 {
@@ -157,6 +158,7 @@ article .portfolio img
     height:300px;
     background-color:black;
     color:white;
+    margin-top:30px;
 }
 .creative,.clearcode,.qualified,.quality 
 {
@@ -203,12 +205,12 @@ article .portfolio img
 /*section3 testmonials*/
 .section3
 {
-    height:270px;
+    height:290px;
     background-color:gainsboro;
     text-align:center;
     padding-top:30px;
     position: relative;
-    z-index:-2;
+    z-index:1;
 }
 .section3 img
 {
@@ -260,7 +262,7 @@ article .portfolio img
 }
 .person  img
 {
-    border-radius:30px;
+    border-radius:10px;
     border:2px solid black;
     margin-left:10px;
     margin-top:0px;
@@ -277,7 +279,7 @@ margin-left:10px;
     color:blue;
     font-size:12px;
 }
-.next,.previous
+.next ,.previous 
 {
     position:absolute;
     font-size:14px;
@@ -285,19 +287,23 @@ margin-left:10px;
     color:gray;
     top:140px;
 }
-.previous
+.previous 
 {
     left:70px;
+    position: absolute;
 }
-.next
+.next 
 {
     right:80px;
 }
+
+
 
 /*section4 faq*/
 .section4
 {
     height:350px;
+    margin-top:60px;
 }
 .section4 .img
 {
@@ -386,7 +392,7 @@ margin-left:10px;
     font-size:30px;
     text-align:center;
     font-weight:lighter;
-    padding-top:30px;
+    margin-top:0px;
 }
 .row
 {
@@ -396,7 +402,7 @@ margin-left:10px;
 .column
 {
     height:230px;
-    width:200px;
+    width:205px;
     margin-left:35px;
     border:3px solid black;
     border-bottom-left-radius:30px;
@@ -404,7 +410,7 @@ margin-left:10px;
 }
 .column img
 {
-    width:200PX;
+    width:200pX;
     height:150PX;
     border-top-right-radius:30px;
 }
@@ -486,21 +492,32 @@ margin-left:10px;
     padding-left:15px;
     font-size:20px;
 }
-.center
+address
 {
     width:230px;
     height:240px;
     font-size:14px;
     line-height:30px;
 }
-.center i
+address i
 {
     color:cornflowerblue;
     padding-right:10px;
     font-size:20px;
+}
+address p
+{
     line-height:45px;
 }
-.center h2
+address a:hover
+{
+    color:darkblue;
+}
+address a
+{
+    font-size:16px;
+}
+address h2
 {
     padding-top:30px;
     margin-bottom:30px;
@@ -511,26 +528,31 @@ margin-left:10px;
     height:240px;
     font-size:14px;
     line-height:20px;
-    position: relative;  
+    position: relative; 
 }
-.right h3
+input
 {
-    padding-top:20px;
+    margin-top:20px;
+    width:170px;
+    height:30px;
+    padding-left:10px;
+    border-bottom:1px solid black;
+    font-size:16px;
 }
 .right i
 {
     position: absolute;
-    bottom:20px;
-    right:40px;
+    bottom:30px;
+    right:20px;
     font-size:30px;
     color:cornflowerblue;
 }
-.right,.center
+.right,address
 {
     margin-left: 40px;
     font-weight:lighter;
 }
-.center
+address
 {
     margin-left: 45px;
     font-weight:lighter;   
@@ -543,14 +565,41 @@ margin-left:10px;
 #social a i:hover,.right i:hover
 {
     font-size:40px;
-    color:red;
+    color:cornflowerblue;
 
 }
-.next a:hover,.previous a:hover
+.next a:hover
 {
     color:red;
     border-bottom:3px solid red;
 }
-
-
-
+.previous a:hover
+{
+    color:red;
+    border-bottom:3px solid red;
+}
+.navlinks a img:hover
+{
+    width:35px;
+    height:35px;
+}
+#team
+{
+    padding-top:100px;
+}
+#faq
+{
+    padding-top:70px;
+}
+#test
+{
+    padding-top:90px;
+}
+#projects
+{
+    padding-top:100px;
+}
+/*#foot
+{
+    padding-top:100px;
+}*/

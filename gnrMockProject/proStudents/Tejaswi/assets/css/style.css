@@ -45,9 +45,9 @@ header{
     height: 100px;
    /* border: 1px solid #ccc;*/
 }
-.logo{
+.logo img{
     width: 100px;
-    height: 60px;
+    height: auto;
    /* border: 1px solid #ccc;*/
     margin-top: 22px;
 }
@@ -85,10 +85,6 @@ header{
     width: 700px;
     height: auto;
     margin-left: 150px;
-}
-.banner img:hover{
-    width: 710px;
-    height: auto;
 }
 .banner{
     position: relative;
@@ -143,13 +139,14 @@ header{
     line-height: 20px;
 }
 .viewportfolio img{
-    width: 100px;
+    width: 45px;
     height: auto;
-    margin-top: 20px;
+    margin-top: 10px;
     float: left;
+   /* border: 1px solid #000;*/
 }
 .viewportfolio img:hover{
-    width: 110px;
+    width: 50px;
 }
 .viewportfolio{
     width: 300px;
@@ -159,8 +156,8 @@ header{
 .view{
     width: 200px;
     position: absolute;
-    top: 35px;
-    left: 90px;
+    top: 24px;
+    left: 58px;
 }
 .blackbanner{
     width: 1300px;
@@ -221,20 +218,21 @@ header{
     margin-left:380px;
     padding-top: 20px;
 }
-.prev{
+.prev-next .prev{
     position: absolute;
     top: 250px;
     left: 250px;
+    font-size: 18px;
 }
-.next{
+.prev-next .next{
     position: absolute;
     top: 250px;
     left: 1000px;
 }
-.prev:hover{
+.prev a u:hover{
     font-size: 20px;
 }
-.next:hover{
+.next a u:hover{
     font-size: 20px;
 }
 .testimonial-content{
@@ -352,12 +350,12 @@ header{
     margin: 50px 0 60px 0;
     padding-top: 100px;
 }
-.sundar_pichai{
+.creativeteam_images{
     width: 200px;
     height: auto;
     border-radius: 100px;
     margin: 50px 0 50px 95px;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
 }
 .narayen{
     width: 200px;
@@ -408,13 +406,14 @@ header{
     border-bottom-right-radius: 20px;
 }
 .project_img img:hover{
-    width: 210px;
+    width: 200px;
     height: auto;
 }
 .project_img{
     float: left;
     border-top-right-radius: 20px;
     margin: 0 30px 0 20px;
+    border: 1px solid #fff;
 }
 .project_img:hover{
     border: 1px solid #000;
@@ -516,11 +515,11 @@ project-content{
     text-indent: 20px;
     line-height: 20px;
 }
-.footer_section-1 i{
+.footer_section-1 a i{
     padding-left: 20px;
     font-size: 20px;
 }
-.footer_section-1 i:hover{
+.footer_section-1 a i:hover{
     color: #f00;
     font-size: 25px;
 }
@@ -528,20 +527,47 @@ project-content{
     font-size: 20px;
     font-weight: normal;
 }
-.footer_section-2 span{
+
+.footer_section-2 Address{
     font-size: 13px;
+}
+.footer_section-2{
+    /*border: 1px solid #000;*/
+}
+.address i{
+    float: left;
+    width: 3px;
+    height: auto;
+    /*border: 1px solid #000;*/
+}
+.address Address{
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-left: 10px;
+    /*border: 1px solid #000;*/
 }
 .footer_section-2 i{
     color: cornflowerblue;
     padding-right: 20px;
 }
-.send{
-    float: right;
-    padding-right: 50px;
+.footer_section-2 a{
+    font-size: 13px;
 }
-.send span{
-    font-weight: bold;
-    padding-right: 20px;
+.footer_section-2 a:hover{
+    font-size: 15px;
+    color: #00AEEF;
+}
+.send{
+    float: left;
+    padding-left: 30px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    padding-right: 50px;
 }
 .send i{
     color: deepskyblue;
@@ -550,4 +576,29 @@ project-content{
 .send i:hover{
     color: #f00;
     font-size: 33px;
+}
+.copyrights{
+    width: 1300px;
+    height: 30px;
+    background-color: #ddd;
+    margin: 10px auto;
+    font-size: 10px;
+}
+.copyrights_inner{
+    width: 1000px;
+    height: 30px;
+    margin: 0 auto;
+}
+.copy{
+    width: 750px;
+   /* border: 1px solid #000;*/
+    float: left;
+    padding-top: 10px;
+}
+.privacy{
+    width: 70px;
+    /*border: 1px solid #000;*/
+    padding-top: 10px;
+    float: left;
+    margin-left: 175px;
 }
