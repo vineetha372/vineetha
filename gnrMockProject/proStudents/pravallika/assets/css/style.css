@@ -61,6 +61,7 @@ nav a:hover {
 		border:1px solid #eee;
 		height:300px;
      background-color:#ddd;
+    
 		}
 .sectionleft img{
 		float:left;
@@ -89,6 +90,7 @@ nav a:hover {
          font-family:sans-serif;
     
 		}
+
 .main{
     position:relative;
 }
@@ -96,6 +98,7 @@ nav a:hover {
     width:900px;
     height:auto;
     background-color:#fff;
+  
 }
 .main button{
     width:200px;
@@ -111,10 +114,17 @@ nav a:hover {
 .main button:hover{
      background:linear-gradient(yellow,white,yellow);
 }
+.clear{
+    clear:both;
+}
     
 .heading img{
     padding-top:30px;
     
+}
+.heading img:hover{
+    width:60px;
+    height:60px;
 }
 .heading span{
     padding-left:10px;
@@ -246,7 +256,7 @@ nav a:hover {
     clear: both;
 }
 .total{
-    border:1px solid black;
+    
     background-color:#ddd;
     
     width:900px;
@@ -359,6 +369,10 @@ hr{
 .heading1 img{
     padding-top:20px;
     
+}
+.heading1 img:hover{
+    width:20px;
+    height:20px;
 }
 .heading1 span{
     padding-left:10px;
