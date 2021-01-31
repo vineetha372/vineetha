@@ -134,6 +134,11 @@ nav a:hover {
     font-family:sans-serif;
     
 }
+.heading h1:hover{
+
+    color:blue;
+}
+}
 .heading{
     border-color:#eee;
 }
@@ -274,6 +279,12 @@ nav a:hover {
     padding-bottom:90px;
     padding-bottom: 20px;
 }
+
+.testimonials h1:hover{
+    color:blue;
+}
+
+
 /*.testimoalmainimage{
     padding-left:100px;
     width:700px;
@@ -696,18 +707,24 @@ margin-top:20px;
 .lower1 p{
     float:left;
     padding-top:40px;
-    padding-left:100px;
+    padding-left:50px;
     margin-right:260px;
     font-size:20px;
+    font-size: 25px;
     
 }
 .lower2 p{
     padding-top:40px;
-    font-size:20px;
+    font-size:25px;
+    color:blue;
+
     
     
 }
-
+.lower2 p:hover{
+width:30px;
+    height:30px;
+}
 
 
 	
