@@ -315,7 +315,7 @@ color:blue;
 }*/
 .testimonials p{
     width:400px;
-    padding-top:100px;
+    padding-top:120px;
     padding-left:260px;
     padding-bottom:30px;
     position:absolute;
@@ -327,11 +327,7 @@ color:blue;
     height:350px;
     padding-left:40px;
 }
-.testimonials img:hover{
-    width:780px;
-    height:300px;
-    
-}
+
 /*.testimonial-contact{
     border:1px solid black;
     width:700px;
