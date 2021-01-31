@@ -151,6 +151,11 @@ article .portfolio img
     vertical-align:middle;
     margin-left:-5px;
 }
+.portfolio img:hover
+{
+    width:60px;
+    height:60px;
+}
 
 /*section2*/
 .section2
@@ -318,29 +323,77 @@ margin-left:10px;
     height:250px;
     margin-right:65px;
     margin-top:38px;
+    position: relative;
 }
 .fqa h1
 {
     font-size:30px;
     font-weight:lighter;
 }
-#p1,#p2,#p3
+/* (A) TABS CONTAINER */
+.tab1 ,.tab2 ,.tab3
 {
-    line-height:50px;
-    margin-left:0px;
+    position: absolute;
+    max-width: 500px;
+    top:50px;
 }
-.section4 #p1::before,#p2::before,#p3::before
+.tab2
 {
-    content:"❯";
-    color:cornflowerblue;
-    background-color:whitesmoke;
-    width:30px;
-    height:30px;
+    position: absolute;
+    max-width: 500px;
+    top:120px;
+}
+.tab3
+{
+    position: absolute;
+    max-width: 500px;
+    top:190px;
+}
+  
+  /* (B) HIDE CHECKBOX */
+  .tab1 input, .tab2 input, .tab3 input{ display: none;}
+  
+  /* (C) TAB LABEL */
+  .tab1 label, .tab2 label, .tab3 label {
+    display: block;
+    margin-top: 10px;
+    height:35px;
+    padding: 10px;
+    color:black;
+    font-weight: bold;
+    background:cornflowerblue;
+    cursor: pointer;
+  }
+  
+  /* (D) TAB CONTENT */
+  .tab1 .tab-content ,.tab2 .tab-content, .tab3 .tab-content {
+    background:white;
+    /* CSS ANIMATION WILL NOT WORK WITH AUTO HEIGHT */
+    /* THIS IS WHY WE USE MAX-HEIGHT INSTEAD */
+    overflow: hidden;
+    transition: max-height 0.9s;
+    max-height: 0;
+  }
+  .tab1 .tab-content p,  .tab2 .tab-content p, .tab3 .tab-content p { padding: 10px; }
+  
+  /* (E) OPEN TAB ON CHECKED */
+  .tab1 input:checked ~ .tab-content,.tab2 input:checked ~ .tab-content,.tab3 input:checked ~ .tab-content { max-height: 100vh; }
+  
+  /* (F) EXTRA - ADD ARROW INDICATOR */
+  .tab1 label::after, .tab2 label::after, .tab3 label::after {
+    content: ">";
+    position: absolute;
+    color:white;
+    left:10px;
+    top: 15.5px;
+    display: block;
+    background-color:gray;
     border-radius:30px;
-    padding:5px 10px;
-    margin-right:10px;
-}
-
+    padding:3px 9px;
+    transition: all 0.4s;
+    text-align:center;
+  }
+  .tab1 input:checked ~ label::after,.tab2 input:checked ~ label::after,.tab3 input:checked ~ label::after { transform: rotate(90deg); }
 /*section5 our team*/
 .section5
 {
@@ -441,7 +494,7 @@ margin-left:10px;
 {
     height:130px;
     background-color:gainsboro;
-    margin-top:50px;
+    margin-top:70px;
 }
 .card
 {
