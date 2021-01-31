@@ -155,7 +155,10 @@ nav a:hover {
 
     color:blue;
 }
+.heading h1{
+    color:blue;
 }
+
 .heading{
     border-color:#eee;
 }
@@ -467,30 +470,27 @@ hr{
 }
 
 .project{
-    background-color:antiquewhite;
+    background-color:;
     width:860px;
     height:500px;
     padding-left:40px;
 
 }
 .project h2{
-padding-left:250px;
+
+
+    padding-right:30px;
     padding-top:30px;
     padding-bottom:40px;
     font-family:broadway;
-    color:fuchsia;
+    color:blue;
     
 }
 
 
 
 .project h2:hover{
-    color:blue;
-    
-}
-.project img{
-    padding-left:20px;
-
+    color:black;
     
 }
 
@@ -500,21 +500,25 @@ padding-left:250px;
    
 		width:900px;
 		height:340px;
-    background-color:;
+    background-color:antiquewhite;
     
 }
 .white-color h1{
     padding-left:370px;
     padding-top:30px;
     padding-bottom:30px;
-    
-   
-   
-    
-    
+
+    }
+.white-color h1:hover{
+    color:blue;
+}
+.border-1:hover{
+    border:2px solid black;
 }
 .border-1{
 		
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
 		margin-left:30px;
         margin-right:10px;
 		 
@@ -524,6 +528,9 @@ padding-left:250px;
         
     
 		}
+.google-1 img{
+     border-top-right-radius: 30px;
+}
 
 
 .google-1 p{
@@ -536,10 +543,14 @@ padding-left:250px;
     color:blue;
 }
 	
-
+.border-2:hover{
+    border:2px solid black;
+}
 
 .border-2{
 		
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
 		 margin-right:10px;
 		
 		float:left;
@@ -547,6 +558,10 @@ padding-left:250px;
 		height:220px;
 
 		}
+.google-2 img{
+     border-top-right-radius: 30px;
+}
+
 .google-2 p{
     padding-top:30px;
     padding-left:10px;
@@ -557,9 +572,13 @@ padding-left:250px;
     color:blue;
 }
 
-	
+	.border-3:hover{
+    border:2px solid black;
+}
 .border-3{
 		
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
          margin-right:10px;
 		
 		float:left;
@@ -567,6 +586,10 @@ padding-left:250px;
 		height:220px;
 
 		}
+.google-3 img{
+     border-top-right-radius: 30px;
+}
+
 .google-3 p{
     padding-top:30px;
     padding-left:10px;
@@ -576,19 +599,27 @@ padding-left:250px;
     padding-left:60px;
     color:blue;
 }
-
+.border-4:hover{
+    border:2px solid black;
+}
 	
 .border-4{
 		
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
          margin-right:10px;
 		float:left;
 		width:200px;
 		height:220px;
 
 		}
+.google-4 img{
+     border-top-right-radius: 30px;
+}
+
 .google-4 p{
     padding-top:30px;
-    padding-left:10px;
+    
     
 }
 
@@ -600,43 +631,49 @@ padding-left:250px;
 }
 .font-style {
     
-		background-color:#aaa;
+		background-color:;
 		width:900px;
 		height:300px;
 }
 
 .style2{
-    padding-left:70px;
-    padding-top:40px;
+    padding-left:90px;
+    padding-top:80px;
     float:left;
 
    
 }
-.style2 img:hover{
-    width:190px;
-    height:180px;
-    font-size:30px;
+.style2 :hover{
+     border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border:2px solid black;
+    background-color:lightgreen;
+    }
+.style4 :hover{
+     border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border:2px solid black;
+    background-color:yellow;
     
 }
-.style4 img:hover{
-    width:140px;
-    height:140px;
-    font-size:30px;
-}
+
 .style4{
      padding-left:30px;
-     padding-top:50px;
+     padding-top:80px;
     float:left;
      
 }
-.style5 img:hover{
-    width:140px;
-    height:140px;
-    font-size:30px;
+   
+.style6 :hover{
+     border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border:2px solid black;
+     background-color:coral;
 }
+
 .style5{
     padding-left:30px;
-     padding-top:50px;
+     padding-top:80px;
     float:left;
      
 }
@@ -646,23 +683,21 @@ padding-left:250px;
     float:left;
      
 }
-.style6 img:hover{
-    width:140px;
-    height:140px;
-    font-size:30px;
+   
+.style8 :hover{
+     border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border:2px solid black;
+ background-color:tan;
 }
 .style8{
     padding-left:70px;
     float:left;
-     padding-top:70px;
+     padding-top:80px;
     padding-left:40px;
      
 }
-.style8 img:hover{
-    width:140px;
-    height:140px;
-    font-size:30px;
-}
+
 .color{
     border:1px solid #ddd;
     width:900px;
