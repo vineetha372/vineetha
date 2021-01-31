@@ -52,6 +52,18 @@ nav a:hover {
     
 
 }
+.gnrtech{
+    padding-top:20px;
+    margin: auto;
+    padding-left:160px;
+    color:white;
+    font-family:broadway;
+}
+.gnrtech:hover{
+    
+     color:darkblue;
+    
+}
 
 .logo2 img{
     padding-left:10px;
@@ -100,6 +112,7 @@ nav a:hover {
     background-color:#fff;
   
 }
+
 .main button{
     width:200px;
     height:50px;
@@ -113,6 +126,10 @@ nav a:hover {
 }
 .main button:hover{
      background:linear-gradient(yellow,white,yellow);
+    width:210px;
+    height:60px;
+    color:red;
+    font-size:30px;
 }
 .clear{
     clear:both;
@@ -339,10 +356,16 @@ nav a:hover {
 
 
 .section1{
-		border:1px solid #fff;
+		
 		height:400px;
     
 		}
+.section1:hover{
+    background-color:beige;
+    width:900px;
+    height:400px;
+}
+
 	.sectionleft1 img{
 		float:left;
       
@@ -362,7 +385,7 @@ hr{
     margin-top:7px;
 }
 .heading1{
-    border:1px solid #ffff;
+
     width:350px;
     height:300px;
     float:left;
@@ -375,6 +398,10 @@ hr{
          font-family:sans-serif;
     
 		}
+.heading1 h1:hover{
+    color:orangered;
+    
+}
 
     
 .heading1 img{
@@ -439,6 +466,33 @@ hr{
     padding-left:40px;
 }
 
+.project{
+    background-color:antiquewhite;
+    width:860px;
+    height:500px;
+    padding-left:40px;
+
+}
+.project h2{
+padding-left:250px;
+    padding-top:30px;
+    padding-bottom:40px;
+    font-family:broadway;
+    color:fuchsia;
+    
+}
+
+
+
+.project h2:hover{
+    color:blue;
+    
+}
+.project img{
+    padding-left:20px;
+
+    
+}
 
 
 .white-color{
@@ -546,10 +600,11 @@ hr{
 }
 .font-style {
     
-		background-color:#eee;
+		background-color:#aaa;
 		width:900px;
 		height:300px;
 }
+
 .style2{
     padding-left:70px;
     padding-top:40px;
@@ -561,6 +616,7 @@ hr{
     width:190px;
     height:180px;
     font-size:30px;
+    
 }
 .style4 img:hover{
     width:140px;
