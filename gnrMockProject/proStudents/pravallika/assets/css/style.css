@@ -152,11 +152,12 @@ nav a:hover {
     
 }
 .heading h1:hover{
-
-    color:blue;
+color:blue;
+    
 }
 .heading h1{
-    color:blue;
+    
+    color:black;
 }
 
 .heading{
@@ -382,6 +383,7 @@ nav a:hover {
     font-size:30px;
     width:240px;
     height:280px;
+   
     
 }
 hr{
@@ -491,15 +493,21 @@ hr{
 
 .project h2:hover{
     color:black;
+    font-size:20px;
     
 }
 
+.project img{
+    padding-left:30px;
+    
 
+    
+}
 .white-color{
     
    
 		width:900px;
-		height:340px;
+		height:400px;
     background-color:antiquewhite;
     
 }
@@ -705,14 +713,14 @@ hr{
     background-color:#ddd;
 }
 .footer{
-     border:1px solid black;
+     border:1px solid #fff;
 		width:900px;
 		height:300px;
 }
 .footer1{
-		margin-right:30px;
+		
         margin-left:40px;
-		border:1px solid black;
+		border:1px solid #fff;
 		float:left;
 		width:250px;
 		height:220px;
@@ -721,20 +729,37 @@ hr{
 .footer3 p{
     float:left;
     padding-top:10px;
-    padding-left:10px;
+    
 
+}
+.footer3 p:hover{
+    font-size:15px;
+}
+.footer3 img:hover{
+    width:41px;
+    background-color:red;
+    border-radius: 30px;
 }
 
 
 .footer4{
-    
+    margin-right:10px;
+    margin-left:10px;
          margin-top:40px;
-		border:1px solid black;
+		border:1px solid #fff;
 		float:left;
-		width:250px;
+		width:280px;
 		height:220px;
     
 		}
+.footer5 h3{
+    font-size:25px;
+    font-family: sans-serif;
+}
+.footer7 h3{
+    font-size:25px;
+    font-family: sans-serif;
+}
 
 .location img{
     float:left;
@@ -743,22 +768,46 @@ hr{
 
 }
 .location p{
-margin-top:20px;
+margin-top:30px;
+
+    
+}
+.location a{
+    color:black;
+}
+.location a:hover{
+    font-size:17px;
+    color:blue;
 }
 .footer6{
-        margin-left:40px;
+        
          margin-top:40px;
-		border:1px solid black;
+		border:1px solid #fff;
 		float:left;
-		width:250px;
+		width:280px;
 		height:220px;
     
 		}
+
 .footer7 h3{
     padding-bottom:20px;
 }
 .footer7 p{
     padding-bottom:20px;
+}
+.footer7 input{
+    border:1px solid #ffff;
+    width:150px;
+    height:50px;
+}
+.footer7 hr{
+    width:190px;
+}
+
+.footer7 img:hover{
+
+    
+    width:50px;
 }
 .lower{
     border:1px solid black;
