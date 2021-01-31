@@ -540,32 +540,6 @@ hr{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .google-4 small{
     padding-left:60px;
     color:blue;
@@ -722,8 +696,9 @@ margin-top:20px;
     
 }
 .lower2 p:hover{
-width:30px;
-    height:30px;
+color:#ddd;
+    position: fixed;
+    
 }
 
 
