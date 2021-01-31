@@ -656,3 +656,20 @@ address
 {
     padding-top:100px;
 }
+.copyrights
+{
+    background-color:gainsboro;
+    height:30px;
+    line-height:30px;
+    margin-top:10px;
+    margin-bottom:15px;
+    font-size:0.7em;
+}
+.r
+{
+    padding-left:50px;
+}
+.l
+{
+    padding-right:50px;
+}
