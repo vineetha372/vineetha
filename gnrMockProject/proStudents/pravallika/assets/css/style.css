@@ -134,6 +134,23 @@ nav a:hover {
 .clear{
     clear:both;
 }
+.sticky{
+    position:fixed;
+
+    top:0px;
+    left:0px;
+    
+    font-size:30px;
+    padding-left:1500px;
+    
+    
+    color:green;
+    width:200px;
+    height:3px;
+
+    
+}
+
     
 .heading img{
     padding-top:30px;
