@@ -358,11 +358,14 @@ margin-left:10px;
     display: block;
     margin-top: 10px;
     height:35px;
-    padding: 10px;
+    font-size:15px;
+    font-weight:lighter;
+    padding-left:45px;
     color:black;
     font-weight: bold;
     background:cornflowerblue;
     cursor: pointer;
+    line-height:35px;
   }
   
   /* (D) TAB CONTENT */
@@ -384,12 +387,13 @@ margin-left:10px;
     content: ">";
     position: absolute;
     color:white;
+    font-size:30px;
     left:10px;
-    top: 15.5px;
+    top: 10px;
     display: block;
-    background-color:gray;
-    border-radius:30px;
-    padding:3px 9px;
+   /* background-color:gray;*/
+    border-radius:70px;
+    padding:0px 0px;
     transition: all 0.4s;
     text-align:center;
   }
@@ -654,7 +658,7 @@ address
 }
 #foot
 {
-    padding-top:100px;
+    padding-top:50px;
 }
 .copyrights
 {
