@@ -3,7 +3,7 @@
   		padding:0;
 		}
 boby{
-    font-family:arial;
+    font-family:'arial', sans-sarif !important;
 }
 	.container{
 		border:1px solid #fff;
@@ -49,7 +49,7 @@ a{
 
 nav a:hover {
   color:red;
-    font-size:19px;
+    
     
 
 }
@@ -179,7 +179,7 @@ color:blue;
     border-color:#eee;
 }
 .heading p{
-     font-family:bold;
+     font-weight:bold;
     padding-top:20px;
     width:360px;
 }
@@ -460,10 +460,11 @@ hr{
 .image2 p{
     padding-top:10px;
     padding-left: 40px;
+    font-size:15px;
 }
 .image2 p:hover{
     color:red;
-    font-size:20px;
+    font-size:15px;
 }
 .image4{
      padding-top:50px;
@@ -472,7 +473,7 @@ hr{
 }
 .image4 p:hover{
     color:red;
-    font-size:20px;
+    font-size:15px;
 }
 .image4 p{
     padding-top:10px;
@@ -485,7 +486,7 @@ hr{
 }
 .image6 p:hover{
     color:red;
-    font-size:20px;
+    font-size:15px;
 }
 .image6 p{
     padding-top:10px;
@@ -497,7 +498,7 @@ hr{
 }
 .image8 p:hover{
     color:red;
-    font-size:20px;
+    font-size:15px;
 }
 .image8{
      padding-top:50px;
