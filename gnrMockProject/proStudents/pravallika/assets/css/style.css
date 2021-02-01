@@ -3,7 +3,7 @@
   		padding:0;
 		}
 boby{
-    font-family:Arial;
+    font-family:arial;
 }
 	.container{
 		border:1px solid #fff;
@@ -19,7 +19,7 @@ boby{
         background-color: #eee;
 		}
 	.logo img{
-		padding-left:30px;
+		padding-left:20px;
 		float:left;
 		padding-right:50px;
 		}
@@ -39,7 +39,7 @@ ul li {
 padding-top: 15px;
   text-decoration: none;
     margin-right:10px;
-  
+  font-family:sans-serif;
     
 }
 a{
