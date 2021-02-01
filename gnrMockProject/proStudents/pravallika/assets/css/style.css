@@ -34,12 +34,13 @@ boby{
 ul li {
   display:inline-block;
   color: #f2f2f2;
-  font-size:20px;
+  font-size:15px;
   padding:5px;
 padding-top: 15px;
   text-decoration: none;
-    margin-right:10px;
+    margin-right:20px;
   font-family:sans-serif;
+
     
 }
 a{
@@ -47,7 +48,7 @@ a{
 }
 
 nav a:hover {
-  color:black;
+  color:red;
     font-size:19px;
     
 
@@ -606,16 +607,6 @@ hr{
   font-size: 16px;
   border: none;
 }
-
-
-
-
-
-
-
-
-
-
 .white-color{
     
    
@@ -833,11 +824,7 @@ hr{
 .footer3 p:hover{
     font-size:15px;
 }
-.footer3 img:hover{
-    width:41px;
-    background-color:red;
-    border-radius: 30px;
-}
+
 
 
 .footer4{
@@ -894,7 +881,7 @@ margin-top:30px;
     padding-bottom:20px;
 }
 .footer7 input{
-    border:1px solid #ffff;
+    border:1px solid #fff;
     width:150px;
     height:50px;
 }
@@ -932,11 +919,21 @@ margin-top:30px;
     
     
 }
-.lower2 p:hover{
-color:#ddd;
-    position: fixed;
+
+.footer3 i
+{ 
+    font-size:30px;
     
 }
-
+.footer i:hover{
+    color:red;
+}
+.footer7 i{
+    font-size:30px;
+    
+}
+.footer7 i:hover{
+    font-size:35px;
+}
 
 	
