@@ -1,0 +1,231 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    border:0px;
+    box-sizing:border-box;
+    font-weight:normal;
+}
+body,html
+{
+    height:100%;
+}
+.fleft
+{
+    float:left;
+}
+.fright
+{
+    float:right;
+}
+.clear
+{
+    clear:both
+}
+input:focus
+{
+    outline:0;
+}
+::placeholder
+{
+    color:000;
+    font-size:13px;
+    font-weight:normal;
+}
+
+/* SIGNUP PAGE*/
+.signup,.signin
+{
+    width:100%;
+    height:100%;
+    background-color:#ddd;
+    font-family:Arial;
+    font-size:13px;
+}
+main
+{
+    width:60%;
+    height:auto;
+    margin:0;
+    border:3px solid #e1e2e3;
+    background-color:white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -ms-transform:translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    padding-top:3%;
+    padding-bottom:3%;
+    filter:drop-shadow(0 0 20px gray);
+
+}
+h1
+{
+    font-size:25px;
+    margin-top:0%;
+    margin-bottom:7%;
+}
+.left,.right
+{
+    float:left;
+    width:50%;
+}
+.rwo::after
+{
+    content:"";
+    clear:both;
+    display:table;
+}
+/*.left
+{
+    border-right:2px solid #ccc;
+}*/
+img
+{
+    width:100%;
+    height:auto;
+}
+.right
+{
+    width:30%;
+    margin-left:3%;
+}
+.row
+{
+    width:90%;
+    height:25px;
+    margin-top:10%;
+}
+p
+{
+    padding-left:3%;
+    text-decoration:underline;
+    margin-top:5%;
+    margin-left:27%;
+    margin-bottom:7%;
+    font-size:14px;
+}
+label
+{
+    padding-left:3%;
+}
+.btn1
+{
+    background-color: dodgerblue;
+    color:white;
+    padding:5px 10px;
+    border:2px solid dodgerblue;
+    text-align:center;
+}
+.btn1:hover,.btn2:hover
+{
+    text-decoration:underline;
+    background-color:white;
+    color:dodgerblue;
+    border:2px solid dodgerblue;
+}
+.btn2
+{
+    background-color: dodgerblue;
+    color:white;
+    padding: 5px 25px; 
+    border:2px solid dodgerblue; 
+    margin-left:55%;
+    text-align:center;
+    border-radius:5px;
+}
+input:hover
+{
+    cursor:pointer;
+}
+#check:hover
+{
+    cursor:auto;
+}
+#name,#email, #doj,#ed,#c,#pd
+{
+    height:40px;
+    width:100%;
+    padding-left:10%;
+    border:1px solid gray;
+}
+#name:hover,#email:hover, #doj:hover,#ed:hover,#c:hover,#pd:hover
+{
+    border:1px solid dodgerblue;
+}
+.signup #check
+{
+    margin-top:10%;
+}
+
+/*signup page end*/
+
+/*signin page starts*/
+.signin .row
+{
+    width:100%;
+    height:25px;
+    margin-top:13%;
+}
+.signin a
+{
+    padding-left:13%;
+}
+.signin p
+{
+    width:100%;
+    margin-left:30%;
+}
+.signin .btn2:hover
+{
+    text-decoration:underline;
+    background-color:white;
+    color:dodgerblue;
+    border:2px solid dodgerblue;
+    border-radius:5px;
+}
+.signin #email,.signin #pd
+{
+    height:40px;
+    width:100%;
+    padding-left:10px;
+    background-color:transparent;
+}
+.success h1
+{
+    position:absolute;
+    top:50%;
+    left:50%;
+}
+input
+{
+    border-radius:5px;
+}
+/*signin end*/
+
+/*tabel start*/
+.employee h1
+{
+    margin-bottom:3%;
+    padding-left:3%;
+    color:dodgerblue;
+}
+table 
+{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th 
+{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) 
+{
+    background-color:#e1e2e3;
+}
+  
+  
+  

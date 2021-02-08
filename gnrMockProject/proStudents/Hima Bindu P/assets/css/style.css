@@ -331,7 +331,7 @@ margin-left:10px;
     font-weight:lighter;
 }
 /* (A) TABS CONTAINER */
-.tab1 ,.tab2 ,.tab3
+.tab1
 {
     position: absolute;
     max-width: 500px;
@@ -356,7 +356,7 @@ margin-left:10px;
   /* (C) TAB LABEL */
   .tab1 label, .tab2 label, .tab3 label {
     display: block;
-    margin-top: 10px;
+    margin-top:10px;
     height:35px;
     font-size:15px;
     font-weight:lighter;
@@ -374,7 +374,7 @@ margin-left:10px;
     /* CSS ANIMATION WILL NOT WORK WITH AUTO HEIGHT */
     /* THIS IS WHY WE USE MAX-HEIGHT INSTEAD */
     overflow: hidden;
-    transition: max-height 0.9s;
+    transition: max-height 0.1s;
     max-height: 0;
   }
   .tab1 .tab-content p,  .tab2 .tab-content p, .tab3 .tab-content p { padding: 10px; }
@@ -677,3 +677,4 @@ address
 {
     padding-right:50px;
 }
+
