@@ -5,7 +5,7 @@ const msg = document.querySelector(".top-banner .msg");
 const list = document.querySelector(".ajax-section .cities");
 /*PUT YOUR OWN KEY HERE - THIS MIGHT NOT WORK
 SUBSCRIBE HERE: https://home.openweathermap.org/users/sign_up*/
-const apiKey = "4d8fb5b93d4af21d66a2948710284366";
+const apiKey = "AIzaSyDRoVEB_2j9pMlTeRt6O9Qc9gG5ZvqDXeY";
 
 form.addEventListener("submit", e => {
   e.preventDefault();
