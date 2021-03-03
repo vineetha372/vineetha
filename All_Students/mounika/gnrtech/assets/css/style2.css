@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:sans-serif;
+}
+.container{
+    width:1200px;
+    margin:auto;
+}
+nav{
+   height:50px;
+}
+.list li{
+    list-style:none;
+    display:inline-block;
+    margin:15px 7px;
+    color:black;
+} 
+a{
+    text-decoration:none;
+}
+a:hover{
+    border-top:3px solid #3e8dad;
+    width:40px;
+    padding-top:10px;
+}
+nav .menu{
+    float:right;
+    width:500px;
+}
+.header{
+    background-image:linear-gradient(to right ,#373e4c,#3e8dad);
+    height:300px;
+    color:#fff;
+}
+.header h1{
+    width:350px;
+    padding-top:50px;
+    padding-left:100px
+}
+.header h6{
+    width:200px;
+    padding-top:10px;
+    padding-left:100px
+}
+.fea_pro{
+    margin:20px 0 0 150px;
+}
+.fea_pro .top1 h1{
+    text-align: center;
+}
+.top2{
+    width:900px;
+    height:200px;
+    border:1px solid #3e8dad;
+}
+.top3{
+    margin:20px 0;
+}
+.top3 img{
+    width:300px;
+    height:100px;
+    float:left;
+}
+.clear{
+    clear:both;
+}
+.top3 p{
+    width:400px;
+    float:left;
+    margin-left:100px;
+}
+.top4 h4{
+    background-color:#000;
+    color:#fff;
+    width:150px;
+    height:30px;
+    padding-top:13px;
+    text-align:center;
+    margin-left:400px;
+}
+.our_cre_work{
+    height:500px;
+    padding:20px 100px 20px 150px;
+    background-color: #3e8dad;
+    margin-top:50px;
+    color:white;
+}
+.our_cre_work h1{
+    text-align: center;
+}
+.our_cre_work .banner{
+    margin-top:20px;
+}
+.case_studies{
+    width:900px;
+    margin-left:150px;
+    margin-bottom:20px;
+}
+.case_studies h1{
+    text-align: center;
+    margin-top:20px;
+}
+.case_left{
+    float:left;
+    width:400px;
+}
+.clear{
+    clear:both;
+}
+.case_left img{
+    width:300px;
+    height:100px;
+    border:1px solid #3e8dad;
+    margin-top:20px;
+}
+.case_right{
+    float:left;
+    width:400px;
+}
+.case_right .para1{
+    margin-top:20px;
+}
+.case_right .para2{
+    margin-top:20px;
+}
+footer{
+    background-color:#373e4c; 
+    height:300px;
+    color:#fff;
+}
+.minifooter{
+    padding-top:100px;
+    width:900px;
+    border-bottom:3px solid #3e8dad; 
+    margin:0 100px 0 100px;
+    padding-bottom:50px;
+}
+.aboutus{
+    float:left;
+    width:400px;
+    margin-right:20px;
+}
+.clear{
+    clear:both;
+}
+.main{
+     float:left;
+     width:150px;
+}
+.main1{
+     float:left;
+     width:150px;
+}
+.icons{
+     float:left;
+     width:100px; 
+}
+.icons i{
+    font-size:30px;
+}
+.p1{
+    border-top:1px solid #fff;
+    padding-top:20px;
+    margin:0 100px 0 100px;
+    margin:0 100px 0 100px;
+    width:900px;
+}
