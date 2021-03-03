@@ -40,7 +40,7 @@ html,body
 
 body
 {
-    font-family:Alegreya;
+    font-family:Arial;
 }
 main
 {
@@ -162,7 +162,7 @@ section h1
     margin-left:50px;
     color:white;
     font-size:15px;
-    margin-right:243px;
+    margin-right:227px;
     margin-top:30px;
 }
 
@@ -287,7 +287,6 @@ footer
     position:absolute;
     top:25%;
     left:20%;
-    border:2px solid white;
 }
 
 .about
