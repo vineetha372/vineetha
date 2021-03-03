@@ -28,8 +28,9 @@ li
 {
     list-style-type: none;
     float:left;
+    display:inline-block;
     padding:20px 10px;
-    border-top:3px solid #fff;
+    border-top:5px solid #fff;
     width:90px;
     text-align: center;
 }
@@ -44,6 +45,7 @@ li a
 li:hover
 {
     border-top:5px solid #409ec1;
+    
 }
 .main{
     background-image:linear-gradient(to right, #373e4c,#3e8dad);
@@ -112,7 +114,7 @@ li:hover
     float:left;
     height:300px;
      margin-top:40px;
-    margin-left:30px;
+    margin-left:50px;
     
 }
 .border1 p{
@@ -131,9 +133,10 @@ li:hover
 button{
     width:90px;
     height:30px;
+    padding-left: 10px;
     margin-left:170px;
     margin-top:10px;
-    padding-right: 100px;
+    padding-right: 90px;
     
 }
 textarea{
@@ -189,7 +192,7 @@ input::placeholder {
     margin-left: 380px;
     margin-top:60px;
     float:left;
-    margin-right: 30px;
+    margin-right:40px;
     
 }
 .para h5{
@@ -213,23 +216,23 @@ input::placeholder {
 }
 .list{
     border: 1px solid black;
-    width:200px;
+    width:180px;
     height:200px;
     float:left;
     margin-top: 50px;
     line-height: 40px;
-     margin-right: 20px;
+     margin-right: 10px;
      color:white;
     
 }
 .list1{
     border: 1px solid black;
-    width:200px;
+    width:180px;
     height:200px;
     float:left;
      margin-top: 50px;
      line-height: 40px;
-     margin-right: 20px;
+     margin-right: 10px;
      color:white;
 }
 .icons{
