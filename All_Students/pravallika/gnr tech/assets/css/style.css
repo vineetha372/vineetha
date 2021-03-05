@@ -70,7 +70,7 @@ li:hover
 .section{
     background-color:#409ec1;
     width:100%;
-    height:540px;
+    height:560px;
 }
 .section h1{
     text-shadow: 2px 2px black;
@@ -132,12 +132,13 @@ li:hover
 }
 
 button{
-    width:90px;
-    height:30px;
-    padding-left: 10px;
-    margin-left:170px;
+    width:200px;
+    height:50px;
+    
+    padding-right: 100px;
+    margin-left:250px;
     margin-top:10px;
-    padding-right: 90px;
+    
     
 }
 textarea{
@@ -159,6 +160,7 @@ input::placeholder {
 .section1 h1{
     -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color:#409ec1;
+    /*-webkit-text-fill-color:white;*/
     padding-top:40px;
     text-align:center;
     font-size:50px;
