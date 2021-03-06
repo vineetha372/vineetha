@@ -8,17 +8,19 @@ body{
 .container{
     /* width:1200px;*/
     width:1000px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin:auto;
 }
 nav{
    height:50px;
+    
 }
 .list li{
     list-style:none;
     display:inline-block;
     margin:14px;
     float:right;
+
 } 
 a{
     text-decoration:none;
@@ -29,7 +31,8 @@ a:hover{
     padding-top:10px;
 }
 nav .menu{
-    float:right;
+        
+       float:right;
 
     /* width:550px;*/
 }
