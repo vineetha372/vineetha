@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    height: auto;
+    width: auto;
+    font-family: sans-serif;
+}
+.nav{
+    height:50px;
+    padding-left: 900px;
+ }
+ .list li{
+     list-style:none;
+     display:inline-block;
+     margin:15px 7px;
+ } 
+ a{
+     text-decoration:none;
+     color:black;
+ }
+ a:hover{
+     border-top:6px solid #3e8dad;
+     padding-top:10px;
+ }
+ nav .menu{
+     float:right;
+     width:550px;
+ }
+.sections1{
+    height: 300px;
+    width: auto;
+    background-image: url(https://previews.123rf.com/images/kateloz/kateloz1908/kateloz190800051/128853646-city-silhouette-landscape-town-skyline-illustration-horizontal-urban-background-for-web-design-vecto.jpg);
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.sections2{
+    background-color: rgb(50, 175, 224);
+ text-align: center;
+ width: auto;
+ color: white;
+ height: 350px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+
+}
+.sections2 h1{
+    padding-bottom: 20px;
+
+}
+.sections2 p{
+    padding-bottom: 20px;
+
+}
+
+.img{
+  width: 500;
+  height: 400px;
+}
+.clear{
+    clear: both;
+}
+.button{
+    text-align: center;
+    margin-top: 300px;
+}
+.sections3 h1{
+    margin-left: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(24, 142, 189);
+    
+}
+.sections3 p{
+    margin-left: 70px;
+    float: left;
+    width: 300px;
+}
+.sections3 img{
+    float: left;
+    padding-left: 10px;
+    
+}
+.sections3 p{
+    width: auto;
+    float: left;
+}
+.sections4{
+ margin-left: 90px;
+
+}
+.sections4 p{
+   
+    float: left;
+}
+
+
+
+
