@@ -1,180 +1,123 @@
-*{
-    margin:0px;
-    padding:0px;
+* {
+    margin: 0;
+    padding: 0;
 }
-.container{
-    width:1800px;
-    border:1px solid #fff;
-    margin:0 auto;
-    
-}
-body{
+
+body {
     font-family: sans-serif;
+    width:100%;
 }
 
-.header
-{
-    background-color:#fff;
-    height:70px;
+.container{
+    width:1000px;
+    margin:0 auto;
+    border: 3px solid black;
 }
-
-.menu
-{
-    margin-left:1000px;
-    width:600px;
+nav{
+   height:50px;
 }
-
-li
-{
-    list-style-type: none;
-    float:left;
+.list li{
+    list-style:none;
     display:inline-block;
-    padding:20px 10px;
-    border-top:5px solid #fff;
-    width:90px;
-    text-align: center;
-}
-
-li a
-{
+    padding:15px 15px;
+} 
+a{
     text-decoration:none;
     color:black;
-    
 }
-
-li:hover
-{
-    border-top:5px solid #409ec1;
-    
+li:hover{
+    border-top:5px solid #3e8dad;
+    padding-top:10px;
 }
-.banner{
-    
-        background-color:#363B49;
-        width:1800px;
-        height:900px;
-    position: relative;
-}
-.text{
-    border: 1px solid #363B49;
-    margin-left: 470px;
-    width:900px;
-    height:300px;
-    position: absolute;
-    top:60px;
-}
-.text h1{
-    color:white;
-    font-size:70px;
-     text-shadow: 3px 4px black;
-    
-}
-.text p{
-    padding-top: 50px;
-    font-size: 35px;
-    color:white;
-    font-family:poor richard;
-
+nav .menu{
+    float:right;
 }
 .banner1{
+   background-color: #363b49; 
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/banner.png);
+    height:600px;
+    }
+.banner h1{
+    color:white;
+    font-size:60px;
+    padding-top: 40px;
+    text-shadow: 4px 3px black;
+}
+.banner p{
+    color:white;
+    padding-top: 50px;
+    font-family: ArialMT, Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+}
+.banner2{
+   background-color: #409ec1;
+}
+/*.text-1{
     
-        background-color:#409ec1;
-        width:1800px;
-        height:1140px;
-    position: relative;
-}
-.banner1 img{
-    padding-top:470px;
-    padding-left:500px;
-    
-}
-.text-1{
-     border: 1px solid #409ec1;
-    margin-left: 470px;
-    width:900px;
-    height:300px;
-    position: absolute;
-    top:60px;
-}
+    background-image: url(../images/PHONE.png);
+    background-repeat: no-repeat;
+    height:500px;
+    }*/
 .text-1 h1{
     color:white;
-    font-size:70px;
-     text-shadow: 3px 4px black;
     text-align: center;
-    
-}
+    padding-top: 30px;
+    font-size:60px;
+    text-shadow: 3px 3px black;
+    }
 .text-1 p{
-    padding-top: 50px;
-    font-size: 35px;
     color:white;
-    font-family:poor richard;
+     padding-top: 20px;
+    width:500px;
     text-align: center;
+    padding-left: 250px;
+    font-size:18px;
+    line-height: 24px;
+    }
+    
+.text-1 img{
+    margin-left: 190px;
+    margin-top: 40px;
 }
 button{
-    margin-top: 650px;
-    width:200px;
+    margin-top:30px;
+    width: 150px;
     height:50px;
-    margin-left: 180px;
+    margin-right: 70px; 
     border-radius: 10px;
-    
+    margin-bottom: 40px;
+    font-size:20px;
 }
-.title{
-    border:1px solid black;
-    width:1800px;
-    height:900px;
+.button-1{
+     margin-left: 330px;
+        border-radius: 10px;
 }
 .title h1{
-    margin-top: 40px;
-    padding-left: 470px;
-    
+    font-size: 50px;
+    padding-top: 30px;
 }
 span{
     color:#409ec1;
-    padding-left: 10px;
-}
-.para{
-     border:1px solid #fff;
-     width:950px;
-    height:350px;
-    margin-left:470px;
+    padding-left: 20px;
 }
 .para1 p{
-    font-size: 19px;
-    padding-right: 40px;
     padding-top: 30px;
-    width:600px;
-    height:200px;
+    width:710px;
     float:left;
+    line-height: 30px;
+    font-size: 19px;
 }
-.image{
+.figure img{
+    border: 3px solid #409ec1;
+    margin-left: 40px;
     margin-top: 30px;
-    
 }
-.image img{
-    border: 2px solid #409ec1;
+.image-1 img{
+     border: 3px solid #409ec1;
 }
-.section1{
-    border: 1px solid black;
-    width:950px;
-    height:350px;
-    margin-left:470px;
-    
+.images img{
+    float: left;
 }
-.image-1{
-    float:left;
-    border: 2px solid #409ec1;
-}
-.paragraph p{
-    float:left;
-    width:500px;
-    padding-top: 20px;
-}
-.click{
-    border: 1px solid black;
-     float:left;
-    width:90px;
-    height:30px;
-}
-
-
-    
-    
