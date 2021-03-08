@@ -4,13 +4,12 @@
 }
 
 body {
-    font-family: sans-serif;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
 
 .container {
-    width: 1000px;
+    width:1000px;
     margin: 0 auto;
    <!-- border: 3px solid black;-->
 }
@@ -20,7 +19,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-image:url(../images/banner.png.jpg);
-    height: 800px;
+    height:700px;
 }
 
 .banner h1 {
@@ -29,25 +28,24 @@ body {
     
     font-family: "Helvetica Neue";
     text-align: center;
-    padding-top: 290px;
+    padding-top: 230px;
 }
 
 .banner p {
     color: white;
     padding-top: 50px;
-    font-family: ArialMT, Arial, 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 20px;
 }
 .banner img{
-    margin-left: 410px;
-    margin-top: 30px;
+padding-left: 410px;
+    padding-top: 20px;
+
 }
 .banner h2{
-    padding-top: 10px;
     color: white;
     text-align: center;
     font-size: 30px;
-     font-family:monotype corsiva;;
+     font-family:monotype corsiva;
 }
 nav {
     height: 50px;
@@ -58,13 +56,12 @@ nav {
     list-style: none;
     display: inline-block;
     padding: 15px 15px;
-     margin-top: 30px;
     font-size:20px;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    
     color: white;
      
     
