@@ -8,8 +8,8 @@
     margin: auto;
 }
 .home{
-    background: url(/assets/images/26802-1q5gk4m.jpg);
-    height: 125vh;
+    background-image: url(/assets/images/26802-1q5gk4m.jpg);
+    height: 500px;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
