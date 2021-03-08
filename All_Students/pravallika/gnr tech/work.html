@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>index.html</title>
+    <link rel="stylesheet" href="assets/css/work.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+</head>
+
+<body>
+    <!--container start-->
+
+    <div class="container">
+        <nav>
+            <div class="menu">
+                <ul class="list">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="work.html">WORK</a></li>
+                    <li><a href="contact.html">CONTACTS</a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </nav>
+    </div>
+    <!--container end-->
+    <!--header start-->
+    <div class="header">
+        <div class="container header_info">
+            <h1>get top quality work<br>a the lowest rates!</h1>
+            <p>Lorem ipsum dolor sit amet,enu<br>am nominavi invenire,eum ferri</p>
+        </div>
+    </div>
+    <!--header end-->
+    <!--section start-->
+    <div class="section">
+        <div class="container section">
+            <h1>FEATURE PROJECTS</h1>
+            <div class="container">
+                <div class="mySlides">
+                    <div class="numbertext">1 / 6</div>
+                    <img src="assets/images/web3.jpg" style="width:1000px; border:3px solid #409ec1;" height="400px">
+                </div>
+
+
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 6</div>
+                    <img src="assets/images/web1.png" style="width:1000px; border:3px solid #409ec1;" height="400px">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3/ 6</div>
+                    <img src="assets/images/web3.jpg" style="width:1000px; border:3px solid #409ec1;" height="400px">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 6</div>
+                    <img src="assets/images/web5.jpg" style="width:1000px; border:3px solid black;" height="400px">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">5/ 6</div>
+                    <img src="assets/images/web1.png" style="width:1000px; border:3px solid black;" height="400px">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 6</div>
+                    <img src="assets/images/web3.jpg" style="width:1000px; border:3px solid black;" height="400px">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+
+            </div>
+
+            <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+
+                function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                }
+
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("demo");
+                    var captionText = document.getElementById("caption");
+                    if (n > slides.length) {
+                        slideIndex = 1
+                    }
+                    if (n < 1) {
+                        slideIndex = slides.length
+                    }
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                    captionText.innerHTML = dots[slideIndex - 1].alt;
+                }
+            </script>
+
+
+        </div>
+    </div>
+    <!--section end-->
+    <!--section1 start-->
+    <div class="section1">
+        <div class="container section1">
+            <div class="fig">
+                <img src="assets/images/project.png" width="350px" height="200px;">
+            </div>
+            <div class="para">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quia iusto quo ducimus labore ex? Aperiam quam voluptatibus voluptate, eligendi incidunt architecto alias dolore commodi molestiae placeat, excepturi quo iusto.</p>
+            </div>
+
+        </div>
+        <div class="clear"></div>
+    </div>
+    <!--section1 end-->
+    <!--section3 start-->
+    <div class="container section3"> <button>BUTTON</button></div>
+    <!--section3 end-->
+    <!--sample start-->
+    <div class="color-info">
+        <div class="container samples">
+            <div class=" samples_info">
+                <h1>OUR CREATIVE WORK</h1>
+                <address>
+                    CATEGORIES<br>En nam<br>His Solum<br>Consequat non.
+                </address>
+                <div class="sampleimg">
+                    <img src="assets/images/image1.jpg">
+
+                    <img src="assets/images/image2.jpg">
+                    <img src="assets/images/image3.jpg">
+                    <img src="assets/images/image4.jpg">
+
+                    <div class="clear"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--sample end-->
+    <div class="color-info">
+        <div class="container samples1">
+            <div class="sample1img">
+                <img src="assets/images/image1.jpg" alt="image1" class="image-1">
+
+                <img src="assets/images/image2.jpg" alt="image2" class="image2">
+                <img src="assets/images/image3.jpg" alt="image3" class="image3">
+                <img src="assets/images/image4.jpg" alt="image4" class="image4">
+
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <div class="color-info">
+        <div class="container samples1">
+            <div class="sample1img">
+                <img src="assets/images/image1.jpg" alt="image1" class="image-1">
+
+                <img src="assets/images/image2.jpg" alt="image2" class="image2">
+                <img src="assets/images/image3.jpg" alt="image3" class="image3">
+                <img src="assets/images/image4.jpg" alt="image4" class="image4">
+
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="container main1">
+            <h1>case studies</h1>
+            <div class="para">
+                <img src="assets/images/sample.png" width="350px" height="220px">
+
+            </div>
+            <div class="para1">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, veniam officiis sapiente molestiae minima ex esse voluptate et ut nam expedita eaque repudiandae sit autem accusantium natus. Quidem, aliquam vero?Lorem ipsum.</p>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="main-1">
+        <div class="container main1">
+
+            <div class="para">
+                <img src="assets/images/sample2.jpg" width="350px" height="220px">
+
+            </div>
+            <div class="para1">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, veniam officiis sapiente molestiae minima ex esse voluptate et ut nam expedita eaque repudiandae sit autem accusantium natus. Quidem, aliquam vero?Lorem ipsum.</p>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <!--footer start -->
+    <footer>
+        <div class="minifooter container">
+            <div class="para1-1">
+                <h4>ABOUT <span>US</span></h4>
+                <P>Lorem ipsum dolor sit amet, consectetur adipisicing.itaque rerum aliquid ullam tempora vero veniam doloribus,Lorem ipsum dolor sit, consectetur adipisicing elit.nam cupiditate, ducimus reiciendis consequuntur natus.necessitatibus ex.</P>
+            </div>
+            <div class="list-1">
+                <h5>PAGE LIST</h5>
+                <h5>Eu nam</h5>
+                <h5>His solum</h5>
+                <h5>Consequat non</h5>
+            </div>
+            <div class="list-2">
+                <h5>SUBSCRIBE</h5>
+                <h5>invenire</h5>
+                <h5>Event rodesset</h5>
+                <h5>Event rodesset</h5>
+            </div>
+            <div class="footer_icon">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-square"></i>
+
+            </div>
+            <div class="clear"></div>
+            <hr>
+
+            <div class="bottom">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div>
+        </div>
+    </footer>
+    <!--footer end-->
+</body></html>
