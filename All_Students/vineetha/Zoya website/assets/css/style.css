@@ -8,7 +8,7 @@
     margin: auto;
 }
 .home{
-    background: url(images/26802-1q5gk4m.jpg);
+    background: url(/assets/images/26802-1q5gk4m.jpg);
     height: 125vh;
     -webkit-background-size: cover;
     background-size: cover;
@@ -18,6 +18,7 @@
 .image{
     padding-top: 50px;
     text-align: center;
+    
 }
 .title{
     text-align: center;
@@ -91,3 +92,45 @@ li a{
     color: rgb(161, 154, 154);
     line-height: 25px;
 }
+.scroll{
+    background-image: url(/assets/images/26813-1uymusv.png);
+
+}
+.scroll .heading{
+    margin-left: 700px;
+    line-height: 30px;
+   padding-top: 100px;
+   height: 500px;
+}
+.clear{
+    clear: both;
+}
+.whyus{
+    height: 300px;
+    padding-top: 70px;
+    padding-left: 700PX;
+    background-color: aliceblue;
+
+}
+.whtimg{
+    float:left;
+    width: px;
+
+}
+.why p{
+    float: left;
+    width: 500px;
+}
+.why H1{
+padding-bottom: 30PX;
+}
+.clear{
+    clear: both;
+}
+.rangoli img{
+    height: 250px;
+    text-align: center;
+}
+.ragimg{
+    
+    
