@@ -64,18 +64,33 @@ article{
 address{
     font-style:normal;
 }
-address img{
-    float:left;
-    width:70px;
-    height:auto;
-    margin-right:10px;
+.image{
+   width:100px;
+   height:100px;
+   border-radius:100px;
+   border:3px solid #fff;
+   float:left;
+   margin-right:20px;
 }
 .clear{
     clear:both;
 }
+.teliphone{
+   width:80px;
+   height:80px;
+   border-radius:90px;
+   border:3px solid #fff;
+   margin:7px;
+   background-color:#fff;
+}
+i{
+color:#3e8dad;
+font-size:50px;
+padding:50px;
+}
 address .para{
     float:left;
-    width:100px;
+    width:250px;
 }
 .articlefooter{
     margin-top:20px;

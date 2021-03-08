@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+.header {
+    background-image: url("../images/backgroundimg.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 300px 0;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.list li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+p {
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+article {
+    margin: 30px 0 40px 0;
+}
+
+article h1 {
+    text-align: center;
+}
+
+.top1 {
+    float: left;
+    width: 300px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.top1 h4 {
+    padding: 20px 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.top2 {
+    float: left;
+    width: 300px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.top2 h4 {
+    padding: 20px 0;
+}
+
+.top3 {
+    float: left;
+    width: 300px;
+    text-align: center;
+}
+
+.top3 h4 {
+    padding: 20px 0;
+}
+
+aside {
+    background-image: url("../images/backgroundimg1.png");
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.para {
+    float: right;
+    width: 500px;
+}
+
+.clear {
+    clear: both;
+}
+
+.p1 h2 {
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    padding-top: 90px;
+    color: #fff;
+}
+
+.p1 p {
+    margin: 20px 0;
+}
+
+.btn button {
+    width: 100px;
+    padding: 12px 0;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #3e8dad;
+    border: none;
+}
+
+.main {
+    margin-top: 50px;
+}
+
+.main img {
+    float: left;
+    width: 250px;
+    border-radius: 150px;
+    margin-right: 50px;
+}
+
+.clear {
+    clear: both;
+}
+
+.para1 {
+    float: left;
+    width: 700px;
+}
+
+.para1 h1 {
+    margin-bottom: 30px;
+}
+
+.main1 {
+    margin: 100px 0;
+}
+
+.main1_head {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main1_head h1 {
+    margin-top: 30px;
+}
+
+.our_pro1 {
+    float: left;
+    width: 235px;
+}
+
+.clear {
+    clear: both;
+}
+
+.our_pro1 img {
+    width: 235px;
+}
+
+.our_pro1 button {
+    width: 100px;
+    padding: 12px 0;
+    border-radius: 5px;
+    color: #fff;
+    background-color: purple;
+    margin: 10px 0;
+}
+
+h4 {
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    color: purple;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.our_pro2 {
+    float: left;
+    width: 235px;
+    margin: 0 20px;
+}
+
+.our_pro2 img {
+    width: 235px;
+}
+
+.our_pro2 button {
+    width: 100px;
+    padding: 12px 0;
+    border-radius: 5px;
+    color: #fff;
+    background-color: purple;
+    margin: 10px 0;
+}
+
+.our_pro3 {
+    float: left;
+    width: 235px;
+    margin-right: 20px;
+}
+
+.our_pro3 img {
+    width: 235px;
+}
+
+.our_pro3 button {
+    width: 100px;
+    padding: 12px 0;
+    border-radius: 5px;
+    color: #fff;
+    background-color: purple;
+    margin: 10px 0;
+}
+
+.our_pro4 {
+    float: left;
+    width: 235px;
+}
+
+.our_pro4 img {
+    width: 235px;
+}
+
+.our_pro4 button {
+    width: 100px;
+    padding: 12px 0;
+    border-radius: 5px;
+    color: #fff;
+    background-color: purple;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #3e8dad;
+    color: #fff;
+    padding-bottom: 31px;
+}
+
+.footer_info {
+    
+}
+
+.contactus {
+    float: left;
+    width: 330px;
+    padding-top: 50px;
+}
+
+.clear {
+    clear: both;
+}
+
+.contactus p {
+    padding-top: 20px;
+}
+
+.input {
+    float: left;
+    width: 330px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.input h5 {
+    padding-bottom: 20px;
+}
+
+.name {
+    margin: 20px 0;
+}
+
+.message {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 250px;
+    padding: 5px 0;
+}
+
+.btn1 button {
+    width: 250px;
+    padding: 10px 0;
+    margin: 20px 0;
+    background-color: #fff;
+    color: #3e8dad;
+    border-radius: 5px;
+}
+
+.social_icons {
+    float: left;
+    width: 330px;
+    padding-top: 50px;
+    text-align: right;
+}
+
+.p3 {
+    float: right;
+    width: 330px;
+}
+
+.clear {
+    clear: both;
+}
+
+.p3 p {
+    color: #fff;
+    width: 200px;
+    background-color: #f00;
+    border-radius: 5px 5px 0 0;
+    border: none;
+    padding:3px;
+}
+
+.p3 span {
+    color: lightgray;
+}

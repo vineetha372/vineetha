@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+.home{
+    background: url(/assets/images/26802-1q5gk4m.jpg);
+    height: 125vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.image{
+    padding-top: 50px;
+    text-align: center;
+    
+}
+.title{
+    text-align: center;
+    padding-top: 220px;
+}
+.title p{
+    font-size: 100px;
+    color: white;
+}
+.title h6{
+    font-size: 32px;
+    color: white;
+    margin-top: 40px;
+    font-family:  cursive;
+}
+nav {
+   text-align: center;
+   padding-top: 30px;
+}
+ul li{
+   /* text-align: center;*/
+    padding: 0 20px;
+    display: inline-block;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400px;
+    font-family: cursive;
+}
+/* Why Yoga */
+.yoga{
+    padding-top: 50px;
+}
+.title_name{
+    text-align: center;
+}
+.title_name p{
+    font-size: 64px;
+    font-family: cursive;
+}
+.yoga-container{
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+}
+.yoga-box{
+    max-width: 33.33%;
+    padding: 60px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+}
+.yoga-icon{
+    display: inline-block;
+    color: rgb(177, 108, 233);
+    margin-bottom: 30px;
+    margin-top: 16px;
+}
+
+.yoga-title{
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: rgb(177, 108, 233);
+    font-weight: 100;
+    font-family: cursive;
+}
+.yoga-desc{
+    font-family: cursive;
+    color: rgb(161, 154, 154);
+    line-height: 25px;
+}
+.scroll{
+    background-image: url(/assets/images/26813-1uymusv.png);
+
+}
+.scroll .heading{
+    margin-left: 700px;
+    line-height: 30px;
+   padding-top: 100px;
+   height: 500px;
+}
+.clear{
+    clear: both;
+}
+.whyus{
+    height: 300px;
+    padding-top: 70px;
+    padding-left: 700PX;
+    background-color: aliceblue;
+
+}
+.whtimg{
+    float:left;
+    width: px;
+
+}
+.why p{
+    float: left;
+    width: 500px;
+}
+.why H1{
+padding-bottom: 30PX;
+}
+.clear{
+    clear: both;
+}
+.rangoli img{
+    height: 250px;
+   
+}
+.ragimg{
+    
+    text-align: center;
+}
+.our programs{
+    text-align: center;
+}
+.samples{
+    height:300px;
+    position:relative;
+}
+.samples_info{
+    position: absolute;
+    top:10px;
+    left:200px;
+    right:199px;
+}
+.samples h1{
+    text-align:center;
+    color:darkslateblue;
+    margin-top:15px;
+    margin-bottom:15px;
+    font-size:30px;
+}
+.sampleimg{
+    margin-left: 50px;
+}
+.image1{
+    border:1px solid #3e8dad;
+    width:150px;
+    height:150px;
+}
+.image2{
+    margin:0 2px 0 2px;
+    border:1px solid #3e8dad;
+    width:150px;
+    height:150px;
+}
+.image3{
+    margin:0 2px 0 0;
+    border:1px solid #3e8dad;
+    width:150px;
+    height:150px;
+}
+.image4{
+    margin:0 2px 0 0;
+    border:1px solid #3e8dad;
+    width:150px;
+    height:150px;
+}
+.image5{
+    border:1px solid #3e8dad;
+    width:150px;
+    height:150px;
+}
