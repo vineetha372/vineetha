@@ -8,7 +8,7 @@
     margin: auto;
 }
 .home{
-    background-image: url(/assets/images/26802-1q5gk4m.jpg);
+    background-image: url("../images/26802-1q5gk4m.jpg");
     height: 500px;
     -webkit-background-size: cover;
     background-size: cover;
@@ -93,7 +93,7 @@ li a{
     line-height: 25px;
 }
 .scroll{
-    background-image: url(/assets/images/26813-1uymusv.png);
+    background-image: url("../images/26813-1uymusv.png");
 
 }
 .scroll .heading{
