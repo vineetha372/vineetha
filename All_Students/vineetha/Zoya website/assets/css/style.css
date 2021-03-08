@@ -129,8 +129,60 @@ padding-bottom: 30PX;
 }
 .rangoli img{
     height: 250px;
-    text-align: center;
+   
 }
 .ragimg{
     
-    
+    text-align: center;
+}
+.our programs{
+    text-align: center;
+}
+.samples{
+    height:300px;
+    position:relative;
+}
+.samples_info{
+    position: absolute;
+    top:10px;
+    left:200px;
+    right:199px;
+}
+.samples h1{
+    text-align:center;
+    color:darkslateblue;
+    margin-top:15px;
+    margin-bottom:15px;
+    font-size:30px;
+}
+.sampleimg{
+    margin-left: 50px;
+}
+.image1{
+    border:1px solid #3e8dad;
+    width:150px;
+    height:150px;
+}
+.image2{
+    margin:0 2px 0 2px;
+    border:1px solid #3e8dad;
+    width:150px;
+    height:150px;
+}
+.image3{
+    margin:0 2px 0 0;
+    border:1px solid #3e8dad;
+    width:150px;
+    height:150px;
+}
+.image4{
+    margin:0 2px 0 0;
+    border:1px solid #3e8dad;
+    width:150px;
+    height:150px;
+}
+.image5{
+    border:1px solid #3e8dad;
+    width:150px;
+    height:150px;
+}
