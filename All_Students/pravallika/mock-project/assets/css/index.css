@@ -1,21 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
+* {
+    margin: 0;
+    padding: 0;
+}
 
-<head>
-    <meta charset="UTF-8">
-    <title>index.html</title>
-    <link rel="stylesheet" href="assets/css/services.css">
+body {
+    font-family: sans-serif;
 
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+}
 
-</head>
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    /* border: 3px solid black;*/
+}
+.banner1 {
 
-<body>
-    <!--container start-->
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url(../images/banner.png);
+    height: 600px;
+}
 
-    <div class="container">
-        
-            <div class="clear"></div>
-    
-    </div>
-    <!--container end-->
+.banner h1 {
+    color: white;
+    font-size: 60px;
+    padding-top: 40px;
+    text-shadow: 4px 3px black;
+}
+
+.banner p {
+    color: white;
+    padding-top: 50px;
+    font-family: ArialMT, Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+}
