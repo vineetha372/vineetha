@@ -6,7 +6,7 @@
 body {
     font-family: sans-serif;
     margin: 0px;
-
+    width: 100%;
 }
 
 .container {
@@ -279,7 +279,7 @@ span {
     line-height: 25px;
     padding-left: 30px;
     padding-top: 25px;
-    padding-left:90px;
+    padding-left: 90px;
 }
 
 .list-2 {
@@ -287,7 +287,7 @@ span {
     width: 200px;
     line-height: 25px;
     padding-top: 25px;
-    
+
 }
 
 .footer_icon {

@@ -83,15 +83,16 @@ a {
 i{
     font-size:50px;
     color:palevioletred;
-     margin-left:150px;
+     margin-left:130px;
     padding-top: 10px;
     padding-bottom: 20px;
 }
 .section1{
-    border:1px solid black;
-    width:330px;
+    border:1px solid #fff ;
+    width:300px;
     height:300px;
     float: left;
+    margin-right: 40px;
 }
 .section1 h3{
    text-align: center;
@@ -101,31 +102,32 @@ i{
 }
 .section1 p{
     line-height:23px;
-    font-size:20px;
+    font-size:18px;
     font-family:'Josefin Sans' ;
     text-align: center;
 }
 .section2{
-    border:1px solid black;
-    width:330px;
+    border:1px solid #fff;
+    width:300px;
     height:300px;
+     margin-right: 40px;
     float: left;
 }
 .section2 h3{
    text-align: center;
     color:palevioletred;
     padding: 10px;
-    font-size: 20px;
+    font-size:20px;
 }
 .section2 p{
     line-height:23px;
-    font-size:20px;
+    font-size:18px;
     font-family:'Josefin Sans' ;
     text-align: center;
 }
 .section3{
-    border:1px solid black;
-    width:330px;
+    border:1px solid #fff;
+    width:300px;
     height:300px;
     float: left;
 }
@@ -137,7 +139,7 @@ i{
 }
 .section3 p{
     line-height:23px;
-    font-size:20px;
+    font-size:18px;
     font-family:'Josefin Sans' ;
     text-align: center;
 }
