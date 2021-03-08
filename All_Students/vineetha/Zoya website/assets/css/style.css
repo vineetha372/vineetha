@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 .wrapper{
-    width: 1170px;
+    width: 1170vh;
     margin: auto;
 }
 .home{
     background-image: url("../images/26802-1q5gk4m.jpg");
-    height: 500px;
+    height: 900px;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -94,128 +94,50 @@ li a{
 }
 .scroll{
     background-image: url("../images/26813-1uymusv.png");
-
+    height: 500px;
+   
 }
 .scroll .heading{
     margin-left: 700px;
     line-height: 30px;
    padding-top: 100px;
+   padding-bottom: 10px;
    height: 500px;
 }
+.scroll .heading .button{
+    padding: 20px;
+}
+
+.heading h1{
+    padding-bottom: 10px;
+}
 .clear{
     clear: both;
 }
-.whyus{
-    height: 300px;
-    padding-top: 70px;
-    padding-left: 700PX;
-    background-color: aliceblue;
-
+.main {
+    margin-top: 50px;
+    repeat:no-repeat;
 }
-.whtimg{
-    float:left;
-    width: px;
 
-}
-.why p{
+.main img {
     float: left;
-    width: 500px;
-}
-.why H1{
-padding-bottom: 30PX;
-}
-.clear{
-    clear: both;
-}
-.rangoli img{
-    height: 250px;
-   
-}
-.ragimg{
+    width: 250px;
+    border-radius: 150px;
+    margin-right: 50px;
+    margin-left: 170px;
     
-    text-align: center;
-}
-.our programs{
-    text-align: center;
-}
-.ourprogram{
-    height:350px;
-    position:relative;
-}
-.ourprogram_info{
-    position: absolute;
-    top:10px;
-    left:200px;
-    right:199px;
-}
-.ourprogram h1{
-    text-align:center;
-    color:darkslateblue;
-    margin-top:15px;
-    margin-bottom:15px;
-    font-size:30px;
-}
-.ourprogramimg{
-    margin-left: 50px;
-}
-.image1{
-    border:0px solid #3e8dad;
-    width:180px;
-    height:150px;
-    padding-left: 20px;
-}
-.image2{
-    margin:0 2px 0 2px;
-    border:0px solid #3e8dad;
-    width:180px;
-    height:150px;
-    padding-left: 20px;
-}
-.image3{
-    margin:0 2px 0 0;
-    border:0px solid #3e8dad;
-    width:180px;
-    height:150px;
-    padding-left: 20px;
 }
 
-.image5{
-    border:0px solid #3e8dad;
-    width:180px;
-    height:150px;
-    padding-left: 20px;
+.clear {
+    clear: both;
 }
-.ourprograming h1{
-    width: 180px;
-    text-align: center;
+
+.para1 {
     float: left;
+    width: 700px;
 }
-.ourprograming p{
-    width: 180px;
-    text-align: center;
+.para1 h1 {
+ padding-top: 50px;
+
 }
-.ourprograming h2{
-    width: 180px;
-    text-align: center;
-    float: left;
-}
-.ourprograming p{
-    width: 180px;
-    text-align: center;
-}
-.ourprograming h3{
-    width: 180px;
-    text-align: center;
-}
-.ourprograming p{
-    width: 180px;
-    text-align: center;
-}
-.ourprograming h4{
-    width: 180px;
-    text-align: center;
-}
-.ourprograming p{
-    width: 180px;
-    text-align: center;
-}
+    
