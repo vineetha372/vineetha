@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+.home{
+    background: url(images/26802-1q5gk4m.jpg);
+    height: 125vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.image{
+    padding-top: 50px;
+    text-align: center;
+}
+.title{
+    text-align: center;
+    padding-top: 220px;
+}
+.title p{
+    font-size: 100px;
+    color: white;
+}
+.title h6{
+    font-size: 32px;
+    color: white;
+    margin-top: 40px;
+    font-family:  cursive;
+}
+nav {
+   text-align: center;
+   padding-top: 30px;
+}
+ul li{
+   /* text-align: center;*/
+    padding: 0 20px;
+    display: inline-block;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400px;
+    font-family: cursive;
+}
+/* Why Yoga */
+.yoga{
+    padding-top: 50px;
+}
+.title_name{
+    text-align: center;
+}
+.title_name p{
+    font-size: 64px;
+    font-family: cursive;
+}
+.yoga-container{
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+}
+.yoga-box{
+    max-width: 33.33%;
+    padding: 60px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+}
+.yoga-icon{
+    display: inline-block;
+    color: rgb(177, 108, 233);
+    margin-bottom: 30px;
+    margin-top: 16px;
+}
+
+.yoga-title{
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: rgb(177, 108, 233);
+    font-weight: 100;
+    font-family: cursive;
+}
+.yoga-desc{
+    font-family: cursive;
+    color: rgb(161, 154, 154);
+    line-height: 25px;
+}
