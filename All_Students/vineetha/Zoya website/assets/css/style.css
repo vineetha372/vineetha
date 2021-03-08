@@ -8,8 +8,8 @@
     margin: auto;
 }
 .home{
-    background: url(images/26802-1q5gk4m.jpg);
-    height: 125vh;
+    background-image: url("../images/26802-1q5gk4m.jpg");
+    height: 500px;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -18,6 +18,7 @@
 .image{
     padding-top: 50px;
     text-align: center;
+    
 }
 .title{
     text-align: center;
@@ -90,4 +91,131 @@ li a{
     font-family: cursive;
     color: rgb(161, 154, 154);
     line-height: 25px;
+}
+.scroll{
+    background-image: url("../images/26813-1uymusv.png");
+
+}
+.scroll .heading{
+    margin-left: 700px;
+    line-height: 30px;
+   padding-top: 100px;
+   height: 500px;
+}
+.clear{
+    clear: both;
+}
+.whyus{
+    height: 300px;
+    padding-top: 70px;
+    padding-left: 700PX;
+    background-color: aliceblue;
+
+}
+.whtimg{
+    float:left;
+    width: px;
+
+}
+.why p{
+    float: left;
+    width: 500px;
+}
+.why H1{
+padding-bottom: 30PX;
+}
+.clear{
+    clear: both;
+}
+.rangoli img{
+    height: 250px;
+   
+}
+.ragimg{
+    
+    text-align: center;
+}
+.our programs{
+    text-align: center;
+}
+.ourprogram{
+    height:350px;
+    position:relative;
+}
+.ourprogram_info{
+    position: absolute;
+    top:10px;
+    left:200px;
+    right:199px;
+}
+.ourprogram h1{
+    text-align:center;
+    color:darkslateblue;
+    margin-top:15px;
+    margin-bottom:15px;
+    font-size:30px;
+}
+.ourprogramimg{
+    margin-left: 50px;
+}
+.image1{
+    border:0px solid #3e8dad;
+    width:180px;
+    height:150px;
+    padding-left: 20px;
+}
+.image2{
+    margin:0 2px 0 2px;
+    border:0px solid #3e8dad;
+    width:180px;
+    height:150px;
+    padding-left: 20px;
+}
+.image3{
+    margin:0 2px 0 0;
+    border:0px solid #3e8dad;
+    width:180px;
+    height:150px;
+    padding-left: 20px;
+}
+
+.image5{
+    border:0px solid #3e8dad;
+    width:180px;
+    height:150px;
+    padding-left: 20px;
+}
+.ourprograming h1{
+    width: 180px;
+    text-align: center;
+    float: left;
+}
+.ourprograming p{
+    width: 180px;
+    text-align: center;
+}
+.ourprograming h2{
+    width: 180px;
+    text-align: center;
+    float: left;
+}
+.ourprograming p{
+    width: 180px;
+    text-align: center;
+}
+.ourprograming h3{
+    width: 180px;
+    text-align: center;
+}
+.ourprograming p{
+    width: 180px;
+    text-align: center;
+}
+.ourprograming h4{
+    width: 180px;
+    text-align: center;
+}
+.ourprograming p{
+    width: 180px;
+    text-align: center;
 }
