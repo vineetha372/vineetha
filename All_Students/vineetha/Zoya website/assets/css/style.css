@@ -138,51 +138,84 @@ padding-bottom: 30PX;
 .our programs{
     text-align: center;
 }
-.samples{
-    height:300px;
+.ourprogram{
+    height:350px;
     position:relative;
 }
-.samples_info{
+.ourprogram_info{
     position: absolute;
     top:10px;
     left:200px;
     right:199px;
 }
-.samples h1{
+.ourprogram h1{
     text-align:center;
     color:darkslateblue;
     margin-top:15px;
     margin-bottom:15px;
     font-size:30px;
 }
-.sampleimg{
+.ourprogramimg{
     margin-left: 50px;
 }
 .image1{
-    border:1px solid #3e8dad;
-    width:150px;
+    border:0px solid #3e8dad;
+    width:180px;
     height:150px;
+    padding-left: 20px;
 }
 .image2{
     margin:0 2px 0 2px;
-    border:1px solid #3e8dad;
-    width:150px;
+    border:0px solid #3e8dad;
+    width:180px;
     height:150px;
+    padding-left: 20px;
 }
 .image3{
     margin:0 2px 0 0;
-    border:1px solid #3e8dad;
-    width:150px;
+    border:0px solid #3e8dad;
+    width:180px;
     height:150px;
+    padding-left: 20px;
 }
-.image4{
-    margin:0 2px 0 0;
-    border:1px solid #3e8dad;
-    width:150px;
-    height:150px;
-}
+
 .image5{
-    border:1px solid #3e8dad;
-    width:150px;
+    border:0px solid #3e8dad;
+    width:180px;
     height:150px;
+    padding-left: 20px;
+}
+.ourprograming h1{
+    width: 180px;
+    text-align: center;
+    float: left;
+}
+.ourprograming p{
+    width: 180px;
+    text-align: center;
+}
+.ourprograming h2{
+    width: 180px;
+    text-align: center;
+    float: left;
+}
+.ourprograming p{
+    width: 180px;
+    text-align: center;
+}
+.ourprograming h3{
+    width: 180px;
+    text-align: center;
+}
+.ourprograming p{
+    width: 180px;
+    text-align: center;
+}
+.ourprograming h4{
+    width: 180px;
+    text-align: center;
+}
+.ourprograming p{
+    width: 180px;
+    text-align: center;
 }
