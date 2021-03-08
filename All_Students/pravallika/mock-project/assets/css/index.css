@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+   <!-- border: 3px solid black;-->
+}
+.banner1 {
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url(../images/banner.png.jpg);
+    height: 800px;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 60px;
+    
+    font-family: "Helvetica Neue";
+    text-align: center;
+    padding-top: 290px;
+}
+
+.banner p {
+    color: white;
+    padding-top: 50px;
+    font-family: ArialMT, Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+}
+.banner img{
+    margin-left: 410px;
+    margin-top: 30px;
+}
+.banner h2{
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+     font-family:monotype corsiva;;
+}
+nav {
+    height: 50px;
+    
+}
+
+.list li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 15px;
+     margin-top: 30px;
+    font-size:20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    color: white;
+     
+    
+}
+.a1{
+  margin-left:350px; 
+   
+}
+.main h1{
+    font-family: 'Josefin Sans';
+     text-align: center;
+    font-size:50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+i{
+    font-size:50px;
+    color:palevioletred;
+     margin-left:130px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.section1{
+    border:1px solid #fff ;
+    width:300px;
+    height:300px;
+    float: left;
+    margin-right: 40px;
+}
+.section1 h3{
+   text-align: center;
+    color:palevioletred;
+    padding: 10px;
+    font-size: 20px;
+}
+.section1 p{
+    line-height:23px;
+    font-size:18px;
+    font-family:'Josefin Sans' ;
+    text-align: center;
+}
+.section2{
+    border:1px solid #fff;
+    width:300px;
+    height:300px;
+     margin-right: 40px;
+    float: left;
+}
+.section2 h3{
+   text-align: center;
+    color:palevioletred;
+    padding: 10px;
+    font-size:20px;
+}
+.section2 p{
+    line-height:23px;
+    font-size:18px;
+    font-family:'Josefin Sans' ;
+    text-align: center;
+}
+.section3{
+    border:1px solid #fff;
+    width:300px;
+    height:300px;
+    float: left;
+}
+.section3 h3{
+   text-align: center;
+    color:palevioletred;
+    padding: 10px;
+    font-size: 20px;
+}
+.section3 p{
+    line-height:23px;
+    font-size:18px;
+    font-family:'Josefin Sans' ;
+    text-align: center;
+}
