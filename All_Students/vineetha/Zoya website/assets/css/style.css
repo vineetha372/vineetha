@@ -114,6 +114,11 @@ li a{
 .clear{
     clear: both;
 }
+.main_inner{
+    margin-left: 190px;
+    height: 500px;
+    margin-top: 50px;
+}
 .main {
     margin-top: 50px;
     repeat:no-repeat;
@@ -135,6 +140,7 @@ li a{
 .para1 {
     float: left;
     width: 700px;
+    font-family:  cursive;
    
 }
 .para1 h1 {
@@ -152,5 +158,220 @@ li a{
     margin-top: 30px;
     font-size: 30px;
 
+
 }
+.main1 {
+    margin: 100px 0;
+    margin-left: 50px;
+}
+
+.main1_head {
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.main1_head h1 {
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.our_pro1 {
+    float: left;
+    width: 235px;
+    font-family:  cursive;
+}
+
+.clear {
+    clear: both;
+}
+
+.our_pro1 img {
+    width: 235px;
+}
+
+.our_pro1 button {
+    width: 100px;
+    padding: 12px 0;
+    border-radius: 5px;
+    color: #fff;
+    background-color: purple;
+    margin: 10px 0;
+}
+h4 {
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    color: purple;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.our_pro2 {
+    float: left;
+    width: 235px;
+    margin: 0 20px;
+    font-family:  cursive;
+}
+
+.our_pro2 img {
+    width: 235px;
+}
+
+.our_pro2 button {
+    width: 100px;
+    padding: 12px 0;
+    border-radius: 5px;
+    color: #fff;
+    background-color: purple;
+    margin: 10px 0;
+    margin-top: 40px;
+}
+
+.our_pro3 {
+    float: left;
+    width: 235px;
+    margin-right: 20px;
+    font-family:  cursive;
+}
+
+.our_pro3 img {
+    width: 235px;
+}
+
+.our_pro3 button {
+    width: 100px;
+    padding: 12px 0;
+    border-radius: 5px;
+    color: #fff;
+    background-color: purple;
+    margin: 10px 0;
+    margin-top: 40px;
+}
+
+.our_pro4 {
+    float: left;
+    width: 235px;
+    font-family:  cursive;
+}
+
+.our_pro4 img {
+    width: 235px;
+}
+
+.our_pro4 button {
+    width: 100px;
+    padding: 12px 0;
+    border-radius: 5px;
+    color: #fff;
+    background-color: purple;
+    margin: 10px 0;
+    margin-top: 40px;
+}
+footer {
+    background-color: #3e8dad;
+    color: #fff;
+    padding-bottom: 31px;
+}
+
+.footer_info {
+    
+}
+
+.contactus {
+    float: left;
+    width: 400px;
+    padding-top: 50px;
+}
+.contactus p {
+    line-height: 26px;
+
+}
+
+.clear {
+    clear: both;
+}
+.min_footer{
+    height: 400px;
+}
+
+.contactus p {
+    padding-top: 20px;
+}
+
+.input {
+    float: left;
+    width: 330px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.input h5 {
+    padding-bottom: 20px;
+}
+
+.name {
+    margin: 20px 0;
+}
+
+.message {
+    margin-bottom: 20px;
+    width: 150px;
+}
+
+input {
+    width: 250px;
+    padding: 5px 0;
+}
+
+.btn1 button {
+    width: 250px;
+    padding: 10px 0;
+    margin: 20px 0;
+    background-color: #fff;
+    color: #3e8dad;
+    border-radius: 5px;
+}
+
+.social_icons {
+    float: left;
+    width: 330px;
+    padding-top: 50px;
+    text-align: right;
+}
+
+.p3 {
+    float: right;
+    width: 350px;
+    padding-bottom: 80px;
+    height: 50px;
+}
+
+.clear {
+    clear: both;
+}
+
+.p3 p {
+    color: #fff;
+    width: 220px;
+    background-color: rgb(235, 134, 134);
+    border-radius: 5px 5px 0 0;
+    border: none;
+    padding:5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+
+}
+
+.p3 span {
+    color: lightgray;
+
+}
+.min_footer{
+    margin-left: 170px;
+   
+}
+.social_icons h5{
+    padding-bottom: 20px;
+}
+
     
