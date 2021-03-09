@@ -135,9 +135,22 @@ li a{
 .para1 {
     float: left;
     width: 700px;
+   
 }
 .para1 h1 {
  padding-top: 50px;
+ font-size: 40px;
+ padding-bottom: 15px;
+}
+.rangoli{
+    text-align: center;
+    
+}
+.ourpgm{
+    text-align: center;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 30px;
 
 }
     
