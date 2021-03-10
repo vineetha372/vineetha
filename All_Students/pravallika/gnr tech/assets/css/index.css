@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+html {
+    display: block;
+}
 body {
     font-family: sans-serif;
     width: 100%;
@@ -206,7 +208,7 @@ span {
 
 .figure-1 img {
     border: 3px solid #409ec1;
-    margin-left: 90px;
+    margin-left:80px;
     margin-bottom: 30px;
 }
 
