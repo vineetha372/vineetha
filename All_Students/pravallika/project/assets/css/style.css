@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    width: 100%;
+}
+
+.container {
+background-color: aliceblue;
+    width: 80%;
+    margin: 0 auto;
+     border: 3px solid black;
+    
+}
+
+.section {
+    float: left;
+}
+.section h2{
+    padding-top: 30px;
+}
+.section1 button {
+    padding: 10px;
+    float: right;
+    margin-left: 20px;
+    text-transform: uppercase;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.section2 button {
+    padding: 10px;
+    float: right;
+    text-transform: uppercase;
+    background-color: white;
+    margin-top: 30px;
+}
