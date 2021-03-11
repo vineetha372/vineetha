@@ -1,0 +1,19 @@
+.navba{
+    background: #f3f2ef;
+}
+.header{
+    letter-spacing: 2px;
+}
+.heading h1{
+    margin-left: 40px;
+    font-size: 70px;
+
+}
+.heading p{
+    margin-left: 40px;
+}
+.heading h2{
+    margin-left: 40px;
+    margin-top: 50px;
+    font-size: 50px;
+}
