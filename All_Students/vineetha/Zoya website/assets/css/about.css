@@ -65,3 +65,28 @@ li a{
     background-image: url(https://comps.canstockphoto.com/blur-park-with-bokeh-light-background-pictures_csp65536183.jpg);
     color: white;
 }
+.images .img1{
+    width: 300px;
+    height: 250px;
+    border-radius: 250px;
+    float: left;
+    padding-left: 80px;
+    padding-top: 20px;
+    
+}
+.images .img2{
+    width: 300px;
+    height: 250px;
+    border-radius: 300px;
+    padding-left: 60px;
+    padding-top: 20px;
+    
+}
+.images .img3{
+    width: 300px;
+    height: 250px;
+    border-radius: 250px;
+    padding-left: 60px;
+    padding-top: 20px;
+    
+}
