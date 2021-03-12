@@ -59,3 +59,9 @@ li a{
     width: 500;
     height: 300px;
 }
+.ourcoaches h1{
+    font-size:70px;
+    text-align: center;
+    background-image: url(https://comps.canstockphoto.com/blur-park-with-bokeh-light-background-pictures_csp65536183.jpg);
+    color: white;
+}
