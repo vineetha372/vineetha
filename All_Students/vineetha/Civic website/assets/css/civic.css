@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo {
+    font-size: 13px;
+    float: left;
+    
+}
+.button1{
+    float: left;
+}
+.button2{
+    float: left;
+    margin-left: 20px;
+    
+}
+.clear{
+    clear: both;
+}
+.logo p{
+    float: left;
+    margin-left: 500px;
+}
+.sec1{
+  margin-left: 150px;
+
+}
+.sections h1{
+    margin-top: 50px;
+}
+.sec1 h1{
+    margin-top: 50px;
+
+}
