@@ -114,18 +114,6 @@ i {
         
     }
 }*/
-@media screen and (max-width:600px) {
-    body {
-    width:100%;
-    margin:auto;
-    text-align:center;
-  }
-    .section1 p{
-        width:500px;
-       float:left;
-        text-align:left;
-    }
-}
 
 .section1 {
     border:1px solid #fff;
@@ -403,4 +391,28 @@ button{
     border-radius: 9px;
 
    
+}
+
+@media screen and (max-width:800px) {
+    body {
+    width:100%;
+    margin:auto;
+    text-align:center;
+  }
+    .container{
+        width: 96%;
+        margin: 0 2%;
+    }
+    .section1, .section2, .section3{
+        float:none;
+        width:100%;
+        text-align:center;
+    }
+}
+@media screen and (max-width:500px){
+    .yoga{
+        float:none;
+        width:100%;
+        text-align: center;
+    }
 }
