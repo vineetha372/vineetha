@@ -59,3 +59,158 @@ li a{
     width: 500;
     height: 300px;
 }
+.main_inner{
+    margin-left: 190px;
+    height: 500px;
+    margin-top: 50px;
+}
+.main {
+    margin-top: 50px;
+    repeat:no-repeat;
+}
+
+.main img {
+    float: left;
+    width: 250px;
+    border-radius: 150px;
+    margin-right: 50px;
+    margin-left: 170px;
+    
+}
+
+.clear {
+    clear: both;
+}
+
+.para1 {
+    float: left;
+    width: 700px;
+    font-family:  cursive;
+   
+}
+.para1 h1 {
+ padding-top: 50px;
+ font-size: 40px;
+ padding-bottom: 15px;
+}
+.rangoli{
+    text-align: center;
+    
+}
+.ourpgm{
+    text-align: center;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 30px;
+
+
+}
+.main1 {
+    margin: 100px 0;
+    margin-left: 50px;
+}
+
+.main1_head {
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.main1_head h1 {
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.our_pro1 {
+    float: left;
+    width: 235px;
+    font-family:  cursive;
+}
+
+.clear {
+    clear: both;
+}
+
+.our_pro1 img {
+    width: 235px;
+}
+
+.our_pro1 button {
+    width: 100px;
+    padding: 12px 0;
+    border-radius: 5px;
+    color: #fff;
+    background-color: purple;
+    margin: 10px 0;
+    margin-top: 40px;
+}
+h4 {
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    color: purple;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.our_pro2 {
+    float: left;
+    width: 235px;
+    margin: 0 20px;
+    font-family:  cursive;
+}
+
+.our_pro2 img {
+    width: 235px;
+}
+
+.our_pro2 button {
+    width: 100px;
+    padding: 12px 0;
+    border-radius: 5px;
+    color: #fff;
+    background-color: purple;
+    margin: 10px 0;
+    margin-top: 40px;
+}
+
+.our_pro3 {
+    float: left;
+    width: 235px;
+    margin-right: 20px;
+    font-family:  cursive;
+}
+
+.our_pro3 img {
+    width: 235px;
+    border-radius: 230px;
+}
+
+.our_pro3 button {
+    width: 100px;
+    padding: 12px 0;
+    border-radius: 5px;
+    color: #fff;
+    background-color: purple;
+    margin: 10px 0;
+    margin-top: 40px;
+}
+
+.our_pro4 {
+    float: left;
+    width: 235px;
+    font-family:  cursive;
+}
+
+.our_pro4 img {
+    width: 235px;
+}
+
+.our_pro4 button {
+    width: 100px;
+    padding: 12px 0;
+    border-radius: 5px;
+    color: #fff;
+    background-color: purple;
+    margin: 10px 0;
+    margin-top: 40px;
+}
