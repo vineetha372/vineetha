@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-family: 'Josefin Sans', sans-serif;
     height: 100%;
     margin:auto;
 
@@ -30,7 +30,7 @@ body {
     color: white;
     font-size: 60px;
 
-    font-family: "Helvetica Neue";
+    
     text-align: center;
     padding-top: 230px;
 }
@@ -90,7 +90,7 @@ a {
 }
 
 .main h1 {
-    font-family: 'Josefin Sans';
+   
     text-align: center;
     font-size: 50px;
     padding-top: 30px;
@@ -161,7 +161,7 @@ i {
 .section2 p {
     line-height: 27px;
     font-size: 18px;
-    font-family: 'Josefin Sans';
+   
     text-align: center;
 }
 
@@ -186,7 +186,7 @@ i {
 
     line-height: 27px;
     font-size: 18px;
-    font-family: 'Josefin Sans';
+   
     text-align: center;
 }
 

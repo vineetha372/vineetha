@@ -6,7 +6,7 @@ html {
     display: block;
 }
 body {
-    font-family: sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     width: 100%;
 }
 
@@ -59,7 +59,7 @@ nav .menu {
 .banner p {
     color: white;
     padding-top: 50px;
-    font-family: ArialMT, Arial, 'Helvetica Neue', Helvetica, sans-serif;
+   
     font-size: 20px;
 }
 
