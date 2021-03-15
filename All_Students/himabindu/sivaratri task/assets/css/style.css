@@ -159,16 +159,23 @@ hr
 }
 .dot1,.dot2
 {
-    width:30px;
-    height:30px;
-    border-radius:20px;
-    background-color:blue;
+    width:15px;
+    height:15px;
+    border-radius:10px;
+    background-color:black;
 }
 .dot1
 {
     position:absolute;
-    top:30px;
-    left:-10px;
+    top:15px;
+    left:-9px;
+}
+.dot2
+{
+    position:absolute;
+    bottom:200px;
+    left:-9px;
+
 }
 .portfolio
 {
@@ -195,6 +202,7 @@ hr
     width:250px;
     height:350px;
     margin:10px 10px;
+    position:relative;
 }
 .card1 p,.card2 p,.card3 p,.card4 p
 {
