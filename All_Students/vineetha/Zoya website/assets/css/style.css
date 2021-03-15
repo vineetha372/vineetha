@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 .wrapper{
+<<<<<<< Updated upstream
     width: 1170vh;
+=======
+    width: 1170vhpx;
+>>>>>>> Stashed changes
     margin: auto;
 }
 .home{
