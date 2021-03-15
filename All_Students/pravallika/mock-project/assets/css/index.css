@@ -121,7 +121,11 @@ i {
         
     }
 }*/
-
+.border-why{
+    border:1px solid #fff;
+    width:100%;
+    height:400px;
+}
 .section1 {
     border:1px solid #fff;
     box-sizing: border-box;
@@ -227,7 +231,8 @@ i {
 .banner-4 p{
    line-height: 25px;
     text-align: left;
-    word-spacing:3px;
+    word-spacing:2.3px;
+    font-size: 18px;
 
 }
 .section-1{
