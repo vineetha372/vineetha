@@ -4,39 +4,25 @@
     box-sizing: border-box;
 }
 .wrapper{
-    width: 1170vh;
+    width: 1170px;
     margin: auto;
 }
-.about{
-    background-image: url("../images/26802-1q5gk4m.jpg");
-    height: 900px;
+.home{
+    background: url(images/26802-1q5gk4m.jpg);
+    height: 80vh;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
     position: relative;
 }
-.image{
-    padding-top: 50px;
+.rangoli{
+    padding-top: 30px;
     text-align: center;
-    
-}
-.title{
-    text-align: center;
-    padding-top: 220px;
-}
-.title p{
-    font-size: 100px;
-    color: white;
-}
-.title h6{
-    font-size: 32px;
-    color: white;
-    margin-top: 40px;
-    font-family:  cursive;
+
 }
 nav {
    text-align: center;
-   padding-top: 30px;
+   padding-top: 220px;
 }
 ul li{
    /* text-align: center;*/
@@ -46,171 +32,269 @@ ul li{
 li a{
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 400px;
     font-family: cursive;
+    position: relative;
 }
-.heading{
-    font-family: cursive;
+.title_name{
     text-align: center;
-    height: 300px;
-}
-.heading p{
-    width: 500;
-    height: 300px;
-}
-.main_inner{
-    margin-left: 190px;
-    height: 500px;
-    margin-top: 50px;
-}
-.main {
-    margin-top: 50px;
-    repeat:no-repeat;
 }
 
-.main img {
+.banner-info {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://miro.medium.com/max/2400/1*twXGppFcGdocFY7QdfUy3g.jpeg);
+    height:700px;
+
+
+}
+
+.banner-info1 h1 {
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 50px;
+    text-shadow: 2px 3px green;
+
+}
+
+.image {
     float: left;
-    width: 250px;
-    border-radius: 150px;
-    margin-right: 50px;
-    margin-left: 170px;
+    width: 300px;
+    height: 400px;
+    margin-left: 250px;
     
+    
+}
+
+.image h2 {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.image img {
+    border-radius: 160px;
+
+}
+
+.image p {
+    width: 300px;
+    text-align: center;
+    color: white;
+    line-height: 25px;
+}
+
+
+.image1 {
+    float: left;
+    width: 300px;
+    height: 400px;
+    margin-left: 50px;
+
+}
+
+.image1 img {
+    border-radius: 160px;
+    margin-left: 20px;
+
+}
+
+.image1 h2 {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.image1 p {
+    width: 300px;
+    text-align: center;
+    color: white;
+    line-height: 25px;
+}
+
+.image2 {
+    float: left;
+    width: 300px;
+    height: 400px;
+    margin-left: 50px;
+    
+
+}
+
+.image2 img {
+    border-radius: 160px;
+    margin-left: 20px;
+}
+
+.image2 h2 {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.image2 p {
+    width: 300px;
+    text-align: center;
+    color: white;
+    line-height: 25px;
+}
+
+i {
+    font-size: 30px;
+    color: rgb(239, 239, 243);
+    margin-bottom: 40px;
+    margin: 10px;
+
+}
+
+
+.icon {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 70px;
 }
 
 .clear {
     clear: both;
 }
-
-.para1 {
-    float: left;
-    width: 700px;
-    font-family:  cursive;
+.ourclases{
+    text-align: center;
    
 }
-.para1 h1 {
- padding-top: 50px;
- font-size: 40px;
- padding-bottom: 15px;
-}
-.rangoli{
-    text-align: center;
-    
-}
-.ourpgm{
-    text-align: center;
-    height: 50px;
-    margin-top: 30px;
-    font-size: 30px;
-
+.ourclases h1{
+    font-size: 80px;
+    padding-bottom: 20px;
 
 }
-.main1 {
-    margin: 100px 0;
+
+
+.ourclassimg{
+    margin-left: 50px;
+    float: left;
+}
+.sunday{
+    float: left;
+    width: 500px;
+    color: rgb(133, 126, 126);
     margin-left: 50px;
 }
-
-.main1_head {
+.sunday h3{
+    margin-top: 50px;
+}
+.sunday h4{
+    margin-top: 50px;
+}
+.ourclassimg1{
+    margin-left: 50px;
+    float: left;
+    margin-top: 80px;
+}
+.sunday{
+    float: left;
+    width: 500px;
+    color: rgb(133, 126, 126);
+    margin-left: 50px;
+}
+.sunday h3{
+    margin-top: 50px;
+}
+.sunday h4{
+    margin-top: 50px;
+}
+.where-we-are h1{
     text-align: center;
-    margin-bottom: 30px;
+    font-size: 80px;
+    margin-top: 150px;
+}
+.footer{
+    background-color:#409ec1;
 
 }
-
-.main1_head h1 {
+.contact{
+    border:1px solid #409ec1;
+    width:400px;
+    height:300px;
+    float: left;
     margin-top: 30px;
-    margin-left: 80px;
+    margin-left: 90px;
+    
 }
-
-.our_pro1 {
+.contact h5{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:white;
+    font-size:20px;
+}
+.contact p{
+    color: white;
+}
+.contact-1{
+    border:1px solid #409ec1;
+    width:300px;
+    height:400px;
     float: left;
-    width: 235px;
-    font-family:  cursive;
+    margin-top: 30px;
+  margin-left: 90px;
+    margin-right:120px;
 }
-
-.clear {
-    clear: both;
+.contact-1 input{
+    width:280px;
+    height:30px;
+     padding-left: 10px;
+    margin-bottom: 20px;
 }
-
-.our_pro1 img {
-    width: 235px;
+.contact-1 h5{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:white;
+    font-size:20px;
+    margin-left: 50px;
 }
-
-.our_pro1 button {
-    width: 100px;
-    padding: 12px 0;
-    border-radius: 5px;
-    color: #fff;
-    background-color: purple;
-    margin: 10px 0;
-    margin-top: 40px;
+button{
+    width: 290px;
+    height:40px;
+    background-clip: white;
+    color:#409ec1;
+    margin-top:20px;
 }
-h4 {
-    word-spacing: 2px;
-    letter-spacing: 2px;
-    color: purple;
-    font-size: 25px;
-    margin: 10px 0;
+.icons{
+    float: right;
+    margin-right: 80px;
 }
-
-.our_pro2 {
-    float: left;
-    width: 235px;
-    margin: 0 20px;
-    font-family:  cursive;
+.icons h5{
+    color:white;
+    font-size:20px;
+    padding-top:50px;
+    padding-bottom: 10px;
+    text-align: right;
 }
-
-.our_pro2 img {
-    width: 235px;
+.icons i{
+    color:rgb(244, 244, 245);
+    font-size: 40px;
+    
+    
 }
-
-.our_pro2 button {
-    width: 100px;
-    padding: 12px 0;
-    border-radius: 5px;
-    color: #fff;
-    background-color: purple;
-    margin: 10px 0;
-    margin-top: 40px;
+.text p{
+    border:1px solid black;
+    width:190px;
+    height:20px;
+    padding:10px;
+    background-color: rgb(184, 10, 10);
+    margin-right: 50px;
+     
 }
-
-.our_pro3 {
-    float: left;
-    width: 235px;
-    margin-right: 20px;
-    font-family:  cursive;
-}
-
-.our_pro3 img {
-    width: 235px;
-    border-radius: 230px;
-}
-
-.our_pro3 button {
-    width: 100px;
-    padding: 12px 0;
-    border-radius: 5px;
-    color: #fff;
-    background-color: purple;
-    margin: 10px 0;
-    margin-top: 40px;
-}
-
-.our_pro4 {
-    float: left;
-    width: 235px;
-    font-family:  cursive;
-}
-
-.our_pro4 img {
-    width: 235px;
-}
-
-.our_pro4 button {
-    width: 100px;
-    padding: 12px 0;
-    border-radius: 5px;
-    color: #fff;
-    background-color: purple;
-    margin: 10px 0;
-    margin-top: 40px;
+.sinbla{
+ border: 1px solid black;
+ width: 160px;
+ background-color: rgb(143, 7, 7);
+ margin-left: 1020px;
+ margin-bottom: 30px;
+ 
 }
