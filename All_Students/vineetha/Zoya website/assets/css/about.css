@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+.home{
+    background: url(images/26802-1q5gk4m.jpg);
+    height: 70vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.rangoli{
+    padding-top: 30px;
+    text-align: center;
+
+}
+nav {
+   text-align: center;
+   padding-top: 0px;
+}
+ul li{
+   /* text-align: center;*/
+    padding: 0 20px;
+    display: inline-block;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400px;
+    font-family: cursive;
+    position: relative;
+}
+.title_name{
+    text-align: center;
+}
+
+.banner-info {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://miro.medium.com/max/2400/1*twXGppFcGdocFY7QdfUy3g.jpeg);
+    height:700px;
+
+
+}
+
+.banner-info1 h1 {
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 50px;
+    text-shadow: 2px 3px green;
+
+}
+
+.image {
+    float: left;
+    width: 300px;
+    height: 400px;
+    margin-left: 250px;
+    
+    
+}
+
+.image h2 {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.image img {
+    border-radius: 160px;
+
+}
+
+.image p {
+    width: 300px;
+    text-align: center;
+    color: white;
+    line-height: 25px;
+}
+
+
+.image1 {
+    float: left;
+    width: 300px;
+    height: 400px;
+    margin-left: 50px;
+
+}
+
+.image1 img {
+    border-radius: 160px;
+    margin-left: 20px;
+
+}
+
+.image1 h2 {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.image1 p {
+    width: 300px;
+    text-align: center;
+    color: white;
+    line-height: 25px;
+}
+
+.image2 {
+    float: left;
+    width: 300px;
+    height: 400px;
+    margin-left: 50px;
+    
+
+}
+
+.image2 img {
+    border-radius: 160px;
+    margin-left: 20px;
+}
+
+.image2 h2 {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.image2 p {
+    width: 300px;
+    text-align: center;
+    color: white;
+    line-height: 25px;
+}
+
+i {
+    font-size: 30px;
+    color: rgb(239, 239, 243);
+    margin-bottom: 40px;
+    margin: 10px;
+
+}
+
+
+.icon {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+}
+
+.clear {
+    clear: both;
+}
+.ourclases{
+    text-align: center;
+   
+}
+.ourclases h1{
+    font-size: 80px;
+    padding-bottom: 20px;
+
+}
+
+
+.ourclassimg{
+    margin-left: 50px;
+    float: left;
+}
+.sunday{
+    float: left;
+    width: 500px;
+    color: rgb(133, 126, 126);
+    margin-left: 50px;
+}
+.sunday h3{
+    margin-top: 50px;
+}
+.sunday h4{
+    margin-top: 50px;
+}
+.ourclassimg1{
+    margin-left: 50px;
+    float: left;
+    margin-top: 80px;
+}
+.sunday{
+    float: left;
+    width: 500px;
+    color: rgb(133, 126, 126);
+    margin-left: 50px;
+}
+.sunday h3{
+    margin-top: 50px;
+}
+.sunday h4{
+    margin-top: 50px;
+}
+.where-we-are h1{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 150px;
+}
+.footer{
+    background-color:#409ec1;
+
+}
+.contact{
+    border:1px solid #409ec1;
+    width:400px;
+    height:300px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 90px;
+    
+}
+.contact h5{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:white;
+    font-size:20px;
+}
+.contact p{
+    color: white;
+}
+.contact-1{
+    border:1px solid #409ec1;
+    width:300px;
+    height:400px;
+    float: left;
+    margin-top: 30px;
+  margin-left: 90px;
+    margin-right:120px;
+}
+.contact-1 input{
+    width:280px;
+    height:30px;
+     padding-left: 10px;
+    margin-bottom: 20px;
+}
+.contact-1 h5{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:white;
+    font-size:20px;
+    margin-left: 50px;
+}
+button{
+    width: 290px;
+    height:40px;
+    background-clip: white;
+    color:#409ec1;
+    margin-top:20px;
+}
+.icons{
+    float: right;
+    margin-right: 80px;
+}
+.icons h5{
+    color:white;
+    font-size:20px;
+    padding-top:50px;
+    padding-bottom: 10px;
+    text-align: right;
+}
+.icons i{
+    color:rgb(244, 244, 245);
+    font-size: 40px;
+    
+    
+}
+.text p{
+    border:1px solid black;
+    width:190px;
+    height:20px;
+    padding:10px;
+    background-color: rgb(184, 10, 10);
+    margin-right: 50px;
+     
+}
+.sinbla{
+ border: 1px solid black;
+ width: 160px;
+ background-color: rgb(143, 7, 7);
+ margin-left: 1020px;
+ margin-bottom: 30px;
+ 
+}

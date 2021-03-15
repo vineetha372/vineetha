@@ -1,0 +1,190 @@
+* {
+    
+    padding: 0;
+}
+
+body {
+     font-family: 'Josefin Sans', sans-serif;
+    margin: auto;
+    height: 100%;
+
+}
+
+.container {
+    margin: auto;
+    width: 75%;
+}
+
+.info {
+    margin: auto;
+    width: 70%;
+}
+
+.banner1 {
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/banner.png.jpg);
+    height: 700px;
+}
+
+
+.banner h1 {
+    color: white;
+    font-size: 60px;
+
+    font-family: "Helvetica Neue";
+    text-align: center;
+    padding-top: 230px;
+}
+
+
+
+.banner {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+nav {
+    height: 50px;
+
+}
+
+.list li {
+
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+
+    padding-top: 370px;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+a:hover{
+    color:orangered;
+}
+
+
+.a1 {
+    margin-left: 20px;
+
+
+}
+.news h1{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: mv boli;
+}
+.main-img img{
+    float: left;
+    margin-right: 40px;
+    margin-bottom:70px;
+}
+.main-para h2{
+    color:purple;
+    font-size:30px;
+}
+.main-para p{
+    padding-top: 20px;
+    line-height:30px;
+    font-size: 17px;
+}
+.bu1{
+    font-size:20px;
+    background-color: purple;
+    padding:0px;
+    width:170px;
+    height:50px;
+    color: white;
+    border-radius: 10px;
+    margin-top:10px;
+    margin-bottom:70px;
+}
+.footer{
+    background-color:#409ec1;
+    height:480px;
+}
+.footer-2{
+    border:1px solid #409ec1;
+    width:300px;
+    height:300px;
+    float: left;
+    margin-top: 30px;
+    
+}
+.footer-2 h5{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:white;
+    font-size:20px;
+}
+.footer-2 p{
+    color: white;
+}
+.footer-3{
+    border:1px solid #409ec1;
+    width:300px;
+    height:400px;
+    float: left;
+    margin-top: 30px;
+  margin-left: 90px;
+    margin-right:80px;
+}
+.footer-3 input{
+    width:280px;
+    height:30px;
+     padding-left: 10px;
+    margin-bottom: 20px;
+}
+.footer-3 h5{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:white;
+    font-size:20px;
+}
+button{
+    width: 290px;
+    height:40px;
+    background-clip: white;
+    color:#409ec1;
+    margin-top:20px;
+}
+.figture{
+    float: right;
+}
+.figture h5{
+    color:white;
+    font-size:20px;
+    padding-top:50px;
+    padding-bottom: 30px;
+    text-align: right;
+}
+.figture i{
+    color:purple;
+    font-size: 40px;
+    margin-left: 20px;
+}
+.footer-info{
+     background-color: #409ec1;
+}
+.text p{
+    border:1px solid black;
+    width:190px;
+    height:20px;
+    padding:10px;
+    background: linear-gradient(to right, red,yellow,purple);
+    margin-left: 68%;
+    border-radius: 9px;
+
+   
+}
