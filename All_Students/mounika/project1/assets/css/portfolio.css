@@ -9,6 +9,7 @@ body {
 
 .container {
     width: 100%;
+    border-spacing: border-box;
 }
 
 .inner_container {
@@ -114,7 +115,7 @@ main{
     padding:50px 0 0 50px;
     text-decoration-line: underline;
 }
-.inner{
+.worx_exp_inner{
     width:700px;
     margin: auto;
 }
