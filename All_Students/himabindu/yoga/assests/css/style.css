@@ -262,12 +262,19 @@ i:hover
 {
     text-align:center;
 }
+
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height:auto;
+}
 @media all and (max-width:500px)
 {
     .row
     {
         display:grid;
-        justify-content: space-between;
+        justify-content:space-around;
     }
     .card
     {
@@ -279,9 +286,19 @@ i:hover
         display:grid;
         justify-content:space-around;
     }
-    .inner-section .bal,.fit,.food
+     .bal,.fit,.food
     {
         display:grid;
+        width:100%;
+        text-align:center;
+    }
+    .bal p,.fit p,.food .p
+    {
+        padding-left:0px;
+        text-align:center;
+    }
+    .wrapper
+    {
         width:100%;
     }
 }
