@@ -1,0 +1,138 @@
+.navba{
+    background: #f3f2ef;
+}
+.header{
+    letter-spacing: 2px;
+}
+.heading h1{
+    margin-left: 140px;
+    font-size: 110px;
+
+}
+.heading p{
+    margin-left: 140px;
+}
+.heading h2{
+    margin-left: 140px;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.generalinfo {
+    margin-left: 140px;
+     margin-top: 20px;
+}
+
+    
+
+
+
+
+
+
+.icons{
+    font-size: 40px;
+    margin-left: 140px;
+    padding-left: 10px;
+    margin-top: 60px;
+    float: left;
+    margin-bottom: 20px;
+
+}
+.iconheading{
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 130px;
+}
+.workexp{
+    margin-left: 200px;
+    font-size: 60px;
+    margin-top: 90px;
+    text-decoration: underline;
+}
+.precent h1{
+    font-size: 75px;
+   text-align: center;
+   margin-top: 50px;
+   box-sizing: border-box;
+
+}
+.precent h4 {
+   margin-left: 350px;
+   padding-top: 10px;
+
+}
+.precent h6 {
+    margin-left: 350px;
+    padding-top: 5px;
+ }
+ .precent p {
+    margin-left: 350px;
+    padding-top: 30px;
+ }
+ .precent2 h1{
+    font-size: 75px;
+    margin-left: 350px;
+   margin-top: 90px;
+
+
+}
+.precent2 h4 {
+   margin-left: 350px;
+   padding-top: 10px;
+
+}
+.precent2 h6 {
+    margin-left: 350px;
+    padding-top: 5px;
+ }
+ .precent2 p {
+    margin-left: 350px;
+    padding-top: 30px;
+ }
+ .Education{
+    margin-left: 200px;
+    font-size: 60px;
+    margin-top: 90px;
+    text-decoration: underline;
+    background-image: url();
+}
+.precent3 h1{
+    font-size: 75px;
+   margin-left: 350px;
+   margin-top: 50px;
+
+
+}
+.precent3 h4 {
+   margin-left: 350px;
+   padding-top: 10px;
+
+}
+.precent3 h6 {
+    margin-left: 350px;
+    padding-top: 5px;
+ }
+ .precent3 p {
+    margin-left: 350px;
+    padding-top: 30px;
+ }
+ .precent4 h1{
+    font-size: 75px;
+    margin-left: 350px;
+   margin-top: 90px;
+
+
+}
+.precent4 h4 {
+   margin-left: 350px;
+   padding-top: 10px;
+
+}
+.precent4 h6 {
+    margin-left: 350px;
+    padding-top: 5px;
+ }
+ .precent4 p {
+    margin-left: 350px;
+    padding-top: 30px;
+ }
