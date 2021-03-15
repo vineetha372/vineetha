@@ -6,6 +6,9 @@ body{
     font-family:sans-serif;
 }
 .container{
+    width:100%;
+}
+.inner_container{
     width:1000px;
     margin:auto;
 }
@@ -16,6 +19,7 @@ nav{
     list-style:none;
     display:inline-block;
     padding:15px 15px;
+    font-size: 14px;
 } 
 a{
     text-decoration:none;
@@ -38,11 +42,17 @@ nav .menu{
 .header h1{
     width:400px;
     font-size:40px; 
+    text-shadow: 3px 3px  0px black;
 }
 .header h6{
     width:200px;
     padding-top:10px;
     line-height:15px;
+}
+p{
+    line-height: 25px;
+    font-size:14px;
+    
 }
 section{
     background-color:#3e8dad; 
@@ -52,6 +62,7 @@ section{
     text-align:center;
     color:#fff;
     font-size:30px;
+    text-shadow:3px 3px 0px black;
 }
 .top1{
     margin-top:50px;
@@ -86,7 +97,7 @@ address{
 i{
 color:#3e8dad;
 font-size:50px;
-padding:50px;
+padding:15px;
 }
 address .para{
     float:left;
@@ -132,7 +143,7 @@ input::placeholder,textarea::placeholder{
 .message{
     color:#000;
     margin-top:5px;
-    padding-left:10px;
+    padding:5px 0 0 10px;
 }
 button{
     width:120px;
@@ -140,6 +151,11 @@ button{
     float:right;
     padding-left:5px;
     text-align:left;
+    border-radius: 4px;
+}
+button:hover{
+    background-color: #fff;
+    color:deepskyblue;
 }
 .samples h1{
     text-align:center;

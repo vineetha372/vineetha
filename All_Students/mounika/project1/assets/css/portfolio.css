@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.inner_container {
+    width: 1000px;
+    margin: auto;
+}
+
+.maria_wiliams {
+    background-color: aliceblue;
+    padding:50px 0;
+}
+.maria_head{
+    padding:0 30px 30px 30px;
+}
+.maria_head h2{
+    float: left;
+}
+.maria_head p{
+    font-size: 12px
+}
+.clear {
+    clear: both;
+}
+
+.btn {
+    float: right;
+}
+
+.b1 {
+    padding: 7px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.b2 {
+    padding: 7px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+p{
+    line-height: 20px;
+   
+}
+.inner .para{
+    float:left;
+    width: 500px;
+    padding-right: 50px;
+}
+.inner img{
+    float:left;
+    width: 450px;
+}
+.para h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+.para h3{
+    padding:20px 0;
+    letter-spacing: 2px;
+}
+.p1,.p2{
+    float:left;
+}
+.clear {
+    clear: both;
+}
+.p1 h5,.p2 h5{
+    line-height: 30px;
+}
+.p1{
+     padding-right:20px;
+}
+main{
+     background-color: #eee;
+}
+.main_info {
+    padding:30px 0;
+}
+.main_info .social_img,.p3,h2{
+    float:left;
+    width:300px;
+}
+.clear{
+    clear:both;
+}
+.social_img{
+    
+}
+.p3{
+    border-bottom: 1px solid black;
+    padding-top: 15px;
+   margin:0 20px;
+}
+.p,.in,.instagram,.facebook,.twitter{
+   float:left;
+   width:50px;
+}
+.clear{
+    clear:both;
+}
+.work_exp h3{
+    padding:50px 0 0 50px;
+    text-decoration-line: underline;
+}
+.inner{
+    width:700px;
+    margin: auto;
+}
+.work_exp img{
+    width:100px;
+    height:600px;
+}
+.top1,.top2{
+    padding-left:100px;
+}
+.top1 h1,.top2 h1{
+    font-size: 40px;
+    padding:30px 0 10px 0;
+}
