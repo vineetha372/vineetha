@@ -22,7 +22,6 @@
    margin-top: 50px;
    font-size: 50px;
 }
-/*-----*/
 
 .wrapper
 {
@@ -79,9 +78,6 @@ header
     padding-top:60px;
     border-bottom:1px solid #ccc;
 }
-/*-----*/
-
-/*----*/
 .icon
 {
     width:50%;
@@ -114,11 +110,11 @@ hr
     font-weight:lighter;
 }
 
-/*_______*/
 
 
 
-/*comented*/
+
+
 .workexp{
    margin-left: 200px;
    font-size: 60px;
@@ -171,9 +167,9 @@ hr
    margin-left: 350px;
    padding-top: 30px;
 }
-.educationssec{
-  
-}
+
+/*  educations sections*/
+
 .Education{
    margin-left: 200px;
    font-size: 60px;
@@ -229,6 +225,9 @@ h4 {
    font-size: 25px;
    margin: 10px 0;
 }
+
+/* Reference sections*/
+
 .reference{
    margin-left: 330px;
    margin-top: 50px;
@@ -254,6 +253,9 @@ h4 {
     padding-right: 380px;
     font-size: 50px;
 }
+
+/* images sections*/
+
 .images
 {
     width:90%;
@@ -275,7 +277,7 @@ h4 {
     font-size:15px;
 }
 
-
+/* extar skiles sections*/
 .extra{
     width:74%;
     margin:0px auto;
@@ -285,6 +287,9 @@ h4 {
     text-decoration:underline;
     padding-bottom:70px;
 }
+
+/* cards sections */
+
 .cards{
     display:flex;
     justify-content:space-between;
@@ -317,6 +322,7 @@ h4 {
 }
 
 /*contact sections*/
+
 .contact{
     width:74%;
     margin:50px auto;
@@ -381,7 +387,7 @@ footer{
 
 
 
-<!-- hover effect in images-->
+/* hover effect in images*/
 .box{
     position:relative;
     width:200px;
