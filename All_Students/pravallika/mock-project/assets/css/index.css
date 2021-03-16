@@ -89,6 +89,12 @@ a {
 
 
 }
+<<<<<<< HEAD
+.main h1{
+    font-family: 'Josefin Sans';
+    text-align: center;
+    font-size:50px;
+=======
 .al:active{
     text-decoration: underline;
     color:orangered;
@@ -98,6 +104,7 @@ a {
    
     text-align: center;
     font-size: 50px;
+>>>>>>> aebbd8927e3b79d299b53d5d6b8d81bddb249c81
     padding-top: 30px;
     padding-bottom: 30px;
 }
