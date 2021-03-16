@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -265,11 +266,33 @@ hr {
     float: right;
 }
 
+
 .image1 {
     float: left;
+    position: relative;
+    height:490px;
+    width:300px;
+    border:3px solid yellow;
 }
+ .image1 img{
+             display:block;
+            width:100%;
+            height:420px;
+        }
+.overlay{
+            position: absolute;
+             top:0;
+            left:0;
+            right:0;
+    bottom:520px;
+    background-color: rgba(0,0,0,0.4);
+            transition: all 0.2s;
+}
+ .image1:hover .overlay{
+           bottom:65px;
+        }
 
-.image1 h2 {
+/*.image1 h2 {
     padding-top: 10px;
     font-size: 30px;
 }
@@ -277,7 +300,7 @@ hr {
 .image1 p {
     font-size: 20px;
     padding-top: 10px;
-}
+}*/
 
 .image2 {
     float: left;
@@ -325,7 +348,7 @@ hr {
 
 .footer-h1 h1 {
     font-size: 60px;
-    margin-top:150px;
+   
     
 }
 
@@ -436,7 +459,7 @@ hr {
 
 .footer1-f hr {
     width: 300px;
-    height: 5px;
+    height:7px;
     background-color: black;
     margin-bottom: 50px;
 }
@@ -448,7 +471,7 @@ hr {
 
 .footer-left hr {
     width: 550px;
-    height: 2px;
+    height:4px;
     background-color: black;
 }
 
@@ -473,7 +496,7 @@ hr {
 
 .footer1-left hr {
     width: 550px;
-    height: 2px;
+    height: 4px;
     background-color: black;
 }
 
@@ -488,7 +511,7 @@ hr {
 .footer2-left hr {
 
     width: 100%;
-    height: 2px;
+    height: 4px;
     background-color: black;
 }
 
@@ -500,7 +523,7 @@ hr {
 
 .footer3-left hr {
     width: 100%;
-    height: 2px;
+    height: 4px;
     background-color: black;
 }
 
