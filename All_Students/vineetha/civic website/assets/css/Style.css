@@ -125,12 +125,17 @@ hr
    margin-top: 90px;
    text-decoration: underline;
 }
+.precent,.precent2{
+    border-left: 1px solid black;
+
+}
 
 .precent h1{
    font-size: 75px;
-  margin-left: 350px;
+  padding-left: 350px;
   margin-top: 50px;
   box-sizing: border-box;
+
 
 }
 .precent h4 {
@@ -166,12 +171,15 @@ hr
    margin-left: 350px;
    padding-top: 30px;
 }
+.educationssec{
+  
+}
 .Education{
    margin-left: 200px;
    font-size: 60px;
    margin-top: 90px;
    text-decoration: underline;
-   background-image: url();
+   
 }
 .precent3 h1{
    font-size: 75px;
