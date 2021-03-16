@@ -55,7 +55,7 @@ section {
 .work-info {
     width: 60%;
     margin: auto;
-    margin-top: 90px;
+    margin-top:100px;
 }
 
 .header {
@@ -325,13 +325,15 @@ hr {
 
 .footer-h1 h1 {
     font-size: 60px;
-    padding-top: 90px;
+    margin-top:150px;
+    
 }
 
 .footer-h1 hr {
     width: 300px;
     height: 5px;
     background-color: black;
+    margin-bottom: 50px;
 }
 
 .circle {
@@ -429,12 +431,14 @@ hr {
 
 .footer1-f h1 {
     font-size: 60px;
+    margin-top:90px;
 }
 
 .footer1-f hr {
     width: 300px;
     height: 5px;
     background-color: black;
+    margin-bottom: 50px;
 }
 
 .footer-left {

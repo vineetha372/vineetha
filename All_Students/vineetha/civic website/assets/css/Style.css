@@ -1,0 +1,398 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+
+.navba{
+   background: #f3f2ef;
+}
+.header{
+   letter-spacing: 2px;
+}
+.heading h1{
+   margin-left: 140px;
+   font-size: 110px;
+
+}
+.heading p{
+   margin-left: 140px;
+}
+.heading h2{
+   margin-left: 140px;
+   margin-top: 50px;
+   font-size: 50px;
+}
+/*-----*/
+
+.wrapper
+{
+    width:80%; 
+    margin:0px auto;
+}
+header
+{
+    display:flex;
+    justify-content:space-between;
+    padding:70px 0px;
+}
+.info
+{
+    width:40%;
+    font-size:20px;
+}
+.info h1
+{
+    font-size:100px;
+    line-height:95px;
+    padding-bottom:15px;
+}
+.info h2
+{
+    padding:30px 0px 20px 0px;
+}
+.general
+{
+    display:flex;
+}
+.detials p {
+    color: black;
+    font-weight: 200;
+}
+.value{
+   
+    width:50%;
+    margin-left:19px;   
+}
+.detials,.value
+{
+    line-height:35px;
+}
+.img
+{
+    width:450px;
+    height: 400px;
+}
+.img img
+{
+    width:500px;
+    height:600px;
+    padding-top:60px;
+    border-bottom:1px solid #ccc;
+}
+/*-----*/
+
+/*----*/
+.icon
+{
+    width:50%;
+    margin-top:15px;
+}
+i
+{
+    font-size:30px;
+    margin-right:25px;
+}
+
+hr
+{
+    width:25%;
+    background-color:5px solid black;
+    height:8px;
+    border-bottom:3px solid gray;
+    margin-top:30px;
+    margin-right:30px;
+}
+.profile
+{
+    display:flex;
+    justify-content:space-between;
+    padding-bottom:90px;
+}
+.profile h5{
+     
+    font-size:15px;
+    font-weight:lighter;
+}
+
+/*_______*/
+
+
+
+/*comented*/
+.workexp{
+   margin-left: 200px;
+   font-size: 60px;
+   margin-top: 90px;
+   text-decoration: underline;
+}
+.precent,.precent2{
+    border-left: 1px solid black;
+
+}
+
+.precent h1{
+   font-size: 75px;
+  padding-left: 350px;
+  margin-top: 50px;
+  box-sizing: border-box;
+
+
+}
+.precent h4 {
+  margin-left: 350px;
+  padding-top: 10px;
+
+}
+.precent h6 {
+   margin-left: 350px;
+   padding-top: 5px;
+}
+.precent p {
+   margin-left: 350px;
+   padding-top: 30px;
+}
+.precent2 h1{
+   font-size: 75px;
+   margin-left: 350px;
+  margin-top: 90px;
+
+
+}
+.precent2 h4 {
+  margin-left: 350px;
+  padding-top: 10px;
+
+}
+.precent2 h6 {
+   margin-left: 350px;
+   padding-top: 5px;
+}
+.precent2 p {
+   margin-left: 350px;
+   padding-top: 30px;
+}
+.educationssec{
+  
+}
+.Education{
+   margin-left: 200px;
+   font-size: 60px;
+   margin-top: 90px;
+   text-decoration: underline;
+   
+}
+.precent3 h1{
+   font-size: 75px;
+  margin-left: 350px;
+  margin-top: 50px;
+
+
+}
+.precent3 h4 {
+  margin-left: 350px;
+  padding-top: 10px;
+
+}
+.precent3 h6 {
+   margin-left: 350px;
+   padding-top: 5px;
+}
+.precent3 p {
+   margin-left: 350px;
+   padding-top: 30px;
+}
+.precent4 h1{
+   font-size: 75px;
+   margin-left: 350px;
+  margin-top: 90px;
+
+
+}
+.precent4 h4 {
+  margin-left: 350px;
+  padding-top: 10px;
+
+}
+.precent4 h6 {
+   margin-left: 350px;
+   padding-top: 5px;
+}
+.precent4 p {
+   margin-left: 350px;
+   padding-top: 30px;
+}
+
+h4 {
+   word-spacing: 2px;
+   letter-spacing: 2px;
+   color: purple;
+   font-size: 25px;
+   margin: 10px 0;
+}
+.reference{
+   margin-left: 330px;
+   margin-top: 50px;
+   
+
+}
+.reference h1{
+   font-size: 50px;
+   text-decoration: underline;
+   
+
+}
+.portfolio
+{
+    width:74%;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+}
+.portfolio h2{
+    text-decoration:underline;
+    margin-left: 220px;
+    padding-right: 380px;
+    font-size: 50px;
+}
+.images
+{
+    width:90%;
+    display:flex;
+    justify-content:space-between;
+    margin:0 auto;
+    padding-top:150px;
+    padding-bottom:90px;
+}
+.img1,.img2,.img3,.img4
+{
+    width:250px;
+    height:350px;
+    margin:10px 10px;
+    position:relative;
+}
+.img1 p,.img2 p,.img3 p,.img4 p
+{
+    font-size:15px;
+}
+
+
+.extra{
+    width:74%;
+    margin:0px auto;
+    padding:100px 0px;
+}
+.extra h1 ,.contact h1{
+    text-decoration:underline;
+    padding-bottom:70px;
+}
+.cards{
+    display:flex;
+    justify-content:space-between;
+}
+.card1,.card2,.card3,.card4{
+    width:210px;
+    text-align:center;
+    height: 410px;
+}
+.p1img,.p2img{
+    width: 250px;
+    height:250px;
+    
+    margin-top:30%;
+    margin-bottom:30px;
+ padding-bottom: 60px;
+}
+
+.card3,.card4{
+    background-color:black;
+    color:white;
+}
+.card3 i,.card4 i{
+    font-size:60px;
+    padding-top:40%;
+    padding-bottom:50px;
+}
+.card3 h4,.card4 h4{
+   color: white;
+}
+
+/*contact sections*/
+.contact{
+    width:74%;
+    margin:50px auto;
+}
+input
+{
+    border-bottom:2px solid #ddd;
+    outline:0;
+    padding-left:10px;
+}
+#name,#email{
+    width:49%;
+    padding-bottom:30px;
+    margin-bottom:50px;
+    border-bottom: 2px solid black;
+}
+#email{
+    margin-left:10px;
+    border-bottom: 2px solid black;
+}
+#subject{
+    width:100%;
+    padding-bottom:30px;
+    margin-bottom:50px;
+    border-bottom: 2px solid black;
+}
+textarea{
+    width:100%;
+    border-bottom:2px solid rgb(19, 18, 18);
+    padding-left:10px;
+    padding-bottom:70px;
+    outline:0;
+    border: none;
+}
+.contact button{
+    border:1px solid black;
+    padding:20px 50px;
+    background-color:white;
+    font-size:15px;
+    font-weight:bold; 
+    float:right;   
+    margin-top:30px; 
+}
+.contact button:hover{
+    
+    border:0px solid #fff;
+}
+.clear{
+    clear:both;
+}
+
+/* footer sections*/
+
+footer{
+    background-color:rgb(39, 38, 38);
+    color:rgb(238, 229, 229);
+    text-align:center;
+    font-size:0.9rem;
+    padding:30px 0px;
+    margin-top:150px;
+}
+
+
+
+<!-- hover effect in images-->
+.box{
+    position:relative;
+    width:200px;
+    height:200px;
+    top:50%;
+    left:50%;
+    margin-top:-100px;
+    margin-left:-100px;
+    background-color:red;
+}
+
+   
+
+
