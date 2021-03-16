@@ -268,72 +268,23 @@ h4 {
 }
 
 
-/*.exrtaskills{
-   margin-left: 200px;
-   font-size: 60px;
-   margin-top: 110px;
-   text-decoration: underline;
-}
-.percentege{
-   margin-left: 150px;
-   margin-top: 50px;
-   float: left;
-    
-}
-.percentege2{
-   margin-left: 30px;
-   margin-top: 50px;
-    float: left;
-}
-.blackbox .box1{
-   border-radius: 10px;
-   background-color: black;
-   color: white;
-   width: 150px;
-   height: 200px;
-   margin-left: 600px;
-   text-align: center;
-   font-size: 20px;
-   padding: 3px;
-
-}
-
-
-.blackcard,.blackcard1{
-   width: 130px;
-   height: 130px;
-
-
-
-    background-color:black;
-    color:white;
-   }
-.blackcard i,.blackcard i
-{
-    font-size:30px;
-    padding-top:30%;
-    padding-bottom:30px;
-}*/
-.extra
-{
+.extra{
     width:74%;
     margin:0px auto;
     padding:100px 0px;
 }
-.extra #h1 ,.contact h1
-{
+.extra h1 ,.contact h1{
     text-decoration:underline;
     padding-bottom:70px;
 }
-.circle
-{
+.cards{
     display:flex;
     justify-content:space-between;
 }
 .card1,.card2,.card3,.card4{
-    width:200px;
+    width:210px;
     text-align:center;
-    height: 400px;
+    height: 410px;
 }
 .p1img,.p2img{
     width: 250px;
@@ -344,13 +295,11 @@ h4 {
  padding-bottom: 60px;
 }
 
-.card3,.card4
-{
+.card3,.card4{
     background-color:black;
     color:white;
 }
-.card3 i,.card4 i
-{
+.card3 i,.card4 i{
     font-size:60px;
     padding-top:40%;
     padding-bottom:50px;
@@ -358,8 +307,9 @@ h4 {
 .card3 h4,.card4 h4{
    color: white;
 }
-.contact
-{
+
+/*contact sections*/
+.contact{
     width:74%;
     margin:50px auto;
 }
@@ -369,32 +319,31 @@ input
     outline:0;
     padding-left:10px;
 }
-#name,#email
-{
+#name,#email{
     width:49%;
     padding-bottom:30px;
     margin-bottom:50px;
+    border-bottom: 2px solid black;
 }
-#email
-{
+#email{
     margin-left:10px;
+    border-bottom: 2px solid black;
 }
-#subject
-{
+#subject{
     width:100%;
     padding-bottom:30px;
     margin-bottom:50px;
+    border-bottom: 2px solid black;
 }
-textarea
-{
+textarea{
     width:100%;
-    border-bottom:2px solid #ddd;
+    border-bottom:2px solid rgb(19, 18, 18);
     padding-left:10px;
     padding-bottom:70px;
     outline:0;
+    border: none;
 }
-.contact button
-{
+.contact button{
     border:1px solid black;
     padding:20px 50px;
     background-color:white;
@@ -403,17 +352,17 @@ textarea
     float:right;   
     margin-top:30px; 
 }
-.contact button:hover
-{
+.contact button:hover{
     
     border:0px solid #fff;
 }
-.clear
-{
+.clear{
     clear:both;
 }
-footer
-{
+
+/* footer sections*/
+
+footer{
     background-color:rgb(39, 38, 38);
     color:rgb(238, 229, 229);
     text-align:center;
@@ -421,6 +370,21 @@ footer
     padding:30px 0px;
     margin-top:150px;
 }
+
+
+
+<!-- hover effect in images-->
+.box{
+    position:relative;
+    width:200px;
+    height:200px;
+    top:50%;
+    left:50%;
+    margin-top:-100px;
+    margin-left:-100px;
+    background-color:red;
+}
+
    
 
 
