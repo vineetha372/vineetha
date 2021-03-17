@@ -44,6 +44,7 @@ main
     background-color:#f2f7f8;
     text-decoration:underline;
     border:3px solid #f2f7f8;
+    cursor:pointer;
 }
 .header
 {
@@ -105,12 +106,13 @@ header
     width:30%;
     margin-top:15px;
 }
-i
+a i
 {
     font-size:30px;
     margin-right:25px;
+    color:black;
 }
-i:hover
+a i:hover
 {
     color:dodgerblue;
 }
@@ -142,7 +144,7 @@ hr
     padding-left:5%;
     position: relative;
 }
-#work,#edu,#ref
+#work,#edu
 {
     padding-left:13%;
     padding-bottom:3%;
@@ -177,10 +179,42 @@ hr
     left:-9px;
 
 }
+#ref
+{
+    padding-left:13%;
+    padding-top:10%;
+}
+.container2
+{
+    width:70%;
+    margin:0 auto;
+    padding-top:30px;
+    padding-bottom:30px;
+    display:flex;
+    border:1px solid blue;
+}
+.one,.two,.three
+{
+    width:30px;
+    height:30px;
+    border-radius:30px;
+    margin:10px 0px;
+    border:2px solid black;
+}
+#p1
+{
+    padding-top:30px;
+    padding-left:20px;
+}
+.one:hover 
+{
+    background-color:#ccc;
+    display:none;
+}
 .portfolio
 {
     width:74%;
-    margin:0 auto;
+    margin:0px auto;
     display:flex;
     justify-content:space-between;
 }
@@ -208,51 +242,55 @@ hr
 {
     font-size:12px;
 }
+.card1 h4,.card2 h4,.card3 h4,.card4 h4
+{
+    margin-top:310px;
+}
 .card1
 {
     background-image:url(../images/1.jpg);
     height:300px;
     background-size:cover;
     background-position:center;
-    position:relative;
-}
-.card1 h4,.card2 h4,.card3 h4,.card4 h4
-{
-    margin-top:310px;
 }
 .card2
 {
     background-image:url(../images/2.jpg);
+    height:300px;
     background-size:cover;
     background-position:center;
-    height:300px;
 }
 .card3
 {
     background-image:url(../images/3.jpg);
+    height:300px;
     background-size:cover;
     background-position:center;
-    height:300px;
 }
 .card4
 {
     background-image:url(../images/4.jpg);
+    height:300px;
     background-size:cover;
     background-position:center;
-    height:300px;
 }
 
-.card1:hover
+.overlay
 {
     position:absolute;
-    content:"";
     left:0;
-    bottom:0;
-    height:300px;
+    right:0;
+    top:0;
+    bottom:300px;
+    /*height:0;*/
     background-color:#000;
-    opacity:0;
+    opacity:0.4;
     z-index:2;
     transition:all 0.48s 0s;
+}
+.card1:hover .overlay,.card2:hover .overlay,.card3:hover .overlay,.card4:hover .overlay
+{
+    bottom:0;
 }
 .extra
 {
