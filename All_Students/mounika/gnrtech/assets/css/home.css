@@ -6,8 +6,10 @@
 body {
     font-family: sans-serif;
 }
-
-.container {
+.container{
+    width:100p%;
+}
+.inner_container {
     width: 1000px;
     margin: auto;
 }
@@ -17,11 +19,11 @@ nav {
 }
 
 .list li {
+    font-size: 14px;
     list-style: none;
     display: inline-block;
     padding: 15px 15px;
 }
-
 a {
     text-decoration: none;
     color: black;
@@ -38,10 +40,10 @@ nav .menu {
 
 .header {
     background-color: #373e4c;
-    background-image: url("https://exportkit.com/samples/125/ek125_802_multipage_dynamic/skins/ek125_802_multipage_dynamic/vector_smart_object.png");
+    background-image: url("../images/backgroundimage.png");
     background-position: center;
     background-size: cover;
-    padding-bottom: 200px;
+    padding-bottom: 280px;
     color: #fff;
 }
 
@@ -59,7 +61,11 @@ nav .menu {
     padding-top: 10px;
     line-height: 15px;
 }
-
+p{
+    line-height: 25px;
+    font-size:14px;
+    
+}
 section {
     background-color: #3e8dad;
     padding: 50px 0;
@@ -75,6 +81,7 @@ section {
     padding-bottom: 10px;
     text-align: center;
     font-size: 40px;
+    text-shadow: 2px 2px 0px black;
 }
 
 .section_head p {
@@ -118,7 +125,11 @@ section {
     border-radius: 5px;
 }
 
-
+.b1 button:hover,
+.b2 button:hover {
+    background-color: #000;
+    color: #fff;
+}
 
 .article_head {
     margin: 20px 0 10px 0;
@@ -132,7 +143,7 @@ section {
 .top1 {
     float: left;
     width: 500px;
-    padding: 30px 0;
+    padding: 30px 50px 30px 0;
 }
 
 .clear {
@@ -141,14 +152,13 @@ section {
 
 .top2 img {
     float: left;
-    width: 400px;
-    margin-left:95px;
+    width: 440px;
+    height:250px;
     border: 1px solid #3e8dad;
 }
 .top2 img:hover{
-    border: 1px solid #000;
+    border: 1px solid purple;
 }
-
 .top3 {
     padding: 30px 0;
 }
@@ -171,7 +181,7 @@ section {
 .top3 .parag1 {
     float: left;
     width: 600px;
-    margin: 10px 10px;
+    margin: 10px 30px 10px 20px;
 }
 
 .parag1 h4 {
@@ -188,6 +198,10 @@ section {
     border-radius: 5px;
 }
 
+.top3 button:hover {
+    background-color: #3e8dad;
+    color: #fff;
+}
 
 .top4 {
     margin-bottom: 30px;
@@ -199,7 +213,9 @@ section {
     height: 170px;
     border: 1px solid #fff;
 }
-
+.top4 img:hover{
+    border: 1px solid #3e8dad;
+}
 .clear {
     clear: both;
 }
@@ -223,6 +239,10 @@ section {
     padding: 10px 0;
     border-radius: 5px;
 }
+.top4 button:hover {
+    background-color: #3e8dad;
+    color: #fff;
+}
 
 .stand_out {
     background-color: #eee;
@@ -239,6 +259,7 @@ section {
     width: 500px;
     float: left;
     text-align: right;
+    padding-right: 45px;
 }
 
 .clear {
@@ -249,8 +270,10 @@ section {
     width: 450px;
     height:200px;
     float: left;
-    padding-left: 50px;
-    border: 1px soid black;
+    border: 1px solid white;
+}
+.top5_info img:hover{
+    border:1px solid #3e8dad;
 }
 
 .btn_inner {
@@ -265,6 +288,10 @@ section {
     margin: 30px 0;
     padding: 10px 0;
     border-radius: 5px;
+}
+.top5 button:hover {
+    background-color: #3e8dad;
+    color: #fff;
 }
 
 .samples {
@@ -304,7 +331,13 @@ section {
     border: 1px solid white;
 }
 
-
+.image1:hover,
+.image2:hover,
+.image3:hover,
+.image4:hover,
+.image5:hover {
+    border: 1px solid #3e8dad;
+}
 
 footer {
     background-color: #373e4c;
@@ -338,20 +371,24 @@ footer {
     line-height: 25px;
 }
 
-.footer_icons {
+.footer_imgs {
     float: left;
     width: 70px;
 }
 
+.twitter {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.facebook {
+    width: 40px;
+    height: 40px;
+}
 
 .para1 {
     border-top: 1px solid #fff;
     padding: 10px 0 10px 0;
     color: gray;
-}
-.icons{
-    width: 50px;
-    height: 50px;
-    padding-left: 30px;
-
 }

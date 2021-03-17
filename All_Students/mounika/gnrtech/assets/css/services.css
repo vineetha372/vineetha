@@ -5,19 +5,18 @@
 body{
     font-family:sans-serif;
 }
-.container {
-    width: 1000px;
-    margin: auto;
+.container{
+    width:100%;
 }
-
-nav {
-    height: 50px;
+.inner_container{
+    width:1000px;
+    margin:auto;
 }
-
 .list li {
     list-style: none;
     display: inline-block;
     padding: 15px 15px;
+    font-size: 14px;
 }
 
 a {
@@ -33,42 +32,48 @@ li:hover {
 nav .menu {
     float: right;
 }
-.container1{
-    width:1200px;
-    margin:auto;
-}
 
 .header{
     background-image:linear-gradient(to right ,#373e4c,#3e8dad);
-    height:300px;
     color:#fff;
 }
+.header_info{
+     padding:100px 0;
+}
 .header h1{
-    width:400px;
-    padding-top:50px;
-    padding-left:100px
+    width:500px;
+    font-size:40px; 
+    text-shadow: 3px 3px  0px black;
 }
 .header h6{
     width:200px;
     padding-top:10px;
-    padding-left:100px
+    line-height:15px;
+}
+p{
+    line-height: 25px;
+    font-size:14px;
+    
 }
 section{
-    margin:20px 250px 0 250px;
-    width:700px;
+   padding:20px 0;
 }
-section .sec1{
-    width:500px;
+.top1_inner{
+    width:800px;
+    margin:auto;
+}
+.top1{
     text-align:center;
-    margin-left:50px;
+    padding:20px 0;
 }
-.sec1 h1{
+.top1 h1{
     margin-bottom:20px;
+    font-size:40px; 
 }
-.sec2{
-    margin:20px 0;
+.top2{
+   padding:50px 0;
 }
-.sec2_left{
+.top2_left{
     float:left;
     width:200px;
 }
@@ -77,25 +82,27 @@ section .sec1{
 }
 .para1{
     float:left;
-    width:500px;
+    width:800px;
     text-align:left;
 }
-.sec2_left img{
+.top2_left img{
     width:150px;
-    height:100px;
+    padding-bottom: 10px;
 }
-.sec2_left h4{
+.top2_left h4{
     background-color:#000;
     color:#fff;
     width:150px;
     height:30px;
     padding-top:13px;
     text-align: center;
+    border-radius: 5px;
 }
-.sec3{
-    margin:20px 0;
+.top3{
+    padding:10px 0;
+    text-align: right;
 }
-.sec3_right{
+.top3_right{
     float:left;
     width:200px;
 }
@@ -104,15 +111,14 @@ section .sec1{
 }
 .para2{
     float:left;
-    width:500px;
+    width:800px;
     text-align:right;
 }
-.sec3_right img{
+.top3_right img{
     width:150px;
-    height:100px;
-    margin-left:50px;
+    padding-bottom:10px;
 }
-.sec3_right h4{
+.top3_right h4{
     background-color:#000;
     color:#fff;
     width:150px;
@@ -120,11 +126,12 @@ section .sec1{
     padding-top:13px;
     text-align: center;
     margin-left:50px;
+    border-radius: 5px;
 }
-.sec4{
-    margin:20px 0;
+.top4{
+    padding:50px 0;
 }
-.sec4_left{
+.top4_left{
     float:left;
     width:200px;
 }
@@ -133,103 +140,80 @@ section .sec1{
 }
 .para3{
     float:left;
-    width:500px;
+    width:800px;
     text-align:left;
 }
-.sec4_left img{
+.top4_left img{
     width:150px;
-    height:100px;
+    padding-bottom: 10px;
 }
-.sec4_left h4{
+.top4_left h4{
     background-color:#000;
     color:#fff;
     width:150px;
     height:30px;
     padding-top:13px;
     text-align: center;
+    border-radius: 5px;
 }
 .ourprocess{
     background-color:#eee;
-  
 }
 .ourprocess h1{
     text-align:center;
-    padding-top:20px;
-    color: rgb(84, 84, 238);
+    padding:50px 0;
+    font-size:40px; 
+    color:darkslateblue;
 }
-
-.ourprocess_img{
-   
-    width:700px;
-    height:100px;
-    margin:20px 0 20px 250px;
+.ourprocess img{
+    height:200px;
 }
-
-
-
 .p2{
     text-align:center;
-    padding:20px 0 20px 250px;
-    width:700px;
+    padding:50px 30px;
 }
 footer{
     background-color:#373e4c; 
-    height:300px;
     color:#fff;
-    position: relative;
-}
-.footer_info{
-    position:absolute;
-    top:50px;
-    left:200px;
-    right:220px;
 }
 .minifooter{
-    width:800px;
     border-bottom:3px solid #3e8dad; 
-    padding-bottom:50px;
+    padding:50px 0;
 }
+
 .aboutus{
+    width:500px;
     float:left;
-    width:400px;
-    margin-right:20px;
 }
 .clear{
     clear:both;
 }
 .main{
      float:left;
-     width:150px;
+     width:200px;
      line-height:25px;
+     padding-left:30px;
 }
 .main1{
      float:left;
-     width:150px;
+     width:200px;
      line-height:25px;
 }
 .footer_imgs{
      float:left;
-     width:50px;
-     position:relative;
-}
-.icons{
-    position: absolute;
-    top:10px;
-    left:30px;
+     width:70px;
 }
 .twitter{
-    width:30px;
-    height:30px;
+    width:40px;
+    height:40px;
     margin-bottom:10px;
-    color: white;
 }
 .facebook{
-   width:30px;
-   height:30px;
+   width:40px;
+   height:40px;
 }
-.para1{
+.p1{
     border-top:1px solid #fff;
     padding:10px 0 10px 0;
-    width:800px;
     color:gray;
 }

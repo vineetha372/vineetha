@@ -9,7 +9,7 @@
 }
 .home{
     background: url(images/26802-1q5gk4m.jpg);
-    height: 80vh;
+    height: 70vh;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -22,7 +22,7 @@
 }
 nav {
    text-align: center;
-   padding-top: 220px;
+   padding-top: 0px;
 }
 ul li{
    /* text-align: center;*/

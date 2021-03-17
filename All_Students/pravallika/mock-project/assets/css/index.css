@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    border:0px;
     box-sizing: border-box;
 }
 
@@ -12,25 +13,27 @@ body {
 }
 
 .container {
-    margin:0 auto;
+    margin:0px auto;
     width:70%;
+}
+.banner1{
+   
+    width:100%; 
 }
 
 .banner1 {
-
+height: 700px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../images/banner.png.jpg);
-    height: 700px;
+   width:100%;
 }
 
 
 .banner h1 {
     color: white;
     font-size: 60px;
-
-    
     text-align: center;
     padding-top: 230px;
 }
@@ -55,6 +58,7 @@ body {
 
 nav {
     height: 50px;
+    
 
 }
 
@@ -66,6 +70,7 @@ nav {
     padding: 15px;
     font-size: 20px;
     padding-top: 20px;
+   
 }
 a:hover{
     color:orangered;
@@ -84,6 +89,12 @@ a {
 
 
 }
+<<<<<<< HEAD
+.main h1{
+    font-family: 'Josefin Sans';
+    text-align: center;
+    font-size:50px;
+=======
 .al:active{
     text-decoration: underline;
     color:orangered;
@@ -93,6 +104,7 @@ a {
    
     text-align: center;
     font-size: 50px;
+>>>>>>> aebbd8927e3b79d299b53d5d6b8d81bddb249c81
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -115,6 +127,11 @@ i {
     }
 }*/
 
+.border-why{
+    border:1px solid #fff;
+    width:100%;
+    height:400px;
+}
 .section1 {
     border:1px solid #fff;
     box-sizing: border-box;
@@ -220,7 +237,8 @@ i {
 .banner-4 p{
    line-height: 25px;
     text-align: left;
-    word-spacing:3px;
+    word-spacing:2.3px;
+    font-size: 18px;
 
 }
 .section-1{
@@ -236,6 +254,7 @@ i {
     width:250px;
     height:580px;
     margin-right:20px;
+    box-sizing: inherit;
 }
 .image1 h3{
     color:purple;
@@ -257,6 +276,7 @@ i {
     margin-top:10px;
 }
 .image2{
+     box-sizing: inherit;
     float:left;
     border:1px solid #fff;
     width:250px;
@@ -280,6 +300,7 @@ i {
     width:250px;
     height:580px;
     margin-right:20px;
+     box-sizing: inherit;
 }
 .image3 h3{
     color:purple;
@@ -297,6 +318,7 @@ i {
     border:1px solid #fff;
     width:250px;
     height:580px;
+     box-sizing: inherit;
 }
 .image4 h3{
     color:purple;

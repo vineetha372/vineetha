@@ -4,31 +4,49 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family:"Helvetica", sans-serif;
 }
 
 .container {
+    width: 100%;
+}
+
+.inner_container {
     width: 1000px;
     margin: auto;
 }
 
-.header {
+.banner {
     background-image: url("../images/backgroundimg.jpg");
     background-position: center;
     background-size: cover;
-    padding: 300px 0;
+    padding: 60px 0;
     color: #fff;
     text-align: center;
 }
 
-h1 {
-    font-size: 40px;
+.banner_heading{
+    padding-top:130px;
+}
+
+.banner h1 {
+    font-size: 60px;
+    letter-spacing: 3px;
+    padding:20px 0;
+}
+
+.banner h3 {
+    font-size: 20px;
+}
+
+nav {
+    padding-top: 20px;
 }
 
 .list li {
     list-style: none;
     display: inline-block;
-    padding: 15px 15px;
+    padding: 10px 20px;
 }
 
 a {
@@ -42,8 +60,12 @@ p {
     line-height: 25px;
 }
 
+h1 {
+    font-size: 40px;
+}
+
 article {
-    margin: 30px 0 40px 0;
+    padding:50px 0;
 }
 
 article h1 {
@@ -64,7 +86,11 @@ article h1 {
 .clear {
     clear: both;
 }
-
+i{
+    font-size:35px;
+    color:purple;
+    padding-top: 50px;
+}
 .top2 {
     float: left;
     width: 300px;
@@ -91,6 +117,7 @@ aside {
     background-position: center;
     background-size: cover;
     color: #fff;
+    padding:20px 0;
 }
 
 .para {
@@ -103,6 +130,7 @@ aside {
 }
 
 .p1 h2 {
+    font-size: 33px;
     word-spacing: 5px;
     letter-spacing: 2px;
     padding-top: 90px;
@@ -110,7 +138,7 @@ aside {
 }
 
 .p1 p {
-    margin: 20px 0;
+    padding: 10px 0;
 }
 
 .btn button {
@@ -119,7 +147,12 @@ aside {
     border-radius: 5px;
     background-color: #fff;
     color: #3e8dad;
-    border: none;
+    margin-bottom: 10px;
+}
+
+.btn button:hover {
+    background-color: #3e8dad;
+    color: #fff;
 }
 
 .main {
@@ -178,7 +211,15 @@ aside {
     border-radius: 5px;
     color: #fff;
     background-color: purple;
-    margin: 10px 0;
+    margin: 20px 0;
+}
+
+.our_pro1 button:hover,
+.our_pro2 button:hover,
+.our_pro3 button:hover,
+.our_pro4 button:hover {
+    background-color: #fff;
+    color: purple;
 }
 
 h4 {
@@ -205,7 +246,7 @@ h4 {
     border-radius: 5px;
     color: #fff;
     background-color: purple;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .our_pro3 {
@@ -224,7 +265,7 @@ h4 {
     border-radius: 5px;
     color: #fff;
     background-color: purple;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .our_pro4 {
@@ -242,17 +283,13 @@ h4 {
     border-radius: 5px;
     color: #fff;
     background-color: purple;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 footer {
     background-color: #3e8dad;
     color: #fff;
     padding-bottom: 31px;
-}
-
-.footer_info {
-    
 }
 
 .contactus {
@@ -285,21 +322,27 @@ footer {
 }
 
 .message {
-    margin-bottom: 20px;
+    padding:5px 0 0 5px;
+    border-radius: 3px;
 }
 
 input {
     width: 250px;
-    padding: 5px 0;
+    padding: 5px 0 5px 5px;
+    border-radius: 5px;
 }
 
 .btn1 button {
-    width: 250px;
+    width: 255px;
     padding: 10px 0;
     margin: 20px 0;
     background-color: #fff;
     color: #3e8dad;
     border-radius: 5px;
+}
+.btn1 button:hover{
+    background-color:purple;
+    color:#fff;
 }
 
 .social_icons {
@@ -307,6 +350,32 @@ input {
     width: 330px;
     padding-top: 50px;
     text-align: right;
+}
+.social_icons h5{
+    padding-bottom: 20px;
+}
+
+.twitter {
+    border-radius: 50px;
+    width: 50px;
+    padding:0 5px;
+
+}
+.facebook {
+    border-radius: 50px;
+    width: 50px;
+
+}
+.instagram {
+    border-radius: 50px;
+    width: 50px;
+    padding-right:5px;
+
+}
+.dribble {
+    border-radius: 50px;
+    width: 50px;
+
 }
 
 .p3 {
@@ -319,14 +388,21 @@ input {
 }
 
 .p3 p {
+    width: 220px;
     color: #fff;
-    width: 200px;
-    background-color: #f00;
+    background-color:#f00;
+    padding: 3px 5px;
     border-radius: 5px 5px 0 0;
     border: none;
-    padding:3px;
+    text-align: center;
+    font-weight: bold;
+}
+.p3 {
+    position:fixed;
+    bottom:0px;
+    right:120px;
 }
 
-.p3 span {
+p span {
     color: lightgray;
 }
