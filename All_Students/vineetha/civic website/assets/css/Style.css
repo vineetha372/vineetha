@@ -321,58 +321,7 @@ h4 {
    color: white;
 }
 
-/*contact sections*/
 
-.contact{
-    width:74%;
-    margin:50px auto;
-}
-input
-{
-    border-bottom:2px solid #ddd;
-    outline:0;
-    padding-left:10px;
-}
-#name,#email{
-    width:49%;
-    padding-bottom:30px;
-    margin-bottom:50px;
-    border-bottom: 2px solid black;
-}
-#email{
-    margin-left:10px;
-    border-bottom: 2px solid black;
-}
-#subject{
-    width:100%;
-    padding-bottom:30px;
-    margin-bottom:50px;
-    border-bottom: 2px solid black;
-}
-textarea{
-    width:100%;
-    border-bottom:2px solid rgb(19, 18, 18);
-    padding-left:10px;
-    padding-bottom:70px;
-    outline:0;
-    border: none;
-}
-.contact button{
-    border:1px solid black;
-    padding:20px 50px;
-    background-color:white;
-    font-size:15px;
-    font-weight:bold; 
-    float:right;   
-    margin-top:30px; 
-}
-.contact button:hover{
-    
-    border:0px solid #fff;
-}
-.clear{
-    clear:both;
-}
 
 /* footer sections*/
 
@@ -399,6 +348,69 @@ footer{
     background-color:red;
 }
 
-   
+
+/* contact sections*/
+
+
+
+.contact
+{
+    width:74%;
+    margin:50px auto;
+}
+input
+{
+    border-bottom:2px solid #ddd;
+    outline:0;
+    padding-left:10px;
+}
+.name{
+    width:49%;
+    padding-bottom:30px;
+    margin-bottom:50px;
+
+}
+
+
+.email
+{
+    width:49%;
+    padding-bottom:30px;
+    margin-bottom:50px;
+}
+.email
+{
+    margin-left:10px;
+}
+.subject
+{
+    width:100%;
+    padding-bottom:30px;
+    margin-bottom:50px;
+}
+textarea
+{
+    width:100%;
+    border-bottom:2px solid #ddd;
+    padding-left:10px;
+    padding-bottom:70px;
+    outline:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
