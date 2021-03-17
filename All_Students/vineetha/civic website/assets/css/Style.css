@@ -328,8 +328,7 @@ h4 {
 
 /* images sections*/
 
-.images
-{
+.images{
     width:90%;
     display:flex;
     justify-content:space-between;
@@ -337,16 +336,31 @@ h4 {
     padding-top:150px;
     padding-bottom:90px;
 }
-.img1,.img2,.img3,.img4
-{
+.img1,.img2,.img3,.img4{
     width:250px;
     height:350px;
     margin:10px 10px;
     position:relative;
 }
-.img1 p,.img2 p,.img3 p,.img4 p
-{
+.img1 p,.img2 p,.img3 p,.img4 p{
     font-size:15px;
+}
+.overlay
+{
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:300px;
+    /*height:0;*/
+    background-color:#000;
+    opacity:0.4;
+    z-index:2;
+    transition:all 0.48s 0s;
+}
+.img1:hover .overlay,.img2:hover .overlay,.img3:hover .overlay,.img4:hover .overlay
+{
+    bottom:0;
 }
 
 /* extar skiles sections*/
