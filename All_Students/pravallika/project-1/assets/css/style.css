@@ -1,17 +1,122 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-
-    height: 100%;
+background-color:aliceblue;
     font-family: 'Josefin Sans', sans-serif;
+}
+.container{
+    width:1000px;
+    margin:0 auto;
+    border:1px solid black;
+}
+.header{
+    width:1000px;
+    height:50px;
+    margin:0 auto;
+     background-color: #F2F7F8;
+    border:1px solid black; 
+}
+.nav{
+    float:left;
+}
+.but1{
+    float:right;
+}
+.but2{
+    float:;
+}
+button{
+    width:170px;
+    height:50px;
+    
+}
+.info{
+    width:900px;
+    margin: auto;
+    background-color: #F2F7F8;
+    
+}
+.maria-h1-para{
+    float:left;
+}
+.maria-h1-para h1{
+    padding-top: 40px;
+    padding-bottom:10px;
+}
+.maria-h1-para p{
+    width:400px;
+    line-height: 20px;
+     color: #808181;
+}
+.maria-h1-para h2 {
 
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.maria-h1-para ul {
+    list-style: none;
+}
+
+.maria-h1-para ul li {
+    
+    color: #808181;
+    margin-bottom: 15px;
+    margin: 0px;
+    line-height:25px;
 
 }
 
-section {
+.maria-h1-para ul li span {
+    color: #40424a;
+    display: inline-block;
+    min-width: 140px;
+}
+.margia-img{
+    float: right;
+     padding-top: 40px;
+}
+@media (max-width:1024px) {
+  /* For mobile phones: */
+    .container{
+    width:100%;
+
+    }
+  .header{
+      float:none;
+    width:100%;
+    
+      
+  }
+    .but1{
+        text-align: center;
+        float: none;
+    }
+    .but2{
+        float: none;
+
+    }
+    
+    .maria{
+        float:none;
+        width:100%;
+        margin: 0;
+    } 
+    .margia-img{
+    
+       width:100%;
+        height:100%;
+        float:none;
+        text-align:left;
+        padding-top: 30px;
+
+}
+
+/*section {
     background-color: #F2F7F8;
     height: 1100px;
 }
@@ -21,11 +126,11 @@ section {
     height: 200px;
 }
 
-.container {
-    width: 96%;
-    margin: auto;
-
+.container{
+    width:1000px;
+    margin:0 auto;
 }
+        
 
 .info {
     width: 80%;
@@ -265,11 +370,33 @@ hr {
     float: right;
 }
 
+
 .image1 {
     float: left;
+    position: relative;
+    height:490px;
+    width:300px;
+    border:3px solid yellow;
 }
+ .image1 img{
+             display:block;
+            width:100%;
+            height:420px;
+        }
+.overlay{
+            position: absolute;
+             top:0;
+            left:0;
+            right:0;
+    bottom:520px;
+    background-color: rgba(0,0,0,0.4);
+            transition: all 0.2s;
+}
+ .image1:hover .overlay{
+           bottom:65px;
+        }
 
-.image1 h2 {
+/*.image1 h2 {
     padding-top: 10px;
     font-size: 30px;
 }
@@ -277,7 +404,7 @@ hr {
 .image1 p {
     font-size: 20px;
     padding-top: 10px;
-}
+}*/
 
 .image2 {
     float: left;
@@ -325,7 +452,7 @@ hr {
 
 .footer-h1 h1 {
     font-size: 60px;
-    margin-top:150px;
+   
     
 }
 
@@ -436,7 +563,7 @@ hr {
 
 .footer1-f hr {
     width: 300px;
-    height: 5px;
+    height:7px;
     background-color: black;
     margin-bottom: 50px;
 }
@@ -448,7 +575,7 @@ hr {
 
 .footer-left hr {
     width: 550px;
-    height: 2px;
+    height:4px;
     background-color: black;
 }
 
@@ -473,7 +600,7 @@ hr {
 
 .footer1-left hr {
     width: 550px;
-    height: 2px;
+    height: 4px;
     background-color: black;
 }
 
@@ -488,7 +615,7 @@ hr {
 .footer2-left hr {
 
     width: 100%;
-    height: 2px;
+    height: 4px;
     background-color: black;
 }
 
@@ -500,7 +627,7 @@ hr {
 
 .footer3-left hr {
     width: 100%;
-    height: 2px;
+    height: 4px;
     background-color: black;
 }
 
@@ -524,4 +651,4 @@ hr {
 
 span {
     color: blue;
-}
+}*/

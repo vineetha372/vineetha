@@ -22,7 +22,6 @@
    margin-top: 50px;
    font-size: 50px;
 }
-/*-----*/
 
 .wrapper
 {
@@ -79,9 +78,6 @@ header
     padding-top:60px;
     border-bottom:1px solid #ccc;
 }
-/*-----*/
-
-/*----*/
 .icon
 {
     width:50%;
@@ -114,111 +110,183 @@ hr
     font-weight:lighter;
 }
 
-/*_______*/
 
 
 
-/*comented*/
+/* woek experience*/
+
+
+.workexperience
+{
+    width:70%;
+    margin: 0px auto;
+    border-left:1px solid black;
+    position:relative;
+    margin-bottom:50px;
+}
+
 .workexp{
-   margin-left: 200px;
-   font-size: 60px;
-   margin-top: 90px;
-   text-decoration: underline;
-}
-.precent,.precent2{
-    border-left: 1px solid black;
+    padding-left: 160px;
 
 }
+
+
+.circle1.circle2 {
+    color: #ddd;
+}
+
+.circle1 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:40px;
+    left:-10px;
+    border: 3px solid black;
+    background-color:black;
+    border-radius: 15px;
+}
+
+.circle2 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom:260px;
+    left:-10px;
+    border: 3px solid black;
+    background-color:black;
+    border-radius: 15px;
+}
+
+
+.precent,.precent2{
+    padding-left:90px;
+}
+
+
+
 
 .precent h1{
    font-size: 75px;
-  padding-left: 350px;
+  padding-left: 9px;
   margin-top: 50px;
   box-sizing: border-box;
 
 
 }
 .precent h4 {
-  margin-left: 350px;
+  
   padding-top: 10px;
 
 }
 .precent h6 {
-   margin-left: 350px;
+   
    padding-top: 5px;
 }
 .precent p {
-   margin-left: 350px;
+   
    padding-top: 30px;
 }
 .precent2 h1{
    font-size: 75px;
-   margin-left: 350px;
+  
   margin-top: 90px;
 
 
 }
 .precent2 h4 {
-  margin-left: 350px;
+ 
   padding-top: 10px;
 
 }
 .precent2 h6 {
-   margin-left: 350px;
+  
    padding-top: 5px;
 }
 .precent2 p {
-   margin-left: 350px;
+ 
    padding-top: 30px;
 }
-.educationssec{
-  
+
+/*  educations sections*/
+
+.educationssec
+{
+    width:70%;
+    margin: 0px auto;
+    border-left:1px solid black;
+    position:relative;
+    margin-bottom:50px;
 }
+
+
+.circle3 .circle4 {
+    color: #ddd;
+}
+
+.circle3 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:40px;
+    left:-10px;
+    border: 3px solid black;
+    background-color:black;
+    border-radius: 15px;
+}
+
+.circle4 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom:260px;
+    left:-10px;
+    border: 3px solid black;
+    background-color:black;
+    border-radius: 15px;
+}
+
+
+.precent3,.precent4{
+    padding-left:70px;
+}
+
+
 .Education{
-   margin-left: 200px;
    font-size: 60px;
-   margin-top: 90px;
    text-decoration: underline;
+   padding-left:170px;
    
 }
 .precent3 h1{
    font-size: 75px;
-  margin-left: 350px;
   margin-top: 50px;
 
 
 }
 .precent3 h4 {
-  margin-left: 350px;
   padding-top: 10px;
 
 }
 .precent3 h6 {
-   margin-left: 350px;
    padding-top: 5px;
 }
 .precent3 p {
-   margin-left: 350px;
    padding-top: 30px;
 }
 .precent4 h1{
    font-size: 75px;
-   margin-left: 350px;
   margin-top: 90px;
 
 
 }
 .precent4 h4 {
-  margin-left: 350px;
   padding-top: 10px;
 
 }
 .precent4 h6 {
-   margin-left: 350px;
    padding-top: 5px;
 }
 .precent4 p {
-   margin-left: 350px;
    padding-top: 30px;
 }
 
@@ -229,6 +297,9 @@ h4 {
    font-size: 25px;
    margin: 10px 0;
 }
+
+/* Reference sections*/
+
 .reference{
    margin-left: 330px;
    margin-top: 50px;
@@ -254,6 +325,9 @@ h4 {
     padding-right: 380px;
     font-size: 50px;
 }
+
+/* images sections*/
+
 .images
 {
     width:90%;
@@ -275,7 +349,7 @@ h4 {
     font-size:15px;
 }
 
-
+/* extar skiles sections*/
 .extra{
     width:74%;
     margin:0px auto;
@@ -285,6 +359,9 @@ h4 {
     text-decoration:underline;
     padding-bottom:70px;
 }
+
+/* cards sections */
+
 .cards{
     display:flex;
     justify-content:space-between;
@@ -316,57 +393,7 @@ h4 {
    color: white;
 }
 
-/*contact sections*/
-.contact{
-    width:74%;
-    margin:50px auto;
-}
-input
-{
-    border-bottom:2px solid #ddd;
-    outline:0;
-    padding-left:10px;
-}
-#name,#email{
-    width:49%;
-    padding-bottom:30px;
-    margin-bottom:50px;
-    border-bottom: 2px solid black;
-}
-#email{
-    margin-left:10px;
-    border-bottom: 2px solid black;
-}
-#subject{
-    width:100%;
-    padding-bottom:30px;
-    margin-bottom:50px;
-    border-bottom: 2px solid black;
-}
-textarea{
-    width:100%;
-    border-bottom:2px solid rgb(19, 18, 18);
-    padding-left:10px;
-    padding-bottom:70px;
-    outline:0;
-    border: none;
-}
-.contact button{
-    border:1px solid black;
-    padding:20px 50px;
-    background-color:white;
-    font-size:15px;
-    font-weight:bold; 
-    float:right;   
-    margin-top:30px; 
-}
-.contact button:hover{
-    
-    border:0px solid #fff;
-}
-.clear{
-    clear:both;
-}
+
 
 /* footer sections*/
 
@@ -381,7 +408,7 @@ footer{
 
 
 
-<!-- hover effect in images-->
+/* hover effect in images*/
 .box{
     position:relative;
     width:200px;
@@ -393,6 +420,70 @@ footer{
     background-color:red;
 }
 
-   
+
+/* contact sections*/
+
+
+
+.contact
+{
+    width:74%;
+    margin:50px auto;
+}
+input
+{
+    border:none;
+    border-bottom:2px solid #ddd;
+    outline:0;
+    padding-left:10px;
+}
+.name{
+    width:49%;
+    padding-bottom:30px;
+    margin-bottom:50px;
+
+}
+
+
+.email
+{
+    width:49%;
+    padding-bottom:30px;
+    margin-bottom:50px;
+}
+.email
+{
+    margin-left:10px;
+}
+.subject
+{
+    width:100%;
+    padding-bottom:30px;
+    margin-bottom:50px;
+}
+textarea
+{
+    width:100%;
+    border-bottom:2px solid #ddd;
+    padding-left:10px;
+    padding-bottom:70px;
+    outline:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
