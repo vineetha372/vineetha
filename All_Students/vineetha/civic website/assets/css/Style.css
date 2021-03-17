@@ -113,108 +113,180 @@ hr
 
 
 
+/* woek experience*/
 
+
+.workexperience
+{
+    width:70%;
+    margin: 0px auto;
+    border-left:1px solid black;
+    position:relative;
+    margin-bottom:50px;
+}
 
 .workexp{
-   margin-left: 200px;
-   font-size: 60px;
-   margin-top: 90px;
-   text-decoration: underline;
-}
-.precent,.precent2{
-    border-left: 1px solid black;
+    padding-left: 160px;
 
 }
+
+
+.circle1.circle2 {
+    color: #ddd;
+}
+
+.circle1 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:40px;
+    left:-10px;
+    border: 3px solid black;
+    background-color:black;
+    border-radius: 15px;
+}
+
+.circle2 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom:260px;
+    left:-10px;
+    border: 3px solid black;
+    background-color:black;
+    border-radius: 15px;
+}
+
+
+.precent,.precent2{
+    padding-left:90px;
+}
+
+
+
 
 .precent h1{
    font-size: 75px;
-  padding-left: 350px;
+  padding-left: 9px;
   margin-top: 50px;
   box-sizing: border-box;
 
 
 }
 .precent h4 {
-  margin-left: 350px;
+  
   padding-top: 10px;
 
 }
 .precent h6 {
-   margin-left: 350px;
+   
    padding-top: 5px;
 }
 .precent p {
-   margin-left: 350px;
+   
    padding-top: 30px;
 }
 .precent2 h1{
    font-size: 75px;
-   margin-left: 350px;
+  
   margin-top: 90px;
 
 
 }
 .precent2 h4 {
-  margin-left: 350px;
+ 
   padding-top: 10px;
 
 }
 .precent2 h6 {
-   margin-left: 350px;
+  
    padding-top: 5px;
 }
 .precent2 p {
-   margin-left: 350px;
+ 
    padding-top: 30px;
 }
 
 /*  educations sections*/
 
+.educationssec
+{
+    width:70%;
+    margin: 0px auto;
+    border-left:1px solid black;
+    position:relative;
+    margin-bottom:50px;
+}
+
+
+.circle3 .circle4 {
+    color: #ddd;
+}
+
+.circle3 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:40px;
+    left:-10px;
+    border: 3px solid black;
+    background-color:black;
+    border-radius: 15px;
+}
+
+.circle4 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom:260px;
+    left:-10px;
+    border: 3px solid black;
+    background-color:black;
+    border-radius: 15px;
+}
+
+
+.precent3,.precent4{
+    padding-left:70px;
+}
+
+
 .Education{
-   margin-left: 200px;
    font-size: 60px;
-   margin-top: 90px;
    text-decoration: underline;
+   padding-left:170px;
    
 }
 .precent3 h1{
    font-size: 75px;
-  margin-left: 350px;
   margin-top: 50px;
 
 
 }
 .precent3 h4 {
-  margin-left: 350px;
   padding-top: 10px;
 
 }
 .precent3 h6 {
-   margin-left: 350px;
    padding-top: 5px;
 }
 .precent3 p {
-   margin-left: 350px;
    padding-top: 30px;
 }
 .precent4 h1{
    font-size: 75px;
-   margin-left: 350px;
   margin-top: 90px;
 
 
 }
 .precent4 h4 {
-  margin-left: 350px;
   padding-top: 10px;
 
 }
 .precent4 h6 {
-   margin-left: 350px;
    padding-top: 5px;
 }
 .precent4 p {
-   margin-left: 350px;
    padding-top: 30px;
 }
 
@@ -360,6 +432,7 @@ footer{
 }
 input
 {
+    border:none;
     border-bottom:2px solid #ddd;
     outline:0;
     padding-left:10px;
