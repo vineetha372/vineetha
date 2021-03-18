@@ -20,7 +20,7 @@
 .heading h2{
    margin-left: 140px;
    margin-top: 50px;
-   font-size: 50px;
+   font-size: 80px;
 }
 
 .wrapper
@@ -312,6 +312,11 @@ h4 {
    
 
 }
+
+.reference h2{
+    font-size: 80px;
+
+}
 .portfolio
 {
     width:74%;
@@ -354,9 +359,9 @@ h4 {
     bottom:300px;
     
     background-color:#000;
-    opacity:0.4;
+    opacity:0.8;
     z-index:2;
-    transition:all 0.48s 0s;
+    transition:all 0.50s 0s;
 }
 .img1:hover .overlay,
 .img2:hover .overlay,
@@ -477,14 +482,20 @@ input
     padding-bottom:30px;
     margin-bottom:50px;
 }
-textarea
-{
+textarea{
+
     width:100%;
+    border: none;
     border-bottom:2px solid #ddd;
     padding-left:10px;
     padding-bottom:70px;
     outline:0;
+    
 }
+.contact button{
+    margin-top: 40px;
+}
+
 
 
 
