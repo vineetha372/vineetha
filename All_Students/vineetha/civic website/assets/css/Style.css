@@ -20,7 +20,7 @@
 .heading h2{
    margin-left: 140px;
    margin-top: 50px;
-   font-size: 50px;
+   font-size: 80px;
 }
 
 .wrapper
@@ -113,108 +113,180 @@ hr
 
 
 
+/* woek experience*/
 
+
+.workexperience
+{
+    width:70%;
+    margin: 0px auto;
+    border-left:1px solid black;
+    position:relative;
+    margin-bottom:50px;
+}
 
 .workexp{
-   margin-left: 200px;
-   font-size: 60px;
-   margin-top: 90px;
-   text-decoration: underline;
-}
-.precent,.precent2{
-    border-left: 1px solid black;
+    padding-left: 160px;
 
 }
+
+
+.circle1.circle2 {
+    color: #ddd;
+}
+
+.circle1 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:40px;
+    left:-10px;
+    border: 3px solid black;
+    background-color:black;
+    border-radius: 15px;
+}
+
+.circle2 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom:260px;
+    left:-10px;
+    border: 3px solid black;
+    background-color:black;
+    border-radius: 15px;
+}
+
+
+.precent,.precent2{
+    padding-left:90px;
+}
+
+
+
 
 .precent h1{
    font-size: 75px;
-  padding-left: 350px;
+  padding-left: 9px;
   margin-top: 50px;
   box-sizing: border-box;
 
 
 }
 .precent h4 {
-  margin-left: 350px;
+  
   padding-top: 10px;
 
 }
 .precent h6 {
-   margin-left: 350px;
+   
    padding-top: 5px;
 }
 .precent p {
-   margin-left: 350px;
+   
    padding-top: 30px;
 }
 .precent2 h1{
    font-size: 75px;
-   margin-left: 350px;
+  
   margin-top: 90px;
 
 
 }
 .precent2 h4 {
-  margin-left: 350px;
+ 
   padding-top: 10px;
 
 }
 .precent2 h6 {
-   margin-left: 350px;
+  
    padding-top: 5px;
 }
 .precent2 p {
-   margin-left: 350px;
+ 
    padding-top: 30px;
 }
 
 /*  educations sections*/
 
+.educationssec
+{
+    width:70%;
+    margin: 0px auto;
+    border-left:1px solid black;
+    position:relative;
+    margin-bottom:50px;
+}
+
+
+.circle3 .circle4 {
+    color: #ddd;
+}
+
+.circle3 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:40px;
+    left:-10px;
+    border: 3px solid black;
+    background-color:black;
+    border-radius: 15px;
+}
+
+.circle4 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom:260px;
+    left:-10px;
+    border: 3px solid black;
+    background-color:black;
+    border-radius: 15px;
+}
+
+
+.precent3,.precent4{
+    padding-left:70px;
+}
+
+
 .Education{
-   margin-left: 200px;
    font-size: 60px;
-   margin-top: 90px;
    text-decoration: underline;
+   padding-left:170px;
    
 }
 .precent3 h1{
    font-size: 75px;
-  margin-left: 350px;
   margin-top: 50px;
 
 
 }
 .precent3 h4 {
-  margin-left: 350px;
   padding-top: 10px;
 
 }
 .precent3 h6 {
-   margin-left: 350px;
    padding-top: 5px;
 }
 .precent3 p {
-   margin-left: 350px;
    padding-top: 30px;
 }
 .precent4 h1{
    font-size: 75px;
-   margin-left: 350px;
   margin-top: 90px;
 
 
 }
 .precent4 h4 {
-  margin-left: 350px;
   padding-top: 10px;
 
 }
 .precent4 h6 {
-   margin-left: 350px;
    padding-top: 5px;
 }
 .precent4 p {
-   margin-left: 350px;
    padding-top: 30px;
 }
 
@@ -240,6 +312,11 @@ h4 {
    
 
 }
+
+.reference h2{
+    font-size: 80px;
+
+}
 .portfolio
 {
     width:74%;
@@ -256,8 +333,7 @@ h4 {
 
 /* images sections*/
 
-.images
-{
+.images{
     width:90%;
     display:flex;
     justify-content:space-between;
@@ -265,16 +341,33 @@ h4 {
     padding-top:150px;
     padding-bottom:90px;
 }
-.img1,.img2,.img3,.img4
-{
+.img1,.img2,.img3,.img4{
     width:250px;
-    height:350px;
+    height:300px;
     margin:10px 10px;
     position:relative;
 }
-.img1 p,.img2 p,.img3 p,.img4 p
-{
+.img1 p,.img2 p,.img3 p,.img4 p{
     font-size:15px;
+}
+.overlay
+{
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:300px;
+    
+    background-color:#000;
+    opacity:0.8;
+    z-index:2;
+    transition:all 0.50s 0s;
+}
+.img1:hover .overlay,
+.img2:hover .overlay,
+.img3:hover .overlay,
+.img4:hover .overlay{
+    bottom:0;
 }
 
 /* extar skiles sections*/
@@ -360,6 +453,7 @@ footer{
 }
 input
 {
+    border:none;
     border-bottom:2px solid #ddd;
     outline:0;
     padding-left:10px;
@@ -388,14 +482,20 @@ input
     padding-bottom:30px;
     margin-bottom:50px;
 }
-textarea
-{
+textarea{
+
     width:100%;
+    border: none;
     border-bottom:2px solid #ddd;
     padding-left:10px;
     padding-bottom:70px;
     outline:0;
+    
 }
+.contact button{
+    margin-top: 40px;
+}
+
 
 
 

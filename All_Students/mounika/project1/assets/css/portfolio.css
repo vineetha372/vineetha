@@ -16,6 +16,10 @@ body {
     width: 1000px;
     margin: auto;
 }
+.fleft
+{
+    float: left;
+}
 
 .maria_wiliams {
     background-color: aliceblue;
@@ -115,39 +119,35 @@ main {
 .p3,
 h2 {
     float: left;
-    width: 300px;
+    width: 30%;
 }
 
 .clear {
     clear: both;
 }
-
-.social_img {}
-
 .p3 {
     border-bottom: 1px solid black;
     padding-top: 15px;
-    margin: 0 20px;
+    margin: 0 20px 0 0;
 }
-
-.p,
-.in,
-.instagram,
-.facebook,
-.twitter {
+i{
     float: left;
-    width: 50px;
+    width:60px;
+    font-size:30px; 
 }
-
 .clear {
     clear: both;
 }
-
-.work_exp h3 {
-    padding: 50px 0 70px 60px;
-    text-decoration-line: underline;
-    
+.work_exp_info{
+    width:60%;
+    margin:auto;
 }
+.work_exp h3 {
+    padding: 50px 0 70px 0;
+    text-decoration-line: underline;
+
+}
+
 .circle .circle1 {
     color: #ddd;
 }
@@ -176,9 +176,9 @@ h2 {
 .top2 {
     width: 700px;
     padding-left: 50px;
-    border-left:1px solid #000;
+    border-left: 1px solid #000;
     position: relative;
-    margin-left:100px;
+    margin-left: 50px;
 }
 
 .top1 {
@@ -200,9 +200,12 @@ h2 {
 .top2 h6 {
     padding: 10px 0 30px 0;
 }
-
+.education_info{
+    width:60%;
+    margin:auto;
+}
 .education h3 {
-    padding: 50px 0 70px 60px;
+    padding: 50px 0 70px 0;
     text-decoration-line: underline;
     line-height: 50px;
 }
@@ -210,7 +213,7 @@ h2 {
 .circle1 {
     width: 5px;
     height: 5px;
-    background-color:#ddd;
+    background-color: #ddd;
     position: absolute;
     top: 20px;
     left: -3.5px;
@@ -221,7 +224,7 @@ h2 {
 .circle2 {
     width: 5px;
     height: 5px;
-    background-color:#ddd;
+    background-color: #ddd;
     position: absolute;
     top: 30px;
     left: -3.5px;
@@ -233,16 +236,19 @@ h2 {
 .top4 {
     width: 700px;
     padding-left: 50px;
-    border-left:1px solid #000;
-    margin-left:100px;
+    border-left: 1px solid #000;
+    margin-left: 50px;
 }
-.top3,.top4{
-    position:relative;
+
+.top3,
+.top4 {
+    position: relative;
 }
+
 .circle3 {
     width: 5px;
     height: 5px;
-    background-color:#ddd;
+    background-color: #ddd;
     position: absolute;
     top: 20px;
     left: -3.5px;
@@ -253,13 +259,14 @@ h2 {
 .circle4 {
     width: 5px;
     height: 5px;
-    background-color:#ddd;
+    background-color: #ddd;
     position: absolute;
     top: 30px;
     left: -3.5px;
     border: 1px solid black;
     border-radius: 50px;
 }
+
 .top3 {
     padding-bottom: 50px;
 }
@@ -279,25 +286,32 @@ h2 {
 .top4 h6 {
     padding: 10px 0 30px 0;
 }
-
+.references_info{
+    width:60%;
+    margin:auto;
+}
 .references h3 {
-    padding: 50px 0 70px 60px;
+    padding: 50px 0 70px 0;
     text-decoration-line: underline;
 }
+
 .top5 p {
-    padding-left: 150px;
+    padding-left: 100px;
     width: 700px;
 }
 
 .top5 h5,
 .top5 h6 {
-    padding: 15px 0 0 150px;
+    padding: 15px 0 0 100px;
 
 }
-
+.portfolio_head{
+    width:60%;
+    margin:auto;
+}
 .portfolio_head h3 {
-    float:left;
-    padding: 50px 0 70px 60px;
+    float: left;
+    padding: 50px 0 70px 0;
     text-decoration-line: underline;
 }
 
@@ -305,10 +319,11 @@ h2 {
     float: right;
     padding: 10px 20px;
     border-radius: 5px;
-    margin-top:50px;
+    margin-top: 50px;
+    font-size: 12px;
 }
 
-a {
+.portfolio_head button a {
     text-decoration: none;
     color: #000;
 }
@@ -318,105 +333,106 @@ a {
 }
 
 .portfolio_imgs {
+    width: 90%;
+    margin:0 auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 300px;
+    background-color: lightcoral;
+    transition: all 0.2s;
+}
+.portfolio_img1 img,
+.portfolio_img2 img,
+.portfolio_img3 img,
+.portfolio_img4 img{
     width: 100%;
-}
-
-.imgs_inner {
-    width: 87%;
-    margin: auto;
-}
-
-.img1 {
-    float: left;
-    width: 310px;
-    height: 300px;
-    border: 1px solid #fff;
+    height: 100%;
     margin-bottom: 20px;
 }
 
-.clear {
-    clear: both;
-}
-
-.img2 {
-    float: left;
-    width: 310px;
-    height: 300px;
-    border: 1px solid #fff;
-    margin-bottom: 20px;
-}
-
-.img3 {
-    float: left;
-    width: 310px;
-    height: 300px;
-    border: 1px solid #fff;
-    margin-bottom: 20px;
-}
-
-.img4 {
-    float: left;
-    width: 310px;
-    height: 300px;
-    border: 1px solid #fff;
-    margin-bottom: 20px;
-}
-
-.img1:hover,
-.img2:hover,
-.img3:hover,
-.img4:hover {
-    border: 1px solid #0f0;
+.portfolio_img1 img:hover .overlay,
+.portfolio_img2 img:hover .overlay,
+.portfolio_img3 img:hover .overlay,
+.portfolio_img4 img:hover .overlay {
+    bottom: 0;
 }
 
 .portfolio_img1,
 .portfolio_img2,
 .portfolio_img3,
 .portfolio_img4 {
+    position: relative;
     float: left;
-    width: 310px;
-    margin-right: 10px;
+    width: 320px;
+    height: 300px;
 }
 
 .clear {
     clear: both;
 }
-
+.portfolio_img1,
+.portfolio_img2,
+.portfolio_img3{
+    margin-right: 20px;
+}
 .portfolio_imgs h5 {
     font-size: 25px;
 }
 
+.portfolio_img1 p,
+.portfolio_img2 p,
+.portfolio_img3 p,
+.portfolio_img4 p {
+    padding-bottom: 20px;
+}
+.extra_skills_info{
+    width:60%;
+    margin:auto;
+}
 .extra_skills h3 {
-    padding: 50px 0 70px 60px;
+    padding: 120px 0 70px 0;
     text-decoration-line: underline;
 }
 
-.extra_skills_imgs {}
 
 .extra_skills_img1,
 .extra_skills_img2,
 .extra_skills_img3,
 .extra_skills_img4 {
     float: left;
-    width: 200px;
-    height: 250px;
-    margin-right: 12px;
+    width: 210px;
+    height: 300px;
+    margin-right: 13px;
+    margin-bottom: 50px;
 }
 
 .clear {
     clear: both;
 }
-
-.extra_skills_imgs h5 {
+.extra_skills_img1 img,
+.extra_skills_img2 img
+{
+    width:150px;
+    height:150px;
+    margin:80px 0 0 10px;
+}
+.extra_skills_img1 h5,
+.extra_skills_img2 h5 {
     text-align: center;
-    padding-left:60px;
+     width:170px;
 }
 
-.extra_skills_img1 p,.extra_skills_img2 p{
+.extra_skills_img1 p,
+.extra_skills_img2 p {
+    width:170px;
     text-align: center;
-    font-size:15px;
-    padding-top:5px;
-    padding-left:60px;
+    font-size: 13px;
+    padding-top: 5px;
 }
 
 .extra_skills_img3,
@@ -427,17 +443,68 @@ a {
 
 .win1,
 .win2 {
-    width: 40px;
-    height: 40px;
-    margin:60px 0 20px 0;
+    width: 50px;
+    height: 50px;
+    margin: 80px 0 20px 0;
 }
+
 .extra_skills_img3 h1,
-.extra_skills_img4 h1{
-    color:#fff;
+.extra_skills_img4 h1 {
+    color: #fff;
 }
+
 .extra_skills_img3 h6,
-.extra_skills_img4 h6{
-    color:#fff;
-    font-size:12px;
-    margin-top:10px; 
+.extra_skills_img4 h6 {
+    color: #fff;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.contact_me_info{
+    width:60%;
+    margin:auto;
+    
+}
+.contact_me h3{
+    padding:0 0 70px 0;
+    text-decoration-line: underline;
+}
+.input {
+        padding:10px 0;
+} 
+.name,.email,.subject,textarea{
+    padding:10px 0;
+    outline:0;
+    border:none;
+    border-bottom:2PX solid #CCC ;
+}
+.name,.email
+{
+    width:49%;
+}
+.email{
+    margin-left:2%;
+}
+.subject,textarea{
+    width:100%;
+}
+
+.btn1{
+    text-align: right;
+    margin:20px 0 0 50px;
+}
+.btn1 button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+footer{
+    padding: 20px 0px;
+    background-color: dimgray;
+    text-align: center;
+    color:darkgrey;
+    font-size: 12px;
+    margin-top:50px;
+}
+footer a{
+    text-decoration: none;
 }
