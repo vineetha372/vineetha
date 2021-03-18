@@ -338,7 +338,7 @@ h4 {
 }
 .img1,.img2,.img3,.img4{
     width:250px;
-    height:350px;
+    height:300px;
     margin:10px 10px;
     position:relative;
 }
@@ -352,14 +352,16 @@ h4 {
     right:0;
     top:0;
     bottom:300px;
-    /*height:0;*/
+    
     background-color:#000;
     opacity:0.4;
     z-index:2;
     transition:all 0.48s 0s;
 }
-.img1:hover .overlay,.img2:hover .overlay,.img3:hover .overlay,.img4:hover .overlay
-{
+.img1:hover .overlay,
+.img2:hover .overlay,
+.img3:hover .overlay,
+.img4:hover .overlay{
     bottom:0;
 }
 
