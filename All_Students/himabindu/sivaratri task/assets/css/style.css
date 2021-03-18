@@ -39,13 +39,6 @@ main
     font-weight:bold;
     margin-right:10px;
 }
-.btn button:hover,.portfolio button:hover
-{
-    background-color:#f2f7f8;
-    text-decoration:underline;
-    border:3px solid #f2f7f8;
-    cursor:pointer;
-}
 .header
 {
     background-color:#f2f7f8;
@@ -183,15 +176,15 @@ hr
 {
     padding-left:13%;
     padding-top:10%;
+    text-decoration:underline;
 }
 .container2
 {
     width:70%;
     margin:0 auto;
     padding-top:30px;
-    padding-bottom:30px;
+    padding-bottom:50px;
     display:flex;
-    border:1px solid blue;
 }
 .one,.two,.three
 {
@@ -201,15 +194,16 @@ hr
     margin:10px 0px;
     border:2px solid black;
 }
-#p1
-{
-    padding-top:30px;
-    padding-left:20px;
-}
-.one:hover 
+.one:hover,.two:hover,.three:hover
 {
     background-color:#ccc;
-    display:none;
+    cursor:pointer;
+}
+#p1
+{
+    width:70%;
+    padding-top:30px;
+    padding-left:20px;
 }
 .portfolio
 {
@@ -301,7 +295,6 @@ hr
 .extra #h1 ,.contact h1
 {
     text-decoration:underline;
-    padding-bottom:70px;
 }
 .circle
 {
@@ -383,10 +376,12 @@ textarea
     float:right;   
     margin-top:30px; 
 }
-.contact button:hover
+* button:hover
 {
-    text-decoration:underline;
-    border:3px solid #fff;
+    background-color:rgb(31, 30, 30);
+    color:white;
+    transition:all 0.3s;
+    cursor: pointer;
 }
 .clear
 {
@@ -401,3 +396,75 @@ footer
     padding:30px 0px;
     margin-top:150px;
 }
+
+@media all and (max-width:500px){
+    .head{
+        display:grid;
+        justify-content:space-around;
+        text-align:center;
+    }
+    header{
+        display:grid;
+        justify-content:space-around;
+        text-align:center;
+    }
+    .info
+    {
+        width:100%;
+    }
+    .pic
+    {
+        width:100%;
+    }
+    .cards
+    {
+        display:grid;
+        justify-content:space-around;
+        margin-top:0px;
+        padding-top:0px;
+    }  
+    .card1,.card2,.card3,.card4
+    {
+        margin-top:60px;
+    }
+    .circle{
+        display:grid;
+        justify-content:space-around;
+        padding-top:0px;
+        margin-top:0px;
+    }
+    .c1
+    {
+        margin-top:0px;
+        padding-top:0px;
+    }
+    .c3
+    {
+        margin:30px 0px;
+        padding-bottom:20px;
+    }
+    .c4{
+        padding-bottom:20px;
+        margin:20px 0px;
+    }
+    #name,#email,#subject,textarea
+    {
+        width:100%;
+    }
+    footer{
+        padding:20px 15px;
+    }
+    .icons
+    {
+        display:grid;
+        justify-content:space-between;
+    }
+    .portfolio{
+        display:grid;
+        padding:50px 0px;
+    }
+    .portfolio button{
+        margin-top:20px;
+    }
+}
+

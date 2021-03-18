@@ -102,12 +102,11 @@
         <h2 id="ref">References</h2>
                 <div class="container2">
                     <div class="left">
-                    <div class="one"></div>
-                    <div class="two"></div>
-                    <div class="three"></div>
+                    <div class="one" onclick="myFunction1()"></div>
+                    <div class="two" onclick="myFunction2()"></div>
+                    <div class="three" onclick="myFunction3()"></div>
                     </div>
-                    <p id="p1">"
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, possimus mollitia? Facilis animi hic id harum beatae sapiente accusamus adipisci, consectetur, consequuntur quos odio eius, repellat ullam amet earum voluptatum."</p>
+                    <div id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, vel. Commodi alias blanditiis aliquam libero natus, eum, ipsum laudantium repellendus nulla nobis voluptate quis sit repellat minima neque!</div>
                 </div>
 
         <div class="portfolio">
@@ -187,5 +186,18 @@
             </footer>
     </main>
 </body>
+<script>
+    function myFunction1() {
+      document.getElementById("p1").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, vel. Commodi alias blanditiis aliquam libero natus, eum, ipsum laudantium repellendus nulla nobis voluptate quis sit repellat minima neque!";
+    }
 
+    function myFunction2() {
+      document.getElementById("p1").innerHTML = "Commodi alias blanditiis aliquam libero natus, eum, ipsum laudantium repellendus nulla nobis voluptate quis sit repellat minima neque! Voluptate, quibusdam?";
+    }
+
+    function myFunction3() {
+      document.getElementById("p1").innerHTML = "blanditiis aliquam libero natus, eum, ipsum laudantium repellendus nulla nobis voluptate quis sit repellat minima neque! Voluptate, quibusdam?";
+    }
+    </script>
+    
 </html>
