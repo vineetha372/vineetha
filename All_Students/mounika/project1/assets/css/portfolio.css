@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family:sans-serif;
 }
 
 .container {
@@ -16,10 +16,6 @@ body {
     width: 1000px;
     margin: auto;
 }
-.fleft
-{
-    float: left;
-}
 
 .maria_wiliams {
     background-color: aliceblue;
@@ -27,7 +23,9 @@ body {
 }
 
 .maria_head {
-    padding: 0 30px 30px 30px;
+    width:97%;
+    margin: 0 auto;
+    padding-bottom: 30px;
 }
 
 .maria_head h2 {
@@ -37,7 +35,9 @@ body {
 .maria_head p {
     font-size: 12px
 }
-
+.fleft {
+    float: left;
+}
 .clear {
     clear: both;
 }
@@ -56,6 +56,15 @@ body {
     padding: 7px 20px;
     background-color: #fff;
     border-radius: 5px;
+}
+
+button {
+    font-size: 12px;
+}
+
+button:hover {
+    background-color: #000;
+    color: #fff;
 }
 
 p {
@@ -115,37 +124,45 @@ main {
     padding: 30px 0;
 }
 
-.main_info .social_img,
-.p3,
-h2 {
+.social_img,
+.p3,h2 {
     float: left;
-    width: 30%;
+    width: 32%;
 }
 
 .clear {
     clear: both;
+}
+ .main_info h2{
+    text-align: center;
+    word-spacing: 2px;
 }
 .p3 {
     border-bottom: 1px solid black;
     padding-top: 15px;
-    margin: 0 20px 0 0;
+    margin: 0 20px 0 10px;
 }
-i{
+
+i {
     float: left;
-    width:60px;
-    font-size:30px; 
+    width: 60px;
+    font-size: 30px;
 }
+
 .clear {
     clear: both;
 }
-.work_exp_info{
-    width:60%;
-    margin:auto;
-}
-.work_exp h3 {
-    padding: 50px 0 70px 0;
-    text-decoration-line: underline;
 
+.work_exp_info {
+    width: 60%;
+    margin: auto;
+}
+
+.work_exp h3 {
+    width:182px;
+    height:25px;
+    border-bottom: 2px solid #000;
+    margin:50px 0 70px 0;
 }
 
 .circle .circle1 {
@@ -200,14 +217,17 @@ i{
 .top2 h6 {
     padding: 10px 0 30px 0;
 }
-.education_info{
-    width:60%;
-    margin:auto;
+
+.education_info {
+    width: 60%;
+    margin: auto;
 }
+
 .education h3 {
-    padding: 50px 0 70px 0;
-    text-decoration-line: underline;
-    line-height: 50px;
+    width:105px;
+    height:25px;
+    border-bottom: 2px solid #000;
+    margin:50px 0 70px 0;
 }
 
 .circle1 {
@@ -286,13 +306,17 @@ i{
 .top4 h6 {
     padding: 10px 0 30px 0;
 }
-.references_info{
-    width:60%;
-    margin:auto;
+
+.references_info {
+    width: 60%;
+    margin: auto;
 }
+
 .references h3 {
-    padding: 50px 0 70px 0;
-    text-decoration-line: underline;
+    width:117px;
+    height:25px;
+    border-bottom: 2px solid #000;
+    margin:50px 0 70px 0;
 }
 
 .top5 p {
@@ -305,14 +329,18 @@ i{
     padding: 15px 0 0 100px;
 
 }
-.portfolio_head{
-    width:60%;
-    margin:auto;
+
+.portfolio_head {
+    width: 60%;
+    margin: auto;
 }
+
 .portfolio_head h3 {
     float: left;
-    padding: 50px 0 70px 0;
-    text-decoration-line: underline;
+    width:95px;
+    height:25px;
+    border-bottom: 2px solid #000;
+    margin:50px 0 70px 0;
 }
 
 .portfolio_head button {
@@ -320,21 +348,10 @@ i{
     padding: 10px 20px;
     border-radius: 5px;
     margin-top: 50px;
-    font-size: 12px;
 }
-
-.portfolio_head button a {
-    text-decoration: none;
-    color: #000;
-}
-
-.portfolio_head button:hover {
-    background-color: #ccc;
-}
-
 .portfolio_imgs {
-    width: 90%;
-    margin:0 auto;
+    width: 95%;
+    margin: 0 auto;
 }
 
 .overlay {
@@ -343,22 +360,24 @@ i{
     left: 0;
     right: 0;
     bottom: 300px;
-    background-color: lightcoral;
-    transition: all 0.2s;
+    background-color: lightsteelblue;
+    transition: all 0.5s;
+    opacity: 0.5
 }
+
 .portfolio_img1 img,
 .portfolio_img2 img,
 .portfolio_img3 img,
-.portfolio_img4 img{
+.portfolio_img4 img {
     width: 100%;
     height: 100%;
     margin-bottom: 20px;
 }
 
-.portfolio_img1 img:hover .overlay,
-.portfolio_img2 img:hover .overlay,
-.portfolio_img3 img:hover .overlay,
-.portfolio_img4 img:hover .overlay {
+.portfolio_img1:hover .overlay,
+.portfolio_img2:hover .overlay,
+.portfolio_img3:hover .overlay,
+.portfolio_img4:hover .overlay {
     bottom: 0;
 }
 
@@ -368,18 +387,20 @@ i{
 .portfolio_img4 {
     position: relative;
     float: left;
-    width: 320px;
+    width: 300px;
     height: 300px;
 }
 
 .clear {
     clear: both;
 }
+
 .portfolio_img1,
 .portfolio_img2,
-.portfolio_img3{
+.portfolio_img3 {
     margin-right: 20px;
 }
+
 .portfolio_imgs h5 {
     font-size: 25px;
 }
@@ -390,13 +411,17 @@ i{
 .portfolio_img4 p {
     padding-bottom: 20px;
 }
-.extra_skills_info{
-    width:60%;
-    margin:auto;
+
+.extra_skills_info {
+    width: 60%;
+    margin: auto;
 }
+
 .extra_skills h3 {
-    padding: 120px 0 70px 0;
-    text-decoration-line: underline;
+    width:125px;
+    height:25px;
+    border-bottom: 2px solid #000;
+    margin:120px 0 70px 0;
 }
 
 
@@ -405,31 +430,35 @@ i{
 .extra_skills_img3,
 .extra_skills_img4 {
     float: left;
-    width: 210px;
+    width: 190px;
     height: 300px;
-    margin-right: 13px;
     margin-bottom: 50px;
 }
 
 .clear {
     clear: both;
 }
-.extra_skills_img1 img,
-.extra_skills_img2 img
-{
-    width:150px;
-    height:150px;
-    margin:80px 0 0 10px;
+.extra_skills_img1,
+.extra_skills_img2,
+.extra_skills_img3{
+    margin-right: 10px;
 }
+.extra_skills_img1 img,
+.extra_skills_img2 img {
+    width: 150px;
+    height: 150px;
+    margin: 70px 0 20px 0;
+}
+
 .extra_skills_img1 h5,
 .extra_skills_img2 h5 {
     text-align: center;
-     width:170px;
+    width: 170px;
 }
 
 .extra_skills_img1 p,
 .extra_skills_img2 p {
-    width:170px;
+    width: 170px;
     text-align: center;
     font-size: 13px;
     padding-top: 5px;
@@ -459,52 +488,68 @@ i{
     font-size: 12px;
     margin-top: 10px;
 }
-.contact_me_info{
-    width:60%;
-    margin:auto;
-    
-}
-.contact_me h3{
-    padding:0 0 70px 0;
-    text-decoration-line: underline;
-}
-.input {
-        padding:10px 0;
-} 
-.name,.email,.subject,textarea{
-    padding:10px 0;
-    outline:0;
-    border:none;
-    border-bottom:2PX solid #CCC ;
-}
-.name,.email
-{
-    width:49%;
-}
-.email{
-    margin-left:2%;
-}
-.subject,textarea{
-    width:100%;
+
+.contact_me_info {
+    width: 60%;
+    margin: auto;
+
 }
 
-.btn1{
-    text-align: right;
-    margin:20px 0 0 50px;
+.contact_me h3 {
+    width:123px;
+    height:25px;
+    border-bottom: 2px solid #000;
+    margin:50px 0 70px 0;
 }
-.btn1 button{
+
+.input {
+    padding: 10px 0;
+}
+
+.name,
+.email,
+.subject,
+textarea {
+    padding: 10px 0;
+    outline: 0;
+    border: none;
+    border-bottom: 2PX solid #CCC;
+}
+
+.name,
+.email {
+    width: 49%;
+}
+
+.email {
+    margin-left: 2%;
+}
+
+.subject,
+textarea {
+    width: 100%;
+}
+
+.btn1 {
+    text-align: right;
+    margin: 20px 0 0 50px;
+}
+
+.btn1 button {
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 12px;
 }
-footer{
+
+footer {
     padding: 20px 0px;
     background-color: dimgray;
     text-align: center;
-    color:darkgrey;
+    color: darkgrey;
     font-size: 12px;
-    margin-top:50px;
+    margin-top: 50px;
 }
-footer a{
+
+footer a {
     text-decoration: none;
 }
