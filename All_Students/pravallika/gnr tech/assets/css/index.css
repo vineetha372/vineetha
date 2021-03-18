@@ -8,7 +8,7 @@ html {
 body {
     font-family: 'Josefin Sans', sans-serif;
     width: 100%;
-    background-color:;
+    background-color:white;
 }
 
 .container {
@@ -153,9 +153,9 @@ span {
 
 .parag1 {
     float: left;
+    width:470px;
     margin-top: 30px;
     border: 1px solid #fff;
-    width: 550px;
     padding-right: 10px;
     margin-bottom: 30px;
 }
@@ -179,6 +179,7 @@ span {
     margin-left: 10px;
     background-color: black;
     color: white;
+    float: right;
 }
 
 .color h1 {
@@ -373,6 +374,10 @@ hr {
         padding: none;
        text-align: left;
     }
+    .text-1 h1{
+        text-align: left;
+    }
+    
     .text-1 p{
         text-align: left;
         padding: inherit;
@@ -390,7 +395,7 @@ hr {
         margin-top: 20px;
     }
     .para1 p{
-        width:90%;
+        width:80%;
     }
     .figure img,.figure2 img{
         width:90%;
@@ -399,7 +404,7 @@ hr {
         
     }
     .parag1 p{
-        width:400px;
+        width:300px;
         height:100%;
         margin: inherit;
         padding: inherit;
@@ -411,7 +416,7 @@ hr {
     }
     .p p{
         text-align: left;
-        width:90%;
+        width:80%;
     }
     .figure-1 img{
         width:80%;
@@ -434,10 +439,31 @@ hr {
     hr{
         margin: inherit;
         width: 80%;
+       
     }
     .para-1{
         width:100%;
         height:100%;
+    }
+    .para-1 p{
+        width:75%;
+        height:100%;
+        font-size:20px;
+        float: none;
+    }
+    .list-1{
+        margin: inherit;
+        padding: inherit;
+    
+        text-align: left;
+    }
+     .list-2{
+           margin: inherit;
+        padding: inherit;
+          
+    }
+    i{
+        float: none;
     }
     
 }
