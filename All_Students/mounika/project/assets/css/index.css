@@ -406,3 +406,33 @@ input {
 p span {
     color: lightgray;
 }
+/*.carousel-caption h2, .carousel-caption p{
+    text-align:left;
+    color:white;
+}
+.carousel-caption p{
+    font-size: 16px !important;
+}
+.carousel-caption .btn{
+    float:left;
+    margin:0 !important;
+    padding:0 !important;
+}
+
+.carousel-indicators [data-bs-target]{
+    width:15px;
+    height:15px;
+    background-color: white !important;
+    border:2px solid white;
+    border-radius:50%;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../images/arrow-right.png);
+    filter: invert(1) grayscale(100);
+    filter: none !important;
+}
+.carousel-control-prev-icon {
+    background-image: url(../images/arrow-left.png);
+    filter: none !important;
+}*/
