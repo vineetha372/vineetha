@@ -508,6 +508,50 @@ textarea{
 
 
 
+.carousel-indicators{
+    position:relative;
+    height: 200px;
+}
+.carousel-indicators button{
+    width:15px !important;
+    height:15px !important;
+    background-color: rgba(255, 255,255,0.6) !important;
+    border-radius: 50%;
+    margin-left: -120px;
+}
+.carousel-indicators button[data-bs-slide-to="0"]{
+    position:absolute;
+    left:0;
+    top:100px;
+}
+.carousel-indicators button[data-bs-slide-to="1"]{
+    position:absolute;
+    left:0;
+    top:125px;
+}
+.carousel-indicators button[data-bs-slide-to="2"]{
+    position:absolute;
+    left:0;
+    top:150px;
+}
+.carouselExampleDark{
+    float: left;
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

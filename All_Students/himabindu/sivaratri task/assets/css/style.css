@@ -43,7 +43,7 @@ main
 {
     background-color:#f2f7f8;
 }
-.wrapper
+.wrapper1
 {
     width:80%; 
     margin:0px auto;
@@ -185,6 +185,7 @@ hr
     padding-top:30px;
     padding-bottom:50px;
     display:flex;
+    border:2px solid blue;
 }
 .one,.two,.three
 {
