@@ -361,8 +361,8 @@ h2 {
 }
 
 .portfolio_imgs {
-    width: 95%;
-    margin: 0 auto;
+   width:90%;
+    margin:auto;
 }
 
 .overlay {
@@ -409,7 +409,7 @@ h2 {
 .portfolio_img1,
 .portfolio_img2,
 .portfolio_img3 {
-    margin-right: 20px;
+    margin-right: 45px;
 }
 
 .portfolio_imgs h5 {
