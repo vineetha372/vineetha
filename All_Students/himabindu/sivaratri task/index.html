@@ -10,7 +10,7 @@
 
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>-->
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 <body>
@@ -103,7 +103,7 @@
 
         
         <h2 id="ref">References</h2>
-                <div class="container2">
+                <!--<div class="container2">-->
                     <!--<div class="left">
                     <div class="one" onclick="myFunction1()"></div>
                     <div class="two" onclick="myFunction2()"></div>
@@ -113,89 +113,39 @@
                     -->
                 
 
-                <aside>
-                   <!-- <div class="aside_info">
-                        <div class="para">
-                            <div class="p1">
-                                <h2>Lessons for beginers</h2>
-                                <p>Lorem ipsum dolor sit amet, elit consectetur adipisicing elit. Recusandae amet nam cupiditate, ducimus reiciendis conse natus.Recusandae amet cupid.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae nam cupidirem ipsu dolor sit amet, consectetur adipisicing elit. Recusandae nam cupidi, ducimus amet reiciendis conse natus.</p>
-                            </div>
-                            <img src="" alt="">
-                            <div class="btn">
-                                <button class="b1">Subscribe</button>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                    </div>-->
-        
-                    <!--banner starts-->
+                
                     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" id="btn1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2" id="btn2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3" id="btn3"></button>
                         </div>
                         <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="10000">
-                                <!--<img src="assets/images/backgroundimg1.png" class="d-block w-100" alt="...">-->
+                            <div class="carousel-item active" data-bs-interval="500">
+                                <img src="assets/images/1.jpg" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <div class="para">
-                                        <div class="p1">
-                                            <h2>Lessons for beginers</h2>
-                                            <p>Lorem ipsum dolor sit amet, elit consectetur adipisicing elit. Recusandae amet nam cupiditate, ducimus reiciendis conse natus.Recusandae amet cupid.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae nam cupidirem ipsu dolor sit amet, consectetur adipisicing elit. Recusandae nam cupidi, ducimus amet reiciendis conse natus.</p>
-                                        </div>
-                                        <!--<img src="" alt="">-->
-                                        <div class="btn">
-                                            <button class="b1">Subscribe</button>
-                                        </div>
-                                    </div>
-                                    <div class="clear"></div>
+                                    <h5 id="h5">First slide label</h5>
+                                    <p id="p">" Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic pariatur nemo accusantium itaque illum sunt laborum sed ex sit voluptatum. "</p>
                                 </div>
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img src="assets/images/backgroundimg2.png" class="d-block w-100" alt="...">
+                            <div class="carousel-item" data-bs-interval="1000">
+                                <img src="assets/images/2.jpg" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <div class="para">
-                                        <div class="p1">
-                                            <h2>Lessons for beginers</h2>
-                                            <p>Lorem ipsum dolor sit amet, elit consectetur adipisicing elit. Recusandae amet nam cupiditate, ducimus reiciendis conse natus.Recusandae amet cupid.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae nam cupidirem ipsu dolor sit amet, consectetur adipisicing elit. Recusandae nam cupidi, ducimus amet reiciendis conse natus.</p>
-                                        </div>
-                                        <!--<img src="" alt="">-->
-                                        <div class="btn">
-                                            <button class="b1">Subscribe</button>
-                                        </div>
-                                    </div>
-                                    <div class="clear"></div>
+                                    <h5 id="h5">Second slide label</h5>
+                                    <p id="p">" Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic pariatur nemo accusantium itaque illum sunt laborum sed ex sit voluptatum. "</p>
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src="assets/images/backgroundimg3.png" class="d-block w-100" alt="...">
+                            <div class="carousel-item" data-bs-interval="1500">
+                                <img src="assets/images/3.jpg" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <div class="para">
-                                        <div class="p1">
-                                            <h2>Lessons for beginers</h2>
-                                            <p>Lorem ipsum dolor sit amet, elit consectetur adipisicing elit. Recusandae amet nam cupiditate, ducimus reiciendis conse natus.Recusandae amet cupid.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae nam cupidirem ipsu dolor sit amet, consectetur adipisicing elit. Recusandae nam cupidi, ducimus amet reiciendis conse natus.</p>
-                                        </div>
-                                        <img src="" alt="">
-                                        <div class="btn">
-                                            <button class="b1">Subscribe</button>
-                                        </div>
-                                    </div>
-                                    <div class="clear"></div>
+                                    <h5 id="h5">Third slide label</h5>
+                                    <p id="p">" Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic pariatur nemo accusantium itaque illum sunt laborum sed ex sit voluptatum. "</p>
                                 </div>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
                     </div>
-                </aside>
-            </div>
+                     
+            <!--</div>-->
                 <!--banner ends-->
 
         <div class="portfolio">
@@ -290,7 +240,8 @@
     </script>*/
 
 
-<script src="https://getbootstrap.com/docs/5.0/dist/js/bootstrap.bundle.min.js"></script>
+<!--<script src="https://getbootstrap.com/docs/5.0/dist/js/bootstrap.bundle.min.js"></script>-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
 <script>
     var myCarousel = document.querySelector('#carouselExampleDark');
     var carousel = new bootstrap.Carousel(myCarousel);
