@@ -294,72 +294,7 @@ padding-top: 40px;
      margin-bottom:70px;
     
 }
-/*.first{
-    width:20px;
-    height:20px;
-    border-radius: 30px;
-    margin: 10px 0px;
-    border: 2px solid black;
-}
-.first-1{
-    width:20px;
-    height:20px;
-    border-radius: 30px;
-    margin: 10px 0px;
-    border: 2px solid black;
-}
-.first-2{
-    width:20px;
-    height:20px;
-    border-radius: 30px;
-    margin: 10px 0px;
-    border: 2px solid black;
-}
-.first:hover{
-    background-color: #eee;
-    cursor: pointer;
-}
-.first-1:hover{
-    background-color: #eee;
-    cursor: pointer;
-}
-.first-2:hover{
-    background-color: #eee;
-    cursor: pointer;
-}
-#para{
-    width:70%;
-    padding-top: 30px;
-    padding-left: 20px;
-}*/
 
-
-/*.image1 h2 {
-    padding-top: 10px;
-    font-size: 30px;
-}
-
-.image1 p {
-    font-size: 20px;
-    padding-top: 10px;
-}*/
-/*.portfolio_head {
-    width: 60%;
-    margin: auto;
-}
-.portfolio_head h1{
- float: left;
-}
-.portfolio_head hr{
-    width:200px;
-    
-}
-.portfolio_head button {
-    float: right;
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin-top: 50px;
-}*/
 .portfolio_imgs {
     width:88%;
     margin: 0 auto;
