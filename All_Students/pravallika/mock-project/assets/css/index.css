@@ -89,12 +89,11 @@ a {
 
 
 }
-<<<<<<< HEAD
 .main h1{
     font-family: 'Josefin Sans';
     text-align: center;
     font-size:50px;
-=======
+}
 .al:active{
     text-decoration: underline;
     color:orangered;
@@ -104,12 +103,11 @@ a {
    
     text-align: center;
     font-size: 50px;
->>>>>>> aebbd8927e3b79d299b53d5d6b8d81bddb249c81
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-i {
+i{
     width: 50px;
     display: block !important;
     font-size: 50px;
@@ -119,13 +117,7 @@ i {
     padding-top: 10px;
     padding-bottom: 20px;
 }
-/*@media screen and (min-width:1000px) {
-    .section1{
-        width:100%;
-        float:none;
-        
-    }
-}*/
+
 
 .border-why{
     border:1px solid #fff;
@@ -135,7 +127,6 @@ i {
 .section1 {
     border:1px solid #fff;
     box-sizing: border-box;
-    
     width: 340px;
     float:left;
     margin-top: 50px;
