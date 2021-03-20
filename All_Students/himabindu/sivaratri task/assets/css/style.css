@@ -182,10 +182,9 @@ hr
 {
     width:70%;
     margin:0 auto;
-    padding-top:30px;
-    padding-bottom:50px;
+    padding-top:40px;
+    padding-bottom:90px;
     display:flex;
-    border:2px solid blue;
 }
 .one,.two,.three
 {
@@ -398,6 +397,48 @@ footer
     margin-top:150px;
 }
 
+#carouselExampleDark
+{
+    position:relative;
+    width:80%;
+    margin:0px auto;
+    padding:70px 0px 90px 0px;
+}
+.carousel-item img
+{
+    height:100px;
+    opacity:0;
+}
+.carousel-item #h5,#p
+{
+    color:black;
+    font-size:20px;
+    padding-left:50px;
+    margin-bottom:-30px;
+}
+.carousel-indicators button[data-bs-target]
+{
+    position:absolute;
+    width:35px;
+    height:35px;
+    border-radius:35px;
+    box-sizing:border-box;
+}
+#btn1
+{
+    top:-170px;
+    left:-30px;
+}
+#btn2
+{
+    top:-130px;
+    left:-30px;
+}
+#btn3
+{
+    top:-90px;
+    left:-30px;
+}
 @media all and (max-width:500px){
     .head{
         display:grid;
@@ -466,6 +507,10 @@ footer
     }
     .portfolio button{
         margin-top:20px;
+    }
+    #carouselExampleDark
+    {
+        width:100%;
     }
 }
 

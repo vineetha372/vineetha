@@ -390,7 +390,7 @@ input {
 .p3 p {
     width: 220px;
     color: #fff;
-    background-color:#f00;
+   background-image: linear-gradient(to right, yellow ,purple );
     padding: 3px 5px;
     border-radius: 5px 5px 0 0;
     border: none;
