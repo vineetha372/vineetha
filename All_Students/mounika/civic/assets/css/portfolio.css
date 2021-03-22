@@ -361,7 +361,7 @@ h2 {
 }
 
 .portfolio_imgs {
-   width:90%;
+   width:92%;
     margin:auto;
 }
 
@@ -398,7 +398,7 @@ h2 {
 .portfolio_img4 {
     position: relative;
     float: left;
-    width: 300px;
+    width: 280px;
     height: 300px;
 }
 
@@ -409,7 +409,7 @@ h2 {
 .portfolio_img1,
 .portfolio_img2,
 .portfolio_img3 {
-    margin-right: 45px;
+    margin-right: 40px;
 }
 
 .portfolio_imgs h5 {
@@ -523,10 +523,10 @@ h2 {
 .email,
 .subject,
 textarea {
-    padding: 10px 0;
+    padding: 20px 0;
     outline: 0;
     border: none;
-    border-bottom: 2PX solid #CCC;
+    border-bottom: 2PX solid #999;
 }
 
 .name,
