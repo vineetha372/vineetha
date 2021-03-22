@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.heading{
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    height: 70px;
+    width:100%;
+    position: fixed;
+
+
+}
+
+.heading h1{
+    float: left;
+    margin-right: 150px;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+
+
+ul li{
+    text-decoration: none;
+    list-style: none;
+    width: 500px;
+    display: inline;
+    padding-left: 40px;
+    font-size: 22px;
+    color: rgb(252, 249, 249);
+ 
+}
+
+/* sections1*/
+
+.sections1{
+    text-align: center;
+     height: 450px;
+     
+     /*background-image: url("https://s3.envato.com/files/292603332/Board%20room%2023_05_20.jpg");*/
+     background-color: rgb(186, 250, 121);
+     background-repeat: no-repeat;
+     width: auto;
+     color: white;
+}
+.sections1 h1{
+    padding-top: 100px;
+    font-size: 70px;
+}
+.sections1 p{
+     font-size: 30px;
+     font-weight: 20px;
+}
+
+
+.ourclassimg{
+    margin-left: 50px;
+    float: left;
+    width: 500px;
+    height: 600px;
+    padding-top: 30px;
+}
+.voluptates{
+    float: left;
+    width: 500px;
+    color: rgb(133, 126, 126);
+    margin-left: 50px;
+}
+.voluptates h3{
+    margin-top: 50px;
+    font-size: 35px;
+}
+.voluptates h4{
+    margin-top: 50px;
+
+}
+.icon{
+    font-size: 50px;
+    float: left;
+    color: rgb(26, 160, 26);
+}
+.icon p{
+    font-size: 13px;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+/*sections1*/
+
+.numbers{
+    height: 650px;
+    margin-top: 60px;
+    background-color: rgb(235, 230, 230);
+   
+}
+.num1{
+    width: 350px;
+    float: left;
+   margin-left: 120px;
+   
+
+}
+.num1 h1{
+    color: rgb(40, 170, 40);
+    
+}
+
+
+.num2{
+    width: 400px;
+    float: left;
+    padding-left: 80px;
+
+}
+.num2 h1{
+    color: rgb(40, 170, 40);
+}
+.num3{
+    width: 400px;
+    float: left;
+    padding-left: 80px;
+
+}
+.num3 h1{
+    color: rgb(40, 170, 40);
+}
+.num4{
+    width: 350px;
+    float: left;
+   margin-left: 120px;
+
+}
+.num4 h1{
+    color: rgb(40, 170, 40);
+}
+
+
+.num5{
+    width: 400px;
+    float: left;
+    padding-left: 80px;
+
+}
+.num5 h1{
+    color: rgb(40, 170, 40);
+}
+.num6{
+    width: 400px;
+    float: left;
+    padding-left: 80px;
+
+}
+.num6 h1{
+    color: rgb(40, 170, 40);
+}
+
+
+/*sections2*/
+.modsit{
+    height: 500px;
+    margin-top: 70px;
+    margin-left: 100px;
+
+
+}
+.modisitest{
+    width: 450px;
+    box-shadow: blanchedalmond 20px;
+   
+    border-radius: 10px;
+    background-color:whitesmoke;
+    
+}
+.modisitest h1{
+    color: green;
+    font-size: 28px;
+}
+.modisitest1{
+    width: 450px;
+    box-shadow: blanchedalmond 5px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.modisitest1 h1{
+    font-size: 28px;
+
+}
+.modisitest2{
+    width: 450px;
+    box-shadow: blanchedalmond 5px;
+    margin-top: 20px;
+
+
+}
+
+.modsit h1:hover {
+   color:green;
+  }
+
+  .modsit p:hover {
+    color:green;
+   }
+.modisitest2 h1{
+    font-size: 28px;
+
+}
+.modisitest3{
+    width: 450px;
+    box-shadow: blanchedalmond 5px;
+    margin-top: 20px;
+    
+}
+.modisitest3 h1{
+    font-size: 28px;
+
+}
+
+.floatimg{
+    float: left;
+}
+.comimg{
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin-left: 150px;
+}
+/*sections2*/
+
+.services{
+    text-align: center;
+    height: 500px;
+    background-color: rgb(223, 219, 219);
+
+}
+.card1{
+    width: 300px;
+    float: left;
+    border: solid 1px;
+    margin-left: 50px;
+}
+.card2{
+    width: 300px;
+    float: left;
+    border: solid 1px;
+    margin-left: 20px;
+}
+.card3{
+    width: 300px;
+    float: left;
+    border: solid  1px;
+    margin-left: 20px;
+}
+.card4{
+    width: 300px;
+    float: left;
+    border: solid 1px;
+    margin-left: 20px;
+}
