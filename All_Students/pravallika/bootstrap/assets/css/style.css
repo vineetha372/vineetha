@@ -11,6 +11,7 @@
     box-sizing: border-box;
    
 }
+
 body{
    /* font-family:'nunito',sans-serif;*/
     font-family: 'Josefin Sans', sans-serif;
@@ -154,7 +155,7 @@ main{
     border: 1px solid #fff;
 }
 .right{
-    float:right;
+    float:left;
      margin-top: 50px;
      width:450px;
       border: 1px solid #fff;
