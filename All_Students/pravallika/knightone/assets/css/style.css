@@ -28,7 +28,7 @@ li a{
     background-size: cover;
     background-image: url(../images/blue.jpg);
     height:800px;
-position: fixed;
+    background-attachment:fixed;
     
 }
 /*--------------------------------------------------------------
