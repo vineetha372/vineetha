@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto',sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.inner_container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    height: 50px;
+    background-color: #000;
+}
+
+.fleft {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.fright {
+    float: right;
+}
+
+nav img {
+    padding: 10px 0;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.banner {
+    height: 300px;
+    background-image: url("../images/slider-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+    color: #fff;
+}
+
+.banner_info {
+    text-align: center;
+}
+
+.banner_info h1 {
+    font-size: 50px;
+}
+
+p {
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+.banner_info button {
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    margin-top: 40px;
+}
+
+.about_head {
+    padding: 30px 0;
+    text-align: center;
+    line-height: 30px;
+}
+
+.about1,
+.about2,
+.about3,
+.about4 {
+    width: 25%;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.about1 img,
+.about2 img,
+.about3 img,
+.about4 img {
+    width: 30%;
+}
+
+.about1 h4,
+.about2 h4,
+.about3 h4,
+.about4 h4 {
+    padding: 15px 0;
+}
+
+.our_skills h4 {
+    padding: 30px 0;
+    font-size: 22px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.our_skills .p1,
+.our_skills .p2 {
+    width: 48%;
+    padding-bottom: 50px;
+}
+
+.our_pdf {
+    background-color: #eee;
+    padding: 40px 0;
+}
+
+.our_pdf h2 {
+    padding-bottom: 15px;
+}
+
+.our_pdf h2,
+.our_pdf p {
+    width: 80%;
+    line-height: 25px;
+
+}
+
+.our_pdf button {
+    width: 15%;
+    padding: 13px 0;
+    margin-left: 50px;
+    background-color: #000;
+    color: #fff;
+}
+
+.services_info {
+    text-align: center;
+}
+
+.services_head {
+    padding: 30px 0;
+    line-height: 30px;
+}
+
+.development,
+.design,
+.hosting,
+.pen {
+    width: 25%;
+    padding: 30px 0;
+}
+
+.development p,
+.design p,
+.hosting p,
+.pen p {
+    padding: 10px 0;
+}
+
+.services_info button {
+    width: 20%;
+    padding: 12px 0;
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.reviews{
+    background-image: url(../images/testimonial-bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding:100px 0;
+    /*background-color: rgba(0.8);
+    background-color: #000;*/
+    opacity:0.5;
+    background:#000;
+}
+.reviews_info{
+    padding:50px 0;
+    text-align: center;
+    color: #fff;
+}
+.reviews_info h2{
+    line-height:25px;
+    padding:10px 0 15px 0;
+    
+}
+.reviews_info p{
+    padding:15px 0 30px 0;
+}
+.p3 p{
+    padding-bottom: 20px;
+}
+.our_works_info{
+    padding: 30px 0;
+    text-align: center;
+    line-height: 30px;
+}
+.our_works_info img{
+    margin:15px 0;
+}
+.p4{
+    display: inline-block;
+}
