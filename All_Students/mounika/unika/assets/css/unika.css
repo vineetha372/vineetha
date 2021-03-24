@@ -330,10 +330,9 @@ p {
 .some4 h1 {
     padding: 20px 0 5px 0;
 }
-i{
+.some_fun_facts i{
     font-size:35px;
     color:#fff;
-    padding-top: 50px;
 }
 
 .our_team {
@@ -541,7 +540,7 @@ textarea {
     background-color: dimgray;
 }
 
-input::placeholder,textarea::placeholder {
+ .inputs input::placeholder,textarea::placeholder {
    color: #fff;
 }
 
@@ -555,7 +554,7 @@ input::placeholder,textarea::placeholder {
 
 .contacts2 {
     background-color: #999;
-    color: #999;
+    color: #fff;
 }
 
 .contacts2_info {
@@ -622,4 +621,22 @@ input::placeholder,textarea::placeholder {
 
 .minifooter span {
     color: #999;
+}
+.arrow{
+    width:25px;
+    height:25px;
+    border:3px solid gray;
+    transform: rotate(45deg);
+    margin:15px 0;
+}
+.arrow{
+    position: fixed;
+    bottom: 0;
+    right:30px;
+}
+.arrow i{
+    color:gray;
+    font-size: 20px;
+    margin:3px 5px;
+    transform: rotate(-45deg);
 }
