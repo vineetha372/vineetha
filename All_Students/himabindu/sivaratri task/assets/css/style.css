@@ -33,7 +33,10 @@ main
 .btn button,.portfolio button
 {
     border:3px solid black;
-    padding:20px 50px;
+    width:190px;
+    height:50px;
+    line-height:40px;
+    padding:0px 0px;
     background-color:white;
     font-size:15px;
     font-weight:bold;
@@ -426,17 +429,17 @@ footer
 }
 #btn1
 {
-    top:-170px;
+    top:-190px;
     left:-30px;
 }
 #btn2
 {
-    top:-130px;
+    top:-140px;
     left:-30px;
 }
 #btn3
 {
-    top:-90px;
+    top:-100px;
     left:-30px;
 }
 @media all and (max-width:500px){
@@ -457,6 +460,11 @@ footer
     .pic
     {
         width:100%;
+    }
+    .btn button{
+        display:grid;
+        justify-content:space-around;
+        margin-top:20px;
     }
     .cards
     {
@@ -511,6 +519,21 @@ footer
     #carouselExampleDark
     {
         width:100%;
+    }
+    .carousel-item #h5,#p
+    {
+    color:black;
+    font-size:20px;
+    margin-bottom:-30px;
+    margin-left:130px;
+    opacity:1;
+    width:70%;
+    border:1px solid blue;
+    }
+    .carousel-item img{
+
+        width:100%;
+        opacity:1;
     }
 }
 
