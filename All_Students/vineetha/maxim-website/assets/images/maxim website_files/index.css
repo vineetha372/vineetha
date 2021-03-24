@@ -89,13 +89,6 @@ ul li{
 .clear{
     clear: both;
 }
-.button{
-    background-color: rgb(12, 226, 12);
-    color: green;
-
-
-
-}
 /*sections1*/
 
 .numbers{
@@ -108,7 +101,6 @@ ul li{
     width: 350px;
     float: left;
    margin-left: 120px;
- 
    
 
 }
@@ -140,9 +132,6 @@ ul li{
     width: 350px;
     float: left;
    margin-left: 120px;
-   margin-top: 80px;
-   
-
 
 }
 .num4 h1{
@@ -154,7 +143,6 @@ ul li{
     width: 400px;
     float: left;
     padding-left: 80px;
-    margin-top: 80px;
 
 }
 .num5 h1{
@@ -164,7 +152,6 @@ ul li{
     width: 400px;
     float: left;
     padding-left: 80px;
-    margin-top: 80px;
 
 }
 .num6 h1{
@@ -256,12 +243,11 @@ ul li{
     border-radius: 20px;
     margin-left: 50px;
     background-color: white;
-    box-shadow: 10px 10px 10px  10px #aaaaaa;
 
 }
 
     .card1:hover {
-        background-color: rgb(48, 138, 60);
+        background-color: rgb(8, 180, 31);
       }
 
 
@@ -272,27 +258,16 @@ ul li{
     margin-left: 20px;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 10px 10px 10px  10px #aaaaaa;
 }
-.card2:hover {
-    background-color: rgb(48, 138, 60);
-  }
-
-
 .card3{
     width: 280px;
     height: 300px;
     float: left;
-    box-shadow: 10px 10px 10px  10px #aaaaaa;
+    
     margin-left: 20px;
     background-color: white;
     border-radius: 20px;
 }
-.card3:hover {
-    background-color: rgb(48, 138, 60);
-  }
-
-
 .card4{
     width: 280px;
     height: 300px;
@@ -301,234 +276,10 @@ ul li{
     margin-left: 20px;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 10px 10px 10px  10px #aaaaaa;
-
 
 }
-.card4:hover {
-    background-color: rgb(58, 153, 70);
-  }
-
-
 .cards i{
     font-size: 50px;
 
 }
-
-/* sections 4*/
-.testimonials {
-    text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
-    height: 600px;
-
-}
-
-/* sections 4*/
-
-.portfolio{
-    text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
-    height: 1100px;
-
-}
-.menus{
-    height: 50px;
-    margin-left: 420px;
-    margin-top: 80px;
-    
-    width: 450px;
-    border-radius: 30px;
-    box-shadow: 5px 5px 5px  5px #aaaaaa;
-
-
-}
-.menus h1, h3, h4 ,h6 ,h5{
-    float: left;
-    text-align: center;
-    margin-left: 30px;
-    font-size: 30px;
-  
-
-}
-.menus h1, h3, h4 ,h6 ,h5:hover {
-   color: rgb(58, 153, 70);
-  }
-/* sections 6*/
-.images{
-     height: 200px;
-    text-align: left;
-    margin-left: 80px;
-    margin-top: 50px;
-}
-.img1{
-    
-    float: left;
-    margin-left: 50px;
-
-} 
-
-  
-
-
-.img2{
-    
-    float: left;
-    margin-left: 50px;
-
-}
-.img3{
-    
-    float: left;
-    margin-left: 50px;
-
-}
-.images2{
-   height: 300px;
-   text-align: left;
-   margin-left: 50px;
-   margin-top: 50px;
-}
-.img4{
-    
-    float: left;
-
-
-}
-.img5{
-    
-    float: left;
-    margin-left: 50px;
-
-}
-.img6{
-    
-    float: left;
-    margin-left: 50px;
-
-}
-
-.images3{
-    height: 300px;
-    text-align: left;
-    margin-left: 50px;
-    margin-top: -50px;
-   
- }
- .img7{
-     
-     float: left;
- 
- 
- }
- .img8{
-     
-     float: left;
-     margin-left: 50px;
- 
- }
- .img9{
-     
-     float: left;
-     margin-left: 50px;
- 
- }
- .clear{
-     clear: both;
- }
-  /*sections 6*/
-  .team{
-      text-align: center;
-      margin-left: 50px;
-      margin-right: 50px;
-  }
-  .teammembers{
-  height: 500px;
-  text-align: left;
-  margin-left: 50px;
-  margin-top: 50px;
-}
-.team1{
-    
-    float: left;
-    margin-left: 20px;
-
-} 
-
-  
-
-
-.team2{
-    
-    float: left;
-    margin-left: 20px;
-
-}
-.team3{
-    
-    float: left;
-    margin-left: 20px;
-
-}
-.team1.hover{
-    color: aqua;
-   
-}
-
-
-
-
-.collapsible {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-  }
-  .active, .collapsible:hover {
-    background-color: rgb(243, 247, 243);
-  }  
-
-  .non {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: #f1f1f1;
-  }
-  .active, .collapsible :hover{
-      color: green;
-       
-  }
-  .Contact{
-      text-align: center;
-      margin-top: 50px;
-  }
-
-
-  .loc h2 {
-       margin-left: 20px;
-      float: left;
-  }
-  .loc i{
-      float: left;
-      font-size: 50px;
-      margin-left: 50px;
-      color: green;
-  }
- .loc {
-     text-align: left;
- }
-
-
-
-
-
-  
-
-
 
