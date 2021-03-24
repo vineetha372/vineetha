@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -17,8 +17,11 @@ body {
 }
 
 nav {
-    height: 50px;
+    width: 100%;
+    height: 70px;
     background-color: #000;
+    position: fixed;
+    z-index: 1000;
 }
 
 .fleft {
@@ -34,27 +37,31 @@ nav {
 }
 
 nav img {
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
-ul li {
+nav ul li {
     list-style: none;
     display: inline-block;
-    padding: 15px 20px;
+    padding: 25px 10px;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: #ccc;
 }
 
+a:hover {
+    color: #fff;
+}
+
 .banner {
-    height: 300px;
+    width: 100%;
     background-image: url("../images/slider-bg.jpg");
     background-position: center;
     background-size: cover;
-    padding-top: 200px;
     color: #fff;
+    padding: 300px 0 300px 0;
 }
 
 .banner_info {
@@ -67,7 +74,7 @@ a {
 
 p {
     line-height: 20px;
-    letter-spacing: 2px;
+    font-size: 14px;
 }
 
 .banner_info button {
@@ -77,7 +84,7 @@ p {
 }
 
 .about_head {
-    padding: 30px 0;
+    padding: 70px 0;
     text-align: center;
     line-height: 30px;
 }
@@ -120,7 +127,7 @@ p {
 
 .our_pdf {
     background-color: #eee;
-    padding: 40px 0;
+    padding: 60px 0;
 }
 
 .our_pdf h2 {
@@ -147,7 +154,7 @@ p {
 }
 
 .services_head {
-    padding: 30px 0;
+    padding: 70px 0;
     line-height: 30px;
 }
 
@@ -173,41 +180,446 @@ p {
     color: #fff;
     margin-bottom: 50px;
 }
-.reviews{
+
+.reviews_head {
     background-image: url(../images/testimonial-bg.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    padding:100px 0;
-    /*background-color: rgba(0.8);
-    background-color: #000;*/
-    opacity:0.5;
-    background:#000;
+    padding: 200px 0;
+    position: relative;
 }
-.reviews_info{
-    padding:50px 0;
+
+.reviews_head img {
+    width: 100%;
+    height: 500px;
+    background-attachment: fixed;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.8;
+    background-color: #000;
+}
+
+.reviews {
+    position: relative;
+}
+
+.reviews_info {
+    padding: 50px 0 30px 0;
     text-align: center;
     color: #fff;
+    position: absolute;
+    top: 20px;
+    left: 65px;
 }
-.reviews_info h2{
-    line-height:25px;
-    padding:10px 0 15px 0;
-    
+
+.para h2 {
+    line-height: 25px;
+
 }
-.reviews_info p{
-    padding:15px 0 30px 0;
+
+.para img {
+    margin-top: 20px;
 }
-.p3 p{
+
+.reviews_info p {
+    padding: 5px 0 30px 0;
+}
+
+.para p {
     padding-bottom: 20px;
 }
-.our_works_info{
+
+.reviews_info img {
+    padding: 5px 0;
+}
+
+.our_works_info {
+    padding: 70px 0;
+    text-align: center;
+    line-height: 25px;
+}
+
+.our_works_info img {
+    margin: 15px 0;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 40px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+.imgs {
+    width: 100%;
+}
+
+.imgs .p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6,
+.p7,
+.p8,
+.p9 {
+    width: 32%;
+    height: 30%;
+}
+
+.imgs .p2,
+.imgs .p5,
+.imgs .p8 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.some_fun_facts_head {
+    background-image: url(../images/counter-bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0;
+    position: relative;
+}
+
+.some_fun_facts {
+    position: relative;
+}
+
+.some_fun_facts_info {
     padding: 30px 0;
     text-align: center;
     line-height: 30px;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    left: 65px;
 }
-.our_works_info img{
-    margin:15px 0;
+
+.some_fun_facts img {
+    padding: 5px 0;
 }
-.p4{
-    display: inline-block;
+
+.some_fun_facts p {
+    padding-bottom: 70px;
+}
+
+.some1,
+.some2,
+.some3,
+.some4 {
+    width: 25%;
+}
+
+.some1 h1,
+.some2 h1,
+.some3 h1,
+.some4 h1 {
+    padding: 20px 0 5px 0;
+}
+i{
+    font-size:35px;
+    color:#fff;
+    padding-top: 50px;
+}
+
+.our_team {
+    padding: 70px 0;
+    text-align: center;
+    line-height: 30px;
+}
+
+.our_team1 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0 0 70px;
+}
+
+.our_team_inner1,
+.our_team_inner2,
+.our_team_inner3,
+.our_team_inner4 {
+    width: 25%;
+    position: relative;
+}
+
+.our_team2 {
+    width: 60%;
+    margin: 0 auto;
+    padding-left: 70px;
+}
+
+.our_team_inner5,
+.our_team_inner6,
+.our_team_inner7 {
+    width: 33%;
+    position: relative;
+}
+
+.unika1,
+.unika2,
+.unika3,
+.unika4,
+.unika5,
+.unika6,
+.unika7 {
+    width: 150px;
+    height: 150px;
+    background-color: dimgray;
+    text-align: center;
+    transform: rotate(45deg);
+}
+
+.our_team_inner1 h3,
+.our_team_inner2 h3,
+.our_team_inner3 h3,
+.our_team_inner4 h3,
+.our_team_inner5 h3,
+.our_team_inner6 h3,
+.our_team_inner7 h3 {
+    position: absolute;
+    top: 60px;
+    left: 48px;
+}
+
+.our_partners {
+    background-color: #eee;
+    padding: 50px 0;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 70px;
+}
+
+.our_partners img {
+    padding: 5px 0 5px 0;
+}
+
+.our_par_inner {
+    width: 100%;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+    width: 25%;
+    padding: 30px 0;
+}
+
+.prices {
+    padding: 70px 0;
+    text-align: center;
+    line-height: 30px;
+}
+
+.basic,
+.advanced,
+.professional,
+.ultimate {
+    width: 23%;
+}
+
+.basic h4,
+.advanced h4,
+.professional h4,
+.ultimate h4 {
+    background-color: #eee;
+    padding: 20px 0;
+    margin-top: 50px;
+    border-top: 5px solid #000;
+}
+
+.basic,
+.advanced,
+.professional {
+    margin-right: 25px;
+}
+
+.basic h1,
+.advanced h1,
+.professional h1,
+.ultimate h1 {
+    background-color: #ddd;
+    padding: 20px 0;
+}
+
+.basic .para1 p,
+.advanced .para1 p,
+.professional .para1 p,
+.ultimate .para1 p {
+    line-height: 40px;
+}
+
+.basic .btn,
+.advanced .btn,
+.professional .btn,
+.ultimate .btn {
+    background-color: #ddd;
+    padding: 15px 0;
+}
+
+.basic button,
+.advanced button,
+.professional button,
+.ultimate button {
+    padding: 10px 40px;
+    background-color: #000;
+    color: #fff;
+}
+
+.join_us {
+    padding: 70px 0;
+    text-align: center;
+    line-height: 30px;
+    background-color: #eee;
+}
+
+.contacts_head {
+    padding: 70px 0;
+    text-align: center;
+    line-height: 30px;
+    background-color: #000;
+    color: #fff;
+}
+
+.contacts1 {
+    position: relative;
+}
+
+.contacts1_info {
+    position: absolute;
+    top: 20px;
+    left: 65px;
+    color: #fff;
+}
+
+.contacts1_head {
+    background-image: url(../images/map-bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 250px 0;
+    position: relative;
+}
+
+.our_address,
+.inputs {
+    width: 50%;
+    padding: 30px 0 50px 0;
+}
+
+.map p {
+    line-height: 30px;
+}
+
+.map,
+.phone,
+.phone1,
+.message,
+.s {
+    padding: 7px 0;
+}
+
+.inputs input,
+textarea {
+    padding: 10px 0 10px 5px;
+    width: 100%;
+    margin: 10px 0;
+    background-color: dimgray;
+}
+
+input::placeholder,textarea::placeholder {
+   color: #fff;
+}
+
+.inputs button {
+    padding: 10px 0 10px 5px;
+    width: 100%;
+    margin: 10px 0;
+    background-color: #999;
+    color: #fff;
+}
+
+.contacts2 {
+    background-color: #999;
+    color: #999;
+}
+
+.contacts2_info {
+    padding: 30px 0;
+}
+
+.usefull,
+.subscribe,
+.recent {
+    width: 32%;
+}
+
+.subscribe input {
+    width: 70%;
+    margin: 20px 0;
+    padding: 10px 0 10px 5px;
+}
+
+.subscribe button {
+    width: 26%;
+    padding: 10px 0;
+    margin: 10px 0;
+    background-color: #999;
+    color: #fff;
+    margin: 20px 0 20px 5px;
+}
+
+.usefull h4 {
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+.usefull h5 {
+    line-height: 25px;
+}
+
+.recent {
+    margin-left: 30px;
+}
+
+.recent h4 {
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+.recent p {
+    line-height: 25px;
+}
+
+.recent span {
+    color: #000;
+     margin-right: 5px;
+}
+
+.minifooter {
+    background-color: dimgray;
+    text-align: center;
+    color: #fff;
+}
+
+.minifooter p {
+    padding: 20px 0;
+}
+
+.minifooter span {
+    color: #999;
 }
