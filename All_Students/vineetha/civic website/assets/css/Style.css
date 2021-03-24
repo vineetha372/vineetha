@@ -523,6 +523,9 @@ textarea{
     position:absolute;
     left:0;
     top:100px;
+
+   
+
 }
 .carousel-indicators button[data-bs-slide-to="1"]{
     position:absolute;
