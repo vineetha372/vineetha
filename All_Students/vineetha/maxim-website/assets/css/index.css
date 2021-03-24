@@ -509,21 +509,37 @@ ul li{
       margin-top: 50px;
   }
 
-
-  .loc h2 {
-       margin-left: 20px;
-      float: left;
+  .location{
+      width: 500px;
+      height: 400px;
+      border: green solid 1px;
+      margin-top: 50px;
+      margin-left: 100px;
+      padding-left: 20px;
+      padding-top: 20px;
   }
-  .loc i{
-      float: left;
-      font-size: 50px;
-      margin-left: 50px;
-      color: green;
-  }
- .loc {
-     text-align: left;
- }
 
+.loc i{
+    float: left;
+    font-size: 50px;
+    color: green;
+}
+.emi i{
+    float: left;
+    font-size: 40px;
+    color: green;
+}
+.cal i{
+    float: left;
+    font-size: 45px;
+    color: green;
+}
+.emi p{
+    padding-left: 50px;
+}
+.cal p{
+    padding-left: 50px;
+}
 
 
 
