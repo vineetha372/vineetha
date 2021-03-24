@@ -144,15 +144,11 @@ main{
     max-width:45%;
     height:33px;
     filter:grayscale(100);
-    display:inline-block;
-    box-sizing:border-box;
-    transition-property:max-width;
-  transition-duration: 4s;
-  transition-delay: 2s;
+    transition:all 0.4s ease-in-out;
 }
 #clients img:hover{
-    filter:grayscale(0);
-    max-width:47%;
+    filter:none;
+    transform:scale(1.1);
     
 }
 /*client ends*/
