@@ -7,8 +7,7 @@
 
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <!--dowmload bootstrap-->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+
     <!--online bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <!--online js-->
@@ -23,6 +22,7 @@
     <!--font-awesome-->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
 
+  
     <script>
         //alert(1);
         function age() {
@@ -34,64 +34,79 @@
                 alert("Not instrasted");
             }
         }
-
     </script>
 </head>
 
 <body>
-   <header id="header" class="fixed-top ">
-    <div class="container-fluid">
+    <header id="header" class="fixed-top ">
+        <div class="container-fluid">
 
-      <div class="row justify-content-center">
-        <div class="col-md-9 d-flex align-items-center justify-content-lg-between">
-          <h1 class="logo"><a href="index.html">KnightOne</a></h1>
-          <!-- Uncomment below if you prefer to use an image logo -->
-          <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            <div class="row justify-content-center">
+                <div class="col-md-9 d-flex align-items-center justify-content-lg-between">
+                    <h1 class="logo"><a href="index.html">KnightOne</a></h1>
+                    <!-- Uncomment below if you prefer to use an image logo -->
+                    <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-          <nav id="navbar" class="navbar order-last order-lg-0">
-            <ul>
-              <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-              <li><a class="nav-link scrollto" href="#about">About</a></li>
-              <li><a class="nav-link scrollto" href="#services">Services</a></li>
-              <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-              <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
-              <li class="dropdown"><a href="#"><span>Drop Down</span>
-                <ul>
-                  <li><a href="#">Drop Down 1</a></li>
-                   <li><a href="#">Drop Down 1</a></li>
-                  <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                    <ul>
-                      <li><a href="#">Deep Drop Down 1</a></li>
-                      <li><a href="#">Deep Drop Down 2</a></li>
-                      <li><a href="#">Deep Drop Down 3</a></li>
-                      <li><a href="#">Deep Drop Down 4</a></li>
-                      <li><a href="#">Deep Drop Down 5</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#">Drop Down 2</a></li>
-                  <li><a href="#">Drop Down 3</a></li>
-                  <li><a href="#">Drop Down 4</a></li>
-                </ul>
-              </li>
-              <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-            </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-          
-          </nav><!-- .navbar -->
+                    <nav id="navbar" class="navbar order-last order-lg-0">
+                        <ul>
+                            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                            <li><a class="nav-link scrollto" href="#about">About</a></li>
+                            <li><a class="nav-link scrollto" href="#services">Services</a></li>
+                            <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+                            <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
+                            <li class="dropdown"><a href="#"><span>Drop Down</span>
+                                    <ul>
+                                        <li><a href="#">Drop Down 1</a></li>
+                                        <li><a href="#">Drop Down 1</a></li>
+                                        <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                                            <ul>
+                                                <li><a href="#">Deep Drop Down 1</a></li>
+                                                <li><a href="#">Deep Drop Down 2</a></li>
+                                                <li><a href="#">Deep Drop Down 3</a></li>
+                                                <li><a href="#">Deep Drop Down 4</a></li>
+                                                <li><a href="#">Deep Drop Down 5</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Drop Down 2</a></li>
+                                        <li><a href="#">Drop Down 3</a></li>
+                                        <li><a href="#">Drop Down 4</a></li>
+                                    </ul>
+                            </li>
+                            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                        </ul>
+                        <i class="bi bi-list mobile-nav-toggle"></i>
 
-          </div>
+                    </nav><!-- .navbar -->
+
+                </div>
+            </div>
         </div>
-       </div>
     </header>
-    
-  
-    <section>
+
+
+    <!--<section>
         <div class="col-12 banner">
             <img src="assets/images/blue.jpg" alt="">
             <div class="overlay"></div>
         </div>
-    </section><!-- End Hero -->
+    </section>-->
+    <!-- End Hero -->
+    <!--section strat-->
+    <div class="section">
+        <div class="left">
+            <div class="col-lg-12 container">
+                <h1>KnightOne - Create Bootstrap</h1>
+                <h1>Website Template</h1>
+                <p>We are team of designers making websites with Bootstrap</p>
+            </div>
+            <div class="col-lg-12 center-but">
+                <button class="button1"  onclick="age();"><!--<i class="fas fa-arrow-right"></i>-->
+                    <i class="fas fa-play"></i></button>
 
+        </div>
+    </div>
+    </div>
+    <!--section end-->
     <section id="about" class="about">
         <div class="container">
 
@@ -135,70 +150,354 @@
         </div>
         <!--main-1 end-->
         <div class="container">
- <div class="row justify-content-center justify-content-between">
-                <div class="col-lg-4" style=" margin-top:100px; border:3px solid #f2f2f2; width:360px;border-radius:20px;transition: all ease-in-out 0.3s;background: #fefefe;box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);border-radius: 18px;border: none;border-bottom: 5px solid #fff;">
+            <div class="row justify-content-between justify-content-around ">
+                <div class="col-lg-3 custom1">
                     <div class="icons">
                         <i class="fas fa-basketball-ball"></i>
                     </div>
-                    <h1 class="green">Lorem Ipsum</h1>
+                    <h3 class="green">Lorem Ipsum</h3>
                     <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
                 </div>
 
-                <div class="col-lg-4" style="margin-top:100px; border:3px solid #f2f2f2; width:360px;border-radius:20px;transition: all ease-in-out 0.3s;background: #fefefe;box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);border-radius: 18px;border: none;border-bottom: 5px solid #fff;">
+                <div class="col-lg-3 custom2">
                     <div class="icons">
                         <i class="fas fa-sim-card"></i>
                     </div>
-                    <h1  class="green">Sed ut perspiciatis</h1>
+                    <h3 class="green">Sed ut perspiciatis</h3>
                     <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
                 </div>
 
 
-                <div class="col-lg-4" style="margin-top:100px; border:3px solid #f2f2f2; width:360px;border-radius:20px;transition: all ease-in-out 0.3s;background: #fefefe;box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);border-radius: 18px;border: none;border-bottom: 5px solid #fff;">
+                <div class="col-lg-3 custom3">
                     <div class="icons">
                         <i class="far fa-clock"></i>
                     </div>
-                    <h1  class="green">Magni Dolores</h1>
+                    <h3 class="green">Magni Dolores</h3>
                     <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
 
                 </div>
                 <div class="clear"></div>
-            </div>      
-        </div>
             </div>
-        
-<div class="container">
-        <div class="row justify-content-center justify-content-between">
-            <div class="col-lg-4 col-md-2" style="margin-top:100px; border:3px solid #f2f2f2; width:368px;border-radius:20px;transition: all ease-in-out 0.3s;background: #fefefe;box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);border-radius: 18px;border: none;border-bottom: 5px solid #fff;">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-between justify-content-around space">
+            <div class="col-lg-3 col-md-2 custom4">
                 <div class="icons-2">
                     <i class="fas fa-globe-americas"></i>
                 </div>
-                <h1  class="green">Nemo Enim</h1>
+                <h3 class="green">Nemo Enim</h3>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
 
             </div>
-            <div class="col-lg-4 col-md-2" style="margin-top:100px; border:3px solid #f2f2f2; width:368px;border-radius:20px;transition: all ease-in-out 0.3s;background: #fefefe;box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);border-radius: 18px;border: none;border-bottom: 5px solid #fff;">
+            <div class="col-lg-3 col-md-2 custom5">
                 <div class="icons-2">
                     <i class="fas fa-tv"></i>
                 </div>
-                <h1  class="green">Dele cardo</h1>
+                <h3 class="green">Dele cardo</h3>
                 <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
             </div>
-            <div class="col-lg-4" style="margin-top:100px; border:3px solid #f2f2f2; width:368px;border-radius:20px;transition: all ease-in-out 0.3s;background: #fefefe;box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);border-radius: 18px;border: none;border-bottom: 5px solid #fff;">
+            <div class="col-lg-3 custom6">
                 <div class="icons-2">
                     <i class="fas fa-archway"></i>
                 </div>
-                <h1  class="green">Divera don</h1>
+                <h3 class="green">Divera don</h3>
                 <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
             </div>
         </div>
     </div>
-    <main>
+    <!--  <main>
         <div class="col-12 banner1">
             <img src="assets/images/banner.png" alt="">
             <div class="overlay"></div>
         </div>
-    </main>
+    </main>-->
 
-</body>
+    <div class="full-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10">
+                    <h1 class="h2">Call To Action</h1>
 
-</html>
+                    <p style="color:white;color:white">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                </div>
+                <div class="col-lg-2">
+                    <a href="#" class="btn-learn-more1">Call To Action</a>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <!--<div class="container info-side">
+        <div class="row">
+                <div class="col-lg-1">
+                    <i class="far fa-file-alt"></i>
+                </div>
+                <div class="col">
+                    <h1>Est labore ad</h1>
+                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                </div>
+                <div class="clear"></div>
+
+                <div class="img">
+                    <i class="fas fa-cube"></i>
+                </div>
+                <div class="para">
+                    <h1>Harum esse qui</h1>
+                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                </div>
+                <div class="clear"></div>
+
+                <div class="img">
+                    <i style="font-size:45px;" class="far fa-images"></i>
+                </div>
+                <div class="para">
+                    <h1>Aut occaecati</h1>
+                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                </div>
+                <div class="clear"></div>
+
+                <div class="img">
+                    <i class="fas fa-atlas"></i>
+
+                </div>
+                <div class="para">
+                    <h1>Beatae veritatis</h1>
+                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                </div>
+            </div>
+            <div class="info-aside2">
+                <img src="assets/images/portfolio-3.jpg">
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>-->
+    <!-- ======= Features Section ======= -->
+   <!-- <section id="features" class="features">
+        <div class="container">
+
+            <div class="row" style="margin-top: 100px;">
+                <div class="col-lg-1" style="border:1px solid black;">
+                    <i style="font-size:60px;" class="far fa-file-alt"></i>
+                </div>
+
+                <div class="col-lg-5" style="border:1px solid black;">
+                    <h2>Est labore ad</h2>
+                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                </div>
+
+                <div class="col" style="border:1px solid black;grid-column:3/span 6;grid-row: 1/span 4;">-->
+                    <!-- <img src="assets/images/portfolio-3.jpg" width="300px" height="500px"/>-->
+                  <!--  <h1>web</h1>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-lg-1" style="border:1px solid black;">
+                    <i style="font-size:60px;" class="fas fa-cube"></i>
+                </div>
+
+                <div class="col-lg-5" style="border:1px solid black;">
+                    <h2>Harum esse qui</h2>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-1" style="border:1px solid black;">
+                    <i style="font-size:60px;" class="far fa-images"></i>
+
+                </div>
+
+                <div class="col-lg-5" style="border:1px solid black;">
+                    <h2>Aut occaecati</h2>
+                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                </div>
+            </div>
+
+
+            <div class="row" style="margin-bottom: 100px;">
+
+                <div class="col-lg-1" style="border:1px solid black;">
+                    <i style="font-size:60px;" class="fas fa-atlas"></i>
+                </div>
+
+                <div class="col-lg-5" style="border:1px solid black;">
+                    <h2>Beatae veritatis</h2>
+                    <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                </div>
+            </div>-->
+
+            <!--<div class="image col-lg-6 order-1 order-lg-2" style="grid-area: 1 / col4-start / last-line / 6">
+                 <img src="assets/images/portfolio-3.jpg width="300px" height="500px"/>-->
+       <!-- </div>
+    </section>-->
+    <!-- End Features Section -->
+    
+    
+    <div class="container">
+          
+           <div class="row">
+             
+              <div class="col-lg-1">
+                  <div class="row space">
+                      <div class="col-12">
+                      <i style="font-size:60px;margin-top:90px;" class="far fa-file-alt"></i>
+                      </div>
+                  </div>
+                  
+                  <div class="row space">
+                      <div class="col-lg-12">  
+                      <i style="font-size:60px;margin-top: 65px;" class="fas fa-cube"></i>
+                      </div>
+                  </div>
+                  
+                  <div class="row space">
+                      <div class="col-lg-12">
+                            <i style="font-size:60px;margin-top: 65px;" class="far fa-images"></i>
+                      </div>
+                  </div>
+                  
+                  <div class="row space">
+                  <div class="col-lg-12">
+                        <i style="font-size:60px;margin-top: 65px;margin-bottom: 100px;" class="fas fa-atlas"></i>
+                  </div>
+                  </div>
+               </div>
+               
+               <div class="col-6">
+            
+                    <div class="row">
+                      <div class="col-lg-12">
+                      <h2 style="margin-top:90px;">Est labore ad</h2>
+                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                      </div>
+                  </div>
+                  
+                  <div class="row">
+                      <div class="col-lg-12">
+                          <h2 class="harum">Harum esse qui</h2>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p> 
+                      </div>
+                  </div>
+                  
+                  <div class="row">
+                      <div class="col-lg-12">
+                           <h2 class="harum">Aut occaecati</h2>
+                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                      </div>
+                  </div>
+                  
+                  <div class="row">
+                  <div class="col-lg-12">
+                       <h2 class="harum">Beatae veritatis</h2>
+                    <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                  </div>
+                  </div>
+               </div>
+            
+               
+               <div class="col-lg-5" style="margin-top:90px;margin-bottom: 100px;">
+                   <img src="assets/images/flower.jpg" width="100%" height="100%">
+               </div>
+            </div>
+    </div>
+
+   
+    
+    
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 border-img">
+                <img src="assets/images/client-1.png" width="130px" height="80px;">
+            </div>
+            <div class="col-lg-3 border-img">
+                <img src="assets/images/client-2.png" width="130px" height="80px;">
+            </div>
+            <div class="col-lg-3 border-img">
+                <img src="assets/images/client-3.png" width="130px" height="80px;">
+            </div>
+            <div class="col-lg-3 border-img">
+                <img src="assets/images/client-4.png" width="130px" height="80px;">
+            </div>
+        </div>
+        <div class="row bottom">
+            <div class="col-lg-3 border-img">
+                <img src="assets/images/client-5.png" width="130px" height="80px;">
+            </div>
+            <div class="col-lg-3 border-img">
+                <img src="assets/images/client-6.png" width="130px" height="80px;">
+            </div>
+            <div class="col-lg-3 border-img">
+                <img src="assets/images/client-7.png" width="130px" height="80px;">
+            </div>
+            <div class="col-lg-3 border-img">
+                <img src="assets/images/client-8.png" width="130px" height="80px;">
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div class="full-banner1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="h1-color">What we have achieved so far</h1>
+                    <p class="p-color">usto et labore modi qui sapiente xpedita tempora et aut non ipsum consequatur illo.</p>
+                </div>
+
+                <div class="col-lg-3 col-sm-2 color-green">
+                    <h1>232</h1>
+                    <p>Clients</p>
+                </div>
+                <div class="col-lg-3 col-sm-2 color-green">
+                    <h1>521</h1>
+                    <p>Projects</p>
+                </div>
+
+                <div class="col-lg-3 col-sm-2  color-green">
+                    <h1>1463</h1>
+                    <p>Hours Of Support</p>
+                </div>
+
+                <div class="col-lg-3 col-sm-2 color-green">
+                    <h1>15</h1>
+                    <p>Hard Workers</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+   <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+           <h1 class="portfolio">Portfolio</h1>
+           <p class="para1">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            </div>
+        </div>
+       
+           <div class="row justify-content-center">
+            <div class="col-lg-2 footer-but">
+              <button class="butn">All</button>  
+            </div>
+             <div class="col-lg-2 footer-but">
+              <button class="butn">App</button>  
+            </div>
+             <div class="col-lg-2 footer-but">
+              <button class="butn">Card</button>  
+            </div>
+             <div class="col-lg-2 footer-but">
+              <button class="butn">Web</button>  
+            </div>
+        </div>
+    </div>
+    </body></html>
+      
+ 
+

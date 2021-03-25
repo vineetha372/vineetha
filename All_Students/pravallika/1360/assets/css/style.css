@@ -417,7 +417,7 @@ section{
     height:900px; 
     background-attachment:fixed;*/
 }
- .banner{
+ /*.banner{
             position:relative;
             height:700px;
     
@@ -440,7 +440,48 @@ section{
             .section-title h1{
                 font-size:50px;
                 border:outline;
-            }
+            }*/
+/*-----------------------------------*/
+.section{
+    background-image: url(../images/g1.jpg);
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0;
+    position: relative;
+    height: 700px;
+}
+button{
+    width:90px;
+    height:90px;
+    background-color:green;
+}
+button i{
+    color:white;
+    font-size:30px;
+    text-align: center;
+}
+.center-but{
+  text-align: center;
+   /*border:3px solid green; */
+    margin-top:70px;
+}
+.button1{
+    border-radius:50px;
+    border:1px solid white;
+    justify-content:center;
+}
+/*.button1:hover{
+    border:3px solid green;
+    background-color:grren;
+    
+}
+button i:hover{
+     border:1px solid white;
+    color:white;
+}*/
+/*---------------------------------------*/
+
 .container{
     width:100%;
     margin-left: auto;
@@ -457,6 +498,16 @@ section{
     padding-top:30px;
     line-height: 30px !important;
     word-spacing: 3px;
+}
+.left h1{
+    text-align: center;
+    color:white;
+}
+.left p{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size:20px;
 }
 i{
     color:green;
@@ -485,6 +536,109 @@ a{
      padding-top:30px;
     line-height: 30px !important;
     word-spacing: 3px;
+    padding-bottom:100px;
+}
+.custom1{
+    margin-top:100px;
+    border:3px solid #f2f2f2;
+margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius:20px;
+    transition: all ease-in-out 0.3s;
+    background: #fefefe;
+    box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
+    border-radius: 18px;
+    border: none;
+    border-bottom: 5px solid #fff;"
+}
+.custom1:hover{
+     transform: translateY(-10px);
+border-color: green;
+}
+.custom2{
+    margin-top:100px;
+    border:3px solid #f2f2f2;
+   margin-bottom: 50px;
+    border-radius:20px;
+    transition: all ease-in-out 0.3s;
+    background: #fefefe;
+    box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
+    border-radius: 18px;
+    border: none;
+    
+    border-bottom: 5px solid #fff;"
+}
+.custom2:hover{
+     transform: translateY(-10px);
+border-color: green;
+}
+.custom3{
+    margin-top:100px;
+    border:3px solid #f2f2f2;
+ margin-bottom: 50px;
+    border-radius:20px;
+    transition: all ease-in-out 0.3s;
+    background: #fefefe;
+    box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
+    border-radius: 18px;
+    border: none;
+    border-bottom: 5px solid #fff;"
+}
+.custom3:hover{
+     transform: translateY(-10px);
+border-color: green;
+}
+.custom4{
+    margin-top:px;
+    border:3px solid #f2f2f2;
+   margin-bottom:100px;
+    border-radius:20px;
+    transition: all ease-in-out 0.3s;
+    background: #fefefe;
+    box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
+    border-radius: 18px;
+    border: none;
+    border-bottom: 5px solid #fff;"
+}
+.custom4:hover{
+     transform: translateY(-10px);
+border-color: green;
+}
+.custom5{
+    margin-top:;
+    border:3px solid #f2f2f2;
+    margin-bottom:100px;
+    border-radius:20px;
+    transition: all ease-in-out 0.3s;
+    background: #fefefe;
+    box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
+    border-radius: 18px;
+    border: none;
+    border-bottom: 5px solid #fff;"
+}
+.custom5:hover{
+     transform: translateY(-10px);
+border-color: green;
+}
+.custom6{
+    margin-top:;
+    border:3px solid #f2f2f2;
+   margin-bottom:100px;
+    border-radius:20px;
+    transition: all ease-in-out 0.3s;
+    background: #fefefe;
+    box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
+    border-radius: 18px;
+    border: none;
+    border-bottom: 5px solid #fff;"
+}
+.custom6:hover{
+     transform: translateY(-10px);
+border-color: green;
+}
+
+.parent{
+    margin-top: 50px;
 }
 .icons{
     width:60px;
@@ -520,15 +674,15 @@ a{
      
     color:white;
 }
-.col-lg-4:hover{
+/*.col-lg-4:hover{
     transform: translateY(-10px);
 border-color: green;
  color:green;  
-}
+}*/
 .green:hover{
     color:green;
 }
-main{
+/*main{
     margin-top:110px;
 }
  .banner1{
@@ -550,4 +704,138 @@ main{
             bottom:0;
             background-color:#aaa;
             opacity: 0.2;
+}*/
+
+.full-banner{
+    background-image: url(../images/rotate.jfif);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding:100px 0;
+    position: relative;
+    height:350px;
 }
+
+.info img {
+    width: 100%;
+    height:300px;
+    background-attachment: fixed;
+}
+
+.overlay {
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+   background-color:black;
+    opacity: 0.5;
+}
+
+.reviews {
+    position: relative;
+}
+
+/*.reviews_info {
+    padding:10px 0 30px 0;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    left: 65px;
+}*/
+.btn-learn-more1{
+    border:2px solid green;
+    width:300px !important;
+    height:150px !important;
+    border-radius:20px;
+    padding: 10px;
+    background-color: green;
+    color:white;
+}
+a{
+    text-decoration-line: none;
+}
+.btn-learn-more1:hover{
+    background-color:white;
+    color:green;
+}
+.h2{
+        color:white;
+}
+
+.border-img{
+    border:1px solid #aaa;
+    text-align: center;
+    padding: 30px;
+}
+.border-img img{
+    transition: all 0.4s ease-in-out;
+}
+.portfolio {
+    padding-top: 100px;
+}
+.border-img img:hover{
+transform: scale(1.1);
+}
+.bottom{
+    margin-bottom:100px;
+}
+.full-banner1{
+    background-image: url(../images/t.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding:100px 0;
+    position: relative;
+    height:400px;
+}
+.h1-color{
+    color: white;
+    text-align: center;
+}
+.p-color{
+    color:white;
+    text-align: center;
+}
+.color-green{
+    color:green;
+    text-align: center;
+    font-weight:700;
+    padding-top: 30px;
+    
+}
+.portfolio{
+     border-bottom:3px solid green;
+    width:180px;
+}
+.para1{
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+.footer-but{
+  margin-bottom: 100px;
+    text-align: center;
+    border:1px solid #fff;
+}
+.butn{
+    width:170px;
+    height:50px;
+    border-radius: 20px;
+     border: 2px solid green;
+    color: white;
+    
+}
+.butn:hover{
+    
+  background-color: white;
+     border: 2px solid green;
+    color:green;
+    
+}
+.space{
+    margin-top: 30px;
+}
+.harum{
+    margin-top:10px;
+}
+/*--------------------------------------------------------------
