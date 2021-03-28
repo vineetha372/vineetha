@@ -81,6 +81,7 @@ ul li{
     font-size: 50px;
     float: left;
     color: rgb(26, 160, 26);
+    width: 300px;
 }
 .icon p{
     font-size: 13px;
@@ -89,10 +90,21 @@ ul li{
 .clear{
     clear: both;
 }
+.button{
+    background-color: rgb(12, 226, 12);
+    color: green;
+
+
+
+}
+.icon i{
+    float: left;
+    
+}
 /*sections1*/
 
 .numbers{
-    height: 650px;
+    height: 700px;
     margin-top: 60px;
     background-color: rgb(235, 230, 230);
    
@@ -101,6 +113,7 @@ ul li{
     width: 350px;
     float: left;
    margin-left: 120px;
+ 
    
 
 }
@@ -111,7 +124,7 @@ ul li{
 
 
 .num2{
-    width: 400px;
+    width: 350px;
     float: left;
     padding-left: 80px;
 
@@ -120,7 +133,7 @@ ul li{
     color: rgb(40, 170, 40);
 }
 .num3{
-    width: 400px;
+    width: 350px;
     float: left;
     padding-left: 80px;
 
@@ -132,6 +145,9 @@ ul li{
     width: 350px;
     float: left;
    margin-left: 120px;
+   margin-top: 80px;
+   
+
 
 }
 .num4 h1{
@@ -140,18 +156,21 @@ ul li{
 
 
 .num5{
-    width: 400px;
+    width: 350px;
     float: left;
     padding-left: 80px;
+    margin-top: 80px;
 
 }
 .num5 h1{
     color: rgb(40, 170, 40);
+    font-size: 30px;
 }
 .num6{
-    width: 400px;
+    width: 350px;
     float: left;
     padding-left: 80px;
+    margin-top: 80px;
 
 }
 .num6 h1{
@@ -232,31 +251,314 @@ ul li{
 
 .services{
     text-align: center;
-    height: 500px;
-    background-color: rgb(223, 219, 219);
+     height: 400px;
+   
 
 }
 .card1{
-    width: 300px;
+    width: 250px;
+    height: 290px;
     float: left;
-    border: solid 1px;
+    border-radius: 20px;
     margin-left: 50px;
+    background-color: white;
+    box-shadow: 10px 10px 10px  10px #aaaaaa;
+    margin-top: 20px;
+
 }
+
+    .card1:hover {
+        background-color: rgb(236, 247, 237);
+      }
+
+
 .card2{
-    width: 300px;
+    width: 250px;
+    height: 290px;
     float: left;
-    border: solid 1px;
     margin-left: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px  10px #aaaaaa;
+    margin-top: 20px;
 }
+.card2:hover {
+    background-color: rgb(236, 247, 237);
+  }
+
+
 .card3{
-    width: 300px;
+    width: 250px;
+    height: 290px;
     float: left;
-    border: solid  1px;
+    box-shadow: 10px 10px 10px  10px #aaaaaa;
     margin-left: 20px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
 }
+.card3:hover {
+    background-color: rgb(236, 247, 237);
+  }
+
+
 .card4{
-    width: 300px;
+    width: 250px;
+    height: 290px;
     float: left;
-    border: solid 1px;
+  
     margin-left: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px  10px #aaaaaa;
+    margin-top: 20px;
+
+
 }
+.card4:hover {
+    background-color: rgb(236, 247, 237);
+  }
+
+
+.cards i{
+    font-size: 50px;
+    color: green;
+
+}
+
+/* sections 4*/
+.testimonials {
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 600px;
+    margin-top: 50px;
+
+}
+
+/* sections 4*/
+
+.portfolio{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 1100px;
+
+}
+.menus{
+    height: 50px;
+    margin-left: 420px;
+    margin-top: 80px;
+    
+    width: 450px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px  5px #aaaaaa;
+
+
+}
+.menus h1, h3, h4 ,h6 ,h5{
+    float: left;
+    text-align: center;
+    margin-left: 30px;
+    font-size: 30px;
+  
+
+}
+.menus h1, h3, h4 ,h6 ,h5:hover {
+   color: rgb(58, 153, 70);
+  }
+/* sections 6*/
+.images{
+     height: 200px;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.img1{
+    
+    float: left;
+    margin-left: 50px;
+
+} 
+
+  
+
+
+.img2{
+    
+    float: left;
+    margin-left: 50px;
+
+}
+.img3{
+    
+    float: left;
+    margin-left: 50px;
+
+}
+.images2{
+   height: 300px;
+   text-align: left;
+   margin-left: 50px;
+   margin-top: 50px;
+}
+.img4{
+    
+    float: left;
+
+
+}
+.img5{
+    
+    float: left;
+    margin-left: 50px;
+
+}
+.img6{
+    
+    float: left;
+    margin-left: 50px;
+
+}
+
+.images3{
+    height: 300px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: -50px;
+   
+ }
+ .img7{
+     
+     float: left;
+ 
+ 
+ }
+ .img8{
+     
+     float: left;
+     margin-left: 50px;
+ 
+ }
+ .img9{
+     
+     float: left;
+     margin-left: 50px;
+ 
+ }
+ .clear{
+     clear: both;
+ }
+  /*sections 6*/
+  .team{
+      text-align: center;
+      margin-left: 50px;
+      margin-right: 50px;
+  }
+  .teammembers{
+  height: 500px;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.team1{
+    
+    float: left;
+    margin-left: 20px;
+
+} 
+
+  
+
+
+.team2{
+    
+    float: left;
+    margin-left: 20px;
+
+}
+.team3{
+    
+    float: left;
+    margin-left: 10px;
+
+}
+.team1.hover{
+    color: aqua;
+   
+}
+
+
+
+
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  .active, .collapsible:hover {
+    background-color: rgb(243, 247, 243);
+  }  
+
+  .non {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  .active, .collapsible :hover{
+      color: green;
+       
+  }
+  .Contact{
+      text-align: center;
+      margin-top: 50px;
+  }
+
+  .location{
+      width: 400px;
+      height: 300px;
+      border: green solid 1px;
+      margin-top: 50px;
+      margin-left: 200px;
+      padding-left: 20px;
+      padding-top: 20px;
+      background-color: honeydew;
+      box-shadow: honeydew 10px;
+  }
+
+.loc i{
+    float: left;
+    font-size: 50px;
+    color: green;
+}
+.emi i{
+    float: left;
+    font-size: 40px;
+    color: green;
+}
+.cal i{
+    float: left;
+    font-size: 45px;
+    color: green;
+}
+.emi p{
+    padding-left: 50px;
+}
+.cal p{
+    padding-left: 50px;
+}
+
+
+
+
+  
+
+
+
