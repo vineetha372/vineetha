@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 17px !important;
+    line-height: 30px !important;
+    height: 100%;
+}
+
+.bannar1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/banner.png.jpg);
+    height: 600px;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.image {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.image1 {
+    text-align: center;
+    padding-top: 130px;
+}
+
+.image1 h1,
+h2 {
+    color: white;
+}
+
+nav {
+    height: 50px;
+    text-align: center;
+
+}
+
+.list li {
+
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+a:hover {
+    color: orangered;
+}
+
+
+.a1 {
+    margin-left: 20px;
+
+}
+
+.nav-bar li a {
+    color: white;
+}
+
+.heading h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.icon {
+    text-align: center;
+    font-size: 40px;
+    color: purple;
+}
+
+.h3 {
+    text-align: center;
+    color: purple;
+}
+
+.para {
+    text-align: center;
+}
+
+.img1 {
+    border-radius: 140px;
+}
+
+.natural-img {
+    padding-top: 30px;
+}
+
+.h1-head {
+
+    padding-top: 30px;
+}
+
+.h1-head h1 {
+    padding-bottom: 10px;
+}
+
+.img2 {
+    text-align: center;
+    padding-top: 70px;
+}
+
+/*-------------------------------*/
+
+.carousel-indicators button {
+    width: 15px !important;
+    height: 15px !important;
+    background-color: black !important;
+    border-radius: 50%;
+}
+
+/*----------------------------------*/
+.bottom {
+    margin-bottom: 90px;
+}
+
+.program h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 50px !important;
+    padding-bottom: 40px;
+}
+
+.one {
+    padding-top: 20px;
+    color: purple;
+}
+
+.but-2 {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: purple;
+    border: 2px solid purple;
+}
+
+.but-2:hover {
+    background-color: white;
+    color: purple;
+    border: 2px solid purple;
+}
+
+.color {
+    border: 1px solid #fff;
+    margin-bottom: 90px;
+}
+
+.footer {
+    background-color: #409ec1;
+}
+
+.white {
+    color: white;
+    padding-top: 40px;
+}
+
+.email {
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: 9px;
+}
+
+.name {
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: 9px;
+}
+
+.Message {
+    margin-top: 9px;
+    padding-left: 9px;
+}
+
+.sub {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: purple;
+    border: 2px solid purple;
+}
+
+.sub:hover {
+    background-color: white;
+    color: purple;
+    border: 2px solid purple;
+}
+
+.h5 {
+    padding-top: 40px;
+    color: white;
+
+}
+
+.social {
+    padding-top: 40px;
+    color: white;
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
+
+.i {
+    font-size: 40px;
+    color: purple;
+
+}
+
+.simbla {
+    text-align: right;
+
+    color: white;
+    padding: 10px;
+    background: linear-gradient(to right, red, purple);
+    border-radius: 20px;
+    border: 1px solid red;
+}
+
+.border {
+
+
+    height: 50px;
+
+    text-align: right;
+}

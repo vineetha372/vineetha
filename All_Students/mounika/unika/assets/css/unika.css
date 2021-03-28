@@ -51,7 +51,7 @@ nav a {
     color: #ccc;
 }
 
-a:hover {
+nav a:hover {
     color: #fff;
 }
 
@@ -93,18 +93,55 @@ p {
 .about2,
 .about3,
 .about4 {
-    width: 25%;
-    text-align: left;
+    width:25%;
     padding-bottom: 30px;
 }
 
-.about1 img,
-.about2 img,
-.about3 img,
-.about4 img {
-    width: 30%;
+.about1_head,.about2_head,.about3_head,.about4_head{
+    width:50px;
+    height:50px;
+    border: 5px solid #000;
+    transform: rotate(45deg);
+    margin: 20px;
+}
+.users,.gem,.heart,.clock{
+    width:40px;
+    height:40px;
+    background-color:#000;
+    margin:5px;
+}
+.users i{
+    font-size: 20px;
+    color:#fff;
+    margin:10px 7px;
+    transform: rotate(-45deg);
+}
+.gem i{
+    font-size: 20px;
+    color:#fff;
+    margin:12px 10px;
+    transform: rotate(-45deg);
+}
+.heart i{
+    font-size: 20px;
+    color:#fff;
+    margin:12px 11px;
+    transform: rotate(-45deg);
+}
+.clock i{
+    font-size: 20px;
+    color:#fff;
+    margin:11px;
+    transform: rotate(-45deg);
 }
 
+.about1_info
+.about2_info
+.about3_info
+.about4_info{
+     width: 70px;
+     border:1px solid #000;
+}
 .about1 h4,
 .about2 h4,
 .about3 h4,
@@ -113,7 +150,7 @@ p {
 }
 
 .our_skills h4 {
-    padding: 30px 0;
+    padding: 50px 0;
     font-size: 22px;
     text-align: center;
     line-height: 30px;
@@ -121,10 +158,35 @@ p {
 
 .our_skills .p1,
 .our_skills .p2 {
-    width: 48%;
+    width: 50%;
     padding-bottom: 50px;
 }
-
+.pi,.hc,.wp,.js{
+    width:97%;
+    height: 20px;
+    border: 2px solid #000;
+    margin:15px 0;
+}
+.pi_inner{
+    width:75%;
+    height:20px;
+    background-color: #000;
+}
+.hc_inner{
+    width:95%;
+    height:20px;
+    background-color: #000;
+}
+.wp_inner{
+    width:85%;
+    height:20px;
+    background-color: #000;
+}
+.js_inner{
+    width:70%;
+    height:20px;
+    background-color: #000;
+}
 .our_pdf {
     background-color: #eee;
     padding: 60px 0;
@@ -148,7 +210,10 @@ p {
     background-color: #000;
     color: #fff;
 }
-
+.our_pdf button:hover{
+    background-color: #999;
+    transition: all 0.2s;
+}
 .services_info {
     text-align: center;
 }
@@ -164,8 +229,47 @@ p {
 .pen {
     width: 25%;
     padding: 30px 0;
+    text-align: center;
 }
-
+.development_head,
+.design_head,
+.hosting_head,
+.pen_head {
+    width:50px;
+    height:50px;
+    border: 5px solid #000;
+    transform: rotate(45deg);
+}
+.mobile,.pie_chart,.cloud,.pencil{
+    width:40px;
+    height:40px;
+    background-color:#000;
+    margin:5px;
+}
+.mobile i{
+    font-size: 20px;
+    color:#fff;
+    margin:11px;
+    transform: rotate(-45deg);
+}
+.pie_chart i{
+    font-size: 20px;
+    color:#fff;
+    margin:10px 9px;
+    transform: rotate(-45deg);
+}
+.cloud i{
+    font-size: 20px;
+    color:#fff;
+    margin:9px 8px;
+    transform: rotate(-45deg);
+}
+.pen i{
+    font-size: 20px;
+    color:#fff;
+    margin:10px;
+    transform: rotate(-45deg);
+}
 .development p,
 .design p,
 .hosting p,
@@ -259,11 +363,15 @@ p {
 
 .menu a {
     text-decoration: none;
-    color: #000;
+    color: darkslategrey;
 }
 
 .imgs {
     width: 100%;
+}
+.menu  li:hover,a:hover{
+    background-color: #000;
+    color: #fff;
 }
 
 .imgs .p1,
@@ -342,7 +450,7 @@ p {
 }
 
 .our_team1 {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     padding: 100px 0 0 70px;
 }
@@ -351,12 +459,16 @@ p {
 .our_team_inner2,
 .our_team_inner3,
 .our_team_inner4 {
-    width: 25%;
-    position: relative;
+    width:155px;
+    height:155px;
+    border:2px solid #eee;
+    margin:0 40px;
+    transform: rotate(45deg);
+    padding:2px;
 }
 
 .our_team2 {
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
     padding-left: 70px;
 }
@@ -364,8 +476,12 @@ p {
 .our_team_inner5,
 .our_team_inner6,
 .our_team_inner7 {
-    width: 33%;
-    position: relative;
+    width:155px;
+    height:155px;
+    border:2px solid #eee;
+    margin:0 40px;
+    transform: rotate(45deg);
+    padding:2px;
 }
 
 .unika1,
@@ -379,7 +495,7 @@ p {
     height: 150px;
     background-color: dimgray;
     text-align: center;
-    transform: rotate(45deg);
+    margin:2px;
 }
 
 .our_team_inner1 h3,
@@ -389,9 +505,8 @@ p {
 .our_team_inner5 h3,
 .our_team_inner6 h3,
 .our_team_inner7 h3 {
-    position: absolute;
-    top: 60px;
-    left: 48px;
+  transform: rotate(-45deg);
+    padding:60px 50px;
 }
 
 .our_partners {
@@ -431,16 +546,29 @@ p {
     width: 23%;
 }
 
-.basic h4,
-.advanced h4,
-.professional h4,
-.ultimate h4 {
+.basic_head,
+.advanced_head,
+.ultimate_head{
     background-color: #eee;
-    padding: 20px 0;
-    margin-top: 50px;
+    padding-bottom: 20px;
+    margin-top: 60px;
     border-top: 5px solid #000;
 }
-
+.professional_head{
+    background-color: #000;
+    color:#fff;
+    margin-top:45px;
+}
+.professional_head h4{
+    padding-bottom:30px;
+}
+.basic_head i,
+.advanced_head i,
+.professional_head i,
+.ultimate_head i{
+    font-size: 30px;
+    padding-top:30px;
+}
 .basic,
 .advanced,
 .professional {
@@ -478,6 +606,12 @@ p {
     background-color: #000;
     color: #fff;
 }
+.professional button{
+    margin: 10px 0;
+}
+.professional .btn{
+    border-bottom: 5px solid #000;
+}
 
 .join_us {
     padding: 70px 0;
@@ -485,7 +619,61 @@ p {
     line-height: 30px;
     background-color: #eee;
 }
-
+.join_imgs{
+    width:70%;
+    margin:0 auto;
+    padding:60px 0;
+}
+.join_img1,.join_img2,.join_img3,.join_img4,.join_img5,.join_img6{
+    width:50px;
+    height:50px;
+    border: 5px solid #000;
+    transform: rotate(45deg);
+    margin:0 40px;
+}
+.facebook,.twitter,.google,.p,.t,.dribble{
+    width:40px;
+    height:40px;
+    background-color:#000;
+    margin:5px;
+    
+}
+.facebook i{
+    font-size: 20px;
+    color:#fff;
+    margin:10px;
+    transform: rotate(-45deg);
+}
+.twitter i{
+    font-size: 20px;
+    color:#fff;
+    margin:11px 9px;
+    transform: rotate(-45deg);
+}
+.google i{
+    font-size: 20px;
+    color:#fff;
+    margin:10px;
+    transform: rotate(-45deg);
+}
+.p i{
+    font-size: 20px;
+    color:#fff;
+    margin:11px 9px;
+    transform: rotate(-45deg);
+}
+.t i{
+    font-size: 20px;
+    color:#fff;
+    margin:11px 9px;
+    transform: rotate(-45deg);
+}
+.dribble i{
+    font-size: 20px;
+    color:#fff;
+    margin:11px 9px;
+    transform: rotate(-45deg);
+}
 .contacts_head {
     padding: 70px 0;
     text-align: center;
@@ -541,9 +729,8 @@ textarea {
 }
 
  .inputs input::placeholder,textarea::placeholder {
-   color: #fff;
+   color: #ddd;
 }
-
 .inputs button {
     padding: 10px 0 10px 5px;
     width: 100%;
