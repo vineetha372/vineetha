@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 18px !important;
+    line-height: 28px !important;
+    height: 100%;
+}
+
+.bannar1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/banner.png.jpg);
+    height: 600px;
+}
+
+.container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.image {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.image1 {
+    text-align: center;
+    padding-top: 130px;
+}
+
+.image1 h1,
+h2 {
+    color: white;
+}
+
+nav {
+    height: 50px;
+    text-align: center;
+
+}
+
+.list li {
+
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+
+
+}
+
+a {
+
+    font-size: 20px;
+
+}
+
+a:hover {
+    color: orangered;
+}
+
+
+.a1 {
+    margin-left: 20px;
+
+}
+
+.nav-bar li a {
+    color: white;
+}
+
+.OurBlog h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    color: purple;
+}
+
+.keep h1 {
+    text-align: center;
+    padding-top: 40px;
+    color: purple;
+
+}
+
+.dot {
+    text-align: center;
+
+}
+
+.keep p {
+    text-align: center;
+}
+
+.good img {
+    padding-top: 40px;
+}
+
+.yoga h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+    color: purple;
+}
+
+.yoga p {
+    text-align: center;
+}
+
+.sleep img {
+    padding-top: 40px;
+}
+
+.b-footer {
+    background-color: #409ec1;
+    margin-top: 100px;
+}
+
+.white {
+    color: white;
+    padding-top: 40px;
+}
+
+.email {
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: 9px;
+}
+
+.name {
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: 9px;
+}
+
+.Message {
+    margin-top: 9px;
+    padding-left: 9px;
+}
+
+.sub {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: purple;
+    border: 2px solid purple;
+}
+
+.sub:hover {
+    background-color: white;
+    color: purple;
+    border: 2px solid purple;
+}
+
+.h5 {
+    padding-top: 40px;
+    color: white;
+
+}
+
+.social {
+    padding-top: 40px;
+    color: white;
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
+
+.i {
+    font-size: 40px;
+    color: purple;
+
+}
+
+.simbla {
+    text-align: right;
+
+    color: white;
+    padding: 10px;
+    background: linear-gradient(to right, red, purple);
+    border-radius: 20px;
+    border: 1px solid red;
+}
+
+.border {
+
+
+    height: 50px;
+
+    text-align: right;
+}
