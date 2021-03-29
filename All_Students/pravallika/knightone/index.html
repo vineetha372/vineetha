@@ -35,7 +35,6 @@
                 alert("Not instrasted");
             }
         }
-
     </script>
 
 </head>
@@ -45,7 +44,7 @@
         <div class="container-fluid">
 
             <div class="row justify-content-center">
-                <div class="col-md-9 d-flex align-items-center justify-content-lg-between">
+                <div class="col-md-9  d-flex align-items-center justify-content-lg-between">
                     <h1 class="logo"><a href="index.html">KnightOne</a></h1>
                     <!-- Uncomment below if you prefer to use an image logo -->
                     <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
@@ -80,8 +79,10 @@
                         <i class="bi bi-list mobile-nav-toggle"></i>
 
                     </nav><!-- .navbar -->
-
+                    <button class="Read">Read More</button>
                 </div>
+
+
             </div>
         </div>
     </header>
@@ -155,7 +156,7 @@
         </div>
         <!--main-1 end-->
         <div class="container">
-            <div class="row justify-content-between justify-content-around ">
+            <div class="row justify-content-between justify-content-around">
                 <div class="col-lg-3 custom1">
                     <div class="icons">
                         <i class="fas fa-basketball-ball"></i>
@@ -181,14 +182,14 @@
                     <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
 
                 </div>
-                <div class="clear"></div>
+
             </div>
         </div>
     </div>
 
     <div class="container">
-        <div class="row justify-content-between justify-content-around space">
-            <div class="col-lg-3 col-md-2 custom4">
+        <div class="row justify-content-between justify-content-around">
+            <div class="col-lg-3 custom4">
                 <div class="icons-2">
                     <i class="fas fa-globe-americas"></i>
                 </div>
@@ -196,7 +197,7 @@
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
 
             </div>
-            <div class="col-lg-3 col-md-2 custom5">
+            <div class="col-lg-3 custom5">
                 <div class="icons-2">
                     <i class="fas fa-tv"></i>
                 </div>
@@ -222,19 +223,20 @@
     <div class="full-banner">
         <div class="container">
             <!--<div class="row">-->
-            <div class="col-lg-10">
-                <h1 class="h2">Call To Action</h1>
+            <div class="row">
+                <div class="col-lg-9">
+                    <h1 class="h2">Call To Action</h1>
 
-                <p style="color:white;color:white">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p style="color:white;color:white">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                </div>
+                <div class="col-lg-2 call">
+                    <a href="#" class="btn-learn-more1">Call To Action</a>
+                </div>
 
             </div>
-            <div class="col-lg-2">
-                <a href="#" class="btn-learn-more1">Call To Action</a>
-            </div>
-            <div class="clear"></div>
         </div>
     </div>
-    
     <div class="container">
 
         <div class="row">
@@ -268,7 +270,7 @@
             <div class="col-6">
 
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-12 center">
                         <h2 style="margin-top:90px;">Est labore ad</h2>
                         <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
                     </div>
@@ -380,10 +382,9 @@
         </div>
     </div>
 
-    <div class=" container">
-        <div class="row justify-content-center">
-            <div class="col-lg-2 footer-but">
-                <button class="butn">All</button>
+
+    <!-- <div class="col-lg-2 footer-but">
+            <button class="butn">All</button>
             </div>
             <div class="col-lg-2 footer-but">
                 <button class="butn">App</button>
@@ -393,13 +394,138 @@
             </div>
             <div class="col-lg-2 footer-but">
                 <button class="butn">Web</button>
+            </div>-->
+    <!-- MAIN (Center website) -->
+    <div class="container">
+        <div class="main-fliter" style="margin-bottom:150px;">
+
+
+            <div id="myBtnContainer" style="text-align: center;">
+                <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                <button class="btn" onclick="filterSelection('nature')"> Nature</button>
+                <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+                <button class="btn" onclick="filterSelection('people')"> People</button>
             </div>
+
+            <!-- Portfolio Gallery Grid -->
+            <div class="row">
+                <div class="column nature">
+                    <div class="content" style="width:90%;height:100%;margin-bottom: 40px;">
+                        <img src="assets/images/portfolio-1.jpg" alt="Mountains" style="width:100%" height="340px">
+
+                    </div>
+                </div>
+                <div class="column nature">
+                    <div class="content" style="width:90%;height:100%;margin-bottom: 40px;">
+                        <img src="assets/images/portfolio-2.jpg" alt="Lights" style="width:100%" height="340px">
+
+                    </div>
+                </div>
+                <div class="column nature">
+                    <div class="content" style="width:90%;height:100%;margin-bottom: 40px;">
+                        <img src="assets/images/portfolio-3.jpg" alt="Nature" style="width:100%" height="340px">
+
+                    </div>
+                </div>
+
+                <div class="column cars">
+                    <div class="content" style="width:90%;height:100%;margin-bottom: 40px;">
+                        <img src="assets/images/portfolio-4.jpg" alt="Car" style="width:100%" height="340px">
+
+                    </div>
+                </div>
+                <div class="column cars">
+                    <div class="content" style="width:90%;height:100%;margin-bottom: 40px;">
+                        <img src="assets/images/portfolio-5.jpg" alt="Car" style="width:100%" height="340px">
+
+                    </div>
+                </div>
+                <div class="column cars">
+                    <div class="content" style="width:90%;height:100%;margin-bottom: 40px;">
+                        <img src="assets/images/portfolio-6%20(1).jpg" alt="Car" style="width:100%" height="340px">
+
+                    </div>
+                </div>
+
+                <div class="column people">
+                    <div class="content" style="width:90%;height:100%;margin-bottom: 40px;">
+                        <img src="assets/images/portfolio-7.jpg" alt="Car" style="width:100%" height="340px">
+
+                    </div>
+                </div>
+                <div class="column people" >
+                    <div class="content" style="width:90%;height:100%;margin-bottom: 40px;">
+                        <img src="assets/images/portfolio-8.jpg" alt="Car" style="width:100%" height="340px">
+
+                    </div>
+                </div>
+                <div class="column people" >
+                    <div class="content" style="width:90%;height:100%;margin-bottom: 40px;">
+                        <img src="assets/images/portfolio-9.jpg" alt="Car" style="width:100%" height="340px">
+
+                    </div>
+                </div>
+                <!-- END GRID -->
+            </div>
+
+            <!-- END MAIN -->
         </div>
+
+        <script>
+            filterSelection("all")
+
+            function filterSelection(c) {
+                var x, i;
+                x = document.getElementsByClassName("column");
+                if (c == "all") c = "";
+                for (i = 0; i < x.length; i++) {
+                    w3RemoveClass(x[i], "show");
+                    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+                }
+            }
+
+            function w3AddClass(element, name) {
+                var i, arr1, arr2;
+                arr1 = element.className.split(" ");
+                arr2 = name.split(" ");
+                for (i = 0; i < arr2.length; i++) {
+                    if (arr1.indexOf(arr2[i]) == -1) {
+                        element.className += " " + arr2[i];
+                    }
+                }
+            }
+
+            function w3RemoveClass(element, name) {
+                var i, arr1, arr2;
+                arr1 = element.className.split(" ");
+                arr2 = name.split(" ");
+                for (i = 0; i < arr2.length; i++) {
+                    while (arr1.indexOf(arr2[i]) > -1) {
+                        arr1.splice(arr1.indexOf(arr2[i]), 1);
+                    }
+                }
+                element.className = arr1.join(" ");
+            }
+
+
+            // Add active class to the current button (highlight it)
+            var btnContainer = document.getElementById("myBtnContainer");
+            var btns = btnContainer.getElementsByClassName("btn");
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].addEventListener("click", function() {
+                    var current = document.getElementsByClassName("active");
+                    current[0].className = current[0].className.replace(" active", "");
+                    this.className += " active";
+                });
+            }
+        </script>
     </div>
+
 
     <div class="container">
         <div class="row justify-content-between justify-content-around">
-            <div class="col-lg-3 white-color">
+            <div class="col-lg-3
+               white-color">
                 <h3 class="fee">Free</h3>
                 <h4 class="fee1"><sup>$</sup>0<span> / month</span></h4>
                 <p class="box">Aida dere
@@ -572,48 +698,48 @@
         </div>
     </div>
 
-<div class="footer-bottom">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="KnightOne">KnightOne</h1>
-                <p class="et">Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
-            </div>
-        </div>
-        <div class="row text-align-center justify-content-center ">
-            <div class="col-lg-1">
-                   <div class="twitter">
-                    <i style="margin-left:12px;margin-top:15px; color: white;font-size:25px;" class="fab fa-twitter"></i>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="KnightOne">KnightOne</h1>
+                    <p class="et">Et aut eum quis fuga eos sunt ipsa nihil.<br> Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
                 </div>
             </div>
-            <div class="col-lg-1">
-                <div class="twitter">
-                   <i style="margin-left:16px;margin-top:15px; color: white;font-size: 25px;"  class="fab fa-facebook-f"></i>
+            <div class="row text-align-center justify-content-center ">
+                <div class="col-lg-1 ">
+                    <div class="twitter">
+                        <i style="margin-left:16px;margin-top:16px; color: white;font-size:25px;" class="fab fa-twitter"></i>
+                    </div>
+                </div>
+                <div class="col-lg-1">
+                    <div class="twitter">
+                        <i style="margin-left:21px;margin-top:16px; color: white;font-size: 25px;" class="fab fa-facebook-f"></i>
+                    </div>
+                </div>
+                <div class="col-lg-1">
+                    <div class="twitter">
+                        <i style="margin-left:18px;margin-top:16px; color: white;font-size: 25px;" class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="col-lg-1">
+                    <div class="twitter">
+                        <i style="margin-left:18px;margin-top:16px; color: white;font-size:25px;" class="fab fa-skype"></i>
+                    </div>
+                </div>
+                <div class="col-lg-1">
+                    <div class="twitter">
+                        <i style="margin-left:18px;margin-top:15px; color: white;font-size: 25px;" class="fab fa-invision"></i>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-1">
-                <div class="twitter">
-                 <i style="margin-left:15px;margin-top:12px; color: white;font-size: 25px;" class="fab fa-instagram"></i>
+            <div class="row">
+                <div class="col-lg-12 f-b">
+                    <p class="copy">&copy;Copyright KnightOne.<small>All Rights Reserved</small><br>Designed by <b>Bootstrap Made</b></p>
                 </div>
-            </div>
-            <div class="col-lg-1">
-               <div class="twitter">
-                   <i style="margin-left:15px;margin-top:13px; color: white;font-size:25px;" class="fab fa-skype"></i>
-                </div> 
-            </div>
-            <div class="col-lg-1">
-                <div class="twitter">
-                  <i style="margin-left:15px;margin-top:12px; color: white;font-size: 25px;"  class="fab fa-invision"></i>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12 f-b">
-                <p class="copy">&copy;Copyright KnightOne.<small>All Rights Reserved</small><br>Designed by <b>Bootstrap Made</b></p>
             </div>
         </div>
     </div>
-</div>
 
 </body>
 
@@ -632,7 +758,4 @@
             }
         });
     }
-
-</script>
-
-</html>
+</script></html>

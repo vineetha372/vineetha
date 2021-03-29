@@ -11,6 +11,7 @@
     box-sizing: border-box;
    
 }
+
 /*-----------------------------------*/
 #preloader {
   position: fixed;
@@ -62,7 +63,9 @@
     transform: rotate(360deg);
   }
 }
-
+.logo a{
+    padding-right: 50px;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -199,6 +202,7 @@
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
+    text-decoration: none;
 }
 
 .navbar a i {
@@ -466,6 +470,16 @@ button i{
    /*border:3px solid green; */
     margin-top:70px;
 }
+.Read{
+    width:120px;
+    height: 50px;
+    color: white;
+    border:2px solid white;
+    border-radius: 25px;
+  margin-left: 40px;
+}
+
+
 .button1{
     border-radius:50px;
     border:1px solid white;
@@ -484,9 +498,10 @@ button i:hover{
 
 .container{
     width:100%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
- 
+
 }
 .section-title h2{
     padding-top:50px;
@@ -598,7 +613,8 @@ border-color: green;
     box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
     border-radius: 18px;
     border: none;
-    border-bottom: 5px solid #fff;"
+    border-bottom: 5px solid #fff;
+    
 }
 .custom4:hover{
      transform: translateY(-10px);
@@ -752,8 +768,14 @@ border-color: green;
     background-color: green;
     color:white;
 }
+
+.call{
+    text-align: right;
+    padding-top: 50px;
+}
 a{
     text-decoration-line: none;
+   
 }
 .btn-learn-more1:hover{
     background-color:white;
@@ -786,7 +808,7 @@ transform: scale(1.1);
     padding:100px 0;
     position: relative;
     width:100%;
-    height:400px;
+   
 }
 .h1-color{
     color: white;
@@ -797,7 +819,7 @@ transform: scale(1.1);
     text-align: center;
 }
 .color-green{
-    color:green;
+    color:white;
     text-align: center;
     font-weight:700;
     padding-top: 30px;
@@ -932,6 +954,9 @@ span{
     line-height:30px;
     
 }
+del{
+    display: block;
+}
 .Recommended{
      margin-top: 20px;
    width:160px;
@@ -1025,17 +1050,17 @@ span{
 }
 .name{
     margin-top: 90px;
-   width:225px;
+   width:210px;
     height:40px;
 }
 .name1{
     margin-top: 90px;
-    width:225px;
+    width:210px;
      height:40px;
 }
 .name2{
     margin-top:20px;
-    width:460px;
+    width:445px;
      height:40px;
 }
 .message{
@@ -1056,8 +1081,8 @@ span{
     text-align: center;
 }
 .twitter{
-   width:50px;
-    height: 50px;
+   width:60px;
+    height: 60px;
     background-color: green;
     border-radius: 30px;
 }
@@ -1069,6 +1094,66 @@ span{
 b{
     color:green;
 }
+b:hover{
+    border-bottom:2px solid green;
+}
 .f-b{
     padding-bottom:80px;
+}
+.row,
+.row > .column {
+  
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left !important;
+  width: 33.33% !important;
+  display: none !important; 
+   
+}
+
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "" !important;
+  display: table !important;
+  clear: both !important;
+}
+
+/* Content */
+.content {
+  background-color: white !important;
+  padding: 10px !important;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block !important;
+}
+
+/* Style the buttons */
+.btn {
+  border: none !important;
+  outline: none !important;
+ color: white !important;
+  background-color: green !important;
+  cursor: pointer;
+    margin-bottom: 50px;
+    width:150px;
+    height: 50px;
+    border-radius: 30px  !important;
+}
+
+.btn:hover {
+  background-color: #ddd !important;
+}
+
+.btn.active {
+  background-color:white !important;
+  color: green !important;
+    border:2px solid green !important;
+}
+.content img{
+    border-radius: 30px;
 }
