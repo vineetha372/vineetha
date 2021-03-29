@@ -60,11 +60,16 @@ a {
     font-size: 20px;
 
 }
+/*-----------------*/
 
-a:hover {
-    color: orangered;
+
+/*-----------------*/
+
+.a1-active:active{
+    color:green;
+    
+    
 }
-
 
 .a1 {
     margin-left: 20px;
@@ -234,6 +239,7 @@ a:hover {
     background: linear-gradient(to right, red, purple);
     border-radius: 20px;
     border: 1px solid red;
+
 }
 
 .border {
