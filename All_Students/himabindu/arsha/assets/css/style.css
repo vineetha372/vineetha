@@ -488,7 +488,7 @@ main{
     color:#47b2e4;
 }
 .card1:hover,.card2:hover,.card3:hover,.card4:hover{
-    animation-duration:0.5s;
+   /* animation-duration:0s;
     animation-timing-function:ease-in-out;
     animation-delay:0s;
     animation-iteration-count:1px;
@@ -496,19 +496,23 @@ main{
     animation-play-state:running;
     animation-fill-mode:both;
     animation-name:up;
+    /*transition-property:all;
+    transition-duration:0.4s;
+    transition-timing-function:ease-in-out;
+    transition-delay:0s;*/
+    transform: translateY(-10px);
+    transition-duration:0.6s;
+    transition-delay:0s;
 }
-@keyframes up{
+/*@keyframes up{
     
     0%{
         bottom:0px;
     }
-    50%{
-        top:-5px;
-    }
     100%{
         top:-10px
     }
-}
+}*/
 /*services ends*/
 
 /*call starts*/
@@ -519,7 +523,8 @@ main{
     background-size:cover;
     background-attachment:fixed;
     background-position:center;
-    padding:100px 0px;
+    padding:150px 0px;
+    position: relative;
 }
 .overlay{
     position:absolute;
@@ -527,12 +532,305 @@ main{
     left:0px;
     bottom:0px;
     right:0px;
-    background-color:#4668a2;
-    opacity:0.3;
+    background-color:rgb(40,50,90);
+    opacity:0.9;
 }
-
+.overlay .wrapper{
+    margin-top:95px;
+}
+.cright{
+    width:20%;
+}
+.cleft{
+    width:75%;
+}
+.cright button{
+    background:transparent;
+    border:2px solid white;
+    border-radius:50px;
+    color:white;
+    padding:12px 40px;
+    font-size:16px;
+    margin-top:25px;
+    margin-left:59px;
+    transition:0.5s;
+}
+.cright button:hover{
+    background-color:#47b2e4;
+    border:2px solid #47b2e4;
+}
+.cleft p{
+    padding-top:10px;
+    word-spacing:3px;
+}
 /*call ends*/
 
+/*portfolio starts*/
+.portfolio{
+    background-color:white;
+    padding:90px 0px;
+}
+.portfolio h1{
+    text-align:center;
+    color:#37517e;
+    position:relative;
+    padding-bottom:20px;
+}
+.portfolio h1::after{
+    content:"";
+    position:absolute;
+    display:block;
+    width:40px;
+    height:3px;
+    background-color:#47b2e4;
+    bottom:1px;
+    left: calc(68.6% - 20%);
+}
+.portfolio h1::before{
+    content:"";
+    position:absolute;
+    display:block;
+    width:120px;
+    height:3px;
+    background-color:#ddd;
+    bottom:1px;
+    left: calc(65.8% - 20%);
+}
+#portfolio p{
+    text-align:center;
+    margin-top:20px;
+}
+.btns{
+    margin:20px auto;
+    width:23%;
+    
+}
+.btns button{
+    border:none;
+    background-color:transparent;
+    border-radius:30px;
+    border:none;
+    padding:10px 20px;
+    font-size:16px;
+    font-weight:bold;
+    outline:0;
+}
+.btns button:hover{
+    background-color:#47b2e4;
+    color:white;
+}
+.col1,.col2,.col3{
+    width:30%;
+}
+.img1 img{
+    width:100%;
+    height:70%;
+    margin-bottom:20px;
+}
+.img2 img{
+    width:100%;
+    height:60%;
+}
+.img3 img{
+    width:100%;
+    height:60%;
+    margin-bottom:20px;
+}
+.img4 img{
+    width:100%;
+    height:60%;
+    margin-bottom:20px;
+}
+.img5 img{
+    width:100%;
+    height:60%;
+}
+.img6 img{
+    width:100%;
+    height:60%;
+    margin-bottom:20px;
+}
+.img7 img{
+    width:100%;
+    height:60%;
+    margin-bottom:20px;
+}
+.img8 img{
+    width:100%;
+    height:60%;
+    margin-bottom:20px;
+}
+.img9 img{
+    width:100%;
+    height:60%;
+}
+/*portfolio ends*/
+
+/*team starts*/
+.team{
+    background-color:#f3f5fa;
+    padding:90px 0px;
+}
+.team h1{
+    margin:0 auto;
+    color:#37517e;
+    position:relative;
+    padding-bottom:20px;
+    text-align:center;
+}
+.team  h1::before{
+    content:"";
+    position:absolute;
+    display:block;
+    width:120px;
+    height:3px;
+    background-color:#ddd;
+    bottom:1px;
+    left: calc(65.8% - 20%);
+    margin-top:20px;
+}
+.team h1::after{
+    content:"";
+    position:absolute;
+    display:block;
+    width:40px;
+    height:3px;
+    background-color:#47b2e4;
+    bottom:1px;
+    left: calc(68.6% - 20%);
+    margin-top:20px;
+}
+.team p{
+    text-align: center;
+    padding-bottom:20px;
+    padding-top:20px;
+}
+.tleft,.tright{
+    width:49%;
+}
+.person{
+    width:100%;
+    background-color:#fff;
+    padding:25px;
+    margin:25px 0px;
+    display:flex;
+}
+.person:hover{
+    transform:translateY(-10px);
+    transition-duration:0.4s;
+    transition-delay:0s;
+}
+.pl img{
+    width:180px;
+    border-radius:100px;
+    overflow:hidden;
+    transition:ease-in-out 0.3s;
+}
+.pr{
+    padding-left:20px;
+}
+.pr h4{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #37517e;
+}
+.pr span{
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    font-weight: 500;
+}
+.pr span::after{
+    content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #cbd6e9;
+  bottom: 0;
+  left: 0;
+}
+.pr p{
+    margin:2px 0 0 0;
+    font-size: 14px;
+    text-align:left;
+    padding-top:5px;
+}
+.social a i{
+    color: #37517e;
+    font-size: 16px;
+    margin: 0 2px;
+    background-color:#f3f5fa;
+    border-radius:30px;
+    padding:10px 10px;
+}
+.social a i:hover{
+    color: #fff;
+    background-color:#47b2e4;
+}
+
+/*team ends*/
+ 
+/*pricing starts*/
+.pricing{
+    background-color:white;
+}
+.pricing h1{
+    margin:0 auto;
+    color:#37517e;
+    letter-spacing:0px;
+    position:relative;
+    padding-bottom:20px;
+    margin-bottom:40px;
+    text-align:center;
+}
+.pricing h1::after{
+    content:"";
+    position:absolute;
+    display:block;
+    width:40px;
+    height:3px;
+    background-color:#47b2e4;
+    bottom:1px;
+    left: calc(68.6% - 20%);
+    margin-top:20px;
+}
+.pricing h1::before{
+    content:"";
+    position:absolute;
+    display:block;
+    width:120px;
+    height:3px;
+    background-color:#ddd;
+    bottom:1px;
+    left: calc(65.8% - 20%);
+    margin-top:20px;    
+}
+#pricing p{
+    text-align:center;
+}
+.pcard1,.pcard2,.pcard3{
+    width:30%;
+    box-shadow:0 3px 20px -2px rgb(20 45 100/10%);
+    padding:70px 20px 30px 20px;
+    margin:50px 0px 30px 0px;
+}
+.pcard1 h3,.pcard2 h3,.pcard3 h3{
+    font-weight:500px;
+    color:#37517e;
+    font-family:"Arial";
+    padding-bottom:20px;
+}
+.pcard1 i,span,.pcard2 i,span,.pcard3 i,span{
+    color:#37517e;
+    font-size:40px;
+}
+.pcard1 span,.pcard2 span,.pcard3 span{
+    font-size:58px;
+}
+/*pricing ends*/
 
 
 
