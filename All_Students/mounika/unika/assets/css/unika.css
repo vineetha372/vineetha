@@ -93,55 +93,69 @@ p {
 .about2,
 .about3,
 .about4 {
-    width:25%;
+    width: 25%;
     padding-bottom: 30px;
 }
 
-.about1_head,.about2_head,.about3_head,.about4_head{
-    width:50px;
-    height:50px;
+.about1_head,
+.about2_head,
+.about3_head,
+.about4_head {
+    width: 50px;
+    height: 50px;
     border: 5px solid #000;
     transform: rotate(45deg);
-    margin: 20px;
+    margin: 30px 0;
+
 }
-.users,.gem,.heart,.clock{
-    width:40px;
-    height:40px;
-    background-color:#000;
-    margin:5px;
+
+
+.about1_info,
+.about2_info,
+.about3_info,
+.about4_info {
+    width: 60%;
+    padding-left: 30px;
 }
-.users i{
+
+.users,
+.gem,
+.heart,
+.clock {
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    margin: 5px;
+}
+
+.users i {
     font-size: 20px;
-    color:#fff;
-    margin:10px 7px;
-    transform: rotate(-45deg);
-}
-.gem i{
-    font-size: 20px;
-    color:#fff;
-    margin:12px 10px;
-    transform: rotate(-45deg);
-}
-.heart i{
-    font-size: 20px;
-    color:#fff;
-    margin:12px 11px;
-    transform: rotate(-45deg);
-}
-.clock i{
-    font-size: 20px;
-    color:#fff;
-    margin:11px;
+    color: #fff;
+    margin: 10px 7px;
     transform: rotate(-45deg);
 }
 
-.about1_info
-.about2_info
-.about3_info
-.about4_info{
-     width: 70px;
-     border:1px solid #000;
+.gem i {
+    font-size: 20px;
+    color: #fff;
+    margin: 12px 10px;
+    transform: rotate(-45deg);
 }
+
+.heart i {
+    font-size: 20px;
+    color: #fff;
+    margin: 12px 11px;
+    transform: rotate(-45deg);
+}
+
+.clock i {
+    font-size: 20px;
+    color: #fff;
+    margin: 11px;
+    transform: rotate(-45deg);
+}
+
 .about1 h4,
 .about2 h4,
 .about3 h4,
@@ -161,32 +175,41 @@ p {
     width: 50%;
     padding-bottom: 50px;
 }
-.pi,.hc,.wp,.js{
-    width:97%;
+
+.pi,
+.hc,
+.wp,
+.js {
+    width: 97%;
     height: 20px;
     border: 2px solid #000;
-    margin:15px 0;
+    margin: 15px 0;
 }
-.pi_inner{
-    width:75%;
-    height:20px;
+
+.pi_inner {
+    width: 75%;
+    height: 20px;
     background-color: #000;
 }
-.hc_inner{
-    width:95%;
-    height:20px;
+
+.hc_inner {
+    width: 95%;
+    height: 20px;
     background-color: #000;
 }
-.wp_inner{
-    width:85%;
-    height:20px;
+
+.wp_inner {
+    width: 85%;
+    height: 20px;
     background-color: #000;
 }
-.js_inner{
-    width:70%;
-    height:20px;
+
+.js_inner {
+    width: 70%;
+    height: 20px;
     background-color: #000;
 }
+
 .our_pdf {
     background-color: #eee;
     padding: 60px 0;
@@ -203,17 +226,37 @@ p {
 
 }
 
-.our_pdf button {
-    width: 15%;
-    padding: 13px 0;
-    margin-left: 50px;
+.b1 {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.b1 button,
+.b2 button {
+    width: 100%;
+    height: 100%;
     background-color: #000;
     color: #fff;
 }
-.our_pdf button:hover{
-    background-color: #999;
-    transition: all 0.2s;
+
+.btnoverlay {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    right: 0;
+    bottom: 0;
+    opacity: 0.9;
+    transition: all 0.6s;
+    background-color: dimgray;
 }
+
+.b1:hover .btnoverlay,
+.b2:hover .btn1overlay {
+    left: 0;
+}
+
 .services_info {
     text-align: center;
 }
@@ -227,49 +270,60 @@ p {
 .design,
 .hosting,
 .pen {
-    width: 25%;
+    width: 24%;
     padding: 30px 0;
     text-align: center;
 }
+
 .development_head,
 .design_head,
 .hosting_head,
 .pen_head {
-    width:50px;
-    height:50px;
+    width: 50px;
+    height: 50px;
     border: 5px solid #000;
     transform: rotate(45deg);
+    margin: 7% 41%;
 }
-.mobile,.pie_chart,.cloud,.pencil{
-    width:40px;
-    height:40px;
-    background-color:#000;
-    margin:5px;
+
+.mobile,
+.pie_chart,
+.cloud,
+.pencil {
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    margin: 5px;
 }
-.mobile i{
+
+.mobile i {
     font-size: 20px;
-    color:#fff;
-    margin:11px;
+    color: #fff;
+    margin: 11px;
     transform: rotate(-45deg);
 }
-.pie_chart i{
+
+.pie_chart i {
     font-size: 20px;
-    color:#fff;
-    margin:10px 9px;
+    color: #fff;
+    margin: 10px 9px;
     transform: rotate(-45deg);
 }
-.cloud i{
+
+.cloud i {
     font-size: 20px;
-    color:#fff;
-    margin:9px 8px;
+    color: #fff;
+    margin: 9px 8px;
     transform: rotate(-45deg);
 }
-.pen i{
+
+.pen i {
     font-size: 20px;
-    color:#fff;
-    margin:10px;
+    color: #fff;
+    margin: 10px;
     transform: rotate(-45deg);
 }
+
 .development p,
 .design p,
 .hosting p,
@@ -277,12 +331,24 @@ p {
     padding: 10px 0;
 }
 
-.services_info button {
-    width: 20%;
-    padding: 12px 0;
-    background-color: #000;
-    color: #fff;
+.b2 {
+    position: relative;
+    width: 250px;
+    height: 50px;
+    margin: 0 auto;
     margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.btn1overlay {
+    position: absolute;
+    top: 0;
+    left: 250px;
+    right: 0;
+    bottom: 0;
+    opacity: 0.9;
+    transition: all 0.6s;
+    background-color: dimgray;
 }
 
 .reviews_head {
@@ -369,7 +435,9 @@ p {
 .imgs {
     width: 100%;
 }
-.menu  li:hover,a:hover{
+
+.menu li:hover,
+a:hover {
     background-color: #000;
     color: #fff;
 }
@@ -438,9 +506,10 @@ p {
 .some4 h1 {
     padding: 20px 0 5px 0;
 }
-.some_fun_facts i{
-    font-size:35px;
-    color:#fff;
+
+.some_fun_facts i {
+    font-size: 35px;
+    color: #fff;
 }
 
 .our_team {
@@ -459,12 +528,12 @@ p {
 .our_team_inner2,
 .our_team_inner3,
 .our_team_inner4 {
-    width:155px;
-    height:155px;
-    border:2px solid #eee;
-    margin:0 40px;
+    width: 155px;
+    height: 155px;
+    border: 2px solid #eee;
+    margin: 0 40px;
     transform: rotate(45deg);
-    padding:2px;
+    padding: 2px;
 }
 
 .our_team2 {
@@ -476,12 +545,12 @@ p {
 .our_team_inner5,
 .our_team_inner6,
 .our_team_inner7 {
-    width:155px;
-    height:155px;
-    border:2px solid #eee;
-    margin:0 40px;
+    width: 155px;
+    height: 155px;
+    border: 2px solid #eee;
+    margin: 0 40px;
     transform: rotate(45deg);
-    padding:2px;
+    padding: 2px;
 }
 
 .unika1,
@@ -495,7 +564,7 @@ p {
     height: 150px;
     background-color: dimgray;
     text-align: center;
-    margin:2px;
+    margin: 2px;
 }
 
 .our_team_inner1 h3,
@@ -505,8 +574,8 @@ p {
 .our_team_inner5 h3,
 .our_team_inner6 h3,
 .our_team_inner7 h3 {
-  transform: rotate(-45deg);
-    padding:60px 50px;
+    transform: rotate(-45deg);
+    padding: 60px 50px;
 }
 
 .our_partners {
@@ -548,27 +617,31 @@ p {
 
 .basic_head,
 .advanced_head,
-.ultimate_head{
+.ultimate_head {
     background-color: #eee;
     padding-bottom: 20px;
     margin-top: 60px;
     border-top: 5px solid #000;
 }
-.professional_head{
+
+.professional_head {
     background-color: #000;
-    color:#fff;
-    margin-top:45px;
+    color: #fff;
+    margin-top: 45px;
 }
-.professional_head h4{
-    padding-bottom:30px;
+
+.professional_head h4 {
+    padding-bottom: 30px;
 }
+
 .basic_head i,
 .advanced_head i,
 .professional_head i,
-.ultimate_head i{
+.ultimate_head i {
     font-size: 30px;
-    padding-top:30px;
+    padding-top: 30px;
 }
+
 .basic,
 .advanced,
 .professional {
@@ -606,10 +679,12 @@ p {
     background-color: #000;
     color: #fff;
 }
-.professional button{
+
+.professional button {
     margin: 10px 0;
 }
-.professional .btn{
+
+.professional .btn {
     border-bottom: 5px solid #000;
 }
 
@@ -619,61 +694,81 @@ p {
     line-height: 30px;
     background-color: #eee;
 }
-.join_imgs{
-    width:70%;
-    margin:0 auto;
-    padding:60px 0;
+
+.join_imgs {
+    width: 70%;
+    margin: 0 auto;
+    padding: 60px 0;
 }
-.join_img1,.join_img2,.join_img3,.join_img4,.join_img5,.join_img6{
-    width:50px;
-    height:50px;
+
+.join_img1,
+.join_img2,
+.join_img3,
+.join_img4,
+.join_img5,
+.join_img6 {
+    width: 50px;
+    height: 50px;
     border: 5px solid #000;
     transform: rotate(45deg);
-    margin:0 40px;
+    margin: 0 40px;
 }
-.facebook,.twitter,.google,.p,.t,.dribble{
-    width:40px;
-    height:40px;
-    background-color:#000;
-    margin:5px;
-    
+
+.facebook,
+.twitter,
+.google,
+.p,
+.t,
+.dribble {
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    margin: 5px;
+
 }
-.facebook i{
+
+.facebook i {
     font-size: 20px;
-    color:#fff;
-    margin:10px;
+    color: #fff;
+    margin: 10px;
     transform: rotate(-45deg);
 }
-.twitter i{
+
+.twitter i {
     font-size: 20px;
-    color:#fff;
-    margin:11px 9px;
+    color: #fff;
+    margin: 11px 9px;
     transform: rotate(-45deg);
 }
-.google i{
+
+.google i {
     font-size: 20px;
-    color:#fff;
-    margin:10px;
+    color: #fff;
+    margin: 10px;
     transform: rotate(-45deg);
 }
-.p i{
+
+.p i {
     font-size: 20px;
-    color:#fff;
-    margin:11px 9px;
+    color: #fff;
+    margin: 11px 9px;
     transform: rotate(-45deg);
 }
-.t i{
+
+.t i {
     font-size: 20px;
-    color:#fff;
-    margin:11px 9px;
+    color: #fff;
+    margin: 11px 9px;
     transform: rotate(-45deg);
 }
-.dribble i{
+
+.dribble i {
     font-size: 20px;
-    color:#fff;
-    margin:11px 9px;
+    color: #fff;
+    margin: 11px 9px;
     transform: rotate(-45deg);
 }
+
 .contacts_head {
     padding: 70px 0;
     text-align: center;
@@ -728,15 +823,21 @@ textarea {
     background-color: dimgray;
 }
 
- .inputs input::placeholder,textarea::placeholder {
-   color: #ddd;
+.inputs input::placeholder,
+textarea::placeholder {
+    color: #ddd;
 }
+
 .inputs button {
     padding: 10px 0 10px 5px;
     width: 100%;
     margin: 10px 0;
     background-color: #999;
     color: #fff;
+}
+
+.inputs button:hover {
+    background-color: dimgray;
 }
 
 .contacts2 {
@@ -793,7 +894,7 @@ textarea {
 
 .recent span {
     color: #000;
-     margin-right: 5px;
+    margin-right: 5px;
 }
 
 .minifooter {
@@ -809,21 +910,298 @@ textarea {
 .minifooter span {
     color: #999;
 }
-.arrow{
-    width:25px;
-    height:25px;
-    border:3px solid gray;
+
+.arrow {
+    width: 25px;
+    height: 25px;
+    border: 3px solid gray;
     transform: rotate(45deg);
-    margin:15px 0;
+    margin: 15px 0;
 }
-.arrow{
+
+.arrow {
     position: fixed;
     bottom: 0;
-    right:30px;
+    right: 30px;
 }
-.arrow i{
-    color:gray;
+
+.arrow i {
+    color: gray;
     font-size: 20px;
-    margin:3px 5px;
+    margin: 3px 5px;
     transform: rotate(-45deg);
+}
+
+
+@media all and (max-width:1024px) {
+    
+    .about1,
+    .about2,
+    .about3,
+    .about4 {
+        width: 400px;
+        margin-left: 30px;
+    }
+    .development,
+    .design,
+    .hosting,
+    .pen {
+        width: 300px;
+        margin-left: 70px;
+    }
+    .imgs .p2,
+    .imgs .p5,
+    .imgs .p8 {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .our_team_inner1,
+    .our_team_inner2,
+    .our_team_inner3,
+    .our_team_inner4,
+    .our_team_inner5,
+    .our_team_inner6,
+    .our_team_inner7 {
+        width: 105px;
+        height: 105px;
+        margin: 0 30px;
+    }
+
+    .unika1,
+    .unika2,
+    .unika3,
+    .unika4,
+    .unika5,
+    .unika6,
+    .unika7 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .our_team_inner1 h3,
+    .our_team_inner2 h3,
+    .our_team_inner3 h3,
+    .our_team_inner4 h3,
+    .our_team_inner5 h3,
+    .our_team_inner6 h3,
+    .our_team_inner7 h3 {
+        padding: 40px 12px;
+    }
+
+    .basic {
+        margin-right: 10px;
+    }
+
+    .advanced,
+    .professional {
+        margin: 0 10px;
+    }
+
+    .ultimate {
+        margin-left: 10px;
+    }
+    
+    .join_imgs {
+        width: 100%;
+        padding: 30px 0 140px 45px;
+    }
+    .join_img1,
+    .join_img2,
+    .join_img3,
+    .join_img4,
+    .join_img5,
+    .join_img6 {
+        margin: 0 30px;
+    }
+}
+
+@media all and (max-width:960px) {
+
+    .about1,
+    .about2,
+    .about3,
+    .about4 {
+        width: 300px;
+        margin-left: 30px;
+    }
+    .our_pdf_info p{
+        margin-bottom: 20px;
+    }
+
+    .development,
+    .design,
+    .hosting,
+    .pen {
+        width: 300px;
+        margin-left: 30px;
+    }
+
+    .our_team_inner1,
+    .our_team_inner2,
+    .our_team_inner3,
+    .our_team_inner4,
+    .our_team_inner5,
+    .our_team_inner6,
+    .our_team_inner7 {
+        margin: 25px;
+    }
+
+    .img1,
+    .img2,
+    .img3,
+    .img4 {
+        width: 50%;
+    }
+
+    .img4 {
+        margin-top: -110px;
+    }
+
+    .basic,
+    .advanced,
+    .professional,
+    .ultimate {
+        width: 45%;
+    }
+
+    .advanced,
+    .professional {
+        margin: 0 10px;
+    }
+
+    .ultimate {
+        margin-left: 10px;
+    }
+
+    .join_imgs {
+       width: 75%;
+        margin-left: 110px;
+    }
+
+    .join_img1,
+    .join_img2,
+    .join_img3,
+    .join_img4,
+    .join_img5,
+    .join_img6 {
+        margin: 15px 40px;
+    }
+
+    .our_address,
+    .inputs {
+        width: 47%;
+        padding: 30px 0 50px 0;
+    }
+
+    .usefull,
+    .subscribe,
+    .recent {
+        width: 31%;
+    }
+}
+
+
+@media all and (max-width:720px) {
+    nav ul li {
+        padding: 10px 5px;
+    }
+
+    .about1,.about2,.about3,.about4{
+        width: 500px;
+        margin-left: 100px;
+    }
+
+    .our_pdf_info {
+        display: grid;
+    }
+
+    .our_team1 {
+        width: 60%;
+    }
+
+    .our_team2 {
+        width: 60%;
+    }
+    
+    .development_head,
+    .design_head,
+    .hosting_head,
+    .pen_head{
+        margin-left: 43%;
+    }
+    .development,
+    .design,
+    .hosting,
+    .pen {
+        width: 500px;
+        margin-left: 60px;
+    }
+
+    .join_imgs {
+        width:85%;
+        margin-left:40px;
+    }
+
+    .reviews_info,
+    .some_fun_facts_info {
+        width: 500px;
+    }
+}
+
+@media all and (max-width:500px) {
+    nav{
+       
+    }
+    
+    .about_info,
+    .services_info {
+        display: grid;
+    }
+
+    .about1_info,
+    .about2_info,
+    .about3_info,
+    .about4_info {
+        width: 250px;
+    }
+    .development_head,
+    .design_head,
+    .hosting_head,
+    .pen_head{
+        margin-left: 40%;
+    }
+    .development,
+    .design,
+    .hosting,
+    .pen {
+        width: 300px;
+        margin-left: 60px;
+    }
+    .about_head,.reviews_info,
+    .some_fun_facts_info,.contacts1_info{
+        width: 400px;
+    }
+    .imgs .p1,.imgs .p2,.imgs .p3,.imgs .p4,.imgs .p5,.imgs .p6,.imgs .p7,.imgs .p8,.imgs .p9{
+       width:40%;
+       height: 40%;
+    }
+    .imgs .p3{
+        margin-right: 10px;
+    }
+    .imgs .p1,.imgs .p3,.imgs .p5,.imgs .p7,.imgs .p9{
+        margin-left: 40px;
+    }
+     .our_team1 {
+        width: 100%;
+    }
+
+    .our_team2 {
+        width: 100%;
+    }
+    .join_imgs {
+        width:70%;
+        margin:0 0 80px 30px;
+    }
+    
 }

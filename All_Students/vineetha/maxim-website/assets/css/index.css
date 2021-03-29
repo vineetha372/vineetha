@@ -33,6 +33,9 @@ ul li{
     color: rgb(252, 249, 249);
  
 }
+.container-fluid{
+    background-color: black;
+}
 
 /* sections1*/
 
@@ -40,10 +43,16 @@ ul li{
     text-align: center;
      height: 450px;
      
-     /*background-image: url("https://s3.envato.com/files/292603332/Board%20room%2023_05_20.jpg");*/
+     /*background-image: url("https://image.freepik.com/free-photo/modern-home-decor-with-green-sofa-rattan-furniture-green-wall-background_269031-15.jpg" );
+    */ background: url(https://image.freepik.com/free-photo/modern-home-decor-with-green-sofa-rattan-furniture-green-wall-background_269031-15.jpg) center center;
+    background-size: cover;
+    position: relative;
      background-color: rgb(186, 250, 121);
      background-repeat: no-repeat;
+     background-size: 100%;
+   
      width: auto;
+     height: 500px;
      color: white;
 }
 .sections1 h1{
@@ -110,7 +119,7 @@ ul li{
    
 }
 .num1{
-    width: 350px;
+    width: 330px;
     float: left;
    margin-left: 120px;
  
@@ -553,8 +562,64 @@ ul li{
 }
 .cal p{
     padding-left: 50px;
+    float: left;
 }
 
+.gmap_canvas{
+    float: left;
+}
+
+/* login sections*/
+/*.login
+{
+    width:74%;
+    margin:30px auto;
+}
+input
+{
+    border:solid 1px;
+    border-bottom:2px solid #ddd;
+    outline:0;
+    padding-left:10px;
+}
+.name{
+    width:49%;
+    padding-bottom:30px;
+    margin-bottom:50px;
+
+}
+
+
+.email
+{
+    width:49%;
+    padding-bottom:30px;
+    margin-bottom:50px;
+}
+.email
+{
+    margin-left:10px;
+}
+.subject
+{
+    width:100%;
+    padding-bottom:30px;
+    margin-bottom:50px;
+}
+textarea{
+
+    width:100%;
+    border: none;
+    border-bottom:2px solid #ddd;
+    padding-left:10px;
+    padding-bottom:70px;
+    outline:0;
+    
+}
+.contact button{
+    margin-top: 40px;
+}
+*/
 
 
 

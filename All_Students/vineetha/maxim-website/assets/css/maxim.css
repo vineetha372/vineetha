@@ -1,0 +1,561 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+/* sections1*/
+
+.sections1{
+    text-align: center;
+     height: 450px;
+     
+     /*background-image: url("https://image.freepik.com/free-photo/modern-home-decor-with-green-sofa-rattan-furniture-green-wall-background_269031-15.jpg" );
+    */ background: url(https://img.freepik.com/free-photo/interior-bright-living-room-with-pillows-sofa-armchair-plants-lamp-empty-blue-wall-background_41470-708.jpg?size=626&ext=jpg) center center;
+    background-size: cover;
+    position: relative;
+     background-color: rgb(186, 250, 121);
+     background-repeat: no-repeat;
+     background-size: 100%;
+   
+     width: auto;
+     height: 500px;
+     color: white;
+}
+.sections1 h1{
+    padding-top: 100px;
+    font-size: 70px;
+}
+.sections1 p{
+     font-size: 30px;
+     font-weight: 20px;
+}
+
+/*girl images*/
+.girlimg{
+    float: left;
+    width: 50%;
+    height: 800px;
+
+
+
+}
+
+.img h1{
+    color: green;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+
+}
+.img i{
+    float: left;
+    font-size: 50px;
+    color: green;
+    margin-left: 10px;
+}
+.img p{
+    margin-left: 10px;
+}
+.img h2{
+    color: green;
+    padding-left: 10px;
+} 
+ /*number sections*/
+
+ .container-fluid{
+     background-color: rgb(242, 248, 250);
+     height: 700px;
+     padding-left: 80px;
+ }
+.row h1{
+margin-bottom: 20px;
+font-size: 25px;
+
+
+
+}
+.row {
+   
+   
+    margin-right: 120px;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+
+/*floating image sections*/
+.row modi{
+    margin-top: 50px;
+    background-color: white;
+   
+}
+.modi :hover{
+    color: green;
+}
+.modi h1{
+    color: green;
+    font-size: 30px;
+}
+.modi{
+    box-shadow: grey  3px 1px 3px 1px;
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+} 
+.modi1 :hover{
+    color: green;
+}
+.modi2 :hover{
+    color: green;
+}
+.modi3 :hover{
+    color: green;
+}
+.row.comimg{
+    margin-right: 150px;
+}
+/*Services section*/
+
+.Services{
+   text-align: center;
+   margin-top: 60px;
+   background-color: honeydew;
+   margin-left: 20px;
+   margin-right: 20px;
+   height: 600px;
+}
+.Services p{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 80px;
+    font-size: 16px;
+}
+.col-sm-2{
+  
+    height: 300px;
+    margin-left: 30px;
+    
+ 
+}
+.col-sm-2:hover {
+    box-shadow:  1px 1px 1px 1px; 
+    background: rgb(253, 252, 251);
+    border-radius: 10px;
+    width: 200px;
+   
+
+
+}
+
+
+.row{
+    margin-left:140px;
+    border: none;
+    
+}
+
+.row i{
+    font-size: 50px;
+    color: hotpink;
+    padding-top: 15px;
+    padding-bottom: ;
+
+  
+    
+}
+
+/*testimonials sections*/
+
+.testimonials{
+    text-align: center;
+    background-color: white;
+    margin-top: 50px;
+    
+}
+
+
+.slider p{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(220, 241, 234);
+
+}
+.sliderimg{
+    border-radius: 100%;
+    margin-left: 50px;
+    width: 90px;
+    height: 90px;
+}
+.slider h3{
+    margin-left: 50px;
+
+}
+.slider h4{
+    margin-left: 50px; 
+    font-weight: lighter;  
+
+}
+/*portfoli sections*/
+.portfolio{
+    text-align: center;
+    padding-left: 20px;
+    margin-right: 20px;
+    margin-top: 90px;
+    
+}
+.buttons{
+    float: left;
+    width: 300px;
+    height: 50px;
+}
+.buttons h1{
+    float: left;
+
+}
+
+.menus{
+    height: 50px;
+    margin-left: 350px;
+    margin-top: 80px;
+    font-size: 10px;
+    width: 500px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px  5px #aaaaaa;
+
+
+}
+.menus li{
+    float: left;
+    text-align: center;
+    margin-left: 40px;
+    font-size: 30px;
+    list-style: none;
+    padding-left: 50px;
+    width: 40px;
+   
+  
+
+}
+.menus a{
+    text-decoration: none;
+   
+    
+}
+
+  .secondlin{
+    margin-top: -50px;
+     
+  }
+  
+
+  .secondlin2{
+    margin-top: -50px;
+     
+  }
+  
+
+
+
+
+
+  .figure {
+    position: relative;
+    width: 360px; /* can be omitted for a regular non-lazy image */
+    max-width: 100%;
+}
+.figure img.image-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+}
+.figure:hover img.image-hover {
+  opacity: 1;
+}
+
+
+/*team sections*/
+.team{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 120px;
+
+}
+.img-fluid :hover{
+background-color: gray;
+
+}
+/*
+ .col-sm-4{
+     width: 200px;
+
+
+ }
+ 
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align:left;
+  }
+  
+  .teamimg:hover .image {
+    opacity: 0.3;
+  }
+  
+  .teamimg:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+  
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+
+.col-sm-4{
+    width: 300px;
+    float: left;
+margin-left: 20px;
+}
+
+
+.image {
+   opacity: 1;
+   display: block;
+   width: 100%;
+   height: auto;
+   transition: .5s ease;
+   backface-visibility: hidden;
+ }
+ 
+ .middle {
+   transition: .5s ease;
+   opacity: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   text-align:left;
+ }
+ 
+ .teamimg1:hover .image {
+   opacity: 0.3;
+ }
+ 
+ .teamimg1:hover .middle {
+   opacity: 1;
+ }
+ 
+ .text {
+ 
+   color: black;
+   font-size: 16px;
+   padding: 16px 32px;
+ }
+
+ .col-sm-4{
+    width: 300px;
+    float: left;
+    
+}
+
+
+.image {
+   opacity: 1;
+   display: block;
+   width: 100%;
+   height: auto;
+   transition: .5s ease;
+   backface-visibility: hidden;
+ }
+ 
+ .middle {
+   transition: .5s ease;
+   opacity: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   text-align:left;
+ }
+ 
+ .teamimg2:hover .image {
+   opacity: 0.3;
+ }
+ 
+ .teamimg2:hover .middle {
+   opacity: 1;
+ }
+ 
+ .text {
+ 
+   color: black;
+   font-size: 16px;
+   padding: 16px 32px;
+ }*/
+
+
+
+ /*FAQ section*/
+ .faq{
+     text-align: center;
+     margin-top: 80px;
+     padding-left: 50px;
+     padding-right: 50px;
+ }
+
+
+
+  /* contact sections*/
+  .contact{
+      text-align: center;
+  }
+
+
+ .locations{
+     width: 400px;
+     height: 400px;
+ }
+ .row .col-sm-6{
+    background-color: rgb(247, 236, 236);
+ }
+ .login
+{
+    width:78%;
+    margin:30px auto;
+    box-shadow:  o.5px ;
+}
+input
+{
+    border:solid 1px;
+    border-bottom:2px solid #ddd;
+    outline:0;
+    padding-left:10px;
+}
+.name{
+    width:49%;
+    padding-bottom:30px;
+    margin-bottom:50px;
+
+}
+
+
+.email
+{
+    width:49%;
+    padding-bottom:30px;
+    margin-bottom:50px;
+}
+.email
+{
+    margin-left:10px;
+}
+.subject
+{
+    width:100%;
+    padding-bottom:30px;
+    margin-bottom:50px;
+}
+textarea{
+
+    width:100%;
+    border: none;
+    border-bottom:2px solid #ddd;
+    padding-left:10px;
+    padding-bottom:70px;
+    outline:0;
+    
+}
+.contact button{
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+.login button{
+    width: 120px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+   margin-left: 350px;
+   margin-top: 50px;
+   border-radius: 10px;
+
+}
+.login button:hover{
+    background-color: green;
+}
+    
+
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer li{
+    text-decoration: none;
+    list-style: square;
+    color: white;
+
+}
+
+.footer li:hover{
+    color: yellowgreen;
+}
+
+.fab fa-twitter{
+    width: 30px;
+    height: 30px;
+
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: green;
+}
+
+.copyrights{
+    text-align: center;
+    color: honeydew;
+    background-color: black;
+    padding-top: 90px;
+
+}
+.hover:hover{
+    color: yellowgreen;
+    
+}
+.hover{
+    color: green;
+    font-weight: 900;
+}
+
