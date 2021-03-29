@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -14,26 +15,19 @@ body {
 
 .inner_container {
     width: 1000px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .maria_wiliams {
     background-color: aliceblue;
-    padding: 50px 0;
 }
 
 .maria_head {
-    width: 97%;
+    width: 95%;
     margin: 0 auto;
-    padding-bottom: 30px;
-}
-
-.maria_head h2 {
-    float: left;
-}
-
-.maria_head p {
-    font-size: 12px
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .fleft {
@@ -45,7 +39,7 @@ body {
 }
 
 .btn {
-    float: right;
+    width: 300px;
 }
 
 .b1 {
@@ -78,15 +72,24 @@ h3 {
     letter-spacing: 2px;
 }
 
+.inner {
+    display: flex;
+    justify-content: space-between;
+}
+
 .inner .para {
-    float: left;
     width: 500px;
     padding-right: 50px;
 }
 
-.inner img {
-    float: left;
-    width: 450px;
+.inner_img {
+    width: 400px;
+}
+
+.inner_img img {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
 }
 
 .para h1 {
@@ -100,13 +103,9 @@ h3 {
     letter-spacing: 2px;
 }
 
-.p1,
-.p2 {
-    float: left;
-}
-
-.clear {
-    clear: both;
+.para_inner {
+    display: flex;
+    justify-content: space-between;
 }
 
 .p1 h5,
@@ -159,8 +158,7 @@ h2 {
 }
 
 .work_exp_info {
-    width: 60%;
-    margin: auto;
+    width: 70%;
 }
 
 .work_exp h3 {
@@ -196,11 +194,10 @@ h2 {
 
 .top1,
 .top2 {
-    width: 700px;
     padding-left: 50px;
     border-left: 1px solid #000;
     position: relative;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .top1 {
@@ -213,19 +210,14 @@ h2 {
     padding-bottom: 15px;
 }
 
-.top1 p,
-.top2 p {
-    width: 700px;
-}
-
 .top1 h6,
 .top2 h6 {
     padding: 10px 0 30px 0;
 }
 
 .education_info {
-    width: 60%;
-    margin: auto;
+    width: 70%;
+
 }
 
 .education h3 {
@@ -259,10 +251,9 @@ h2 {
 
 .top3,
 .top4 {
-    width: 700px;
     padding-left: 50px;
     border-left: 1px solid #000;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .top3,
@@ -302,19 +293,14 @@ h2 {
     padding-bottom: 15px;
 }
 
-.top3 p,
-.top4 p {
-    width: 700px;
-}
-
 .top3 h6,
 .top4 h6 {
     padding: 10px 0 30px 0;
 }
 
 .references_info {
-    width: 60%;
-    margin: auto;
+    width: 70%;
+
 }
 
 .references h3 {
@@ -325,24 +311,25 @@ h2 {
 }
 
 .top5 p {
-    padding-left: 100px;
-    width: 700px;
+    padding-left: 80px;
 }
 
 .top5 h1 {
-    margin-left: 100px;
-    font-size:50px;
+    margin-left: 80px;
+    font-size: 50px;
 }
 
 .top5 h5,
 .top5 h6 {
-    padding: 15px 0 0 100px;
+    padding: 10px 0 0 80px;
+}
 
+.top5 h6 {
+    margin-bottom: 70px;
 }
 
 .portfolio_head {
-    width: 60%;
-    margin: auto;
+    width: 70%;
 }
 
 .portfolio_head h3 {
@@ -350,19 +337,17 @@ h2 {
     width: 95px;
     height: 25px;
     border-bottom: 2px solid #000;
-    margin: 50px 0 70px 0;
 }
 
 .portfolio_head button {
     float: right;
     padding: 10px 20px;
     border-radius: 5px;
-    margin-top: 50px;
 }
 
 .portfolio_imgs {
-   width:92%;
-    margin:auto;
+    width: 92%;
+    margin: 0 auto;
 }
 
 .overlay {
@@ -373,7 +358,7 @@ h2 {
     bottom: 300px;
     background-color: lightsteelblue;
     transition: all 0.5s;
-    opacity: 0.5
+    opacity: 0.5;
 }
 
 .portfolio_img1 img,
@@ -400,6 +385,7 @@ h2 {
     float: left;
     width: 280px;
     height: 300px;
+    margin-top: 50px;
 }
 
 .clear {
@@ -424,8 +410,7 @@ h2 {
 }
 
 .extra_skills_info {
-    width: 60%;
-    margin: auto;
+    width: 70%;
 }
 
 .extra_skills h3 {
@@ -441,7 +426,7 @@ h2 {
 .extra_skills_img3,
 .extra_skills_img4 {
     float: left;
-    width: 190px;
+    width: 225px;
     height: 300px;
     margin-bottom: 50px;
 }
@@ -450,17 +435,16 @@ h2 {
     clear: both;
 }
 
-.extra_skills_img1,
-.extra_skills_img2,
 .extra_skills_img3 {
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .extra_skills_img1 img,
 .extra_skills_img2 img {
+    text-align: center;
     width: 150px;
     height: 150px;
-    margin: 70px 0 20px 0;
+    margin: 70px 0 20px 10px;
 }
 
 .extra_skills_img1 h5,
@@ -471,7 +455,7 @@ h2 {
 
 .extra_skills_img1 p,
 .extra_skills_img2 p {
-    width: 170px;
+    width: 160px;
     text-align: center;
     font-size: 13px;
     padding-top: 5px;
@@ -503,7 +487,7 @@ h2 {
 }
 
 .contact_me_info {
-    width: 60%;
+    width: 70%;
     margin: auto;
 
 }
@@ -571,3 +555,177 @@ footer i {
     font-size: 13px;
     margin: 0 5px;
 }
+
+@media all and (max-width:1024px){
+    .portfolio_img1,
+    .portfolio_img3 {
+           margin-left:180px;
+    }
+    .social_imgs{
+        display: grid;
+        justify-content: space-around;
+    }
+    .portfolio_img3,
+    .portfolio_img4{
+        margin-top: 100px;
+    }
+    .extra_skills_img1,
+    .extra_skills_img2,
+    {
+       width:300px;
+    }
+    .extra_skills_img1{
+         margin-left:100px;
+    } 
+    .extra_skills_img3{
+        margin-left:100px;
+    }
+}
+
+@media all and (max-width:900px){
+    .maria_head {
+        display: grid;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .btn {
+        display: grid;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .b1 {
+        margin: 20px 0 10px 0;
+    }
+
+    .inner {
+        display: grid;
+        text-align: center;
+        margin: 0 150px;
+    }
+    .para_inner {
+        margin:0 0 30px 20px;
+    }
+    .portfolio_img1,
+    .portfolio_img3 {
+           margin-left:25px;
+    }
+    .social_imgs{
+        display: grid;
+        justify-content: space-around;
+    }
+    .portfolio_img3,
+    .portfolio_img4{
+        margin-top: 100px;
+    }
+    .extra_skills_img1{
+         margin-left:10px;
+    } 
+    .extra_skills_img3{
+        margin-left:10px;
+    }
+    .extra_skills_img1,
+    .extra_skills_img2{
+        
+    }   
+    .extra_skills_img4{
+         margin-left:25px;
+    }
+}
+@media all and (max-width:500px) {
+    .maria_head {
+        width: 100%;
+        display: grid;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .btn {
+        display: grid;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .b1 {
+        margin: 20px 0 10px 0;
+    }
+
+    .inner {
+        display: grid;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .para_inner {
+        margin-left: 20px;
+    }
+
+    .inner_img {
+        margin: 20px;
+    }
+
+    .social_img,
+    .p3,
+    h2 {
+        float: none;
+        margin: 20px 80px;
+        text-align: center;
+
+    }
+
+    .top1 p,
+    .top2 p,
+    .top3 p,
+    .top4 p,
+    .top5 p {
+        width: 350px;
+    }
+
+    .work_exp,
+    .education,
+    .references {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .portfolio_head {
+        display: grid;
+        justify-content: space-around;
+        text-align: center float: none;
+    }
+
+    .portfolio_head button {
+        margin-top: 20px;
+    }
+
+    .portfolio_imgs {
+        display: grid;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .portfolio_img1,
+    .portfolio_img2,
+    .portfolio_img3,
+    .portfolio_img4 {
+        margin-bottom: 50px;
+    }
+    .portfolio_img2,.portfolio_img4{
+        margin-left:25px;
+    }
+    .extra_skills_info{
+        width:50%;
+        display: grid;
+        justify-content: space-around;
+        text-align: center
+    }
+    .extra_skills_img1 img,
+    .extra_skills_img2 img{
+        margin-left:-40px;
+    }
+    .extra_skills_img4{
+        margin-left:9px;
+    }
+}
+
