@@ -70,6 +70,10 @@ a:hover {
     margin-left: 20px;
 
 }
+.a3:active{
+    color:green;
+    
+}
 
 .nav-bar li a {
     color: white;

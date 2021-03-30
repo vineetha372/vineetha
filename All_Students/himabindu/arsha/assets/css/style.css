@@ -776,6 +776,7 @@ main{
 /*pricing starts*/
 .pricing{
     background-color:white;
+    padding:90px 0px;
 }
 .pricing h1{
     margin:0 auto;
@@ -814,21 +815,75 @@ main{
 .pcard1,.pcard2,.pcard3{
     width:30%;
     box-shadow:0 3px 20px -2px rgb(20 45 100/10%);
-    padding:70px 20px 30px 20px;
+    padding:70px 20px 30px 50px;
     margin:50px 0px 30px 0px;
+    border-radius:5px;
+}
+.pcard2{
+    border-top:5px solid #47b2e4;
 }
 .pcard1 h3,.pcard2 h3,.pcard3 h3{
     font-weight:500px;
     color:#37517e;
     font-family:"Arial";
-    padding-bottom:20px;
+    padding-bottom:30px;
 }
 .pcard1 i,span,.pcard2 i,span,.pcard3 i,span{
     color:#37517e;
     font-size:40px;
 }
 .pcard1 span,.pcard2 span,.pcard3 span{
-    font-size:58px;
+    font-size:48px;
+    font-weight:lighter;
+}
+.pcard1 p,.pcard2 p,.pcard3 p{
+    color:#47b2e4;
+    font-size:18px;
+    padding-bottom:30px;
+}
+.pcard1 li,.pcard2 li,.pcard3 li{
+    line-height:39px;
+    color:#c1c2c3;
+}
+.pcard1 li::before,.pcard2 li::before,.pcard3 li::before{
+    content:"✔";
+    color:lightgreen;
+    font-size:20px;
+    padding-right:10px;
+}
+#li1,#li2{
+    color:#d1d2d3;
+}
+#li1::before,#li2::before{
+    content:"✖";
+    font-size:20px;
+    padding-right:10px;
+    color:#d1d2d3;
+}
+.pcard1 button,.pcard3 button{
+    background-color:transparent;
+    border-radius:30px;
+    border:1px solid #47b2e4;
+    color:#47b2e4;
+    padding:15px 45px;
+    margin-top:30px;
+    font-size:13px;
+    font-weight:bold;
+}
+.pcard1 button:hover,.pcard3 button:hover{
+    color:white;
+    background-color: #47b2e4;
+    transition:0.4s;
+}
+.pcard2 button{
+    background-color:#47b2e4;
+    border-radius:30px;
+    border:1px solid #47b2e4;
+    color:#fff;
+    padding:15px 45px;
+    margin-top:30px;
+    font-size:13px;
+    font-weight:bold;
 }
 /*pricing ends*/
 

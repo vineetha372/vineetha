@@ -65,7 +65,9 @@ a:hover {
     color: orangered;
 }
 
-
+.a2:active{
+    color:green;
+}
 .a1 {
     margin-left: 20px;
 
@@ -91,7 +93,7 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../images/natural.jpg);
-    height: 680px;
+    height:100%;
 }
 
 .h1 {
@@ -119,6 +121,7 @@ a:hover {
 .image i {
     color: white;
     font-size: 40px;
+    margin-bottom: 30px;
 }
 
 .image i:hover {
