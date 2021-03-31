@@ -71,14 +71,17 @@ nav {
    
     list-style: none;
     display: inline-block;
-    padding: 15px 15px;
+    padding: 17px 15px;
 }
 
 a {
     text-decoration: none;
     color: black;
 }
-
+nav li:hover {
+    border-bottom: 5px solid green !important;
+    padding-top:13px;
+}
 
 nav{
      padding-top:20px;
@@ -86,7 +89,7 @@ nav{
 }
 .back{
    /* background:hsl(0, 0%, 96%);*/
- background-color: #f1f1f1;
+  background-color:oldlace;
     height:470px;
     position: relative;
     border-top:2px solid gainsboro;
@@ -121,6 +124,7 @@ nav{
     color:orange;
     padding-bottom: 20px;
     font-size: 50px;
+    font-weight:400;
     padding-top:30px;
 }
 .input{
@@ -227,113 +231,170 @@ padding-top: 40px;
 }
 .footer{
     width:100%;
-    height:75px;
+    height:87px;
     margin: auto;
     box-shadow: 1px 1px 5px rgb(0 0 0 / 60%);
-    background-color:orange;
-    border-top:4px solid green;
+    background-color:black;
+    border-top:9px solid black;
+     border-bottom:9px solid black;
     /* border-bottom:4px solid orange;*/
 }
 .nav1{
    text-align:center;
 }
 .nav1 a{
+    
     display: inline-block;
     padding-top: 25px;
    padding-right:40px;
     text-align:center;
-    padding-left:20px;
+    padding-left:24px;
 }
-.colorgreen:hover{
+.colorgreen{
     background-color: green;
     height: 70px;
     color:white;
   
 }
-.colorblue:hover{
+.colorblue{
 background-color:#3B5998;
      height: 70px;
     color:white;
     
 }
-.colorblue1:hover{
+.colorblue1{
     background-color:#00ACED;
     height: 70px;
     color:white;
     
 }
-.colorblue2:hover{
+.colorblue2{
      background-color:#0077B5;
     height: 70px;
     color:white;
 }
-.colorred:hover{
+.colorred{
      background-color:#E62117;
     height: 70px;
     color:white;
 }
-.colorred1:hover{
+.colorred1{
      background-color:#BD081B;
     height: 70px;
     color:white;
 }
-.colorb:hover{
+.colorb{
    background-color:#8A3AB9;
     height: 70px;
     color:white; 
 }
-.colormy:hover{
+.colormy{
     background-color:#3F51B4;
     height: 70px;
     color:white; 
 }
-/*.whatsapp{
-    float: left;
-    width:168px;
-    height:70px;
-    border:1px solid black;
+
+/*.container1{
+    width:90%;
+    margin: auto;
+    
 }
-.facebook{
-    float: left;
-     width:168px;
+.colorgreen{
+    float:left;
+    width:149px;
     height:70px;
-    border:1px solid black;
+   
+    text-align: center;
+    background-color: green;
+    padding-top: 22px;
+   
 }
-.twitter{
-    float: left;
-     width:168px;
-    height:70px;
-    border:1px solid black;
+.colorgreen a{
+    color:white;
 }
-.linkedin{
+.colorblue{
     float: left;
-     width:168px;
+     width:149px;
     height:70px;
-    border:1px solid black;
+   
+     text-align: center;
+    background-color:#3B5998;
+     padding-top: 22px;
 }
-.youtube{
-    float: left;
-     width:168px;
-    height:70px;
-    border:1px solid black;
+.colorblue a{
+    color:white;
 }
-.printerest{
+.colorblue1{
     float: left;
-     width:168px;
+     width:149px;
     height:70px;
-    border:1px solid black;
+    
+     text-align: center;
+     background-color:#00ACED;
+     padding-top: 22px;
 }
-.instagram{
-    float: left;
-     width:168px;
-    height:70px;
-    border:1px solid black;
+.colorblue1 a{
+    color:white;
 }
-.myspace{
+.colorblue2{
     float: left;
-     width:168px;
+     width:149px;
     height:70px;
-    border:1px solid black;
+ 
+     text-align: center;
+     background-color:#0077B5;
+     padding-top: 22px;
+}
+.colorblue2 a{
+    color:white;
+}
+.colorred{
+    float: left;
+     width:149px;
+    height:70px;
+  
+     text-align: center;
+    background-color:#E62117;
+     padding-top: 22px;
+}
+.colorred a{
+    color:white;
+}
+.colorred1{
+    float: left;
+     width:149px;
+    height:70px;
+  
+     text-align: center;
+     background-color:#BD081B;
+     padding-top: 22px;
+}
+.colorred1 a{
+    color:white;
+}
+.colorb{
+    float: left;
+     width:149px;
+    height:70px;
+   
+     text-align: center;
+     background-color:#8A3AB9;
+     padding-top: 22px;
+}
+.colorb a{
+    color:white;
+}
+.colormy{
+    float: left;
+     width:153px;
+    height:70px;
+  
+     text-align: center;
+     background-color:green;
+     padding-top: 22px;
+}
+.colormy a{
+    color:white;
 }*/
 @media (max-width:1346px){
     
@@ -470,7 +531,7 @@ background-color:#3B5998;
     }
     .footer{
         width:100%;
-        height:100%;
+        height:auto;
        
     }
     .nav1 a{
@@ -481,227 +542,3 @@ background-color:#3B5998;
     
 }
 
-/*.container{
-		width:900px;
-		border:1px solid #eee;
-		margin:0 auto;
-		}
-	
-	.header{
-		background-color:orange;
-		width:900px;
-		height:30px;
-		padding-bottom:15px;
-		
-		color:white;
-		
-		}
-	.header p{
-		float:left;
-		width:400px;
-		padding-left:20px;
-		}
-	.a{
-		color:white;
-		text-decoration:none;
-		float:left;
-		padding-left:260px;
-		margin-top:12px;
-		}
-	.a1{
-		color:white;
-		text-decoration:none;
-		float:left;
-		margin-top:12px;
-		padding-left:30px;
-		}
-	
-	
-	.text p{
-		color:orange;
-		padding-left:70px;
-		font-size:25px;
-		
-		}
-	
-	.we input{
-		padding-left:20px;
-		padding-right:20px;
-		}
-	
-	.botton{
-		
-		color:white;
-		background-color:orange;
-		width:300px;
-		height:30px;
-		padding-left:70px;
-		padding-right:70px;
-		
-		
-		}
-	.border{
-		border:1px solid black;
-		width:220px;
-		height:250px;
-		margin-left:310px;
-		margin-top:30px;
-		padding-left:15px;
-		}
-	.w1{
-		border:1px solid #ffff;
-		width:900px;
-		}
-	
-	.hi h1{
-		padding-left:180px;
-		}
-	.hii p{
-		padding-left:250px;
-		}
-	.hiii p{
-		color:orange;
-		padding-left:230px;
-		font-size:17px;
-		}	
-	.hiiii p{
-		padding-left:300px;
-		color:#dddd;
-		
-		}
-	.hiiiii p{
-		padding-left:280px;
-		color:#dddd;
-		
-		}	
-	.why p{
-		padding-left:280px;
-		}
-	.why1 p{
-		padding-left:200px;
-		}
-	.button1{
-		margin-left:90px;
-		
-		}
-.menu{
-		padding-left:10px;
-		margin-top:30px;
-		border:1px solid #ffff;
-		width:900px;
-		height:50px;
-		}
-	.green{
-		background-color:green;
-		color:white;
-		text-decoration:none;
-		font-size:25px;
-		width:100px;
-		height:100px;
-		padding:10px 10px 10px 10px;
-		
-		}
-	.blue{
-		background-color:blue;
-		color:white;
-		text-decoration:none;
-		font-size:25px;
-		padding:10px 10px 10px 10px;
-		
-		}
-	.cyanblue{
-		background-color:lightblue;
-		color:white;
-		text-decoration:none;
-		font-size:25px;
-		padding:10px 10px 10px 10px;
-		}
-	.darkblue{
-		background-color:darkblue;
-		color:white;
-		text-decoration:none;
-		font-size:25px;
-		padding:10px 10px 10px 10px;
-		}
-	.red{
-		background-color:red;
-		color:white;
-		text-decoration:none;
-		font-size:25px;
-		padding:10px 10px 10px 10px;
-		}
-	.darkred{
-		background-color:darkred;
-		color:white;
-		text-decoration:none;
-		font-size:25px;
-		padding:10px 10px 10px 10px;
-		}
-	.purple{
-		background-color:purple;
-		color:white;
-		text-decoration:none;
-		font-size:25px;
-		padding:10px 10px 10px 10px;
-		
-		}
-.darkblue{
-		background-color:darkblue;
-		color:white;
-		text-decoration:none;
-		font-size:25px;
-		padding:10px 10px 10px 10px;
-		}
-	
-.d{
-	padding-left:250px;
-	color:#dddd;
-		}
-	.header10{
-		
-		width:900px;
-		height:30px;
-		padding-bottom:15px;
-		border:1px solid #eee;
-		}
-	.header10 p{
-		float:left;
-		width:400px;
-		padding-left:20px;
-		color:orange;
-		}
-	.a10{
-		margin-top:12px;
-		text-decoration:none;
-		float:left;
-		padding-left:40px;
-		}
-	.a9{
-		text-decoration:none;
-		float:left;
-		margin-top:12px;
-		padding-left:40px;
-		}
-	.a8{
-		margin-top:12px;
-		text-decoration:none;
-		float:left;
-		padding-left:40px;
-		}
-	.a7{
-		text-decoration:none;
-		float:left;
-		margin-top:12px;
-		padding-left:40px;
-		}
-	.gnr{
-		margin-top:10px;
-	
-		}
-	.we small{
-		margin-top:20px;
-		}
-	.we span{
-		color:orange;
-		}*/
-	
