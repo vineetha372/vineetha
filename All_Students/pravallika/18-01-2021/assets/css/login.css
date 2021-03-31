@@ -189,10 +189,9 @@ i{
     height:50px;
     margin:30px auto 30px auto;
     background-color:gainsboro;
-    border-top-style:dashed;
-    border-bottom-style:dashed;
-    border-top-color:gray;
-    border-bottom-color:gray;
+    border:2px solid gray;
+    border-left:none;
+    border-right:none;
 }
 
 /*.para1 p{
