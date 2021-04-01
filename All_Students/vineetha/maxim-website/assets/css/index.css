@@ -1,39 +1,49 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 
 }
-.heading{
-    font-size: 30px;
-    background-color: black;
+.body{
+    font-family: cursive;
+}
+
+.logo{
     color: white;
-    height: 70px;
-    width:100%;
-    position: fixed;
-
-
 }
 
-.heading h1{
-    float: left;
-    margin-right: 150px;
-    margin-left: 50px;
-    margin-top: 10px;
-
+a{
+    color:white;
+    text-decoration:none;
+  
 }
 
+.header{
+    background-color: black;
 
-ul li{
+}
+li{
+    list-style-type:none;
     text-decoration: none;
-    list-style: none;
-    width: 500px;
-    display: inline;
-    padding-left: 40px;
-    font-size: 22px;
-    color: rgb(252, 249, 249);
- 
 }
-
+h1,h2,h3,h4,h5,h6{
+    font-family:"Jost";
+    letter-spacing:3px;
+}
+.wrapper{
+    width:90%;
+    margin:0px auto;
+    display:flex;
+    justify-content:space-between;
+}
+.nav ul li{
+    display: inline;
+    margin-left: 20px;
+    font-size: 20px;
+  
+}
+.nav ul li:hover{
+    color: green;
+}
 /* sections1*/
 
 .sections1{
@@ -41,7 +51,7 @@ ul li{
      height: 450px;
      
      /*background-image: url("https://image.freepik.com/free-photo/modern-home-decor-with-green-sofa-rattan-furniture-green-wall-background_269031-15.jpg" );
-    */ background: url(https://image.freepik.com/free-photo/modern-home-decor-with-green-sofa-rattan-furniture-green-wall-background_269031-15.jpg) center center;
+    */ background: url(https://img.freepik.com/free-photo/interior-bright-living-room-with-pillows-sofa-armchair-plants-lamp-empty-blue-wall-background_41470-708.jpg?size=626&ext=jpg) center center;
     background-size: cover;
     position: relative;
      background-color: rgb(186, 250, 121);
@@ -51,6 +61,7 @@ ul li{
      width: auto;
      height: 500px;
      color: white;
+   
 }
 .sections1 h1{
     padding-top: 100px;
@@ -61,443 +72,438 @@ ul li{
      font-weight: 20px;
 }
 
+.sections1 button{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(20, 158, 61);
+    color: black;
+    padding: 10px;
+   text-align: center;
+   margin-top: 50px;
+   border-radius: 10px;
 
-.ourclassimg{
-    margin-left: 50px;
-    float: left;
-    width: 500px;
-    height: 600px;
-    padding-top: 30px;
-}
-.voluptates{
-    float: left;
-    width: 500px;
-    color: rgb(133, 126, 126);
-    margin-left: 50px;
-}
-.voluptates h3{
-    margin-top: 50px;
-    font-size: 35px;
-}
-.voluptates h4{
-    margin-top: 50px;
 
 }
-.icon{
+
+/*girl images*/
+
+.img{
+    height: 800px;
+}
+.girlimg{
+    float: left;
+    width: 40%;
+    height: 700px;
+    margin-right: 60px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+
+
+
+}
+
+.img h1{
+    color: green;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+
+}
+.img i{
+    float: left;
     font-size: 50px;
-    float: left;
-    color: rgb(26, 160, 26);
-    width: 300px;
+    color: green;
+    margin-left: 10px;
+    margin-right: 20px;
 }
-.icon p{
-    font-size: 13px;
-    float: left;
+.img p{
+    margin-left: 10px;
+   
 }
+.img h2{
+    color: green;
+    padding-left: 10px;
+   
+} 
 .clear{
     clear: both;
 }
-.button{
-    background-color: rgb(12, 226, 12);
-    color: green;
 
+/*number sections*/
 
-
-}
-.icon i{
-    float: left;
-    
-}
-/*sections1*/
-
-.numbers{
+.container-fluid{
+    background-color: rgb(242, 248, 250);
     height: 700px;
-    margin-top: 60px;
-    background-color: rgb(235, 230, 230);
+    padding-left: 80px;
+}
+.row h1{
+margin-bottom: 20px;
+font-size: 35px;
+
+
+
+}
+.row {
+  
+  
+   margin-right: 120px;
+   margin-top: 50px;
+   padding-top: 20px;
+   padding-left: 80px;
+
+}
+
+
+/* sections3(mdi)*/
+
+
+
+
+.row modi{
+    margin-top: 50px;
+   
    
 }
-.num1{
-    width: 330px;
-    float: left;
-   margin-left: 120px;
- 
-   
-
-}
-.num1 h1{
-    color: rgb(40, 170, 40);
-    
-}
-
-
-.num2{
-    width: 350px;
-    float: left;
-    padding-left: 80px;
-
-}
-.num2 h1{
-    color: rgb(40, 170, 40);
-}
-.num3{
-    width: 350px;
-    float: left;
-    padding-left: 80px;
-
-}
-.num3 h1{
-    color: rgb(40, 170, 40);
-}
-.num4{
-    width: 350px;
-    float: left;
-   margin-left: 120px;
-   margin-top: 80px;
-   
-
-
-}
-.num4 h1{
-    color: rgb(40, 170, 40);
-}
-
-
-.num5{
-    width: 350px;
-    float: left;
-    padding-left: 80px;
-    margin-top: 80px;
-
-}
-.num5 h1{
-    color: rgb(40, 170, 40);
-    font-size: 30px;
-}
-.num6{
-    width: 350px;
-    float: left;
-    padding-left: 80px;
-    margin-top: 80px;
-
-}
-.num6 h1{
-    color: rgb(40, 170, 40);
-}
-
-
-/*sections2*/
-.modsit{
-    height: 500px;
-    margin-top: 70px;
-    margin-left: 100px;
-
-
-}
-.modisitest{
-    width: 450px;
-    box-shadow: blanchedalmond 20px;
-   
-    border-radius: 10px;
-    background-color:whitesmoke;
-    
-}
-.modisitest h1{
+.modi :hover{
     color: green;
-    font-size: 28px;
 }
-.modisitest1{
-    width: 450px;
-    box-shadow: blanchedalmond 5px;
-    margin-top: 20px;
+.modi h1{
+    color: green;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.modi{
+    box-shadow: grey  3px 1px 3px 1px;
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+} 
+.row modi1{
+    margin-top: 50px;
+  
+   
+}
+.modi1 :hover{
+    color: green;
+}
+.modi1 h1{
+    color: green;
+    font-size: 20px;
+    padding-left: 10px;
+  
+}
+.modi1{
+    box-shadow: grey  3px 1px 3px 1px;
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
     font-size: 15px;
 }
-.modisitest1 h1{
-    font-size: 28px;
-
-}
-.modisitest2{
-    width: 450px;
-    box-shadow: blanchedalmond 5px;
-    margin-top: 20px;
 
 
-}
-
-.modsit h1:hover {
-   color:green;
-  }
-
-  .modsit p:hover {
-    color:green;
-   }
-.modisitest2 h1{
-    font-size: 28px;
-
-}
-.modisitest3{
-    width: 450px;
-    box-shadow: blanchedalmond 5px;
-    margin-top: 20px;
-    
-}
-.modisitest3 h1{
-    font-size: 28px;
-
-}
-
-.floatimg{
-    float: left;
-}
-.comimg{
-    width: 500px;
-    height: 500px;
-    float: left;
-    margin-left: 150px;
-}
-/*sections2*/
-
-.services{
-    text-align: center;
-     height: 400px;
-   
-
-}
-.card1{
-    width: 250px;
-    height: 290px;
-    float: left;
-    border-radius: 20px;
-    margin-left: 50px;
-    background-color: white;
-    box-shadow: 10px 10px 10px  10px #aaaaaa;
-    margin-top: 20px;
-
-}
-
-    .card1:hover {
-        background-color: rgb(236, 247, 237);
-      }
 
 
-.card2{
-    width: 250px;
-    height: 290px;
-    float: left;
-    margin-left: 20px;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px  10px #aaaaaa;
-    margin-top: 20px;
-}
-.card2:hover {
-    background-color: rgb(236, 247, 237);
-  }
-
-
-.card3{
-    width: 250px;
-    height: 290px;
-    float: left;
-    box-shadow: 10px 10px 10px  10px #aaaaaa;
-    margin-left: 20px;
-    background-color: white;
-    border-radius: 20px;
-    margin-top: 20px;
-}
-.card3:hover {
-    background-color: rgb(236, 247, 237);
-  }
-
-
-.card4{
-    width: 250px;
-    height: 290px;
-    float: left;
-  
-    margin-left: 20px;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px  10px #aaaaaa;
-    margin-top: 20px;
-
-
-}
-.card4:hover {
-    background-color: rgb(236, 247, 237);
-  }
-
-
-.cards i{
-    font-size: 50px;
-    color: green;
-
-}
-
-/* sections 4*/
-.testimonials {
-    text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
-    height: 600px;
+.row modi2{
     margin-top: 50px;
-
+   
+   
+}
+.modi2 :hover{
+    color: green;
+}
+.modi2 h1{
+    color: green;
+    font-size: 20px;
+    padding-left: 10px;
+  
+}
+.modi2{
+    box-shadow: grey  3px 1px 3px 1px;
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    font-size: 15px;
 }
 
-/* sections 4*/
+
+
+
+.row modi3{
+    margin-top: 50px;
+    background-color: white;
+   
+}
+.modi3 :hover{
+    color: green;
+}
+.modi3 h1{
+    color: green;
+    font-size: 20px;
+    padding-left: 10px;
+  
+}
+.modi3{
+    box-shadow: grey  3px 1px 3px 1px;
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/*Services section*/
+
+.Services{
+    text-align: center;
+    margin-top: 60px;
+    background-color: honeydew;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 600px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+ }
+ .Services p{
+     padding-left: 10px;
+     padding-right: 20px;
+     padding-bottom: 80px;
+     font-size: 16px;
+ }
+ .col-sm-2{
+   
+     height: 300px;
+     margin-left: 30px;
+     
+  
+ }
+ .col-sm-2:hover {
+     box-shadow:  1px 1px 1px 1px; 
+     background: rgb(253, 252, 251);
+     border-radius: 10px;
+     width: 200px;
+    
+ 
+ 
+ }
+ 
+ 
+ .row{
+     margin-left:140px;
+     border: none;
+     
+ }
+ 
+ .row i{
+     font-size: 50px;
+     color: hotpink;
+     padding-top: 15px;
+     padding-bottom: ;
+ 
+   
+     
+ }
+
+ /*slider sections*/
+ 
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  height: 200px;
+ 
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: red;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: left;
+  margin-bottom:30px;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.img-fluid{
+margin:left;
+  width:50px;
+  height:50px;
+     border-radius: 50%;
+}
+.text p{
+ margin-top:20px;
+}
+
+
+
+/*portfolio sections*/
 
 .portfolio{
     text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
-    height: 1100px;
-
-}
-.menus{
-    height: 50px;
-    margin-left: 420px;
     margin-top: 80px;
-    
-    width: 450px;
-    border-radius: 30px;
-    box-shadow: 5px 5px 5px  5px #aaaaaa;
-
 
 }
-.menus h1, h3, h4 ,h6 ,h5{
-    float: left;
-    text-align: center;
-    margin-left: 30px;
-    font-size: 30px;
-  
 
-}
-.menus h1, h3, h4 ,h6 ,h5:hover {
-   color: rgb(58, 153, 70);
+
+* {
+    box-sizing: border-box;
   }
-/* sections 6*/
-.images{
-     height: 200px;
-    text-align: left;
-    margin-left: 80px;
+  
+  body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 10px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .content:hover{
+    background-color: rgb(18, 19, 19);
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+
+
+
+/*FAQ sections*/
+.faq{
+    text-align: center;
     margin-top: 50px;
 }
-.img1{
-    
-    float: left;
-    margin-left: 50px;
 
-} 
-
-  
-
-
-.img2{
-    
-    float: left;
-    margin-left: 50px;
-
-}
-.img3{
-    
-    float: left;
-    margin-left: 50px;
-
-}
-.images2{
-   height: 300px;
-   text-align: left;
-   margin-left: 50px;
-   margin-top: 50px;
-}
-.img4{
-    
-    float: left;
-
-
-}
-.img5{
-    
-    float: left;
-    margin-left: 50px;
-
-}
-.img6{
-    
-    float: left;
-    margin-left: 50px;
-
-}
-
-.images3{
-    height: 300px;
-    text-align: left;
-    margin-left: 50px;
-    margin-top: -50px;
-   
- }
- .img7{
-     
-     float: left;
- 
- 
- }
- .img8{
-     
-     float: left;
-     margin-left: 50px;
- 
- }
- .img9{
-     
-     float: left;
-     margin-left: 50px;
- 
- }
- .clear{
-     clear: both;
- }
-  /*sections 6*/
-  .team{
-      text-align: center;
-      margin-left: 50px;
-      margin-right: 50px;
-  }
-  .teammembers{
-  height: 500px;
-  text-align: left;
-  margin-left: 50px;
-  margin-top: 50px;
-}
-.team1{
-    
-    float: left;
-    margin-left: 20px;
-
-} 
-
-  
-
-
-.team2{
-    
-    float: left;
-    margin-left: 20px;
-
-}
-.team3{
-    
-    float: left;
-    margin-left: 10px;
-
-}
-.team1.hover{
-    color: aqua;
-   
-}
-
-
-
-
-.collapsible {
+.accordion {
     background-color: #eee;
     color: #444;
     cursor: pointer;
@@ -507,70 +513,91 @@ ul li{
     text-align: left;
     outline: none;
     font-size: 15px;
+    transition: 0.4s;
   }
-  .active, .collapsible:hover {
-    background-color: rgb(243, 247, 243);
-  }  
-
-  .non {
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
     padding: 0 18px;
     display: none;
+    background-color: white;
     overflow: hidden;
-    background-color: #f1f1f1;
-  }
-  .active, .collapsible :hover{
-      color: green;
-       
-  }
-  .Contact{
-      text-align: center;
-      margin-top: 50px;
   }
 
-  .location{
-      width: 400px;
-      height: 300px;
-      border: green solid 1px;
-      margin-top: 50px;
-      margin-left: 200px;
-      padding-left: 20px;
-      padding-top: 20px;
-      background-color: honeydew;
-      box-shadow: honeydew 10px;
-  }
+  /*team sections*/
+.team{
+    height: 700px;
+}
 
-.loc i{
-    float: left;
-    font-size: 50px;
+
+.team-members{
+  display: inline;
+  width: 700px;
+  margin-top: 50px;
+
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+  float:left;
+  display:inline;
+}
+
+.image {
+  display: block;
+  width: 300px;
+  height: 300px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.img-fluid :hover{
+background-color: gray;
+
+}
+
+/* contact sections*/
+.locations{
+    width: 400px;
+    height: 500px;
+
+}
+.col-sm-6 i:hover{
     color: green;
 }
-.emi i{
-    float: left;
-    font-size: 40px;
-    color: green;
-}
-.cal i{
-    float: left;
-    font-size: 45px;
-    color: green;
-}
-.emi p{
-    padding-left: 50px;
-}
-.cal p{
-    padding-left: 50px;
-    float: left;
-}
+    
 
-.gmap_canvas{
-    float: left;
-}
+/*login sections*/
 
-/* login sections*/
-/*.login
+.login
 {
-    width:74%;
+    width:78%;
     margin:30px auto;
+    box-shadow:  o.5px ;
 }
 input
 {
@@ -615,12 +642,169 @@ textarea{
 }
 .contact button{
     margin-top: 40px;
+    text-align: center;
+}
+
+
+.login button{
+    width: 120px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+   margin-left: 350px;
+   margin-top: 50px;
+   border-radius: 10px;
+
+}
+.login button:hover{
+    background-color: green;
+}
+
+
+/* footer sections*/
+/*
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer li{
+    text-decoration: none;
+    list-style: square;
+    color: white;
+
+}
+
+.footer li:hover{
+    color: yellowgreen;
+}
+
+.fab fa-twitter{
+    width: 30px;
+    height: 30px;
+
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: green;
 }
 */
+.footer-sections{
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    height: 300px;
 
+   } 
+   .footer1{
+       float: left;
+       font-size: 15px;
+       padding-left: 10px;
 
+   }
+   .footer2{
+    float: left;
+    font-size: 15px;
+    padding-left: 20px;
+}
+.footer3{
+    float: left;
+    font-size: 15px;
+    padding-left: 20px;
+}
+.footer4{
+    float: left;
+    font-size: 15px;
+    padding-left: 20px;
+}
 
-  
+.footer1 li{
+    text-decoration: none;
+    list-style: square;
+    color: white;
 
+}
 
+.footer1 li:hover{
+    color: yellowgreen;
+}
 
+.fab fa-twitter{
+    width: 30px;
+    height: 30px;
+
+}
+.footer1 a{
+    color: white;
+    text-decoration: none;
+}
+.foote1r a:hover{
+    color: green;
+}
+.footerbut{
+    background-color: green;
+    width: 120px;
+   padding-left: 25px;
+   padding-right: 30px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border-radius: 10px;
+   border: green solid;
+   margin-top: 30px;
+   margin-left: 20px;
+   color: white;
+
+}
+.footerbut:hover{
+    background-color: rgb(82, 105, 46);
+
+}
+.footer-sections h4{
+    color: rgb(245, 247, 245);
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.copyrights{
+    background-color: rgb(90, 83, 83);
+ 
+}
+.hover:hover{
+    color: yellowgreen;
+    
+}
+.hover{
+    color: green;
+    font-weight: 900;
+}
+
+.fa fa-twitter{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+.copyrights i{
+margin-left: 750px;
+padding-top: 15px;
+padding-left: 10px;
+padding-bottom: 15px;
+padding-right: 10px;
+width: 80px;
+height: 50px;
+background-color: lightgreen;
+border-radius: 30px;
+
+    
+}
+.copyrights i:hover{
+    background-color: lightgrey;
+}
+.fas fa-arrow-up{
+    font-size: 50px;
+}

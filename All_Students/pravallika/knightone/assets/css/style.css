@@ -11,6 +11,7 @@
     box-sizing: border-box;
    
 }
+
 /*-----------------------------------*/
 #preloader {
   position: fixed;
@@ -62,7 +63,9 @@
     transform: rotate(360deg);
   }
 }
-
+.logo a{
+    padding-right: 50px;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -199,6 +202,7 @@
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
+    text-decoration: none;
 }
 
 .navbar a i {
@@ -408,40 +412,7 @@ body{
 li{
     text-decoration: none;
 }
-section{
-  /* width:100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-image: url(../images/blue.jpg);
-    height:900px; 
-    background-attachment:fixed;*/
-}
- /*.banner{
-            position:relative;
-            height:700px;
-    
-        }
-        
-        .banner img{
-            width: 100%;
-            height:700px;
-        }
-        
-        .overlay{
-            position: absolute;
-            top:0;
-            left:0;
-            right:0;
-            bottom:0;
-            background-color:#aaa;
-            opacity: 0.2;
-}
-            .section-title h1{
-                font-size:50px;
-                border:outline;
-            }*/
-/*-----------------------------------*/
+
 .section{
     background-image: url(../images/g1.jpg);
     background-attachment:fixed;
@@ -466,6 +437,16 @@ button i{
    /*border:3px solid green; */
     margin-top:70px;
 }
+.Read{
+    width:120px;
+    height: 50px;
+    color: white;
+    border:2px solid white;
+    border-radius: 25px;
+  margin-left: 40px;
+}
+
+
 .button1{
     border-radius:50px;
     border:1px solid white;
@@ -484,9 +465,10 @@ button i:hover{
 
 .container{
     width:100%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
- 
+
 }
 .section-title h2{
     padding-top:50px;
@@ -549,7 +531,8 @@ margin-top: 50px;
     box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
     border-radius: 18px;
     border: none;
-    border-bottom: 5px solid #fff;"
+    border-bottom: 5px solid #fff;
+   
 }
 .custom1:hover{
      transform: translateY(-10px);
@@ -598,7 +581,9 @@ border-color: green;
     box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
     border-radius: 18px;
     border: none;
-    border-bottom: 5px solid #fff;"
+    border-bottom: 5px solid #fff;
+ 
+    
 }
 .custom4:hover{
      transform: translateY(-10px);
@@ -682,29 +667,6 @@ border-color: green;
 .green:hover{
     color:green;
 }
-/*main{
-    margin-top:110px;
-}
- .banner1{
-            position:relative;
-            height:400px;
-    
-        }
-        
-        .banner1 img{
-            width: 100%;
-            height:400px;
-        }
-        
-        .overlay{
-            position: absolute;
-            top:0;
-            left:0;
-            right:0;
-            bottom:0;
-            background-color:#aaa;
-            opacity: 0.2;
-}*/
 
 .full-banner{
     background-image: url(../images/rotate.jfif);
@@ -714,6 +676,7 @@ border-color: green;
     padding:100px 0;
     position: relative;
     height:350px;
+   
 }
 
 .info img {
@@ -722,15 +685,15 @@ border-color: green;
     background-attachment: fixed;
 }
 
-.overlay {
+/*.overlay {
     position: absolute;
     top:0;
     left: 0;
     bottom: 0;
     right: 0;
-   background-color:black;
-    opacity: 0.5;
-}
+   background-color:green;
+    opacity: 0.2;
+}*/
 
 .reviews {
     position: relative;
@@ -745,15 +708,23 @@ border-color: green;
 }*/
 .btn-learn-more1{
     border:2px solid green;
-    width:300px !important;
-    height:150px !important;
+    width:0px !important;
+    height:0px !important;
     border-radius:20px;
     padding: 10px;
     background-color: green;
+    border:2px solid white;
     color:white;
 }
-a{
+
+.call{
+    text-align: right;
+    padding-top: 50px;
+
+}
+.call a{
     text-decoration-line: none;
+   
 }
 .btn-learn-more1:hover{
     background-color:white;
@@ -786,7 +757,7 @@ transform: scale(1.1);
     padding:100px 0;
     position: relative;
     width:100%;
-    height:400px;
+   
 }
 .h1-color{
     color: white;
@@ -797,7 +768,7 @@ transform: scale(1.1);
     text-align: center;
 }
 .color-green{
-    color:green;
+    color:white;
     text-align: center;
     font-weight:700;
     padding-top: 30px;
@@ -832,7 +803,7 @@ transform: scale(1.1);
     
 }
 .space{
-    margin-top: 30px;
+   /* margin-top: 30px;*/
 }
 .harum{
     margin-top:15px;
@@ -842,60 +813,7 @@ transform: scale(1.1);
     width: 50%;
 
 }
-/*--------------------------------------------------------------
-# Counts
---------------------------------------------------------------*/
-/*.counts {
-  background: url("../img/counts-bg.jpg") center center no-repeat;
-  background-size: cover;
-  padding: 80px 0 60px 0;
-  position: relative;
-}*/
 
-/*.counts::before {
-  content: "";
-  position: absolute;
-  background: rgba(17, 17, 17, 0.9);
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
-
-.counts .title {
-  position: relative;
-  color: #fff;
-  margin-bottom: 40px;
-}
-
-.counts .title h3 {
-  font-size: 36px;
-  font-weight: 700;
-}
-
-.counts .counters span {
-  font-size: 48px;
-  display: block;
-  font-weight: 700;
-  color: #009961;
-}
-
-.counts .counters p {
-  padding: 0;
-  margin: 0 0 20px 0;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-  color: #fff;
-}
-
-@media (min-width: 1200px) {
-  .counts {
-    background-attachment: fixed;
-  }
-}*/
-
-
-/*--------------------------------------------------------------*/
 .white-color{
     border:1px solid #f2f2f2;
     text-align: center;
@@ -903,7 +821,12 @@ transform: scale(1.1);
     background-color:#f2f2f2;
      background: #fefefe;
     box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
+    box-shadow: 3px 3px 9px rgb(0 0 0 / 60%);
     padding: 10px;
+}
+.white-color:hover{
+     box-shadow:1px 2px 1px 3px green;
+ 
 }
 .buy{
     margin-top: 20px;
@@ -931,6 +854,9 @@ span{
 .box{
     line-height:30px;
     
+}
+del{
+    display: block;
 }
 .Recommended{
      margin-top: 20px;
@@ -1021,30 +947,54 @@ span{
     padding-bottom:50px;
 }
 .top-space{
-    margin-top: 90px;
+   /* margin-top: 90px;*/
+}
+.contact1 h1{
+    border-bottom:4px solid green;
+    width:160px;
+    padding-top:90px;
+
+}
+.contact1{
+    padding-bottom: 50px;
 }
 .name{
-    margin-top: 90px;
-   width:225px;
+   /* margin-top: 90px;*/
+   width:209px;
     height:40px;
+    outline-color:green;
 }
+
 .name1{
-    margin-top: 90px;
-    width:225px;
+   /* margin-top: 90px;*/
+    width:209px;
      height:40px;
+     outline-color:green;
 }
 .name2{
     margin-top:20px;
-    width:460px;
+    width:445px;
      height:40px;
+     outline-color:green;
+    margin-bottom:10px;
 }
 .message{
     margin-top: 10px;
+     outline-color:green;
 }
 .footer-bottom{
     margin-top: 100px;
     background-color: black;
 }
+.bu{
+   width: 150px;
+    height:50px;
+    color: white;
+    border-radius: 30px;
+    border:2px solid white;
+    
+}
+
 .KnightOne{
     color:white;
     text-align: center;
@@ -1056,8 +1006,8 @@ span{
     text-align: center;
 }
 .twitter{
-   width:50px;
-    height: 50px;
+   width:60px;
+    height: 60px;
     background-color: green;
     border-radius: 30px;
 }
@@ -1069,6 +1019,88 @@ span{
 b{
     color:green;
 }
+b:hover{
+    border-bottom:2px solid green;
+}
 .f-b{
     padding-bottom:80px;
+}
+.row,
+.row > .column {
+  
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left !important;
+  width: 33.33% !important;
+  display: none !important; 
+   
+}
+
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "" !important;
+  display: table !important;
+  clear: both !important;
+}
+
+/* Content */
+.content {
+  background-color: white !important;
+  padding: 10px !important;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block !important;
+}
+
+/* Style the buttons */
+.btn {
+  border: none !important;
+  outline: none !important;
+ color: white !important;
+  background-color: green !important;
+  cursor: pointer;
+    margin-bottom: 50px;
+    width:150px;
+    height: 50px;
+    border-radius: 30px  !important;
+}
+
+.btn:hover {
+  background-color: #ddd !important;
+}
+
+.btn.active {
+  background-color:white !important;
+  color: green !important;
+    border:2px solid green !important;
+}
+.content img{
+    border-radius: 30px;
+}
+.food img{
+    margin-top: 50px;
+     
+}
+.twitter i{
+    margin-left:16px;
+    margin-top:16px;
+    color: white;
+    font-size:25px;
+}
+.twitter:hover{
+    background-color: black;
+}
+.twitter i:hover{
+    color: green;
+}
+.twitter i{
+    margin-left:21px;
+    margin-top:16px;
+    color: white;
+    font-size: 25px;
 }
