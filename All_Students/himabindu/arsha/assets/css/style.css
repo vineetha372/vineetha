@@ -69,7 +69,10 @@ main{
     padding:0px 10px;
 }
 .nav li a:hover{
-    color:#47b2e4; 
+    color:#47b2e4;
+}
+.nav li a:focus{
+    color:#47b2e4;
 }
 .nav button,.left button
 {
@@ -109,12 +112,15 @@ main{
     display:flex;
     line-height:50px;
 }
+.aside p{
+    line-height:50px;
+}
 .aside i{
     font-size:32px;
     line-height:50px;
     margin-right:10px;
 }
-.aside i:hover ,.aside p:hover i{
+.aside i:hover{
     color:#47b2e4;
 }
 .aside button{
@@ -177,7 +183,7 @@ main{
 .about{
     background-color:white;
     padding-top:80px;
-    padding:90px 0px;
+    padding:90px 0px 130px 0px;
 }
 .about h1{
     margin:0 auto;
@@ -264,30 +270,27 @@ main{
 /* (A) TABS CONTAINER */
 .tab1
 {
-    position: absolute;
+    position:relative;
     max-width: 500px;
-    top:230px;
+    top:20px;
 }
 .tab2
 {
-    position: absolute;
+    position:relative;
     max-width: 500px;
-    top:330px;
+    top:40px;
 }
 .tab3
 {
-    position: absolute;
+    position:relative;
     max-width: 500px;
-    top:430px;
+    top:60px;
 }
   
 /* (B) HIDE CHECKBOX */
 .tab1 input, .tab2 input, .tab3 input{ display: none;}
 
 .tab1 label:hover,.tab2 label:hover,.tab3 label:hover{
-    color:#47b2e4;
-}
-.tab1 label:hover .tab1 label::after ::content{
     color:#47b2e4;
 }
   
@@ -317,11 +320,10 @@ main{
 }
 .tab1 .tab-content p,  .tab2 .tab-content p, .tab3 .tab-content p { padding: 10px;
     display:block;
-    border:1px solid black;
 }
   
 /* (E) OPEN TAB ON CHECKED */
-.tab1 input:checked ~ .tab-content,.tab2 input:checked ~ .tab-content,.tab3 input:checked ~ .tab-content { max-height: 100vh; }
+.tab1 input:checked ~ .tab-content,.tab2 input:checked ~ .tab-content,.tab3 input:checked ~ .tab-content { max-height:100vh; }
   
 /* (F) EXTRA - ADD ARROW INDICATOR */
 .tab1 label::after, .tab2 label::after, .tab3 label::after {
@@ -341,7 +343,7 @@ main{
     transform:rotate(90deg);
 }
 
-.tab1 label::before{
+.sleft .tab1 label::before{
         content:"01";
         color:#47b2e4;
         position:absolute;
@@ -349,7 +351,7 @@ main{
         font-size:20px;
 }
 
-.tab2 label::before{
+.sleft .tab2 label::before{
     content:"02";
     color:#47b2e4;
     font-size:20px;
@@ -357,7 +359,7 @@ main{
     left:10px;
 }
 
-.tab3 label::before{
+.sleft .tab3 label::before{
     content:"03";
     color:#47b2e4;
     font-size:20px;
@@ -365,7 +367,11 @@ main{
     left:10px;
 }
 
-.tab1 input:checked ~ label::after,.tab2 input:checked ~ label::after,.tab3 input:checked ~ label::after { transform: rotate(270deg); }
+.tab1 input:checked ~ label::after,.tab2 input:checked ~ label::after,.tab3 input:checked ~ label::after { transform: rotate(270deg);}
+
+.tab1 input:hover ~ label::after,.tab2 input:hover ~ label::after,.tab3 input:hover ~ label::after{
+    color:#47b2e4;
+}
 /*section ends*/
 
 /*skills starts*/
@@ -496,12 +502,11 @@ main{
     animation-play-state:running;
     animation-fill-mode:both;
     animation-name:up;
-    /*transition-property:all;
+    transition-property:all;*/
     transition-duration:0.4s;
     transition-timing-function:ease-in-out;
-    transition-delay:0s;*/
     transform: translateY(-10px);
-    transition-duration:0.6s;
+    transition-duration:0.4s;
     transition-delay:0s;
 }
 /*@keyframes up{
@@ -886,6 +891,300 @@ main{
     font-weight:bold;
 }
 /*pricing ends*/
+
+/*faq starts*/
+.faq{
+    background-color: #f3f5fa;
+    padding:90px 0px;
+}
+.faq h1{
+    margin:0 auto;
+    color:#37517e;
+    letter-spacing:0px;
+    position:relative;
+    padding-bottom:20px;
+    margin-bottom:40px;
+    text-align:center;
+}
+.faq h1::after{
+    content:"";
+    position:absolute;
+    display:block;
+    width:40px;
+    height:3px;
+    background-color:#47b2e4;
+    bottom:1px;
+    left: calc(68.6% - 20%);
+    margin-top:20px;
+}
+.faq h1::before{
+    content:"";
+    position:absolute;
+    display:block;
+    width:120px;
+    height:3px;
+    background-color:#ddd;
+    bottom:1px;
+    left: calc(65.8% - 20%);
+    margin-top:20px;
+}
+.faq .wrapper #p {
+    text-align:center;
+    padding-bottom:20px;
+    font-size:1rem;
+    line-height:1.5;
+}
+/* tab starts*/
+.faq #tab{
+    width:65%;
+    margin:0 auto;
+    padding:30px 0px;
+}
+
+#tab .tab1
+{
+    position:relative;
+    max-width:100%;
+    top:0px;
+}
+#tab  .tab2
+{
+    position:relative;
+    max-width:100%;
+    top:5px;
+}
+#tab .tab3
+{
+    position:relative;
+    max-width:100%;
+    top:10px;
+}
+#tab .tab4
+{
+    position:relative;
+    max-width:100%;
+    top:15px;
+}
+#tab .tab5
+{
+    position:relative;
+    max-width:100%;
+    top:20px;
+}
+
+/* (B) HIDE CHECKBOX */
+#tab .tab1 input, #tab .tab2 input, #tab .tab3 input,#tab .tab4 input,#tab .tab5 input{ display: none;}
+
+#tab .tab1 label:hover,#tab .tab2 label:hover,#tab .tab3 label:hover,#tab  .tab4 label:hover,#tab .tab5 label:hover{
+    color:#47b2e4;
+} 
+/* (C) TAB LABEL */
+#tab .tab1 label, #tab .tab2 label,#tab .tab3 label,#tab .tab4 label,#tab  .tab5 label {
+    display: block;
+    margin-top:10px;
+    height:60px;
+    font-size:15px;
+    font-weight:lighter;
+    padding-left:45px;
+    color:#37517e;
+    font-weight: bold;
+    background:#fff;
+    cursor: pointer;
+    line-height:55px;
+}
+  
+/* (D) TAB CONTENT */
+#tab .tab1 .tab-content ,#tab .tab2 .tab-content, #tab .tab3 .tab-content,#tab .tab4 .tab-content,#tab .tab5 .tab-content {
+    background:#f3f5fa;
+    /* CSS ANIMATION WILL NOT WORK WITH AUTO HEIGHT */
+    /* THIS IS WHY WE USE MAX-HEIGHT INSTEAD */
+    overflow: hidden;
+    transition: max-height 0.1s;
+    max-height: 0;
+}
+#tab .tab1 .tab-content p, #tab .tab2 .tab-content p,#tab .tab3 .tab-content p,#tab .tab4 .tab-content p,#tab .tab5 .tab-content p {         padding:10px 10px 10px 40px;
+          display:block;
+          background-color:#fff;
+} 
+/* (E) OPEN TAB ON CHECKED */
+#tab .tab1 input:checked ~ .tab-content,#tab .tab2 input:checked ~ .tab-content,#tab .tab3 input:checked ~ .tab-content,#tab .tab4 input:checked ~ .tab-content,#tab .tab5 input:checked ~ .tab-content { max-height: 100vh; }
+
+  
+/* (F) EXTRA - ADD ARROW INDICATOR */
+#tab .tab1 label::after, #tab .tab2 label::after, #tab .tab3 label::after,#tab .tab4 label::after,#tab .tab5 label::after {
+    content: ">";
+    position: absolute;
+    color:#37517e;
+    font-size:30px;
+    font-weight:lighter;
+    right:15px;
+    top: 10px;
+    display: block;
+   /* background-color:gray;*/
+    padding:0px 0px;
+    transition: all 0.4s;
+    text-align:center;
+    transform:rotate(90deg);
+}
+
+#tab .tab1 input:checked ~ label::after, #tab .tab2 input:checked ~ label::after, #tab .tab3 input:checked ~ label::after,#tab .tab4 input:checked ~ label::after,#tab .tab5 input:checked ~ label::after { transform: rotate(270deg); }
+
+#tab .tab1 input:hover ~ label::after,#tab .tab2 input:hover ~ label::after,#tab .tab3 input:hover ~ label::after,#tab .tab4 input:hover ~ label::after,#tab .tab5 input:hover ~ label::after{
+    color:#47b2e4;
+}
+#tab .tab1 label i,#tab .tab2 label i,#tab .tab3 label i,#tab .tab4 label i,#tab .tab5 label i
+{
+    font-size:20px;
+    padding-right:20px;
+    color:#47b2e4;
+}
+/*tab ends*/
+/*faq ends*/
+
+/*contact starts*/
+.contact{
+    background-color: #fff;
+    padding:90px 0px;
+}
+.contact h1{
+    margin:0 auto;
+    color:#37517e;
+    letter-spacing:0px;
+    position:relative;
+    padding-bottom:20px;
+    margin-bottom:40px;
+    text-align:center;
+}
+.contact h1::after{
+    content:"";
+    position:absolute;
+    display:block;
+    width:40px;
+    height:3px;
+    background-color:#47b2e4;
+    bottom:1px;
+    left: calc(68.6% - 20%);
+    margin-top:20px;
+}
+.contact h1::before{
+    content:"";
+    position:absolute;
+    display:block;
+    width:120px;
+    height:3px;
+    background-color:#ddd;
+    bottom:1px;
+    left: calc(65.8% - 20%);
+    margin-top:20px;
+}
+.contact .wrapper{
+    text-align:center;
+    font-size:1em;
+    line-height:1.5em;
+}
+.ctleft{
+    width:35%;
+    padding:20px;
+    background-color:white;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.4);
+    margin-top:40px;
+    border-top:3px solid #47b2e4;
+    border-bottom:3px solid #47b2e4;
+}
+.ctleft h4{
+    font-size:22px;
+    color:#37517e;
+    font-weight:600;
+    text-align:left;
+}
+.ctleft p{
+    font-size:14px;
+    margin-bottom:28px;
+    color:#47b2e4;
+    text-align:left;
+}
+.cleft h4,p{
+    line-height:20px;
+}
+.ctright{
+    width:63%;
+    padding:20px;
+    background-color:white;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.4);
+    margin-top:40px;
+    border-top:3px solid #47b2e4;
+    border-bottom:3px solid #47b2e4;
+}
+.ctright input{
+    border:1px solid #ced4da;
+}
+.flex{
+    display:flex;
+    justify-content:space-between;
+}
+.name,.mail{
+    width:48%;
+    text-align:left;
+}
+.name input,.mail input{
+    width:100%;
+    height:44px;
+    border-radius:4px;
+    outline:0;
+    margin:5px 0px 10px 0px;
+    padding-left:10px;
+}
+.name input:focus,.mail input:focus{
+    border:1px solid #47b2e4;
+}
+#subj,#msg{
+    width:100%;
+    border:1px solid #ced4da;
+    height:44px;
+    border-radius:4px;
+    outline:0;
+    margin:5px 0px 10px 0px;
+    padding:10px;
+}
+#msg{
+    padding-left:10px;
+    padding-top:10px;
+    height:230px;
+}
+#subj:focus,#msg:focus{
+    border: 1px solid #47b2e4;
+}
+#subject{
+    text-align:left;
+}
+.ctright button{
+    background-color:#47b2e4;
+    color:white;
+    padding:15px 25px;
+    margin-top:13px;
+    border-radius:50px;
+    font-size:16px;
+    transition:all 0.4s ease-in;
+}
+.ctright button:hover{
+    background-color:#37517e;
+}
+.ctleft h4 i{
+    color:#47b2e4;
+    font-size:18px;
+    background-color:#e7f5fb;
+    padding:10px 10px;
+    border-radius:100px;
+    margin-right:10px;
+}
+.ctleft p{
+    padding-left:48px;
+}
+.ctleft h4 i:hover{
+    background-color:#47b2e4;
+    color:#fff;
+}
+/*contact ends*/
 
 
 
