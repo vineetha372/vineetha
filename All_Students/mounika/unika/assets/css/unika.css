@@ -46,8 +46,11 @@ nav ul li {
     padding: 25px 10px;
 }
 
-nav a {
+a {
     text-decoration: none;
+}
+
+nav a {
     color: #ccc;
 }
 
@@ -81,6 +84,8 @@ p {
     padding: 10px 20px;
     border: 2px solid #fff;
     margin-top: 40px;
+    color: #fff;
+    background: transparent;
 }
 
 .about_head {
@@ -97,8 +102,7 @@ p {
     padding-bottom: 30px;
 }
 
-.about1_head,
-.about2_head,
+
 .about3_head,
 .about4_head {
     width: 50px;
@@ -108,18 +112,64 @@ p {
     margin: 30px 0;
 
 }
+.about1_parent {
+    position: relative;
+}
+
+.about1_head {
+    position: absolute;
+    top: 50px;
+    left:-50px;
+    width: 50px;
+    height: 50px;
+    outline: 5px solid #000;
+    transform: rotate(45deg);
+    background-color: transparent;
+}
+
+.users {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 55px;
+    left: -45px;
+    background: #000;
+    transform: rotate(45deg);
+}
 
 
+.about1_parent:hover,.about1_head:hover{
+    transform: rotate(90deg);
+}
+/*.about2*/
+.about2_head{
+    width: 50px;
+    height: 50px;
+    border: 5px solid #000;
+    margin: 30px 0;
+}
+.gem{
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    margin: 5px;
+}
+.gem i {
+    font-size: 20px;
+    color: #fff;
+    margin: 12px 10px;
+}
+.about2_head:hover{
+    transform: rotate(45deg);
+}
+/*.about2*/
 .about1_info,
 .about2_info,
 .about3_info,
 .about4_info {
     width: 60%;
-    padding-left: 30px;
+    padding-left:50px;
 }
-
-.users,
-.gem,
 .heart,
 .clock {
     width: 40px;
@@ -130,15 +180,8 @@ p {
 
 .users i {
     font-size: 20px;
-    color: #fff;
+    color: #000;
     margin: 10px 7px;
-    transform: rotate(-45deg);
-}
-
-.gem i {
-    font-size: 20px;
-    color: #fff;
-    margin: 12px 10px;
     transform: rotate(-45deg);
 }
 
@@ -239,6 +282,7 @@ p {
     height: 100%;
     background-color: #000;
     color: #fff;
+    font-size: 14px;
 }
 
 .btnoverlay {
@@ -249,7 +293,17 @@ p {
     bottom: 0;
     opacity: 0.9;
     transition: all 0.6s;
-    background-color: dimgray;
+    background-color: darkgray;
+}
+
+.overlayh4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .b1:hover .btnoverlay,
@@ -436,8 +490,8 @@ p {
     width: 100%;
 }
 
-.menu li:hover,
-a:hover {
+.menu ul li:hover,
+.menu ul li a:hover {
     background-color: #000;
     color: #fff;
 }
@@ -613,25 +667,16 @@ a:hover {
 .professional,
 .ultimate {
     width: 23%;
+    margin-top: 60px;
 }
 
 .basic_head,
 .advanced_head,
+.professional_head,
 .ultimate_head {
     background-color: #eee;
     padding-bottom: 20px;
-    margin-top: 60px;
     border-top: 5px solid #000;
-}
-
-.professional_head {
-    background-color: #000;
-    color: #fff;
-    margin-top: 45px;
-}
-
-.professional_head h4 {
-    padding-bottom: 30px;
 }
 
 .basic_head i,
@@ -663,10 +708,10 @@ a:hover {
     line-height: 40px;
 }
 
-.basic .btn,
-.advanced .btn,
-.professional .btn,
-.ultimate .btn {
+.basic .btn1,
+.advanced .btn1,
+.professional .btn1,
+.ultimate .btn1 {
     background-color: #ddd;
     padding: 15px 0;
 }
@@ -679,15 +724,17 @@ a:hover {
     background-color: #000;
     color: #fff;
 }
-
-.professional button {
-    margin: 10px 0;
-}
-
-.professional .btn {
+.basic:hover,.advanced:hover,.professional:hover,.ultimate:hover{
+    transform:scale(1.09);
     border-bottom: 5px solid #000;
 }
-
+.basic:hover .basic_head,.advanced:hover .advanced_head,.professional:hover .professional_head,.ultimate:hover .ultimate_head{
+    background-color: #000;
+    color:#fff;
+}
+.basic:hover,.advanced:hover,.professional:hover,.ultimate:hover{
+    box-shadow:0 5px 3px #000;
+}
 .join_us {
     padding: 70px 0;
     text-align: center;
@@ -797,7 +844,11 @@ a:hover {
     position: relative;
 }
 
-.our_address,
+.our_address {
+    width: 50%;
+    padding: 30px 0 50px 0;
+}
+
 .inputs {
     width: 50%;
     padding: 30px 0 50px 0;
@@ -809,10 +860,19 @@ a:hover {
 
 .map,
 .phone,
-.phone1,
-.message,
-.s {
-    padding: 7px 0;
+.print,
+.mail,
+.scype {
+    display: flex;
+    padding: 10px 0;
+}
+
+.map i,
+.phone i,
+.print i,
+.mail i,
+.scype i {
+    width: 5%;
 }
 
 .inputs input,
@@ -863,11 +923,16 @@ textarea::placeholder {
 
 .subscribe button {
     width: 26%;
-    padding: 10px 0;
+    padding: 8px 0;
     margin: 10px 0;
     background-color: #999;
     color: #fff;
     margin: 20px 0 20px 5px;
+}
+
+.subscribe button:hover {
+    background-color: #000;
+    color: #fff;
 }
 
 .usefull h4 {
@@ -932,9 +997,8 @@ textarea::placeholder {
     transform: rotate(-45deg);
 }
 
-
 @media all and (max-width:1024px) {
-    
+
     .about1,
     .about2,
     .about3,
@@ -942,6 +1006,7 @@ textarea::placeholder {
         width: 400px;
         margin-left: 30px;
     }
+
     .development,
     .design,
     .hosting,
@@ -949,6 +1014,7 @@ textarea::placeholder {
         width: 300px;
         margin-left: 70px;
     }
+
     .imgs .p2,
     .imgs .p5,
     .imgs .p8 {
@@ -1001,11 +1067,12 @@ textarea::placeholder {
     .ultimate {
         margin-left: 10px;
     }
-    
+
     .join_imgs {
         width: 100%;
         padding: 30px 0 140px 45px;
     }
+
     .join_img1,
     .join_img2,
     .join_img3,
@@ -1025,7 +1092,8 @@ textarea::placeholder {
         width: 300px;
         margin-left: 30px;
     }
-    .our_pdf_info p{
+
+    .our_pdf_info p {
         margin-bottom: 20px;
     }
 
@@ -1075,7 +1143,7 @@ textarea::placeholder {
     }
 
     .join_imgs {
-       width: 75%;
+        width: 75%;
         margin-left: 110px;
     }
 
@@ -1107,7 +1175,10 @@ textarea::placeholder {
         padding: 10px 5px;
     }
 
-    .about1,.about2,.about3,.about4{
+    .about1,
+    .about2,
+    .about3,
+    .about4 {
         width: 500px;
         margin-left: 100px;
     }
@@ -1123,13 +1194,14 @@ textarea::placeholder {
     .our_team2 {
         width: 60%;
     }
-    
+
     .development_head,
     .design_head,
     .hosting_head,
-    .pen_head{
+    .pen_head {
         margin-left: 43%;
     }
+
     .development,
     .design,
     .hosting,
@@ -1139,8 +1211,8 @@ textarea::placeholder {
     }
 
     .join_imgs {
-        width:85%;
-        margin-left:40px;
+        width: 85%;
+        margin-left: 40px;
     }
 
     .reviews_info,
@@ -1150,10 +1222,16 @@ textarea::placeholder {
 }
 
 @media all and (max-width:500px) {
-    nav{
-       
+    nav img {
+        float: none;
     }
-    
+
+    nav ul li {
+        float: none;
+        display: grid;
+        text-align: center;
+    }
+
     .about_info,
     .services_info {
         display: grid;
@@ -1165,12 +1243,14 @@ textarea::placeholder {
     .about4_info {
         width: 250px;
     }
+
     .development_head,
     .design_head,
     .hosting_head,
-    .pen_head{
+    .pen_head {
         margin-left: 40%;
     }
+
     .development,
     .design,
     .hosting,
@@ -1178,30 +1258,50 @@ textarea::placeholder {
         width: 300px;
         margin-left: 60px;
     }
-    .about_head,.reviews_info,
-    .some_fun_facts_info,.contacts1_info{
+
+    .about_head,
+    .reviews_info,
+    .some_fun_facts_info,
+    .contacts1_info {
         width: 400px;
     }
-    .imgs .p1,.imgs .p2,.imgs .p3,.imgs .p4,.imgs .p5,.imgs .p6,.imgs .p7,.imgs .p8,.imgs .p9{
-       width:40%;
-       height: 40%;
+
+    .imgs .p1,
+    .imgs .p2,
+    .imgs .p3,
+    .imgs .p4,
+    .imgs .p5,
+    .imgs .p6,
+    .imgs .p7,
+    .imgs .p8,
+    .imgs .p9 {
+        width: 40%;
+        height: 40%;
     }
-    .imgs .p3{
+
+    .imgs .p3 {
         margin-right: 10px;
     }
-    .imgs .p1,.imgs .p3,.imgs .p5,.imgs .p7,.imgs .p9{
+
+    .imgs .p1,
+    .imgs .p3,
+    .imgs .p5,
+    .imgs .p7,
+    .imgs .p9 {
         margin-left: 40px;
     }
-     .our_team1 {
+
+    .our_team1 {
         width: 100%;
     }
 
     .our_team2 {
         width: 100%;
     }
+
     .join_imgs {
-        width:70%;
-        margin:0 0 80px 30px;
+        width: 70%;
+        margin: 0 0 80px 30px;
     }
-    
+
 }

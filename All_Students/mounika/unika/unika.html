@@ -9,8 +9,8 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
 </head>
 
-<body>
-    <div class="container">
+<body id="body">
+    <div class="container_fluid">
 
         <div class="homepage" id="homepage">
             <!--Nav start-->
@@ -55,7 +55,8 @@
                         <p>little information</p>
                     </div>
                     <div class="about1 fleft">
-                        <div class="about1_head fleft">
+                        <div class="about1_parent fleft">
+                            <div class="about1_head"></div>
                             <div class="users">
                                 <i class="fas fa-users"></i>
                             </div>
@@ -68,9 +69,8 @@
                     </div>
                     <div class="about2 fleft">
                         <div class="about2_head fleft">
-                            <div class="gem">
-                                <i class="far fa-gem"></i>
-                            </div>
+                             <div class="gem"></div>
+                              <i class="far fa-gem"></i>
                         </div>
                         <div class="about2_info fleft">
                             <h4>What We Do?</h4>
@@ -138,6 +138,7 @@
                     <div class="b1 fright">
                         <div class="btnoverlay"></div>
                         <button>Download</button>
+                        <div class="overlayh4">Download</div>
                     </div>
                     <div class="clear"></div>
                 </div>
@@ -199,6 +200,7 @@
                     <div class="b2">
                         <div class="btn1overlay"></div>
                         <button>Large Button</button>
+                        <div class="overlayh4">Large Button</div>
                     </div>
                 </div>
             </div>
@@ -387,7 +389,7 @@
                             <p>Custom Domain</p>
                             <p>24/7 Support</p>
                         </div>
-                        <div class="btn">
+                        <div class="btn1">
                             <button>Order Now!</button>
                         </div>
                     </div>
@@ -404,7 +406,7 @@
                             <p>Custom Domain</p>
                             <p>24/7 Support</p>
                         </div>
-                        <div class="btn">
+                        <div class="btn1">
                             <button>Order Now!</button>
                         </div>
                     </div>
@@ -421,7 +423,7 @@
                             <p>Custom Domain</p>
                             <p>24/7 Support</p>
                         </div>
-                        <div class="btn">
+                        <div class="btn1">
                             <button>Order Now!</button>
                         </div>
                     </div>
@@ -438,7 +440,7 @@
                             <p>Custom Domain</p>
                             <p>24/7 Support</p>
                         </div>
-                        <div class="btn">
+                        <div class="btn1">
                             <button>Order Now!</button>
                         </div>
                     </div>
@@ -501,20 +503,25 @@
                             <div class="our_address fleft">
                                 <h4>Our Address</h4>
                                 <div class="map">
+                                    <i class="fas fa-map-marker-alt"></i>
                                     <p>100 Limpbiscayne Bivd.(North) 17st Floor,<br>New World Tower New York,<br>
                                         New York,USA,33148
                                     </p>
                                 </div>
                                 <div class="phone">
+                                    <i class="fas fa-phone-alt"></i>
                                     <p>1-123-456-7890</p>
                                 </div>
-                                <div class="phone1">
+                                <div class="print">
+                                    <i class="fas fa-print"></i>
                                     <p>1-123-456-7890</p>
                                 </div>
-                                <div class="message">
+                                <div class="mail">
+                                    <i class="fas fa-envelope"></i>
                                     <p>info@yourdomain.com</p>
                                 </div>
-                                <div class="s">
+                                <div class="scype">
+                                    <i class="fab fa-skype"></i>
                                     <p>Unika-Design</p>
                                 </div>
                             </div>
@@ -559,7 +566,7 @@
                 <div class="minifooter">
                     <p>Copyright@ 2015-Designed By <span>Veronika Poljakova</span>& Developed by <span> Imransdesign</span> </p>
                     <div class="arrow fright">
-                        <i class="fas fa-arrow-up"></i>
+                        <a href="#body"><i class="fas fa-arrow-up"></i></a>
                     </div>
                     <div class="clear"></div>
                 </div>
