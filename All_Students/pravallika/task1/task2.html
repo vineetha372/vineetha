@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        function add() {
+            i = parseInt(prompt("Enter the number"));
+            j = parseInt(prompt("Enter the number"));
+            k = i + j;
+            alert(k);
+        }
+
+        function sub() {
+            i = parseInt(prompt("Enter the number"));
+            j = parseInt(prompt("Enter the number"));
+            k = i - j;
+            alert(k);
+        }
+
+
+        function mul() {
+            i = parseInt(prompt("Enter the number"));
+            j = parseInt(prompt("Enter the number"));
+            k = i * j;
+            alert(k);
+        }
+
+
+        function div() {
+            i = parseInt(prompt("Enter the number"));
+            j = parseInt(prompt("Enter the number"));
+            k = i / j;
+            alert(k);
+        }
+
+    </script>
+
+    <style>
+        .here {
+            width: 200px;
+            height: 90px;
+            background-color: yellow;
+            font-size: 30px;
+            border-radius: 4px;
+            margin: 50px;
+            border: 2px solid yellow;
+        }
+
+        .here:hover {
+            border: 2px solid yellow;
+            color: yellow;
+            background-color: white;
+        }
+
+        .here1 {
+            width: 200px;
+            height: 90px;
+            background-color: white;
+            font-size: 30px;
+            border-radius: 4px;
+            margin: 50px;
+            border: 2px solid green;
+            color: green;
+        }
+
+        .here1:hover {
+            background-color: green;
+            border: 2px solid green;
+            color: white;
+        }
+
+        .here2 {
+            width: 200px;
+            height: 90px;
+            background-color: orange;
+            font-size: 30px;
+            border-radius: 4px;
+            margin: 50px;
+            border: 2px solid orange;
+            color: white;
+        }
+
+        .here3 {
+            width: 200px;
+            height: 90px;
+            background-color: yellow;
+            font-size: 30px;
+            border-radius: 4px;
+            margin: 50px;
+        }
+
+        .button {
+            width: 200px;
+            height: 90px;
+            border-radius: 4px;
+            background-color: #f4511e;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 28px;
+            padding: 20px;
+            width: 200px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 50px;
+        }
+
+        .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .button span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+        .button:hover span {
+            padding-right: 25px;
+        }
+
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;font-size: 40px;
+   font-family: sans-serif;color: purple;">JavaScript Arithmetic Operators</h1>
+    <input class="here" type="button" value="Add" onclick="add()">
+
+    <input class="here1" type="button" value="Sub" onclick="sub()">
+
+    <input class="here2" type="button" value="Mul" onclick="mul()">
+
+    <!--<input class="here3" type="button" value="Div" onclick="div()">-->
+
+    <button class="button" onclick="div()"><span>Div</span></button>
+
+
+
+
+</body>
+
+</html>
