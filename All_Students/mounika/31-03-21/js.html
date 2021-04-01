@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js-clickfunction</title>
+</head>
+<style>
+    .parent{
+        text-align: center;
+    }
+    button{
+        width:120px;
+        height:45px;
+        margin:20px 10px;
+        background-color:lightseagreen;
+        color: azure;
+        border: 1px solid gray;
+        border-radius: 3px;
+    }
+    button:hover{
+        background-color:peru;
+        color: azure;
+    }
+</style>
+<body>
+  <div class="parent">
+    <h2>Java Script Onclick Function</h2>
+    <button onclick="add();">Add</button>
+    <button onclick="sub();">sub</button>
+    <button onclick="mult();">mult</button>
+    <button onclick="divi();">divi</button>
+  </div>
+</body>
+<script>
+   function add(){
+       i=parseInt(prompt("Enter your value!"));
+       j=parseInt(prompt("Enter your value!"));
+       k=i+j;
+       retrun(k);
+   }
+   function sub(){
+       i=parseInt(prompt("Enter your value!"));
+       j=parseInt(prompt("Enter your value!"));
+       k=i+j;
+       alert(k);
+   }  
+    function mult(){
+       i=parseInt(prompt("Enter your value!"));
+       j=parseInt(prompt("Enter your value!"));
+       k=i*j;
+       alert(k);
+   }
+    function divi(){
+       i=parseInt(prompt("Enter your value!"));
+       j=parseInt(prompt("Enter your value!"));
+       k=i/j;
+       alert(k);
+   }
+</script>
+</html>
