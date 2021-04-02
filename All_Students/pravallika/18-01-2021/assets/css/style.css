@@ -10,9 +10,9 @@
 
 body {
      color: #666666;
-     font-size: 14px;
+     font-size: 16px;
      font-family: 'Josefin Sans', sans-serif !important;
-     line-height: 1.80857;
+     line-height:30px !important;
      font-weight: normal;
     /* overflow-x: hidden;*/
 }
@@ -200,7 +200,7 @@ button {
 .logo{
 	width: 100%;
 	float: left;
-	margin-top:px;
+	margin-top:23px;
     color:orange;
     font-size:50px;
 }
@@ -254,7 +254,7 @@ button {
 .banner_section {
     width: 100%;
     float: left;
-   padding-top: 150px;
+   padding-top: 100px;
 }
 
 /*#main_slider div.img-box {
@@ -511,8 +511,288 @@ button {
     text-align: center;
     font-weight: 500;
     padding-top:10px;
+    margin-top: 30px !important;
+    margin-bottom: 40px;
     
 }
 
 .red_bt a { color: #ffffff; }
 .red_bt a:hover{ color: #000000; }
+
+/*.clients_section {
+    width: 100%;
+    float: left;
+   background-image: url(../images/client-bg.png);
+    height: auto;
+   background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 25px;
+}
+*/
+.client_text{
+    width: 31%;
+    float: left;
+    font-size: 34px;
+    color: #030303;
+    border-bottom: 1px solid #030303;
+    font-weight:600;
+    padding-top:50px;
+    padding-bottom:10px;
+}
+.using_text1{
+    padding-top:15px !important;
+     padding-bottom:15px !important;
+     width: 100%;
+    float: left;
+    font-size: 17px;
+    color: #030303;
+    font-weight: 500;
+    margin-left: 0px;
+}
+.pad{
+    padding-top:10px !important;
+}
+/*.clients_section_2{
+	width: 100%;
+	float: left;
+	padding-bottom: 90px;
+}
+.client_img{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.johan_text {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    color: #121010;
+    padding-top: 20px;
+}
+
+.adiser_text {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    color: #c6610f;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-weight: 400;
+}
+
+.long_text {
+    width: 72%;
+    margin: 0 auto;
+    font-size: 17px;
+    text-align: center;
+    color: #000000;
+    font-family: Noto Serif;
+}*/
+ 
+
+        /* Center website */
+        .main-filter {
+            max-width: 1000px !important;
+            margin: auto !important;
+        }
+
+        
+        .row {
+            margin: 10px -16px !important;
+        }
+
+        /* Add padding BETWEEN each column */
+        .row,
+        .row>.column {
+            padding: 8px !important;
+        }
+
+        /* Create three equal columns that floats next to each other */
+        .column {
+            float: left !important;
+            width: 33.33% !important;
+            display: none !important;
+            /* Hide all elements by default */
+        }
+
+        /* Clear floats after rows */
+        .row:after {
+            content: "" !important;
+            display: table !important;
+            clear: both !important;
+        }
+
+        /* Content */
+        .content {
+            background-color:white !important;
+            padding: 10px !important;
+            box-shadow:3px 3px 3px 3px grey;
+        }
+.content:hover{
+    box-shadow:none;
+}
+        /* The "show" class is added to the filtered elements */
+        .show {
+            display: block !important;
+        }
+
+        /* Style the buttons */
+        .btn {
+            border: none !important;
+            outline: none !important;
+            padding: 12px 16px !important;
+            background-color:white !important;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #eee; !important;
+        }
+
+        .btn.active {
+            background-color: #666 !important;
+            color: white !important;
+        }
+/*--------------------------*/
+.heading h1{
+    padding-top:60px;
+    text-align:center;
+    font-size: 40px;
+}
+
+i{
+    font-size:15px;
+    color:green;
+}
+.icon{
+    padding-top:0px;
+    text-align: center;
+}
+.para p{
+    text-align: center;
+    color: orange;
+    padding-top:20px;
+    font-size:22px;
+     font-weight: 500;
+}
+
+.border{
+    width:90%;
+    height:50px;
+    margin:30px auto 30px auto;
+    background-color:gainsboro;
+    border:2px solid gray;
+    border-left:none;
+    border-right:none;
+    border-top:2px solid black !important;
+     border-bottom:2px solid black !important;
+   
+}
+
+/*.para1 p{
+padding-top: 40px;
+    font-size: 40px;
+    text-align: center;
+}*/
+.para1 p{
+    text-align: center;
+      color: #030303 !important;
+}
+.opp{
+    color:#444;
+    padding-top:40px;
+    word-spacing:4px;
+     color: #030303 !important;
+    font-weight: 400;
+    font-size:18px;
+}
+.number{
+     color:#444;
+   
+     word-spacing:4px;
+    padding-bottom:20px;
+     color: #030303 !important;
+     font-weight: 400;
+    font-size:18px;
+}
+.nav li a{
+     color:black !important;
+}
+.nav li{
+    display: inline-block;
+    padding:10px 12px;
+    font-size:15px;
+    padding-left:30px;
+    color:black !important;
+}
+.copy p{
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom:40px;
+}
+.footer{
+    width:100%;
+    height:87px;
+    margin: auto;
+    box-shadow: 1px 1px 5px rgb(0 0 0 / 60%);
+    background-color:black;
+    border-top:9px solid black;
+     border-bottom:9px solid black;
+    /* border-bottom:4px solid orange;*/
+}
+.nav1{
+   text-align:center;
+}
+.nav1 a{
+    
+    display: inline-block;
+    padding-top: 25px;
+   padding-right:40px;
+    text-align:center;
+    padding-left:24px;
+}
+.colorgreen{
+    background-color: green;
+    height: 70px;
+    color:white;
+  
+}
+.colorblue{
+background-color:#3B5998;
+     height: 70px;
+    color:white;
+    
+}
+.colorblue1{
+    background-color:#00ACED;
+    height: 70px;
+    color:white;
+    
+}
+.colorblue2{
+     background-color:#0077B5;
+    height: 70px;
+    color:white;
+}
+.colorred{
+     background-color:#E62117;
+    height: 70px;
+    color:white;
+}
+.colorred1{
+     background-color:#BD081B;
+    height: 70px;
+    color:white;
+}
+.colorb{
+   background-color:#8A3AB9;
+    height: 70px;
+    color:white; 
+}
+.colormy{
+    background-color:#3F51B4;
+    height: 70px;
+    color:white; 
+}
