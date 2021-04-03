@@ -1,3 +1,163 @@
+
+.topnav {
+    overflow: hidden;
+    background-color: #b1e0e9;
+
+  }
+  .topnav i{
+      padding-left: 30px;
+      font-size: 30px;
+      padding-top: 6px;
+      color: white;
+
+  }
+  .topnav text{
+      width: 80px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+      padding-right: 50px;
+    }
+  }
+ 
+ .search{
+     width: 50%;
+     padding-right: 20px;
+     margin-right: 30px;
+ }
+
+
+.header_info{
+    display: flex;
+    padding:20px 0;
+    border-bottom: 1px solid #999;
+    margin-left: 120px;
+}
+.call,.email,.time,.address{
+    width:19%;
+    line-height: 20px;
+}
+.email{
+   display: flex; 
+}
+.eva{
+    width:21%;
+    text-align: center;
+}
+span{
+   color: #999; 
+}
+.a fas fa-a{
+    width:22px;
+    height:22px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.email .p1{
+    padding-left: 15px;
+}
+.a p{
+    font-size: 25px;
+    color: #999;
+    position: absolute;
+    top:-3px;
+    left:4px;
+}
+.call,.email,.time,.address{
+    width:19%;
+    line-height: 20px;
+}
+.email{
+   display: flex; 
+}
+.eva{
+    width:21%;
+    text-align: center;
+}
+span{
+   color: #999; 
+}
+.a{
+    width:22px;
+    height:22px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 10px;
+}
+.email .p1{
+    padding-left: 15px;
+}
+.a p{
+    font-size: 25px;
+    color: #999;
+    position: absolute;
+    top:-3px;
+    left:4px;
+}
+.span{
+    color: red;
+    font-size: 50px;
+}
+.fas fa-map-marker-alt{
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+
+
+
+
+
+
 .logo{
     color: white;
 }
@@ -10,6 +170,7 @@ a{
 
 .header{
     background-color: black;
+    margin-left: 50px;
 
 }
 li{
@@ -31,6 +192,7 @@ h1,h2,h3,h4,h5,h6{
     justify-content:space-between;
     background-color: black;
     margin-top: 50px;
+    margin-left: 50px;
 }
 .nav ul li{
     display: inline;
@@ -43,14 +205,16 @@ h1,h2,h3,h4,h5,h6{
 }
 .nav{
     background-color: black;
+   padding-left: 60px;
 } 
 .topbtn{
  background-color: blue;
  border-radius: 10px;
- margin-left: 220px;
+ margin-left: 180px;
+
 }
 .topbtn:hover{
-    background-color: rgb(175, 175, 248);
+    background-color: rgb(249, 249, 252);
 }
 
 
@@ -59,7 +223,7 @@ h1,h2,h3,h4,h5,h6{
 .banner{
     height: 300px;
     /*background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwY3mibEky2a9FWKf6gZBGFi3hFgY8-yuTYw&usqp=CAU);*/
-    padding-left: 50px;
+    padding-left: 110px;
     background-repeat: no-repeat;
     width: auto;
     background-color: rgb(125, 125, 128);
@@ -92,6 +256,8 @@ h1,h2,h3,h4,h5,h6{
     float: left;
     background-color: rgb(140, 103, 175);
     padding-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
    
 }
 .color2{
@@ -99,30 +265,37 @@ h1,h2,h3,h4,h5,h6{
     float: left;
     padding-left: 30px;
     background-color: rgb(248, 245, 59);
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 .color3{
     width: 380px;
     float: left;
     padding-left: 30px;
     background-color: red;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 .color1 button{
 border-radius: 30px;
 background-color: rgb(140, 103, 175);
-border:white solid 1px;
+border:white solid 2px;
 margin-bottom: 10px;
+color: white;
 }
 .color2 button{
 border-radius: 30px;
 background-color: rgb(248, 245, 59);
-border:white solid 1px;
+border:white solid 2px;
 margin-bottom: 10px;
+color: white;
 }
 .color3 button{
 border-radius: 30px;
 background-color: red;
- border:white solid 1px;
+ border:white solid 2px;
 margin-bottom: 10px;
+color: white;
  }
 
 
