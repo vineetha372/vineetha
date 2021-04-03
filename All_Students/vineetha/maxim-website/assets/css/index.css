@@ -306,8 +306,28 @@ font-size: 35px;
 
  /*slider sections*/
  
-
-/* Slideshow container */
+.slider{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.slidereffect{
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: rgb(199, 243, 247);
+    padding-left: 20px;
+}
+.slidereffect p{
+    padding-left: 40px;
+}
+.sliderimg{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+ 
+/*
 .slideshow-container {
   max-width: 1000px;
   position: relative;
@@ -316,7 +336,7 @@ font-size: 35px;
  
 }
 
-/* Next & previous buttons */
+
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -332,18 +352,16 @@ font-size: 35px;
   user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
+
 .text {
   color: red;
   font-size: 15px;
@@ -357,7 +375,6 @@ font-size: 35px;
 
 
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -373,7 +390,6 @@ font-size: 35px;
   background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -391,7 +407,6 @@ font-size: 35px;
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
@@ -404,6 +419,7 @@ margin:left;
 .text p{
  margin-top:20px;
 }
+*/
 
 
 
@@ -527,23 +543,29 @@ margin:left;
     overflow: hidden;
   }
 
+
+  .far fa-question-circle{
+      color: rgb(21, 122, 21);
+      font-size: 60px;
+  }
+
   /*team sections*/
 .team{
-    height: 700px;
+    height: 900px;
+    margin-top: 120px;
 }
 
 
 .team-members{
-  display: inline;
-  width: 700px;
+ 
+
   margin-top: 50px;
 
 }
 
 .container {
   position: relative;
-  width: 50%;
-  max-width: 300px;
+  max-width: 400px;
   float:left;
   display:inline;
 }
@@ -553,7 +575,7 @@ margin:left;
   width: 300px;
   height: 300px;
   padding-left: 10px;
-  padding-top: 10px;
+margin-top: 50px;
 }
 
 .overlay {
@@ -562,7 +584,7 @@ margin:left;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1; 
-  width: 100%;
+  width: 75%;
   transition: .5s ease;
   opacity:0;
   color: white;
