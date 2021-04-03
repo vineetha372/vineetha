@@ -5,12 +5,13 @@
     margin: 0;
      box-sizing: border-box !important;
      transition: ease all 0.5s;
+
 }
 
 
 body {
      color: #666666;
-     font-size: 16px;
+    font-size: 20px;
      font-family: 'Josefin Sans', sans-serif !important;
      line-height:30px !important;
      font-weight: normal;
@@ -95,8 +96,11 @@ ol {
 p {
      margin: 20px;
      font-weight: 300;
-     font-size: 15px;
-     line-height: 24px;
+     /*font-size: 15px;
+     line-height: 24px;*/
+    font-size:19px;
+    line-height:30px;
+    
 }
 
 a {
@@ -275,10 +279,12 @@ button {
 .lorem_text {
     width: 100%;
     float: left;
-    font-size: 17px;
-    color: #ffffff;
+    font-size:19px;
+    line-height:30px;
+    color: #ffffff !important;
     padding-left: 0;
     margin: 10px 0 0;
+    
 }
 
 .ads_bt {
@@ -426,7 +432,8 @@ button {
 .dolor_text {
     width: 100%;
     float: left;
-    font-size: 17px;
+    font-size:19px;
+    line-height:30px;
     color: #030303;
     text-align: right;
     font-weight: 500;
@@ -491,7 +498,8 @@ button {
 .using_text {
     width: 100%;
     float: left;
-    font-size: 17px;
+    font-size:19px;
+    line-height:30px;
     color: #030303;
     font-weight: 500;
     margin-left: 0px;
@@ -540,11 +548,12 @@ button {
     padding-bottom:10px;
 }
 .using_text1{
-    padding-top:15px !important;
-     padding-bottom:15px !important;
+    padding-top:20px !important;
+     padding-bottom:30px !important;
      width: 100%;
     float: left;
-    font-size: 17px;
+    font-size:19px;
+    line-height:30px;
     color: #030303;
     font-weight: 500;
     margin-left: 0px;
@@ -626,7 +635,7 @@ button {
 
         /* Content */
         .content {
-            background-color:white !important;
+            background-color:white;
             padding: 10px !important;
             box-shadow:3px 3px 3px 3px grey;
         }
@@ -672,7 +681,7 @@ i{
 }
 .para p{
     text-align: center;
-    color: orange;
+    color: orange !important;
     padding-top:20px;
     font-size:22px;
      font-weight: 500;
@@ -795,4 +804,28 @@ background-color:#3B5998;
     background-color:#3F51B4;
     height: 70px;
     color:white; 
+}
+/*--------------------*/
+.width-auto {
+    width: auto;
+}
+
+.text-lg {
+    font-size: 2rem !important;
+    color:black !important;
+   
+}
+
+p{
+    font-size: 20px;
+    color:black !important;
+    font-weight:500 !important;
+}
+.carousel-indicators li {
+    border: none;
+    background:green !important;
+}
+
+.carousel-indicators li.active {
+    background:orange !important;
 }
