@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.inner_container{
+    width:90%;
+    margin:0 auto;
+}
+.header_info{
+    display: flex;
+    padding:20px 0;
+    border-bottom: 1px solid #999;
+}
+.call,.email,.time,.address{
+    width:19%;
+    line-height: 20px;
+}
+.email{
+   display: flex; 
+}
+.eva{
+    width:21%;
+    text-align: center;
+}
+span{
+   color: #999; 
+}
+.a{
+    width:22px;
+    height:22px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 10px;
+}
+.email .p1{
+    padding-left: 15px;
+}
+.a p{
+    font-size: 25px;
+    color: #999;
+    position: absolute;
+    top:-3px;
+    left:4px;
+}
+nav{
+    height:30px;
+    margin:20px 0;
+}
+.nav_info{
+    display: flex;
+}
+li {
+    list-style: none;
+    padding:10px 15px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+li:hover{
+    border-bottom: 3px solid dodgerblue;
+}
+a:hover{
+    color:dodgerblue;
+}
+ul{
+    width:65%;
+   display: flex;
+}
+button{
+    font-size: 12px;
+}
+nav button{
+    width:170px;
+    padding:13px 0;
+    background-color: blue;
+    color: #fff;
+    border-radius: 30px;
+    border:1px solid #999;
+}
+nav button:hover{
+   background-color: #fff;
+    color:blue;
+}
+.banner{
+    background-color: #999;
+}
+.banner_info{
+    width:85%;
+    margin:0 auto;
+    color: #fff;
+    padding:50px 0;
+    
+}
+.banner_info h1{
+    width:30%;
+}
+.banner_info h6{
+    color: #0f0;
+    padding-bottom: 10px;
+}
+.banner_info button{
+    width:120px;
+    padding:10px;
+    font-size: 11px;
+    background: transparent;
+    border:1px solid #fff;
+    color:#fff;
+    margin:10px 0;
+}
+.banner_info button:hover{
+    background-color: #fff;
+    color: #999;
+}
+footer{
+    display: flex;
+    color: #fff;
+    border-bottom:3px solid #000;
+}
+.top1{
+    background-color: purple;
+    padding:50px 0 60px 20px;
+}
+.top2{
+    background-color: darkgoldenrod;
+    padding:50px 0 60px 20px;
+}
+.top3{
+    background-color: orangered;
+    padding:50px 0 60px 20px;
+}
+.top1 h6 h2,.top2 h6 h2,.top3 h6 h2{
+    padding:15px;
+}
+.top1 p,.top2 p,.top3 p{
+    padding:25px 0;
+}
+.top1 button,.top2 button,.top3 button{
+    padding:10px 13px;
+    border-radius: 20px;
+    font-size: 11px;
+    background: transparent;
+    border:1px solid #fff;
+    color:#fff;
+}
+.top1 button:hover{
+    background-color: #fff;
+    color:purple;
+}
+.top2 button:hover{
+    background-color: #fff;
+    color:darkgoldenrod;
+}
+.top3 button:hover{
+    background-color: #fff;
+    color:orangered;
+}
