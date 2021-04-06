@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js button function</title>
+</head>
+<style>
+    
+    button{
+        width:120px;
+        height:45px;
+        margin:50px 10px;
+        background-color:rgb(122, 48, 241);
+        color: azure;
+        border: none;
+        border-radius: 25px;
+        font-size: 20px;
+     
+    }
+    button:hover{
+        background-color:rgb(42, 187, 231);
+        color: rgb(247, 252, 252);
+
+    }
+      .parent.h2{
+        font-size: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
+
+       
+    }
+</style>
+<body>
+  <div class="parent">
+    <h2>Java Script Onclick Button Function</h2>
+    <button onclick="add();">Add</button>
+    <button onclick="sub();">sub</button>
+    <button onclick="mult();">mult</button>
+    <button onclick="divi();">divi</button>
+  </div>
+</body>
+<script>
+   function add(){
+       i=parseInt(prompt("Enter your value!"));
+       j=parseInt(prompt("Enter your value!"));
+       k=i+j;
+       alert(k);
+   }
+   function sub(){
+       i=parseInt(prompt("Enter your value!"));
+       j=parseInt(prompt("Enter your value!"));
+       k=i+j;
+       alert(k);
+   }  
+    function mult(){
+       i=parseInt(prompt("Enter your value!"));
+       j=parseInt(prompt("Enter your value!"));
+       k=i*j;
+       alert(k);
+   }
+    function divi(){
+       i=parseInt(prompt("Enter your value!"));
+       j=parseInt(prompt("Enter your value!"));
+       k=i/j;
+       alert(k);
+   }
+</script>
+</html>

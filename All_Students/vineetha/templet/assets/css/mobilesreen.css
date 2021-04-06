@@ -1,0 +1,127 @@
+.container{
+    width: 470px;
+    height: auto;
+  
+}
+
+li{
+    list-style-type:none;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:"Jost";
+    letter-spacing:3px;
+}
+
+
+.nav ul li{
+    display: block;
+    margin-left: 0px;
+    font-size: 20px;
+  
+}
+.nav ul li:hover{
+    color: green;
+}
+.nav button :hover{
+    background-color: rgb(38, 38, 235);
+ 
+   
+} 
+.navbtn{
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.navbtn:hover{
+    background-color: blue;
+
+}
+.topbtn{
+ background-color: blue;
+ border-radius: 10px;
+ margin-left: 10px;
+
+}
+.topbtn:hover{
+    background-color: rgb(43, 43, 214);
+}
+.banner{
+    width: 470px;
+    height: auto;
+    
+}
+.banner h1{
+    font-size: 30px;
+}
+
+
+
+
+.banner{
+   
+    /*background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwY3mibEky2a9FWKf6gZBGFi3hFgY8-yuTYw&usqp=CAU);*/
+    padding-left: 10px;
+    background-repeat: no-repeat;
+
+
+   
+   
+
+}
+.banner p{
+    color:rgb(14, 206, 72);
+    padding-top: 50px;
+
+
+
+}
+.banner button{
+ 
+    border: none;
+    color: rgb(15, 15, 15);
+
+}
+.banner button:hover{
+ background-color: rgb(146, 146, 236);
+}
+
+.color1{
+    width: 350px;
+   
+    background-color: rgb(140, 103, 175);
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 30px;
+   
+}
+.color1 button:hover{
+    background-color:rgb(203, 176, 228) ;
+}
+.color2{
+    width: 350px;
+   
+    background-color: rgb(243, 232, 82);
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 30px;
+   
+}
+.color2 button:hover{
+    background-color:rgb(242, 248, 151) ;
+}
+
+.color3{
+    width: 350px;
+   
+    background-color: rgb(247, 92, 72);
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 30px;
+   
+}
+.color3 button:hover{
+    background-color:rgb(233, 139, 127) ;
+}
