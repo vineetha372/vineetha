@@ -25,13 +25,13 @@
                 </div>
                 <div class="nav">
                     <ul>
-                        <li><a class="active" href="#">Home</a></li>
-                        <li><a class="active" href="#">About</a></li>
-                        <li><a class="active" href="#">Services</a></li>
-                        <li><a class="active" href="#">Portfolio</a></li>
-                        <li><a class="active" href="#">Team</a></li>
-                        <li><a class="active" href="#">Dropdown</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio1">Portfolio</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#">Dropdown</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                     <button>Get Started</button>
                 </div>
@@ -48,7 +48,7 @@
                     <div class="aside">
                         <button>Get Strarted</button>
                         <i class="far fa-play-circle"></i>
-                        <p>Watch Video</p>
+                        <p  onmouseover="before(this)" onmouseout="after(this)">Watch Video</p>
                     </div>
                 </div>
 
@@ -73,9 +73,9 @@
         <!--client endss-->
 
         <!--about starts-->
-        <div class="about">
-            <h1 class="animate__animated animate__backInUp">ABOUT US</h1>
-            <div class="wrapper animate__animated animate__backInUp" id="about">
+        <div class="about" id="about">
+            <h1 class="animate__animated animate__zoomIn">ABOUT US</h1>
+            <div class="wrapper animate__animated animate__zoomIn" id="about">
                 <div class="linfo">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
@@ -96,19 +96,19 @@
         <!--section starts-->
         <div class="section">
             <div class="wrapper">
-                <div class="sleft animate__animated animate__fadeInLeft">
-                    <h1>Eum ipsam laborum deleniti velit pariatur architecto aut nihil</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+                <div class="sleft">
+                    <h1 class="animate__animated animate__fadeInLeft">Eum ipsam laborum deleniti velit pariatur architecto aut nihil</h1>
+                    <p class="animate__animated animate__fadeInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
 
                     <!-- FIRST TAB -->
-                    <div class="tab1">
+                    <div class="tab1 animate__animated animate__fadeInUp animate__delay-0s">
                         <input id="tab-1" type="checkbox">
                         <label for="tab-1">Non consectetur a erat nam at lectus urna duis?</label>
                         <div class="tab-content"><p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p></div>
                     </div>
               
                     <!-- SECOND TAB -->
-                    <div class="tab2">
+                    <div class="tab2 animate__animated animate__fadeInUp animate__delay-1s">
                         <input id="tab-2" type="checkbox">
                         <label for="tab-2">Feugiat scelerisque varius morbi enim nunc?</label>
                         <div class="tab-content"><p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
@@ -117,7 +117,7 @@
                     </div>
               
                     <!-- THIRD TAB -->
-                    <div class="tab3">
+                    <div class="tab3 animate__animated animate__fadeInUp animate__delay-2s">
                         <input id="tab-3" type="checkbox">
                         <label for="tab-3"> Dolor sit amet consectetur adipiscing elit?
                         </label>
@@ -141,7 +141,7 @@
                     <img src="assets/img/img2.png" class="animate__animated animate__fadeInLeft">
                 </div>
 
-                <div class="sright">
+                <div class="sright animate__animated animate__fadeInRight">
                     <h1>Voluptatem dignissimos provident quasi corporis voluptates</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
@@ -149,14 +149,14 @@
                         <h5>HTML</h5>
                         <h5>100%</h5>
                     </div>
-                    <div class="bar1 animate__animated animate__fadeInLeft"></div>
+                    <div class="bar1 "></div>
 
                     <div class="css">
                         <h5>CSS</h5>
                         <h5>90%</h5>
                     </div>
                     <div class="bar2">
-                        <div class="cbar2 animate__animated animate__fadeInLeft"></div>
+                        <div class="cbar2"></div>
                     </div>
 
                     <div class="js">
@@ -164,7 +164,7 @@
                         <h5>75%</h5>
                     </div>
                     <div class="bar3">
-                        <div class="cbar3 animate__animated animate__fadeInLeft"></div>
+                        <div class="cbar3"></div>
                     </div>
 
                     <div class="ps">
@@ -172,7 +172,7 @@
                         <h5>55%</h5>
                     </div>
                     <div class="bar4">
-                        <div class="cbar4 animate__animated animate__fadeInLeft"></div>
+                        <div class="cbar4"></div>
                     </div>
                 </div>
             </div>
@@ -180,28 +180,28 @@
         <!--skills ends-->
 
         <!--services starts-->
-        <div class="services">
+        <div class="services" id="services">
             <h1>SERVICES</h1>
             <p id="p1">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
             <div class="wrapper">
-                <div class="card1 animate__animated animate__zoomIn">
+                <div class="card1 animate__animated animate__zoomIn animate__delay-0s">
                     <i class="fab fa-dribbble"></i>
                     <h2>Lorem Ipsum</h2>
                     <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.</p>
                 </div>
 
-                <div class="card2 animate__animated animate__zoomIn">
+                <div class="card2 animate__animated animate__zoomIn    animate__delay-1s">
                     <i class="far fa-file-alt"></i>
                     <h2>Sd ut Perspici</h2>
                     <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
                 </div>
-                <div class="card3 animate__animated animate__zoomIn">
+                <div class="card3 animate__animated animate__zoomIn animate__delay-2s">
                     <i class="fas fa-tachometer-alt"></i>
                     <h2>Mangi Dolore</h2>
                     <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
                 </div>
 
-                <div class="card4 animate__animated animate__zoomIn">
+                <div class="card4 animate__animated animate__zoomIn animate__delay-3s">
                     <i class="fas fa-layer-group"></i>
                     <h2>Nemo Enim</h2>
                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</p>
@@ -227,7 +227,7 @@
         <!--call ends-->
 
         <!--portfolio starts-->
-        <div class="portfolio">
+        <div class="portfolio" id="portfolio1">
             <h1>PORTFOLIO</h1>
             <div class="wrapper" id="portfolio">
                 <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
@@ -259,7 +259,7 @@
         <!--portfolio ends-->
 
         <!--team starts-->
-        <div class="team">
+        <div class="team" id="team">
             <h1>TEAM</h1>
             <div class="wrapper">
                 <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
@@ -344,7 +344,7 @@
                 <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
             </div>
             <div class="wrapper" id="pcards">
-                    <div class="pcard1 animate__animate__zoomIn">
+                    <div class="pcard1 animate__animated  animate__fadeInUp animate__delay-0s">
                         <h3>Free Plan</h3>
                         <span>
                             <sup>
@@ -361,7 +361,7 @@
                         </ul>
                         <button>Get Strated</button>
                     </div>
-                    <div class="pcard2 animate__animate__zoomIn">
+                    <div class="pcard2 animate__animated  animate__fadeInUp animate__delay-1s">
                         <h3>Bussiness Plan</h3>               
                         <span>
                             <sup><i class="fas fa-dollar-sign"></i>
@@ -377,7 +377,7 @@
                         </ul>
                         <button>Get Strated</button>
                     </div>
-                    <div class="pcard3 animate__animate__zoomIn">
+                    <div class="pcard3 animate__animated animate__fadeInUp animate__delay-2s">
                         <h3>Developer Plan</h3>                   
                         <span>
                             <sup>
@@ -407,14 +407,14 @@
             <div id="tab">
 
                 <!--first tab-->
-                <div class="tab1 animate__animate__fadeInUp">
+                <div class="tab1 animate__animated animate__fadeInUp animate__delay-0s">
                     <input id="tab-1" type="checkbox">
                     <label for="tab-1"><i class="far fa-question-circle"></i>Non consectetur a erat nam at lectus urna duis?</label>
                     <div class="tab-content"><p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p></div>
                 </div>
           
                 <!-- SECOND TAB -->
-                <div class="tab2 animate__animate__fadeInUp">
+                <div class="tab2 animate__animated animate__fadeInUp animate__delay-1s">
                     <input id="tab-2" type="checkbox">
                     <label for="tab-2"><i class="far fa-question-circle"></i>Feugiat scelerisque varius morbi enim nunc?</label>
                     <div class="tab-content"><p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
@@ -423,7 +423,7 @@
                 </div>
           
                 <!-- THIRD TAB -->
-                <div class="tab3 animate__animate__fadeInUp">
+                <div class="tab3 animate__animated animate__fadeInUp animate__delay-2s">
                     <input id="tab-3" type="checkbox">
                     <label for="tab-3"><i class="far fa-question-circle"></i> Dolor sit amet consectetur adipiscing elit?
                     </label>
@@ -433,7 +433,7 @@
                 </div>
                 
                 <!--fourth tab-->
-                <div class="tab4 animate__animate__fadeInUp">
+                <div class="tab4 animate__animated animate__fadeInUp animate__delay-3s">
                     <input id="tab-4" type="checkbox">
                     <label for="tab-4"><i class="far fa-question-circle"></i>Non consectetur a erat nam at lectus urna duis?</label>
                     <div class="tab-content"><p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
@@ -441,7 +441,7 @@
                 </div>
           
                 <!-- fifth TAB -->
-                <div class="tab5 animate__animate__fadeInUp">
+                <div class="tab5 animate__animated animate__fadeInUp animate__delay-4s">
                     <input id="tab-5" type="checkbox">
                     <label for="tab-5"><i class="far fa-question-circle"></i>Feugiat scelerisque varius morbi enim nunc?</label>
                     <div class="tab-content"><p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
@@ -452,7 +452,7 @@
         <!--faq ends-->
 
         <!--contact starts-->
-        <div class="contact">
+        <div class="contact" id="contact">
             <h1>CONTACT</h1>
             <div class="wrapper">
                 <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
@@ -498,4 +498,22 @@
         <!--contact ends-->
     </main>
 </body>
+
+<script>
+window.addEventListener('scroll', () => {
+    document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+  }, false);
+</script>
+
+<script>
+    //watch.previousElementSibling.style.onmouseover.color="#47b2e4";
+    function before(x) {
+  x.previousElementSibling.style.color="#47b2e4"
+}
+
+function after(x) {
+  x.previousElementSibling.style.color="#fff"
+}
+
+</script>
 </html>
