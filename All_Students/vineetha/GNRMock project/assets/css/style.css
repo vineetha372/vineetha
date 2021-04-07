@@ -9,6 +9,7 @@
 
 .logo{
     color: white;
+    padding-left: 50px;
 }
 
 a{
@@ -45,12 +46,65 @@ h1,h2,h3,h4,h5,h6{
     color: green;
 }
 
+.nav {
+    padding-left: 50px;
+    padding-right: 150px;
+}
+
 /* sections2 (heading-sections)*/
+
+.web{
+    width: 220px;
+    background-color: blue;
+    text-align: center;
+    margin-left: 550px;
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-size: 25px;
+    color: white;
+    margin-top: 30px;
+}
+
+.webbut{
+    background-color: blue;
+    width: 220px;
+    margin-left: 550px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+
+.learn{
+    color: white; background-color: blue;
+    border: none;
+    border-radius: 10px;
+    width: 120px;
+    
+}
+.learn:hover{
+    background-color: rgb(22, 22, 145);
+}
 
 .heading-sections{
     width: auto;
-    height: 400px;
-    background-color: rgb(243, 232, 217);
+    height: 500px;
+    background-color: white;
+
+}
+.heading-sections{
+   
+ width: 100%;
+ height: 500px;
+ text-align: center;
+}
+.main-img{
+ 
+    height: 200px;
+}
+.what-img:hover{
+    border: solid  white;
 
 }
 
@@ -79,6 +133,11 @@ h1,h2,h3,h4,h5,h6{
 }
 .what-we i:hover{
     color: rgb(15, 102, 173);
+}
+.what-we h5{
+    margin-top: 20px;
+    padding-top: 15px;
+
 }
 
 
@@ -120,7 +179,6 @@ h1,h2,h3,h4,h5,h6{
 
 
 
-
 .testimonials h1{
     text-align: center;
     margin-top: 50px;
@@ -137,6 +195,29 @@ h1,h2,h3,h4,h5,h6{
 }
 .box h2{
     font-size: 30px;
+
+}
+
+.box h4{
+    margin-right: 150px;
+    margin-top: 20px;
+}
+.box h5{
+    margin-right: 180px;
+    text-decoration: underline;
+   
+}
+
+.box h5:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.vimg{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    float: left;
+   margin-left: 80px;
 }
 
 
@@ -166,7 +247,7 @@ h1,h2,h3,h4,h5,h6{
 .our-team{
     height: 400px;
     background-color: black;
-    padding-top: 50px;
+   
     padding-left: 70px;
 }
 
@@ -180,6 +261,12 @@ h1,h2,h3,h4,h5,h6{
     text-align: center;
     margin-top: 40px;
     padding-top: 20px;
+}
+
+.our-team h1{
+    color: white;
+    text-align: center;
+    margin-top: _150px;
 }
 /*
 
@@ -286,7 +373,7 @@ margin-top: 50px;
     padding-bottom: 50px;
    
 }
-
+/*
 
 .project-img1{
     margin-left: 100px;
@@ -329,6 +416,43 @@ padding-left: 50px;
 }
 .clear{
     clear: both;
+}
+*/
+.images{
+    width:90%;
+    display:flex;
+    justify-content:space-between;
+    margin:0 auto;
+    padding-top:150px;
+    padding-bottom:90px;
+}
+.img1,.img2,.img3,.img4{
+    width:250px;
+    height:300px;
+    margin:10px 10px;
+    position:relative;
+}
+.img1 p,.img2 p,.img3 p,.img4 p{
+    font-size:15px;
+}
+.overlay
+{
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:300px;
+    
+    background-color:#000;
+    opacity:0.8;
+    z-index:2;
+    transition:all 0.50s 0s;
+}
+.img1:hover .overlay,
+.img2:hover .overlay,
+.img3:hover .overlay,
+.img4:hover .overlay{
+    bottom:0;
 }
 
 
