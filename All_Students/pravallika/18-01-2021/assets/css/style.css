@@ -186,7 +186,7 @@ button {
     width: 100%;
     float: left;
     background-image: url(../images/banner-bg.png);
-    height:750px;
+    height:100%;
     padding: 20px 0;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -876,7 +876,7 @@ p{
 }
 .btn{
     background-color:white;
-    box-shadow:2px 2px 4px 4px gray;
+    box-shadow:1px 1px 4px 1px gray;
     color:coral;
     margin-top: 10px;
     margin-left:55px;
