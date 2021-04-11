@@ -655,24 +655,6 @@ ol li a:hover {
 
 
 /*-------------############( @media quary start)##############-----------------*/
-@media all and (max-width:1190px) {
-    .right-info h1{
-       
-        margin: inherit;
-        
-    }
-    button{
-        width: 100%;
-        height: auto;
-        margin:inherit;
-    }
-    .right-info button{
-       
-        margin: inherit;
-        
-    }
-    
-}
 
     
 }
