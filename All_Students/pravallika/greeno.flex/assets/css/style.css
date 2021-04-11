@@ -657,7 +657,7 @@ ol li a:hover {
 /*-------------############( @media quary start)##############-----------------*/
 
     
-}
+
 @media all and (max-width:568px) {
     .wrapper {
         display: grid;
