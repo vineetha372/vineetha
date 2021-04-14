@@ -1,0 +1,57 @@
+/*!
+ * NanoExpansion v1.0.3
+ * Simple vanilla javascript Accordion library
+ * https://github.com/mcanam/nano-expansion
+ * 
+ * Copyright (c) mcanam
+ * Published under MIT License
+ */
+.nano-expansion {
+  width: 100%;
+  max-height: auto;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(55, 84, 170, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+  will-change: max-height;
+  transition: max-height .2s ease 0s; }
+  .nano-expansion-head {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: 0.2s; }
+    .nano-expansion-head::after {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border: solid currentColor;
+      border-width: 0 .14em .14em 0;
+      -webkit-transform: rotate(45deg);
+              transform: rotate(45deg);
+      transition: inherit; }
+    .nano-expansion-head.active::after {
+      -webkit-transform: rotate(225deg);
+              transform: rotate(225deg); }
+  .nano-expansion-body {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px; }
+  .nano-expansion-wrapper {
+    width: 100%; }
+    .nano-expansion-wrapper > .nano-expansion {
+      margin-bottom: 10px; }
+      .nano-expansion-wrapper > .nano-expansion:last-child {
+        margin-bottom: 0; }

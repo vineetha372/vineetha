@@ -1,0 +1,50 @@
+{
+  "name": "nano-expansion",
+  "version": "1.1.3",
+  "description": "Simple vanilla javascript Accordion library",
+  "main": "dist/nano-expansion.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcanam/nano-expansion.git"
+  },
+  "keywords": [
+    "accordion",
+    "expansion",
+    "collapsible",
+    "javascript",
+    "javascript-library"
+  ],
+  "author": "mcanam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcanam/nano-expansion/issues"
+  },
+  "homepage": "https://github.com/mcanam/nano-expansion#readme",
+  "browserslist": [
+    "> 0.15%",
+    "not dead",
+    "Chrome >= 52",
+    "Edge >= 15",
+    "Firefox >= 52",
+    "Opera >= 45",
+    "Safari >= 11",
+    "not op_mini all",
+    "not IE 11"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@rollup/plugin-babel": "^5.3.0",
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^4.1.10",
+    "node-sass": "^5.0.0",
+    "postcss": "^8.2.8",
+    "rollup": "^2.41.2",
+    "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
