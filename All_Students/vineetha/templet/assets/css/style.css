@@ -1,0 +1,139 @@
+.container{
+    background-color: black;
+    color: white;
+    height: 600px;
+}
+
+
+
+
+.title{
+    text-align: center;
+}
+
+
+
+.clint1 img1{
+    border-radius: 100%;
+    float: left;
+}
+
+.clints{
+    padding-top: 50px;
+}
+.clint1{
+    width: 340px;
+    height: 200px;
+    float: left;
+    padding-left: 80px;
+   
+}
+.clint2{
+    width: 340px;
+    height: 200px;
+    float: left;
+    padding-left: 80px;
+   
+}
+.clint3{
+    width: 340px;
+    height: 200px;
+    float: left;
+    padding-left: 80px;
+}
+.clint4{
+    width: 340px;
+    height: 200px;
+    float: left;
+    padding-left: 80px;
+   
+}
+.clint5{
+    width: 340px;
+    height: 200px;
+    float: left;
+    padding-left: 80px;
+   
+}
+.clint6{
+    width: 340px;
+    height: 200px;
+    float: left;
+    padding-left: 80px;
+   
+}
+.img1{
+    border-radius: 50%;
+    margin-left: 10PX;
+}
+.img2{
+    border-radius: 50%;
+    margin-left: 20PX;
+}
+.img3{
+    border-radius: 50%;
+    margin-left: 20PX;
+}
+.img4{
+    border-radius: 50%;
+    margin-left: 20PX;
+}
+.img5{
+    border-radius: 50%;
+    margin-left: 20PX;
+}
+.img6{
+    border-radius: 50%;
+    margin-left: 20PX;
+}
+.span1{
+    color: rgb(81, 219, 243);
+}
+.span2{
+    color: rgb(81, 219, 243);
+}
+.span3{
+    color: rgb(81, 219, 243);
+}
+.span4{
+    color: rgb(81, 219, 243);
+}
+.span5{
+    color: rgb(81, 219, 243);
+}
+.span6{
+    color: rgb(81, 219, 243);
+}
+
+.color1{
+    color: rgb(247, 244, 114);
+}
+
+.color2{
+    color: rgb(247, 244, 114);
+}
+
+.color3{
+    color: rgb(247, 244, 114);
+}
+
+.color4{
+    color: rgb(247, 244, 114);
+}
+.color5{
+    color: rgb(247, 244, 114);
+}
+
+
+.color6{
+    color: rgb(247, 244, 114);
+}
+.title1{
+    color: rgb(247, 244, 114);
+
+}
+.title2{
+    color: rgb(238, 18, 201);
+
+}
+
