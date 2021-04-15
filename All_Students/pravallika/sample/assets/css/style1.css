@@ -13,190 +13,59 @@ p {
 }
 
 .container {
-    width: 100%;
+    width:100%;
+    height: auto;
     margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-.call {
-    width: 150px !important;
-    height: 100px !important;
-    display: flex !important;
-    /*border: 1px solid black;*/
+i{
+    font-size:35px;
+    color:#aaa;
 }
-
-.call1 {
-    width: 200px !important;
-    height: 100px !important;
-    display: flex !important;
-   /* border: 1px solid black;*/
+.icon{
+    text-align: right;
+    padding-top:23px;
 }
-
-.call2 {
-    width:200px;
-    height: 100px;
-    display: flex;
-    margin-left: 10px;
-   /* border: 1px solid black;*/
+.icon1{
+    text-align: right;
+    padding-top:30px; 
 }
-
-.call3 {
-    width: 150px;
-    height: 100px;
-    display: flex;
-    /*border: 1px solid black;*/
-}
-
-.call4 {
-    width: 150px;
-    height: 100px;
-    display: flex;
-    /*border: 1px solid black;*/
-}
-
-.icon {
-    font-size: 30px;
-    float: left;
-    color: #aaa;
-}
-
-.icon i {
-    margin-top: 30px;
-}
-
-.text {
-    float: right;
-    padding-top: 10px;
-    padding-left: 20px;
-}
-
-.icon2 i {
-    color:peru;
-    font-size: 50px;
-}
-
-section {
-    display: flex !important;
-    justify-content: center;
-    justify-content: space-around;
-}
-
-.text2 h2 {
-    color: darkblue;
-}
-
-span {
+.icon1 i{
+    font-size:45px;
     color:purple;
-    font-size:22px;
 }
-
-.icon1 {
-    font-size: 30px;
-    float: left;
-    color: #aaa;
+span{
+    color:blue;
 }
-
-.icon1 i {
-    margin-top: 30px;
+.evaldak{
+    padding-top:15px;
+    font-size:35px;
+    color:darkblue;
 }
-
-.text1 {
-    float: right;
-    padding-top: 10px;
-    padding-left: 20px;
+.section1 {
+    height:100%;
+    box-shadow: 1px 1px 4px 4px gray;
 }
-
-.icon2 {
-    font-size: 30px;
-    float: left;
-
-}
-
-.icon2 i {
-    margin-top: 20px;
-}
-
-.text2 {
-    float: right;
-    padding-top:13px;
-    padding-left: 10px;
-    font-size:25px;
-}
-
-.icon3 {
-    font-size:25px;
-    float: left;
-    color: #aaa;
-}
-
-.icon3 i {
-    margin-top: 40px;
-    padding-left: 20px;
-}
-
-.text3 {
-    float: right;
-    padding-top: 10px;
-    padding-left: 20px;
-}
-
-.icon4 {
-    font-size: 30px;
-    float: left;
-    color: #aaa;
-    padding-left: 40px;
-}
-
-.icon4 i {
-    margin-top: 40px;
-}
-
-.text4 {
-    float: right;
-    padding-top: 10px;
-    padding-left: 20px;
-}
-
-/*----------nav-----------------*/
-nav {
-    height: 30px !important;
-
-}
-
-.nav_info {
-    display: flex !important;
-    justify-content: space-around !important;
-    justify-content: space-between !important;
-}
-
 li {
     text-decoration: none !important;
     list-style: none !important;
-    padding:19px 17px !important;
+    display: inline-block;
+    padding:16px 20px;
 }
 
 ul li a {
     text-decoration: none !important;
-    color: #000 !important;
     font-size: 20px !important;
-   
+   /*padding:0px 19px;*/
+    color:black;
 }
-
-ul li:hover {
-
-    border-bottom: 5px solid peru !important;
+ul li a:hover {
+color:peru;
+    border-bottom:2px solid peru !important;
      transition: ease all 0.0s !important;
 }
-
-ul {
-    width: 65% !important;
-    display: flex !important;
-}
-
-ul li a:hover {
-    color: black !important;
-}
-
-nav button {
+.nav button {
     font-size: 17px;
     width: 170px;
     height: 50px;
@@ -204,18 +73,18 @@ nav button {
     color: #fff;
     border-radius: 30px;
     border: 2px solid peru;
-    margin-top: 22px;
+    margin-top:15px;
+    margin-bottom: 10px;
+   text-align: center;
 }
-
-nav button:hover {
+.nav{
+    justify-content: center;
+}
+.nav button:hover {
     background-color: #fff;
     color:peru;
 }
 
-.section1 {
-    height: 90px;
-    box-shadow: 1px 1px 4px 4px gray;
-}
 
 .para {
     line-height: 20px;
@@ -246,34 +115,4 @@ button {
     font-size: 18px;
     margin-top: 20px;
     margin-bottom: 40px;
-}
-@media all(max-width:580px){
-    .container{
-        width:100%;
-        margin: auto;
-    }
-    section{
-    display:block;
-    justify-content:none;
-    justify-content:none;
-}
-    .call{
-      display:block;   
-    }
-     .call1{
-      display:block;   
-    }
-    nav{
-        width:100%;
-        display: block;
-    }
-    ul{
-        display: block;
-        margin: inherit;
-        padding: inherit;
-       width:100%;
-        display: none;
-    }
-
-    
 }
