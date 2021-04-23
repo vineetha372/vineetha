@@ -1,0 +1,65 @@
+/*!
+ * NanoExpansion v1.1.3
+ * Simple vanilla javascript Accordion library
+ * https://github.com/mcanam/nano-expansion
+ * 
+ * Copyright (c) mcanam
+ * Published under MIT License
+ */
+
+.nano-expansion {
+  width: 100%;
+  max-height: auto;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(55, 84, 170, .2);
+  border-radius: 5px;
+  overflow: hidden;
+  will-change: max-height;
+  transition: max-height .2s ease 0s;
+
+  &-head {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: 0.2s;
+
+    &::after {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border: solid currentColor;
+      border-width: 0 .14em .14em 0;
+      transform: rotate(45deg);
+      transition: inherit;
+    }
+
+      &.active::after {
+        transform: rotate(225deg);
+    }
+  }
+
+  &-body {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+  }
+
+  &-wrapper {
+    width: 100%;
+
+    & > .nano-expansion {
+      margin-bottom: 10px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

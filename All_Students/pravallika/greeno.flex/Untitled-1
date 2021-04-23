@@ -1,0 +1,11 @@
+<div class="card-image">
+                <a class="image1" href="assets/images/3.jpg" data-fancybox="gallery" data-caption="Caption Images 1">
+                    <img src="assets/images/3.jpg" alt="Image Gallery">
+
+                    
+
+                </a>
+    <a class="middle" href="assets/images/3.jpg" data-fancybox="gallery" data-caption="Caption Images 1">
+                        <div class="text">flower</div>
+                    </a>
+            </div>

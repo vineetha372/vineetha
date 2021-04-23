@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*font-family: 'Nova Mono', monospace;*/
+    font-family: monospace;
+}
+
+.wrapper {
+    display: flex;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    justify-content: space-between;
+}
+.wrapper1{
+    display: flex;
+    width: 80%;
+    height: auto;
+    margin:auto;
+    justify-content: space-between;
+    margin-top:50px;
+}
+.logo {
+    /* border:1px solid black;*/
+}
+
+.logo img {
+    width: 150px;
+    height:100px;
+    margin:10px;
+}
+
+#header .wrapper {
+    z-index: 2s000;
+}
+
+.nav ul {
+    display: inline-flex;
+    padding: 10px;
+    margin-right: 10px;
+    /*border:1px solid black;*/
+}
+
+.nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav ul li {
+    padding: 30px 20px;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.nav li a:hover {
+    color: green;
+
+}
+
+.nav li a:focus {}
+
+.nav button,
+.left button {
+    background-color: inherit;
+    border: 2px solid black;
+    border-radius: 30px !important;
+    padding: 10px 20px;
+    font-size: 19px;
+    outline: 0;
+    color: black;
+    font-family:monospace;
+}
+
+.nav button:hover {
+    background-color: transparent;
+    color: coral;
+}
+.left p{
+    padding-top: 30px;
+    padding-bottom:9px;
+}
+.left{
+    width:50%;
+    height: auto;
+    margin-top:60px;
+    /*border:1px solid black;*/
+}
+.left h1{
+    font-size: 45px;
+    padding-bottom: 40px;
+    line-height:55px;
+}
+.left button{
+    background-color: darkblue;
+    color: white;
+    margin-bottom: 30px;
+    border:2px solid darkblue;
+}
+.right{
+      width:43%;
+    height: auto;
+   /* border:1px solid black;*/
+}
+.right img{
+    width:100%;
+    height:100%;
+   
+}
+.fleft h2{
+    font-size:25px;
+    text-align: center;
+    padding-top: 20px;
+}
+.fleft p{
+    padding:20px 0;
+    font-size:17px;
+    line-height: 30px;
+    word-spacing:4px;
+    text-align: center;
+}
+.fleft1{
+  /*border:1px solid black;*/
+    width:28%;
+    height: auto;
+    margin-top: 100px;
+}
+.fleft1 h1{
+    font-size: 40px;
+}
+.fleft1 p{
+    padding:20px 0;
+    font-size:17px;
+    line-height: 30px;
+    word-spacing:4px;
+}
+.fleft{
+  border:1px solid #bbb;
+    width:28%;
+    height: auto;
+    background-color:white;
+    border-radius: 20px;
+    box-shadow:0px 0px 4px 4px gray;
+    margin-top: 100px;
+}
+.fleft img{
+    padding-top:15px;
+    width: 100%;
+    /*background-color:#FF768C;*/
+    border-radius: 20px;
+}
+.card{
+    width:28%;
+    /*border:1px solid black;*/
+    margin-top:60px;
+}
+.card h2{
+    font-size:20px;
+    padding-top:20px;
+}
+.card img{
+    margin-left:30px;
+}
+.card h2,.card p{
+    text-align: center;
+    line-height: 26px;
+}
+.hero{
+    margin-top: 90px;
+    width: 45%;
+    height: auto;
+    /*border:1px solid black;*/
+}
+.hero1{
+    width: 45%;
+    height: auto;
+     margin-top: 90px;
+    /*border:1px solid black;*/
+}
+.hero1 h1{
+    font-size: 40px;
+}
+.hero1 p{
+    padding-top:15px;
+    line-height:28px;
+    word-spacing: 3px;
+    font-size: 18px;
+}
+.learn{
+    width:270px;
+    height:50px;
+    font-size:17px;
+    margin-top: 30px;
+    border:2px solid darkblue;
+    border-radius:30px;
+    background-color: darkblue;
+    color:white;
+}
+.learn:hover{
+     border:2px solid darkblue;
+    background-color: transparent;
+    color: darkblue;
+}
+.text{
+    background-color:darkblue;
+    width: 100%;
+    height: auto;
+}
+.copy{
+    text-align:center;
+    color:white;
+    padding: 30px;
+    width:700px;
+    margin: auto;
+    font-size: 17px;
+}
+@media all and (max-width:568px){
+    .wrapper{
+        display: grid;
+    }
+    .logo{
+        padding: inherit;
+        margin:inherit;
+        text-align: center;
+    }
+}
