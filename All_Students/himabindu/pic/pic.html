@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <title>pic</title>
+    <style>
+        .wrapper{
+            width:60%;
+            margin:0 auto;
+        }
+        .pic{
+            position:relative;
+        }
+        .pic .pic{
+            display:none;
+        }
+        .smile{
+            position:absolute;
+            top:0px;
+            left:0px;
+        }
+        p{
+            border:1px solid pink;
+        }
+        .smile img{
+            float:left;
+        }
+        .smile img:hover{
+            display:none;
+        }
+        .smile img:hover .pic .pic{
+            display:block;
+        }
+    </style>
+</head>
+
+<html>
+<body>
+    <div class="wrapper">
+        <div class="pic">
+            
+            <img src="pic.jpg" width="400px" height="400px" class="pic"/>
+
+            <div class="smile">
+                <img src="pic.jpg" width="200px" height="200px"/>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque pariatur explicabo molestias suscipit, eveniet doloribus eum! Accusamus, perspiciatis aut? Quasi sapiente praesentium illo explicabo excepturi minus obcaecati sunt earum? Deserunt possimus laudantium consequatur modi temporibus quasi iure, ratione beatae voluptas dicta itaque laboriosam ab. Architecto alias quibusdam deserunt dolorem, animi dolorum ab aperiam ad amet error praesentium consectetur tenetur dicta magnam? Excepturi eius ex neque odit, consequatur blanditiis tempore vitae omnis veniam praesentium, explicabo recusandae deserunt dolores alias quibusdam assumenda maxime iste quam voluptatem commodi maiores? Mollitia dignissimos exercitationem unde perferendis molestias aperiam itaque officiis laudantium voluptas suscipit, quibusdam ex cum, ut totam cumque iure magnam dolor inventore tenetur! Quod dignissimos placeat fugiat ipsam? Molestias assumenda enim fugiat consectetur? Laboriosam omnis, neque voluptas reiciendis quod quis deserunt molestias doloremque perferendis placeat atque quas quisquam suscipit minima. Vitae officiis ullam dolore reiciendis quisquam? Laboriosam, sit quam aut ad et ducimus. Minima quia accusantium tempore alias nemo nobis modi similique quod architecto. Minima a exercitationem sequi numquam? Unde, exercitationem, impedit veniam nemo incidunt, maxime illo harum commodi amet doloribus quod ea quisquam velit voluptatem nihil neque quae modi reiciendis asperiores quibusdam alias sit vel. Error, porro similique accusamus commodi rerum sit rem.</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
