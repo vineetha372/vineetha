@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+  
+  
+
+}
+.banner{
+    background-image: url(../images/img1.jpg);
+    width: 500px;
+    height:500px;
+   
+    border: 1px solid black;
+}
+
+.heading h6{
+    font-size: 15px;
+    margin-top: 30px;
+    width: 200px;
+    margin-left: 80px;
+    color: white;
+    padding-left: 10px;
+
+}
+    
+   
+
+
+.banner-info img{
+    width: 100px;
+    height: 100px;
+   
+    float: left;
+    margin-top: 10px;
+    padding-right: 30px;
+
+}
+.banner-info {
+    width: 300px;
+    margin-left: 80px;
+    color: rgb(253, 250, 250);
+    padding-top: 20px;
+
+}
+.img1 p{
+    margin-left: 5px;
+    margin-top: 10px;
+    padding-left: 10px;
+}

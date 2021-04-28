@@ -137,3 +137,92 @@
 .titile row{
   text-align: center;
 }
+.heading{
+  height: 400px;
+  color: white;
+  
+  background-image: url(https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1074510412%2F0x0.jpg%3Ffit%3Dscale);
+}
+
+
+.text-center{
+  margin-top: 50px;
+  font-size: 50px;
+}
+.h2.text-center{
+  font-size: 50px;
+
+}
+.row h5{
+  text-align: center;
+}
+  
+.row p{
+  text-align: center;
+  color: red;
+}
+.text-center1{
+  text-align: center;
+  font-size: 35px;
+  margin-top: 50px;
+  color: rgb(255, 153, 0);
+}
+.text-center2{
+  text-align: center;
+  font-weight: 800;
+  
+}
+  
+
+.icons{
+  color: rgb(247, 120, 2);
+  text-align: center;
+}
+
+/* icons-sections*/
+
+.icons-sections{
+  margin-top: 50px;
+}
+
+
+ /*strengths sections*/
+ .strengths-sections{
+    background-color: orange;
+    height: 600px;
+ }
+
+ .card{
+   width: 200px;
+   margin-left: 30px;
+ }
+
+ .card-title{
+   color: rgb(255, 123, 0);
+ }
+
+ .card-deck{
+   margin-top: 50px;
+
+ }
+ .text-center{
+   color: white;
+ }
+ .icons1{
+   color: white;
+   text-align: center;
+   margin-bottom: 20px;
+
+ }
+ .text-center3{
+   text-align: center;
+   color: orange;
+   margin-top: 50PX;
+ }
+ .icons2{
+   color: orange;
+   text-align: center;
+ }
+.social-icons{
+  text-align: center;
+}

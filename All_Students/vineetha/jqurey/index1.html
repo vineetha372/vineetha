@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+
+  /* REMOVE SECTIONS*/
+
+  /*
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").remove();
+  });
+});*/
+
+/* ADD SECTIONS*/
+
+$(document).ready(function(){
+  $("#btn1").click(function(){
+    $("p").append(" <b>GNR TECH SOLUTIONS</b>.");
+  });
+
+  $("#btn2").click(function(){
+    $("ol").append("<li>List</li>");
+  });
+});
+</script>
+</head>
+<body>
+
+   <!--REMOVE SECTIONS-->
+
+<!--
+<div id="div1" style="height:50px;width:150px;border:1px solid black;background-color:rgb(31, 160, 247);">
+
+<p>Gnr tech solutions</p>
+
+</div>
+<br>
+
+<button>Remove</button>
+
+-->
+
+<!--ADD SECTIONS-->
+
+<p>GNR TECH SOLUTIONS</p>
+
+
+<ol>
+  <li>List </li>
+  <li>List </li>
+  <li>List </li>
+</ol>
+
+<button id="btn1">GNR TECH SOLUTIONS</button>
+<button id="btn2">ading list items</button>
+
+</body>
+</html>

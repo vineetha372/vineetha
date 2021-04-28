@@ -32,7 +32,7 @@
     width: 340px;
     height: 200px;
     float: left;
-    padding-left: 80px;
+    padding-left: 50px;
    
 }
 .clint3{
@@ -107,10 +107,12 @@
 
 .color1{
     color: rgb(247, 244, 114);
+   text-align: center;
 }
 
 .color2{
     color: rgb(247, 244, 114);
+    text-align: center;
 }
 
 .color3{
@@ -127,6 +129,7 @@
 
 .color6{
     color: rgb(247, 244, 114);
+  
 }
 .title1{
     color: rgb(247, 244, 114);
