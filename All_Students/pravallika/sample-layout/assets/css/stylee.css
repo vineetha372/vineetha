@@ -178,14 +178,16 @@ border-color:#2990EA;
     color:purple;
 }
 .flex{
+    position:relative;
     display: flex;
     border:1px solid #bbb;
     width:48%;
     margin-top:50px;
     background-color: #fefefe;
+    border-left:6px solid #2990EA;
 }
 .flex:hover{
-    /*background-color:#2990EA;*/
+   border-left:6px solid #2990EA;
     transition-duration:0.4s;
     transition-timing-function:ease-in-out;
     transform: translateY(-10px);
@@ -368,6 +370,8 @@ ol li a:hover {
     }
     
 }
+
+
 @media screen and (min-width: 768px) {
   .navbar {
     display: flex;
@@ -405,5 +409,4 @@ ol li a:hover {
     color: rgba(255, 255, 255, 1);
   }
 }
-
 

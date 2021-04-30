@@ -6,7 +6,7 @@
 
 body {
     /*font-family: 'Nova Mono', monospace;*/
-    font-family: monospace;
+    font-family:'arial';
 }
 
 .wrapper {
@@ -57,7 +57,7 @@ body {
 }
 
 .nav li a:hover {
-    color: green;
+    color:darkblue;
 
 }
 

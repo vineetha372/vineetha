@@ -320,7 +320,7 @@ hr {
 .footer_icon i:hover {
     color: #409ec1;
 }
-@media (max-width:1024px){
+@media (max-width:700px){
    
     .container{
         width:100%;
@@ -340,3 +340,15 @@ hr {
     .samples_info h1{
         padding: inherit;
     }
+    textarea{
+        width:90%;
+        
+    }
+    .samples_info h1{
+        padding:20px 0px;
+    }
+    .sampleimg{
+       display: none;
+       
+    }
+    
