@@ -36,6 +36,9 @@ img {
     border-radius:100px;
     border:13px solid #282626;
 }
+img:hover{
+    border:none;
+}
 #in{
     color:yellow;
 }

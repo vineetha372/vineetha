@@ -105,7 +105,10 @@ span{
 section{
     position:relative;
 }
-.mySlides {display:none;}
+.mySlides 
+{
+    display:none;
+}
 
 .w3-display-left{
     font-size:50px;
@@ -150,7 +153,7 @@ section{
     left:45%;
     color:greenyellow;
 }
-.w3-badge{
+/*.w3-badge{
     height:23px;
     width:23px;
     padding:0;
@@ -176,7 +179,7 @@ section{
 }
 .w3-transparent:hover{
     background-color:#fff;
-}
+}*/
 /*footer*/
 footer{
     display:flex;
