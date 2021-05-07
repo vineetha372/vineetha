@@ -25,22 +25,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 
-
-    <script>
-        window.console = window.console || function(t) {};
-
-    </script>
-
-
-
-    <script>
-        if (document.location.search.match(/type=embed/gi)) {
-            window.parent.postMessage("resize", "*");
-        }
-
-    </script>
-
-
 </head>
 
 <body>
@@ -774,7 +758,7 @@
                             <button type="submit" class="bu">Buy Now</button>
                         </div>
                     </div>
-
+ 
 
                 </form>
             </div>
@@ -827,22 +811,6 @@
 
 </body>
 
-<script>
-    var acc = document.getElementsByClassName("accordion");
-    var i;
 
-    for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var panel = this.nextElementSibling;
-            if (panel.style.maxHeight) {
-                panel.style.maxHeight = null;
-            } else {
-                panel.style.maxHeight = panel.scrollHeight + "px";
-            }
-        });
-    }
-
-</script>
 
 </html>
