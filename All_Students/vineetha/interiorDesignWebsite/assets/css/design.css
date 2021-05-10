@@ -1,0 +1,795 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+
+}
+.logo{
+    color: white;
+    padding-left: 50px;
+}
+a{
+    color:rgb(14, 13, 13);
+    text-decoration:none;
+}
+
+.header{
+    background-color: rgba(253, 252, 252, 0.884);
+}
+li{
+    list-style-type:none;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+   
+    letter-spacing:3px;
+    font-family: 'Elsie',sans-serif !important;
+}
+.wrapper{
+    width:90%;
+    margin:0px auto;
+    display:flex;
+    justify-content:space-between;
+}
+.nav ul li{
+    display: inline;
+    margin-left: 20px;
+    font-size: 20px;
+  
+}
+.nav ul li:hover{
+    color: green;
+}
+
+.nav {
+    padding-left: 50px;
+    padding-right: 150px;
+}
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px;
+
+}
+.logo{
+    font-size: 50px;
+}
+.fab fa-accusoft{
+    font-size: 150px;
+}
+.nav ul li{
+float: left;
+font-size: 20px;
+margin-left: 80px;
+padding-top: 50px;
+
+}
+
+.menubutton{
+    margin-left: 50px;
+    padding: 10px 50px;
+    background-color:#1a3e34 ;
+    color: white;
+  margin-top: 40px;
+  height: 60px;
+  border: none;
+}
+.menubutton:hover{
+    background-color: rgb(8, 167, 132);
+
+}
+/*heading sections*/
+.headind-sections{
+    /*background-image: url(https://media.istockphoto.com/photos/wooden-chairs-at-table-in-bright-open-space-interior-with-lamp-next-picture-id968086564?k=6&m=968086564&s=612x612&w=0&h=akcSZ4mvydFK9xnXi45PSo4mXizwMGxb7j3O_A1qTEU=);*/
+    /*background-image: url(data:image/jpeg;base64,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);
+   */background-image: url(../image1/Furniture-Background-Image.jpg);
+    background-repeat: no-repeat;
+    width:100%;
+    height: 950px;
+   
+ }
+ .heading h1{
+     padding-left: 80px;
+     font-size: 80px;
+     font-family:'Elsie'cursive !important ;
+     color: rgb(55, 78, 8);
+     padding-top: 200px;
+ 
+ }
+ 
+ .menubutton1{
+     margin-left: 80px;
+     width: 220px;
+     height: 55px;
+     background-color:#1a3e34 ;
+     color: white;
+     margin-top: 20px;
+     border: none;
+     
+ 
+ }
+ .menubutton1:hover{
+     background-color: rgb(8, 167, 132);
+ }
+ 
+/*why-is sections*/
+.why-is{
+   
+    color: rgb(88, 209, 88);
+   padding-left: 70px;
+    
+}
+.fas fa-heart{
+    color: rgb(103, 197, 103);
+    font-size: 50px;
+}
+
+.why-is{
+    height: 470px;
+    background-color:#215748 ;
+    padding-left: 300px;
+   
+}
+.why-is h1{
+    margin-bottom: 60px;
+    padding-top: 20px;
+    font-size: 50px;
+    color: honeydew;
+   margin-left: 480px;
+
+} 
+
+.icon1{
+    width: 480px;
+    float: left;
+    margin-left: 80px;
+    background-color:#1a3e34 ;
+    color: honeydew;
+}
+.icon2{
+    width: 480px;
+    float: left;
+    margin-left: 30px;
+    background-color:#1a3e34 ;
+    color: honeydew;
+   
+}
+.icon3{
+    width: 480px;;
+    float: left;
+    margin-left: 80px;
+    margin-top: 30px;
+    background-color:#1a3e34 ;
+    color: honeydew;
+}
+.icon4{
+    width: 480px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color:#1a3e34 ;
+    color: honeydew;
+}
+.heart{
+    float: left;
+    font-size: 50px;
+    padding-left: 10px ;
+    padding-top: 20px;
+    padding-right: 20px;
+    color: rgb(8, 167, 132);
+   
+
+}
+.icon1 p{
+    width: 400px;
+ 
+}
+.heart{
+    float: left;
+    font-size: 50px;
+    padding-left: 10px ;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.icon2 p{
+    width: 400px;
+    color: rgb(196, 195, 195);
+ 
+}
+
+.icon3 p{
+    width: 400px;
+    color: rgb(196, 195, 195);
+ 
+}
+
+.icon1 p{
+    width: 400px;
+    color: rgb(196, 195, 195);
+ 
+}
+
+.heart:hover{
+    color: rgb(63, 114, 70);
+    
+}
+.icon4 p{
+    width: 400px;
+    color: rgb(196, 195, 195);
+ 
+}
+.icon1 h5{
+    padding-top: 30px;
+}
+.icon2 h5{
+    padding-top: 30px;
+}
+.icon3 h5{
+    padding-top: 30px;
+}
+.icon4 h5{
+    padding-top: 30px;
+}
+.icon1:hover{
+ /*background-color: rgb(17, 80, 25);*/
+  border-left: solid 5px rgb(8, 167, 132);
+}
+.icon2:hover{
+  
+    border-left: solid 5px rgb(8, 167, 132);
+   }
+   .icon3:hover{
+
+    border-left: solid 5px rgb(8, 167, 132);
+   }
+   .icon4:hover{
+    
+    border-left: solid 5px rgb(8, 167, 132);
+   }
+   
+   
+    /* offer sections*/
+    .offer-sections{
+        padding-left: 200px;
+        }
+     
+        .offer-heading{
+           padding-left: 500px;
+            color: rgb(19, 80, 19);
+            margin-top: 50px;
+            font-size: 70px;
+        }
+        .room1{
+            height: 400px;
+           
+        }
+        .float1{
+            width: 700px;
+            float: left;
+            padding-right: 20px;
+            margin-top: 50px;
+            text-align: left;
+        }
+        .float1 h2{
+         font-weight: 800px;
+         color: #1a3e34 ;
+         font-size: 46px;
+         margin-top: 80px;
+        }
+        .float1 p{
+            width: 500px;
+
+        }
+        .img1{
+          margin: 10px;
+         margin-left: 20px;
+         margin-top: 70px;
+        }
+        .img1:hover{
+            background-size: 300%;
+        }
+         .button1{
+             width: 180px;
+             height: 60px;
+             background-color: rgb(1, 19, 1);
+             color: white;
+             border: none;
+             font-size: 20px;
+             margin-top: 20px;
+             margin-left: 0;
+         }
+         .button1:hover{
+             background-color:  rgb(8, 167, 132);
+         }
+         .room2{
+             height: 600px;
+             margin-top: 250px;
+            
+             padding-bottom: 30px;
+
+         }
+         .img2{
+             float: left;
+             padding-right: 80px;
+         }
+         .float2{
+            width: 620px;
+            float: left;
+          
+            margin-top: 80px;
+            padding-left: 5px;
+         
+        }
+        .float2 h2{
+         font-weight: 800px;
+         color: #1a3e34 ;
+         font-size: 46px;
+        }
+        .float2 p{
+            width: 600px;
+
+        }
+        .button2{
+            width: 180px;
+            height: 60px;
+            background-color: rgb(1, 19, 1);
+            color: white;
+            border: none;
+            font-size: 20px;
+           margin-bottom: 10px;
+           margin-top: 20px;
+        }
+        .button2:hover{
+            background-color:  rgb(8, 167, 132);
+        }
+
+        .room3{
+            height: 600px;
+            padding-bottom: 180px;
+          
+           
+        }
+        .float3{
+            width: 700px;
+            float: left;
+            padding-right: 20px;
+            margin-top: 20px;
+        }
+        .float3 h2{
+         font-weight: 800px;
+         color: #1a3e34 ;
+         font-size: 46px;
+         margin-top: 80px;
+        }
+        .float3 p{
+            width: 500px;
+
+        }
+        .img3{
+          margin: 10px;
+         margin-left: 20px;
+         margin-top: 70px;
+        }
+         .button3{
+             width: 180px;
+             height: 60px;
+             background-color: rgb(1, 19, 1);
+             color: white;
+             border: none;
+             font-size: 20px;
+             margin-top: 20px;
+           
+           
+         }
+         .button3:hover{
+             background-color:  rgb(8, 167, 132);
+         }
+         /* project sections*/
+
+
+.gallary{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.gallary-heading{
+    text-align: center;
+    color: green;
+    margin-bottom: 80px;
+    font-size: 30px;
+}
+
+/*clients-sections*/
+.clients-sections{
+         
+    height:auto;
+}
+.client-heading{
+    background-color: #1a3e34;
+    text-align: center;
+    color: white;
+   
+}
+
+
+
+/* Make the image fully responsive */
+
+carousel-inner{
+    height: 500px;
+}
+.carousel-inner img {
+width: 100%;
+height: 100%;
+}
+
+.carousel-caption {
+border:solid 2px rgb(4, 58, 4);
+width:700px;
+height:350px;
+margin-left:200px;
+background-color:#1a3e34;
+margin-bottom: 380px;
+}
+
+
+.carousel-indicators li{
+width:10px;
+height:10px;
+border-radius:100%;
+margin-top:50px;
+color:black;
+margin-bottom: 180px;
+
+
+}
+.carousel-caption p{
+    width: 300px;
+    margin-top: 30px;
+
+}
+.carousel-caption h1{
+margin-right: 100px;
+  
+
+}
+
+.slider{
+    width:800px;
+    height:350px;
+    margin: auto;
+    background-color: #1a3e34 ;
+  padding-top: 30px;
+  margin: auto;
+  box-shadow: 5px  5px #1a3e34  ;
+}
+.slideri-image{
+    float: left;
+    width: 200px;
+    height: 200px;
+    /*background-color:#0db88d;*/
+    padding-left: 20px;
+     padding-top: 20px;
+     border-radius: 100%;
+     margin-left: 40px;
+     margin-top: 20px;
+     padding-right: 20px 20px;
+   
+
+   
+}
+.slideri-image1{
+    width: 490px;
+    color: white;
+    float: right;
+    padding-right: 50px;
+   
+}
+.slideri-image1 h2{
+    border-top: solid 7px  #0db88d;
+    margin-top: 60px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.slideri-image1 p{
+   margin-right: 50px;
+   
+}
+
+.bussinessman {
+width: 300px;
+
+}
+.client-heading{
+ padding-top: 50px;
+ 
+}
+.client-heading h1{
+ padding-bottom: 30px;
+
+}
+
+/*contact sections*/
+
+.cintact-heading{
+    text-align: center;
+    color:rgb(1, 31, 3) ;
+     padding-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.contact-sections{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    background-color: #1a3e34;
+    margin-bottom: 100px;
+    margin-left: 180px;
+}
+.greencard{
+    width: 45%;
+    height: auto;
+    background-color:#1a3e34 ;
+    padding-left: 30px;
+  
+  
+
+}
+.greencard h5{
+    font-size: 33px;
+    color: white;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.greencard p{
+   font-size: 17px;
+   color: #9baaa5;
+ padding-bottom: 20px;
+   padding-left: 30px;
+}
+.greencard i{
+   color:#0db88d;
+   font-size: 24px;
+
+
+}
+.icon1{
+   float: left;
+}
+.boxleft{
+   display: flex;
+   justify-content: space-between;
+   color: white;
+}
+.icontfont i{
+   color:#0db88d;
+  
+
+
+}
+.icontfont{
+   font-size: 30px;
+}
+.fas fa-phone-alt{
+   float: left;
+}
+.asscolorposition{
+   width: 150px;
+   height: 170px;
+   background-color: #0db88d;
+   border-top-left-radius: 170px;
+   margin-top: 50px;
+
+   margin-left: 20px;
+   margin-top: 60px;
+}
+.asesome i{
+   color:#0db88d;
+   margin-left: 30px;
+   font-size: 30px;
+   margin-top: 125px;
+
+}
+.asesome i:hover{
+    color:#05a079;
+
+}
+.contact{
+   background-color:honeydew;
+   width: 1500px;
+   padding-left: 120px;
+ 
+  margin-right: 100;
+
+}
+.name{
+   width: 350px;
+   border: none;
+   height: 55px;
+   float: left;
+   margin-right: 30px;
+   border-bottom: solid 5px green;
+   padding-left: 15px;
+   margin-left: 50px;
+}
+.email{
+   width: 340px;
+ border: none;
+height: 55px;
+border-bottom: solid 5px green;
+padding-left: 15px;
+
+}
+
+
+
+.messege{
+margin-top: 120px;
+width: 700px;
+border: none;
+height: 55px;
+border-bottom: solid 5px green;
+padding-left: 15px;
+margin-left: 50px;
+}
+
+.button-heading h5{
+margin-top: 50px;
+padding-top: 60px;
+margin-left: 50px;
+
+
+}
+.button1{
+margin-top: 10px;
+height: 60px;
+background-color:#1a3e34;
+color: white;
+border: none;
+margin-left: 50px;
+
+}
+.button2{
+height: 60px;
+color: white;
+border: none;
+margin-left: 50px;
+
+}
+.button3{
+height: 60px;
+color: white;
+border: none;
+margin-left: 50px;
+
+}
+
+.button4{
+margin-top: 80px;
+width: 240px;
+float: right;
+height: 60px;
+background-color:#1a3e34;
+color: white;
+border: none;
+margin-right: 190px;
+
+}
+.button1:hover{
+background-color: rgb(4, 184, 145);
+
+}
+.button2:hover{
+background-color: rgb(4, 184, 145);
+
+}
+.button3:hover{
+background-color: rgb(4, 184, 145);
+
+}
+
+.button4:hover{
+background-color: rgb(4, 184, 145);
+
+}
+
+.last-button{
+   width: 200px;
+   height: 50px;
+   color: white;
+   margin-top:70px;
+   float: right;
+   margin-right:60px;
+}
+
+.clear{
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+/*clients-sections*/
+/*
+.clients-sections{
+    height: 660px;
+    background-color: rgb(1, 24, 1);
+    color: white;
+}
+.clinent-heading{
+    text-align: center;
+   padding-top: 50px;
+}
+.client-img{
+    float: left;
+    width: 340px;
+    margin-left: 50px;
+    padding-right: 30px;
+}
+.para{
+    margin-right: 50px;
+    margin-top: 20px;
+    padding-right: 30px;
+    padding-top: 100px;
+}
+.para p{
+    margin-top: 30px;
+
+}
+.clinent{
+    width: 1000px;
+    margin-left: 50px;
+    margin-top: 50px;
+    height: 420px;
+    border: solid 1px rgb(1, 29, 1);
+    box-shadow: 15px 15px 15px 15px rgb(1, 17, 1);
+ 
+}
+.span{
+    font-size:40px ;
+}*/
+

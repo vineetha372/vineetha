@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            font-family: sans-serif;
+            font-size: 14px;
+        }
+
+        fieldset {
+            padding: 10px;
+            margin: 30px;
+        }
+
+        label,
+        input,
+        button {
+            display: block;
+            padding: 5px;
+            width: 90%;
+            border-radius: 10px;
+        }
+
+        input {
+
+            margin-bottom: 15px;
+        }
+
+        span {
+            font-size: 10px;
+            position: relative;
+            top: -15px;
+            color: red;
+        }
+        form{
+           background-color: rgb(233, 231, 241);
+            width: 600px;
+            margin: auto;
+            height: 400p;
+
+        }
+        
+        
+        #register{
+            background-color: rgb(88, 98, 241);
+            font-size: 20px;
+        
+
+        }
+        #register:hover{
+            background-color: rgb(22, 6, 252);
+        
+
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</head>
+
+<body>
+    <div>
+        <form>
+            <fieldset>
+                <legend>Registration</legend>
+                <i class="fa fa-user icon"></i> 
+                <label for="user">
+                    Username
+                </label>
+               
+               <input type="text" placeholder="username" id="user">
+                <span id="usermsg"></span>
+                     <i class="fas fa-phone-volume"></i>
+                <label for="mobile">
+                    Mobile Number
+                </label>
+                <input type="text" placeholder="mobile" id="mobile">
+                <span id="mobilemsg"></span>
+                <i class="fa fa-key icon"></i>
+                <label for="password">
+                    Password
+                </label>
+                <input type="password" placeholder="password" id="password">
+                <span id="passmsg"></span>
+
+                <label for="repeatpass">
+                    Repeat Password
+                </label>
+                <input type="password" placeholder="Retype Password" id="repeatpass">
+                <span id="repeatmsg"></span>
+
+                <button id="register">Register</button>
+            </fieldset>
+        </form>
+
+        <h1 id="values"></h1>
+
+    </div>
+    <script>
+        $(document).ready(function() {
+            $('#register').on('click', function(e) {
+                e.preventDefault();
+                var user = $('#user').val();
+                var mobile = $('#mobile').val();
+                var pass = $('#password').val();
+                var repeat = $('#repeatpass').val();
+
+                /*$('#values').text(user + ', ' + mobile  + ', ' + pass  + ', ' + repeat);*/
+
+                /*if(user == '' && mobile=='' && pass=='' && repeat==''){
+                    $('#usermsg').text("Username is Empty");
+                    $('#user').css('border', '2px solid red');
+                   }*/
+
+                if (user == '') {
+                    $('#usermsg').text("Username is Empty");
+                    $('#user').css('border', '2px solid red');
+
+                    if (mobile == '') {
+                        $('#mobilemsg').text("Mobile is Empty");
+                        $('#mobile').css('border', '2px solid red');
+                        if (pass == '') {
+                            $('#passmsg').text("Password is Empty");
+                            $('#password').css('border', '2px solid red');
+
+                            if (repeat == '') {
+                                $('#repeatmsg').text("Repeate Password is Empty");
+                                $('#repeatpass').css('border', '2px solid red');
+                            }
+
+                        }
+                    }
+
+                } else if (pass != repeat) {
+                    $('#passmsg').text("Password Not Matched");
+                    $('#repeatmsg').text("Password Not Matched");
+                    $('#password').css('border', '2px solid red');
+                    $('#repeatpass').css('border', '2px solid red');
+                    
+                } else {
+                   alert($('#values').text(user + ', ' + mobile + ', ' + pass + ', ' + repeat)) ;
+                }
+
+            });
+        });
+            
+        
+        /* 
+        
+        
+
+                    if (repeat != '' && pass != '') {
+                        $('#passmsg').remove();
+                        $('#repeatmsg').remove();
+                        $('#password').css('border', '1px solid #000');
+                        $('#repeatpass').css('border', '1px solid #000');
+                    }
+                    
+        */
+    </script>
+</body></html>

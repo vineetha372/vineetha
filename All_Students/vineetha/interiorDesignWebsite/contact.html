@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Font Awesome -->
+     <link
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+     rel="stylesheet"
+     />
+     <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Elsie&display=swap" rel="stylesheet">
+     <!-- MDB -->
+     <link
+     href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
+     rel="stylesheet"
+     />
+    <title>Document</title>
+    <style>
+        /*
+        .contact-sections{
+            margin: auto;
+            text-align: center;
+            border:  solid 2px;
+            margin-left: 0px;
+        }
+        .greencard{
+    width: 35%;
+    height: 600px;
+    background-color:#1a3e34 ;
+    padding-left: 30px;
+    margin-left: 120px;
+  
+  
+
+}
+.greencard h5{
+    font-size: 33px;
+    color: white;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.greencard p{
+   font-size: 17px;
+   color: #9baaa5;
+ padding-bottom: 20px;
+   padding-left: 30px;
+}
+.greencard i{
+   color:#0db88d;
+   font-size: 24px;
+
+
+}
+.icon1{
+   float: left;
+}
+.boxleft{
+   display: flex;
+   justify-content: space-between;
+   color: white;
+}
+.icontfont i{
+   color:#0db88d;
+  
+
+
+}
+.icontfont{
+   font-size: 30px;
+}
+.fas fa-phone-alt{
+   float: left;
+}
+.asscolorposition{
+   width: 150px;
+   height: 170px;
+   background-color: #0db88d;
+   border-top-left-radius: 170px;
+   margin-top: 50px;
+
+   margin-left: 20px;
+   margin-top: 60px;
+}
+.asesome i{
+   color:#0db88d;
+   margin-left: 30px;
+   font-size: 30px;
+   margin-top: 125px;
+
+}
+.asesome i:hover{
+    color:#05a079;
+
+}*/
+/*contact starts*/
+.contact{
+    background-color: #fff;
+    padding:90px 0px;
+}
+.contact h1{
+    margin:0 auto;
+    color:#37517e;
+    letter-spacing:0px;
+    position:relative;
+    padding-bottom:20px;
+    margin-bottom:40px;
+    text-align:center;
+}
+.contact h1::after{
+    content:"";
+    position:absolute;
+    display:block;
+    width:40px;
+    height:3px;
+    background-color:#47b2e4;
+    bottom:1px;
+    left: calc(68.6% - 20%);
+    margin-top:20px;
+}
+.contact h1::before{
+    content:"";
+    position:absolute;
+    display:block;
+    width:120px;
+    height:3px;
+    background-color:#ddd;
+    bottom:1px;
+    left: calc(65.8% - 20%);
+    margin-top:20px;
+}
+.contact .wrapper{
+    text-align:center;
+    font-size:1em;
+    line-height:1.5em;
+}
+.ctleft{
+    width:35%;
+    padding:20px;
+    background-color:white;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.4);
+    margin-top:40px;
+    border-top:3px solid #47b2e4;
+    border-bottom:3px solid #47b2e4;
+}
+.ctleft h4{
+    font-size:22px;
+    color:#37517e;
+    font-weight:600;
+    text-align:left;
+}
+.ctleft p{
+    font-size:14px;
+    margin-bottom:28px;
+    color:#47b2e4;
+    text-align:left;
+}
+.cleft h4,p{
+    line-height:20px;
+}
+.ctright{
+    width:63%;
+    padding:20px;
+    background-color:white;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.4);
+    margin-top:40px;
+    border-top:3px solid #47b2e4;
+    border-bottom:3px solid #47b2e4;
+}
+.ctright input{
+    border:1px solid #ced4da;
+}
+.flex{
+    display:flex;
+    justify-content:space-between;
+}
+.name,.mail{
+    width:48%;
+    text-align:left;
+}
+.name input,.mail input{
+    width:100%;
+    height:44px;
+    border-radius:4px;
+    outline:0;
+    margin:5px 0px 10px 0px;
+    padding-left:10px;
+}
+.name input:focus,.mail input:focus{
+    border:1px solid #47b2e4;
+}
+#subj,#msg{
+    width:100%;
+    border:1px solid #ced4da;
+    height:44px;
+    border-radius:4px;
+    outline:0;
+    margin:5px 0px 10px 0px;
+    padding:10px;
+}
+#msg{
+    padding-left:10px;
+    padding-top:10px;
+    height:240px;
+}
+#subj:focus,#msg:focus{
+    border: 1px solid #47b2e4;
+}
+#subject{
+    text-align:left;
+}
+.ctright button{
+    background-color:#47b2e4;
+    color:white;
+    padding:15px 25px;
+    margin-top:22px;
+    border-radius:50px;
+    font-size:16px;
+    transition:all 0.4s ease-in;
+}
+.ctright button:hover{
+    background-color:#37517e;
+}
+.ctleft h4 i{
+    color:#47b2e4;
+    font-size:18px;
+    background-color:#e7f5fb;
+    padding:10px 10px;
+    border-radius:100px;
+    margin-right:10px;
+}
+.ctleft p{
+    padding-left:48px;
+}
+.ctleft h4 i:hover{
+    background-color:#47b2e4;
+    color:#fff;
+}
+/*contact ends*/
+
+    </style>
+</head>
+<body>
+
+    
+        <!--contact starts-->
+        <div class="contact" id="contact">
+            <h1>CONTACT</h1>
+            <div class="wrapper">
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            </div>
+            <div class="wrapper">
+                <div class="ctleft">
+                    <h4><i class="fas fa-map-marker-alt"></i>LOCATION:</h4>
+                    <p>A108 Adam Street, New York, NY 535022</p>
+
+                    <h4><i class="far fa-envelope"></i>EMAIL:</h4>
+                    <p>abcinfo@gmail.com</p>
+
+                    <h4><i class="fas fa-mobile-alt"></i>CALL:</h4>
+                    <p>+91 098 7654 321</p>
+
+                    </div>
+                <div class="ctright">
+                    <div class="flex">
+                        <div class="name">
+                            <label>Your Name</label><br>
+                            <input type="text" id="name">
+                        </div>
+
+                        <div class="mail">
+                            <label>Email</label><br>
+                            <input type="email" id="mail">
+                        </div>
+                    </div>
+
+                        <div id="subject">
+                            <label>Subject</label><br>
+                            <input type="text" id="subj">
+
+                            <label>Message</label><br>
+                            <textarea id="msg"></textarea>
+                        </div>
+
+                        <button>Send Message</button>
+                </div>
+            </div>
+        </div>
+        <!--contact ends-->
+    <!--
+    <div class="contact-sections">
+        <div class="contact-heading">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="contact">
+            
+        <div class="greencard">
+            <div class="line-width">
+                <h5>Contact Informations</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.  adipisicing elit. </p>
+                <div class="icontfont1">
+                   
+                    <p>  <i class="fas fa-phone-alt"></i>  +9976876241</p>
+                </div>
+                <div class="icontfont2">
+                    
+                    <p>  <i class="fas fa-envelope"></i>  hello@fidisys</p>
+                </div>
+                <div class="icontfont3">
+                   
+                    <p>   <i class="fas fa-map-marker-alt"></i>  flot 501,addressline1<br>addressline1 chennai</p>
+                </div>
+                <div class="boxleft">
+                    <div class="asesome">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                       
+                      </div>
+                      <div class="asscolorposition"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+            <div class="white-card">
+
+
+            </div>
+            
+
+        </div>
+
+    </div>-->
+    
+</body>
+</html>
