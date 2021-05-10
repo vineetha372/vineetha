@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+    <title>pic</title>
+    <style>
+        .wrapper{
+            width:60%;
+            margin:0 auto;
+        }
+        #back,p#back{
+            display:none;
+        }
+
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<html>
+<body>
+    <div class="wrapper">
+        <div id="pictop">
+
+            <img src="smile.jpg" width="200px" height="200px" id="front" style="float:left;margin-right:20px" />
+            <p id="front">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis inventore quidem eaque voluptas praesentium quos itaque, sed provident ea officia saepe odio, magni facere repellat dolores delectus soluta totam, nobis commodi corrupti. Commodi assumenda ratione laboriosam ipsam quidem obcaecati, harum ipsum error nesciunt rerum explicabo reiciendis in totam dolor autem fugiat sint expedita quia, necessitatibus tenetur tempore impedit mollitia? Saepe, at. Accusamus modi ad facilis perspiciatis dolorem quisquam, maxime necessitatibus aliquid. Mollitia vitae quasi veritatis quia? Modi nostrum nulla architecto necessitatibus! Iure et quis corporis accusamus ut soluta corrupti nulla temporibus ullam quo suscipit doloremque laudantium quaerat culpa ratione fuga maiores similique impedit ea, atque possimus eius at. Quidem veritatis ad unde tempore perspiciatis voluptatem maiores repudiandae laborum ullam obcaecati excepturi a, quisquam incidunt dignissimos? Aliquam eum id quasi tempore ut, blanditiis fuga ipsum fugiat ratione quo ipsa beatae maiores accusantium accusamus repudiandae, eveniet fugit tenetur suscipit sequi natus amet, nesciunt laborum? Tenetur cum eius eligendi possimus molestias, praesentium doloremque, voluptatem unde ex labore sint iste laboriosam tempora, assumenda tempore! Corporis, eius! Reprehenderit ipsam, repudiandae ipsa consequatur itaque perspiciatis corporis vero natus incidunt molestias. Est ut laborum quis itaque consectetur ducimus, debitis quaerat rerum. Nam ipsam aut magnam consectetur sunt.</p>
+
+            </div>
+        <div class="picbottom">
+            <img src="smile.jpg" width="400px" height="400px" id="back" style="float:left;margin-right:20px" />
+
+            <p id="back">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, animi maxime quia facilis suscipit corporis labore atque accusamus eaque, nulla minus ipsam quisquam, assumenda quae dolorem? Esse, suscipit modi ad optio repudiandae natus deleniti ut consequatur veritatis, assumenda inventore, dignissimos autem labore non deserunt maiores nisi facere quaerat ipsa quam quod. Cupiditate quia animi, suscipit reprehenderit aliquid provident commodi voluptatum tempora, nemo accusantium, iste magnam exercitationem consequuntur. Quis consequatur corrupti harum ipsum itaque nam. Asperiores libero nihil at earum dolorem reiciendis temporibus, quas unde mollitia esse amet harum vel velit iusto provident voluptatum dolorum dignissimos quae magnam nobis ratione possimus!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, animi maxime quia facilis suscipit corporis labore atque accusamus eaque, nulla minus ipsam quisquam, assumenda quae dolorem? Esse, suscipit modi ad optio repudiandae natus deleniti ut consequatur veritatis, assumenda inventore, dignissimos autem labore non deserunt maiores nisi facere quaerat ipsa quam quod. Cupiditate quia animi, suscipit reprehenderit aliquid provident commodi voluptatum tempora, nemo accusantium, iste magnam exercitationem consequuntur. Quis consequatur corrupti harum ipsum itaque nam. Asperiores libero nihil at earum dolorem reiciendis temporibus, quas unde mollitia esse amet harum vel velit iusto provident voluptatum dolorum dignissimos quae magnam nobis ratione possimus!</p>
+
+           </div>
+    </div>
+
+    <script> 
+
+        $(document).ready(function(){
+
+        $('#front').click(function(){
+        $(this).hide();
+        $('p#front').hide();
+        $('#back').show();
+        $('p#back').show();
+        });
+
+        $('#back').click(function(){
+        $(this).hide();
+        $('p#back').hide();
+        $('#front').show();
+        $('p#front').show();
+        });
+        });
+    </script>
+</body>
+</html>
+
+<!--<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#btn1").click(function(){
+    $("p").append(" <b>Appended text</b>.");
+  });
+
+  $("#btn2").click(function(){
+    $("ol").append("<span><li>orange</li></span>").css("color","blue");
+  });
+});
+</script>
+<style>
+b{
+    color:red;
+}
+span{
+color:hotpink;
+}
+
+</style>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+<ol>
+  <li>apple</li>
+  <li>grapes</li>
+  <li>guva</li>
+</ol>
+
+<button id="btn1">paragraph</button>
+<button id="btn2">list</button>
+
+</body>
+</html>-->

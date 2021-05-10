@@ -209,6 +209,7 @@ button:hover{
 
 .color-info {
     background-color: #409ec1;
+   
 }
 
 .sampleimg img {
@@ -274,7 +275,9 @@ footer {
     background-color: black;
     color: white;
 }
-
+.samples2{
+    padding-bottom:50px;
+}
 .minifooter {
     border-bottom: 3px solid #3e8dad;
     padding: 50px 0;

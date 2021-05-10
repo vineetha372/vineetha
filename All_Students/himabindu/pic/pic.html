@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <title>pic</title>
+    <style>
+        .wrapper{
+            width:60%;
+            margin:0 auto;
+            position:relative;
+        }
+        #back{
+            position:relative;
+        }
+        .back{
+            display:none;
+        }
+        /*#front{
+            position:absolute;
+            top:0px;
+            left:0px;
+        }*/
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<html>
+<body>
+    <div class="wrapper">
+        <div id="back">
+
+            <img src="smile.jpg" width="200px" height="200px" id="front" style="float:left;margin-right:20px" />
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, animi maxime quia facilis suscipit corporis labore atque accusamus eaque, nulla minus ipsam quisquam, assumenda quae dolorem? Esse, suscipit modi ad optio repudiandae natus deleniti ut consequatur veritatis, assumenda inventore.</p>
+
+            <img src="smile.jpg" width="400px" height="400px" class="back"/>
+
+            
+        </div>
+    </div>
+
+    <script>
+
+        //$(alert(1));
+        $('#front').click(function(){
+             $('this').hide();
+            $(this).hide();
+            $('.back').show();
+        });
+
+        $('.back').click(function(){
+            $("#front").show();
+            $('.back').hide();
+        });
+    </script>
+</body>
+</html>

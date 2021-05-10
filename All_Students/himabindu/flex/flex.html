@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <title>flex</title>
+    <style>
+        *{
+            border: 0;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        section{
+            width:80%;
+            padding:30px 10px;
+            border:1px solid black;
+            background-color:rgb(233, 153, 180);
+            margin:50px auto;
+            display:flex;
+            justify-content: space-around;
+        }
+        .cards{
+            width:20%;
+            height:60px;
+            border:1px solid black;
+            background-color:rgb(93, 146, 199);
+            color:white;
+            font-weight:bold;
+            font-family:cursive;
+            text-align: center;
+        }
+
+        .cards:nth-child(3) {
+                align-self:center;
+        }
+
+        @media all and (min-width:500px){
+            .cards:nth-child(3) {
+                align-self:center;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <div class="cards"> card1</div>
+        <div class="cards" id="two">card2</div>
+        <div class="cards" id="three">card3</div>
+        <div class="cards">card4</div>
+    </section>
+
+</body>
