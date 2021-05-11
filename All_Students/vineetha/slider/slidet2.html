@@ -4,88 +4,150 @@
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <style>
-  /* Make the image fully responsive */
-  .carousel-inner img {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .carousel-caption {
-   border:solid 2px rgb(4, 58, 4);
-   width:600px;
-   height:350px;
-   margin-left:200px;
-  background-color:rgb(4, 31, 4);
-  margin-bottom: 80px;
-
-  
+ <style>
    
+ /*
+.section2 {
+    width: 85%;
+    display: flex;
+    height: auto;
+    margin: auto;
+
+    justify-content: space-between;
+    margin-top: 170px !important;
+}
+
+.before2 {
+    width: 43%;
+    height: auto;
+    margin-top: 20px;
+    padding-right: 50px;
+
+}
+
+.before2 h2 {
+    color: #1a3e34;
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: 'Elsie', cursive !important;
+}
+
+.before2 p {
+    width: 100%;
+    color: #1a3e34;
+    font-size: 19px;
+    line-height: 25px;
+    word-spacing: 4px;
+}
+before2{
+margin-left: 50px;
+}
+
+.right2 {
+    width: 46%;
+    height: auto;
+
+    margin-top: 20px;
+}
+
+.index {
+    position: relative;
+}
+
+.green2 {
+   
+    width: 790px;
+    height: 592px;
+    background-color: #1a3e34;
+}
+
+.positionimg2 img {
+    width: 700px;
+    height: 500px;
+}
+
+.positionimg2 {
+    position: absolute;
+    top: 76px;
+    right: -90px;
+}
+
+.green2 {
+   
+  width: 520px;
+    height: 650px;
+    background-color: #1a3e34;
+}
+
+
+.some h1 {
+    text-align: center;
+
+}
+
+.containerimg2 {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+}
+
+.image2 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay2 {
+    position: absolute;
+    bottom: 0;
+    background-color: #0eb183;
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.containerimg2:hover .overlay {
+    opacity: 0.7;
+}
+
+.roombut2{
+    width: 200px;
+    height: 60px;
+    background-color: #1a3e34;
+    color: white;
+    border: none;
+}
+.roombut2:hover{
+    background-color: #0eb183;
+}*/
+ </style>
   
-  
-  }
-  .carousel-indicators li{
-    width:10px;
-    height:10px;
-    border-radius:100%;
-    margin-top:50px;
-    color:black;
-  
-  
-  }
-  .active{
-  
-  color:blue;
-  }
-  .bussinessman {
-    width: 300px;
-     
-  }
-  </style>
 </head>
 <body>
+  <div class="section2">
+    <div class="right2">
+       <div class="index containerimg2">
+           <div class="positionimg2"><img src="assets/images/img2.png" alt="2">
+               <div class="overlay2">modular Kitchen</div>
+           </div>
 
-<div id="demo" class="carousel slide" data-ride="carousel">
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgjV4d13p7hCCt5hQd4yIjaEduHw9Evvj-nqyEq79WRXha0A6TMTvY5HTuOBMqoDPCG9o&usqp=CAU" alt="Los Angeles" width="1100" height="500">
-      <div class="carousel-caption">
-          <img src="assets/images/slider2.jpg" alt="bussinessman" class="bussinessman">
-        
-        </div>   
-    </div>
-    <div class="carousel-item">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgjV4d13p7hCCt5hQd4yIjaEduHw9Evvj-nqyEq79WRXha0A6TMTvY5HTuOBMqoDPCG9o&usqp=CAU" alt="Chicago" width="1100" height="500">
-      <div class="carousel-caption">
-        <img src="assets/images/slider2.jpg" alt="bussinessman" class="bussinessman">
-        
-	    
-        </div>   
-    </div>
-    <div class="carousel-item">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgjV4d13p7hCCt5hQd4yIjaEduHw9Evvj-nqyEq79WRXha0A6TMTvY5HTuOBMqoDPCG9o&usqp=CAU" alt="New York" width="1100" height="500">
-      <div class="carousel-caption">
-         <img src="assets/images/slider2.jpg" alt="bussinessman" class="bussinessman">
-        
-         </div>   
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
+           <div class="green2"></div>
+       </div>
+   </div>
+   <div class="before2">
+       <h2>Modular Kitchen</h2>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. veritatis ullam eaque eum natus praesentium velit rerum recusandae repellendus. Delectus unde fuga at aspernatur aut ab hic fugiat, commodi dolor.</p>
+       <button class="roombut2"> Get quote  <i class="fas fa-arrow-right"></i></button>
+   </div>
 </div>
+
 
 </body>
 </html>
