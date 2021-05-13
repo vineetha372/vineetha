@@ -10,6 +10,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
    
 
 }
@@ -294,7 +295,7 @@ padding-top: 50px;
     margin-top: 170px !important;
 }
 
-.before {
+.room-text {
     width: 43%;
     height: auto;
     margin-top: 20px;
@@ -302,7 +303,7 @@ padding-top: 50px;
 
 }
 
-.before h2 {
+.room-text h2 {
     color: #1a3e34;
     font-size: 40px;
     font-weight: 600;
@@ -311,7 +312,7 @@ padding-top: 50px;
     font-family: 'Elsie', cursive !important;
 }
 
-.before p {
+.room-text p {
     width: 100%;
     color: #1a3e34;
     font-size: 19px;
@@ -319,7 +320,7 @@ padding-top: 50px;
     word-spacing: 4px;
 }
 
-.right {
+.room-img {
     width: 46%;
     height: auto;
 
@@ -330,7 +331,7 @@ padding-top: 50px;
     position: relative;
 }
 
-.green {
+.imgbg {
     width: 520px;
     height: 350px;
     background-color: #1a3e34;
@@ -347,7 +348,7 @@ padding-top: 50px;
     left: 39px
 }
 
-.green {
+.imgbg {
     width: 690px;
     height: 492px;
     background-color: #1a3e34;
@@ -371,23 +372,7 @@ padding-top: 50px;
     height: auto;
 }
 
-.overlay {
-    position: absolute;
-    bottom: 0;
-    background-color: #0eb183;
-    color: #f1f1f1;
-    width: 100%;
-    transition: .5s ease;
-    opacity: 0;
-    color: white;
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
-}
 
-.containerimg:hover .overlay {
-    opacity: 0.7;
-}
 .roombut1{
     width: 200px;
     height: 60px;
@@ -414,7 +399,7 @@ padding-top: 50px;
     margin-top: 170px !important;
 }
 
-.before2 {
+.room-text2 {
     width: 43%;
     height: auto;
     margin-top: 20px;
@@ -422,7 +407,7 @@ padding-top: 50px;
 
 }
 
-.before2 h2 {
+.room-text2 h2 {
     color: #1a3e34;
     font-size: 40px;
     font-weight: 600;
@@ -431,18 +416,18 @@ padding-top: 50px;
     font-family: 'Elsie', cursive !important;
 }
 
-.before2 p {
+.room-text2 p {
     width: 100%;
     color: #1a3e34;
     font-size: 19px;
     line-height: 25px;
     word-spacing: 4px;
 }
-before2{
+.room-text{
 margin-left: 50px;
 }
 
-.right2 {
+.room-img2 {
     width: 46%;
     height: auto;
 
@@ -453,7 +438,7 @@ margin-left: 50px;
     position: relative;
 }
 
-.green2 {
+.imgbg2 {
     width: 520px;
     height: 350px;
     background-color: #1a3e34;
@@ -470,7 +455,7 @@ margin-left: 50px;
     left: 39px;
 }
 
-.green2 {
+.imgbg2 {
    
     width: 690px;
     height: 492px;
@@ -495,23 +480,7 @@ margin-left: 50px;
     height: auto;
 }
 
-.overlay2 {
-    position: absolute;
-    bottom: 0;
-    background-color: #0eb183;
-    color: #f1f1f1;
-    width: 100%;
-    transition: .5s ease;
-    opacity: 0;
-    color: white;
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
-}
 
-.containerimg2:hover .overlay {
-    opacity: 0.7;
-}
 
 .roombut2{
     width: 200px;
@@ -539,7 +508,7 @@ margin-left: 50px;
     margin-top: 170px !important;
 }
 
-.before3 {
+.room-text3 {
     width: 43%;
     height: auto;
     margin-top: 20px;
@@ -547,7 +516,7 @@ margin-left: 50px;
 
 }
 
-.before3 h2 {
+.room-text3 h2 {
     color: #1a3e34;
     font-size: 40px;
     font-weight: 600;
@@ -556,7 +525,7 @@ margin-left: 50px;
     font-family: 'Elsie', cursive !important;
 }
 
-.before3 p {
+.room-text3 p {
     width: 100%;
     color: #1a3e34;
     font-size: 19px;
@@ -564,7 +533,7 @@ margin-left: 50px;
     word-spacing: 4px;
 }
 
-.right3 {
+.room-img3 {
     width: 46%;
     height: auto;
 
@@ -575,7 +544,7 @@ margin-left: 50px;
     position: relative;
 }
 
-.green3 {
+.imgbg3 {
     width: 520px;
     height: 350px;
     background-color: #1a3e34;
@@ -592,7 +561,7 @@ margin-left: 50px;
     left: 39px
 }
 
-.green3 {
+.imgbg3 {
     width: 690px;
     height: 492px;
     background-color: #1a3e34;
@@ -616,23 +585,7 @@ margin-left: 50px;
     height: auto;
 }
 
-.overlay3 {
-    position: absolute;
-    bottom: 0;
-    background-color: #0eb183;
-    color: #f1f1f1;
-    width: 100%;
-    transition: .5s ease;
-    opacity: 0;
-    color: white;
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
-}
 
-.containerimg3:hover .overlay {
-    opacity: 0.7;
-}
 .roombut3{
     width: 200px;
     height: 60px;
@@ -651,7 +604,7 @@ margin-left: 50px;
 
 
 
-/*--wrapper main start--*/
+
 .project-heading h1 {
     text-align: center;
     padding-top: 120px;
@@ -662,8 +615,7 @@ margin-left: 50px;
     font-family: 'Elsie', cursive !important;
 }
 
-/*--grid-images start--*/
-.grid {
+.project1 {
     width: 89%;
     margin: 0px auto;
      margin-top: 80px;
@@ -672,7 +624,8 @@ margin-left: 50px;
     justify-content: space-around;
 }
 
-.col1,.col2,.col3 {
+
+.imag-line1,.imag-line2,.imag-line3 {
     width: 40%;
 }
 
@@ -780,21 +733,18 @@ margin-left: 50px;
 
 
 .project-image {
-
     width: 95%;
     height: 95%;
-
     border: 10px solid #eaeaea;
     overflow: hidden;
     position: relative;
     text-align: center;
     box-shadow: 1px 1px 2px #e6e6e6;
     cursor: default;
-
 }
 
 
-.background{
+.slider{
     background-color: #1a3e34;
 }
 /*--slider section--*/
@@ -807,13 +757,31 @@ margin-left: 50px;
     text-align: center;
     font-family: 'Elsie', cursive !important;
 }
-
-.division img {
+.slider-sections{
+    padding-bottom: 80px;
+    
+}
+.slider-border{
+    background-color:#1a3e34;
+    box-shadow:1px 1px 4px 4px black;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.slider-paragraph{
+    color: white;
+    padding-top:40px;
+    padding-left: 10px;
+}
+.client-name{
+    color:#133b31
+    
+}
+.carousel-clientimg img {
     width: 110px;
     height: 110px;
 }
 
-.division {
+.carousel-clientimg {
     background-color: white;
     width: 150px;
     height: 190px;
@@ -824,7 +792,7 @@ margin-left: 50px;
 
 }
 
-.carouselcard {
+.carousel-imgbg {
     background-color: #57c2a8;
     width: 120px;
     height: 210px;
@@ -833,12 +801,12 @@ margin-left: 50px;
 
 }
 
-.division img {
+.carousel-clientimg img {
     margin-top: 19px;
     margin-left: 20px;
 }
 
-.division p {
+.carousel-clientimg p {
     text-align: center;
 }
 
@@ -876,8 +844,6 @@ margin-left: 50px;
     height: 10px !important;
     margin-right: 3px;
     margin-left: 3px;
-
- 
     background-color: rgba(3, 219, 93, 0.5);
 }
 
@@ -952,7 +918,7 @@ margin-left: 50px;
         font-family: 'Elsie', cursive !important;
     }
 .contact-buttons{
-    margin-left: 140px;
+    margin-left: 110px;
     margin-top: 100px;
 }
 .contact-but1{ 
@@ -985,7 +951,8 @@ margin-left: 50px;
 }
 
 .but-text h2 {
-    margin-left: 135px;
+    margin-left: 97px;
+    
    
 
 }
@@ -1003,7 +970,7 @@ margin-left: 50px;
     border: none;
     border-bottom: 2px solid #1a3e34;
     outline: 0px;
-    width: 310px;
+    width: 320px;
     height: 50px;
 }
 
@@ -1014,7 +981,7 @@ margin-left: 50px;
 .city {
     padding-top: 150px;
     padding-left: 60px;
-    margin-left: 80px;
+    margin-left: 50px;
   
     
 
@@ -1030,7 +997,7 @@ margin-left: 50px;
     border: none;
     border-bottom: 2px solid #1a3e34;
     outline: 0px;
-    width: 710px;
+    width: 730px;
     height: 50px;
 }
 
@@ -1039,7 +1006,7 @@ margin-left: 50px;
     float: right;
     margin-right: 130px;
     margin-top: 40px;
-    width: 240px;
+    width: 230px;
     height: 60px;
     background-color: #1a3e34;
     margin-top: 30px;
@@ -1107,11 +1074,210 @@ margin-left: 50px;
 
 
 
-/* >>>>>>>>> media qurrys<<<<<<<<*/
+/* >>>>>>>>>  media qurrys  <<<<<<<<*/
 
 
-@media screen and (min-width: 480px) {
-    body {
-      background-color: lightgreen;
+@media (max-width:768px){
+    .wrapper {
+        display: block;
     }
-  }
+    .nav ul li {
+        float: none;
+        font-size: 20px;
+        margin-left: 0px;
+        padding-top: 50px;
+        display: block;
+        text-align: center;
+    }
+    .heading h1 {
+        padding-left: 5px;
+        font-size: 45px;
+        font-family: 'Elsie',cursive !important;
+        color: rgb(55, 78, 8);
+        padding-top: 200px;
+    }
+    .why-is {
+        height: auto;
+        background-color: #215748;
+        padding-left: 0;
+    }
+    .why-is h1 {
+        margin-bottom: 60px;
+        padding-top: 20px;
+        font-size: 40px;
+        color: honeydew;
+        margin-left: 0;
+        padding-left: 100px;
+    }
+   
+    .icon1 ,.icon2,.icon3,.icon4 {
+        width: 100%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .section,.section2,.section3{
+        width: 100%;
+        display: block;
+        height: auto;
+        margin: auto;
+        margin-top: 0;
+    }
+    .room-text, .room-text2, .room-text3 {
+        width: 43%;
+        height: auto;
+        margin-top: 20px;
+        padding-right: 50px;
+        margin-left: 50px;
+    }
+    .roombut1,.roombut3{
+        width: 200px;
+        height: 60px;
+        background-color: #1a3e34;
+        color: white;
+        border: none;
+        margin-bottom: 70px;
+    }
+    .h1, h1 {
+        font-size: 2.5rem;
+        text-align: left;
+        padding-left: 50px;
+    }
+    .positionimg img,.positionimg2 img ,.positionimg3 img {
+        width: 400px;
+        height: 300px;
+    }
+    .imgbg,.imgbg2,.imgbg3 {
+        width: 410px;
+        height: 290px;
+        background-color: #1a3e34;
+    }
+    .project-heading h1 {
+        padding-top: 30px;
+        padding-bottom: 0;
+        font-size: 35px;
+        font-weight: 600;
+        color: #1a3e34;
+        font-family: 'Elsie', cursive !important;
+        text-align: left;
+        width: 400px;
+    }
+    .project1 {
+        width: 50%;
+        margin-top: 20px;
+        display: flex;
+        text-align: left;
+        margin-right: 360px;
+    }
+    .clients-heading h1 {
+        font-weight: 500px;
+        font-size: 50px;
+        color: white;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        text-align: left;
+        font-family: 'Elsie', cursive !important;
+        width: 400px;
+    }
+    .clients-heading h1 {
+        font-weight: 500px;
+        font-size: 50px;
+        color: white;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        text-align: left;
+        font-family: 'Elsie', cursive !important;
+        width: 400px;
+    }
+    .contact-heading h1 {
+        font-weight: 800;
+        font-size: 35px;
+        color: rgb(5, 71, 27);
+        padding-top: 50px;
+        text-align: left;
+        font-family: 'Elsie', cursive !important;
+    }
+    .contact {
+        width: auto;
+        height: 900px;
+        margin-bottom: 800px;
+        margin-left: 120px;
+        margin-right: 100px;
+    }
+    .footer-sections {
+        width: 80%;
+        height: 300px;
+        background-color: #1a3e34;
+        color: white;
+    }
+    .footer {
+        padding-left: 20px;
+        padding-top: 30px;
+        width: 450px;
+    }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    .headind-sections{
+        width: 100%;
+    }
+    
+
+    .heading{
+        width:100%
+    }
+    
+
+    why-is{
+        width: 100%;
+        text-align: center;
+    }
+
+    .four-icons{
+        width: 100%;
+    }
+    .icon1{
+        width: 100%;
+        float: none;
+    }
+
+
+    .project{
+        width: 100%;
+        margin: auto;
+    }
+
+.wrapper{
+        width: 100%;
+
+    }
+    .grid{
+        width: 100%;
+    }
+    .col1{
+        width: 100%;
+        float: none;
+    }
+}
