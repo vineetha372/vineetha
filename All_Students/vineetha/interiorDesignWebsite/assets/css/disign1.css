@@ -1189,6 +1189,10 @@ margin-left: 50px;
         font-family: 'Elsie', cursive !important;
         width: 400px;
     }
+    .slider-sections {
+        padding-bottom: 80px;
+        margin-right: 230px;
+    }
     .contact-heading h1 {
         font-weight: 800;
         font-size: 40px;
@@ -1198,19 +1202,43 @@ margin-left: 50px;
         text-align: left;
         font-family: 'Elsie', cursive !important;
     }
-   
-    /*.contact {
-        width: auto;
-        height: 900px;
-        margin-bottom: 800px;
-        margin-left: 120px;
-        margin-right: 100px;
-    }*/
-    * {
-       
-        float: none;
-        display: inline;
+    .contact {
+        width: 55%;
+        height: 30%;
+        margin: 20px;
+        background-color: #1a3e34;
     }
+    .whitecard {
+        width: 70%;
+        height: auto;
+        padding-top: 0;
+        background-color: #ffffff;
+        display: none;
+    }
+    .whitecard-text {
+        width: 50%;
+        height: 100px;
+        display: flex;
+        margin-left: 250px;
+    }
+    
+    
+    .asesome i {
+        font-size: 34px;
+        color: #57c2a8;
+        float: left;
+        height: auto;
+    }
+    .greencardleft {
+        width: 50%;
+        height: auto;
+        background-color: #1a3e34;
+    }
+    .boxleft {
+       
+        display: none;
+    }
+
     .footer-sections {
         width: 80%;
         height: 300px;
@@ -1222,6 +1250,53 @@ margin-left: 50px;
         padding-top: 30px;
         width: 450px;
     }
+}
+@media (max-width:500px){
+    .project1 {
+        width: 90%;
+        margin-top: 20px;
+        display: flex;
+        text-align: left;
+        margin-right: 360px;
+    }
+    .icon1, .icon2, .icon3, .icon4 {
+        width: 80%;
+        float: none;
+        margin-left: 25px;
+        margin-right: auto;
+    }
+    .slider {
+        background-color: #1a3e34;
+        width: 600px;
+    }
+
+
+}
+@media (max-width:500px){
+    .nav ul li {
+        font-size: 20px;
+        margin-left: 80px;
+        padding-top: 50px;
+    }
+    .menubutton {
+        margin-left: 0px;
+        padding: 10px 50px;
+        background-color: #1a3e34;
+        color: white;
+        margin-top: 40px;
+        height: 60px;
+        border: none;
+        float: right;
+    }
+    .why-is h1 {
+        margin-bottom: 60px;
+        padding-top: 20px;
+        font-size: 50px;
+        color: honeydew;
+        margin-left: 0;
+    }
+}
+
    
 
 
@@ -1247,44 +1322,4 @@ margin-left: 50px;
 
 
     
-    .headind-sections{
-        width: 100%;
-    }
-    
-
-    .heading{
-        width:100%
-    }
-    
-
-    why-is{
-        width: 100%;
-        text-align: center;
-    }
-
-    .four-icons{
-        width: 100%;
-    }
-    .icon1{
-        width: 100%;
-        float: none;
-    }
-
-
-    .project{
-        width: 100%;
-        margin: auto;
-    }
-
-.wrapper{
-        width: 100%;
-
-    }
-    .grid{
-        width: 100%;
-    }
-    .col1{
-        width: 100%;
-        float: none;
-    }
-}
+   
