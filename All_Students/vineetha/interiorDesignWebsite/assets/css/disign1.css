@@ -1091,7 +1091,7 @@ margin-left: 50px;
     }
     .heading h1 {
         padding-left: 5px;
-        font-size: 45px;
+        font-size: 35px;
         font-family: 'Elsie',cursive !important;
         color: rgb(55, 78, 8);
         padding-top: 200px;
@@ -1191,18 +1191,25 @@ margin-left: 50px;
     }
     .contact-heading h1 {
         font-weight: 800;
-        font-size: 35px;
+        font-size: 40px;
         color: rgb(5, 71, 27);
-        padding-top: 50px;
+        padding-top: 0;
+        padding-bottom: 0;
         text-align: left;
         font-family: 'Elsie', cursive !important;
     }
-    .contact {
+   
+    /*.contact {
         width: auto;
         height: 900px;
         margin-bottom: 800px;
         margin-left: 120px;
         margin-right: 100px;
+    }*/
+    * {
+       
+        float: none;
+        display: inline;
     }
     .footer-sections {
         width: 80%;
